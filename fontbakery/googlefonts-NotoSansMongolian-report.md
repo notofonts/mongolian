@@ -1,0 +1,1494 @@
+## Fontbakery report
+
+Fontbakery version: 0.8.9
+
+<details><summary><b>[11] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x00AF (MACRON)
+ [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
+
+
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2018-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
+</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf']. [code: missing-os2-fsselection-bit7]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 361, but got 293 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+
+
+* 🔥 **FAIL** qa/shaping_tests/mongolian.json: Expected and actual shaping not matching
+<div class="shaping">
+
+
+<style type="text/css">
+    @font-face {font-family: "TestFont"; src: url(../../fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf);}
+    .tf { font-family: "TestFont"; }
+    .shaping pre { font-size: 1.2rem; }
+    .shaping li {
+        font-size: 1.2rem;
+        border-top: 1px solid #ddd;
+        padding: 12px;
+        margin-top: 12px;
+    }
+    .shaping-svg {
+        height: 100px;
+        margin: 10px;
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+</style>
+
+<h4>qa/shaping_tests/mongolian.json: Expected and actual shaping not matching</h4>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡝᠨᠠ (adena)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u185D.med=2+284|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u185D.med=2+284|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|d=8+615|e=9+564|n=10+618|a=11+561|parenright=12+400</pre>
+
+
+
+<pre>                                                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ +++++ +    ^^ + +++++     ^^ ^^^^^^^     ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6373 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d="M226.0,74.0L200.0,437.0Q196.0,499.0 180.0,537.0Q164.0,575.0 118.0,575.0Q72.0,575.0 10.0,550.0L10.0,623.0Q81.0,653.0 139.0,653.0Q194.0,653.0 223.0,628.0Q252.0,603.0 264.0,556.5Q276.0,510.0 278.0,445.0L281.0,361.0L285.0,361.0Q318.0,444.0 444.0,444.0L816.0,444.0L816.0,364.0L606.0,364.0L587.0,96.0L521.0,96.0L502.0,364.0L445.0,364.0Q390.0,364.0 360.5,350.0Q331.0,336.0 318.5,304.5Q306.0,273.0 302.0,219.0L292.0,74.0L226.0,74.0Z"  transform="translate(0, 793)"/>
+<path d="M248.0,547.0L205.0,586.0Q267.0,673.0 326.0,732.0L387.0,663.0Q342.0,631.0 307.5,602.0Q273.0,573.0 248.0,547.0ZM319.0,-157.0Q260.0,-157.0 218.0,-125.5Q176.0,-94.0 144.5,-38.5Q113.0,17.0 84.0,88.0Q59.0,153.0 38.0,222.0Q17.0,291.0 0.0,364.0L0.0,444.0L643.0,444.0L643.0,364.0L79.0,364.0Q105.0,261.0 142.0,154.0Q166.0,189.0 205.0,210.5Q244.0,232.0 290.0,232.0Q383.0,232.0 437.0,176.5Q491.0,121.0 491.0,27.0Q491.0,-28.0 469.0,-69.5Q447.0,-111.0 408.0,-134.0Q369.0,-157.0 319.0,-157.0ZM319.0,-77.0Q361.0,-77.0 387.0,-49.5Q413.0,-22.0 413.0,27.0Q413.0,84.0 382.5,118.5Q352.0,153.0 290.0,153.0Q252.0,153.0 220.5,132.0Q189.0,111.0 172.0,76.0Q206.0,-6.0 241.5,-41.5Q277.0,-77.0 319.0,-77.0Z"  transform="translate(786, 793)"/>
+<path d="M21.0,527.0L-22.0,566.0Q40.0,653.0 99.0,712.0L160.0,643.0Q115.0,611.0 80.5,582.0Q46.0,553.0 21.0,527.0ZM19.0,96.0L0.0,364.0L0.0,444.0L314.0,444.0L314.0,364.0L104.0,364.0L85.0,96.0L19.0,96.0Z"  transform="translate(1399, 793)"/>
+<path d="M19.0,96.0L0.0,364.0L0.0,444.0L314.0,444.0L314.0,364.0L104.0,364.0L85.0,96.0L19.0,96.0ZM45.0,-163.0L2.0,-124.0Q64.0,-37.0 123.0,22.0L184.0,-47.0Q139.0,-79.0 104.5,-108.0Q70.0,-137.0 45.0,-163.0Z"  transform="translate(1683, 793)"/>
+<path d="M228.0,53.0Q148.0,58.0 89.0,102.5Q30.0,147.0 -1.5,216.0Q-33.0,285.0 -33.0,364.0L-33.0,444.0L41.0,444.0Q41.0,378.0 49.0,323.0Q57.0,268.0 81.0,225.5Q105.0,183.0 151.0,156.0Q151.0,375.0 199.0,555.0Q247.0,734.0 325.0,836.0L417.0,836.0Q372.0,781.0 336.5,708.5Q301.0,636.0 277.0,547.0Q253.0,459.0 240.5,361.0Q228.0,263.0 228.0,156.0L228.0,53.0Z"  transform="translate(1967, 793)"/>
+<path d=""  transform="translate(2394, 793)"/>
+<path d="M83.0,400.0Q83.0,522.0 118.5,635.5Q154.0,749.0 230.0,840.0L313.0,840.0Q243.0,746.0 207.5,633.0Q172.0,520.0 172.0,401.0Q172.0,285.0 207.5,173.5Q243.0,62.0 312.0,-32.0L230.0,-32.0Q154.0,56.0 118.5,167.5Q83.0,279.0 83.0,400.0Z"  transform="translate(2654, 793)"/>
+<path d="M288.0,545.0Q386.0,545.0 433.0,502.0Q480.0,459.0 480.0,365.0L480.0,0.0L416.0,0.0L399.0,76.0L395.0,76.0Q360.0,32.0 321.5,11.0Q283.0,-10.0 215.0,-10.0Q142.0,-10.0 94.0,28.5Q46.0,67.0 46.0,149.0Q46.0,229.0 109.0,272.5Q172.0,316.0 303.0,320.0L394.0,323.0L394.0,355.0Q394.0,422.0 365.0,448.0Q336.0,474.0 283.0,474.0Q241.0,474.0 203.0,461.5Q165.0,449.0 132.0,433.0L105.0,499.0Q140.0,518.0 188.0,531.5Q236.0,545.0 288.0,545.0ZM314.0,259.0Q214.0,255.0 175.5,227.0Q137.0,199.0 137.0,148.0Q137.0,103.0 164.5,82.0Q192.0,61.0 235.0,61.0Q303.0,61.0 348.0,98.5Q393.0,136.0 393.0,214.0L393.0,262.0L314.0,259.0Z"  transform="translate(3054, 793)"/>
+<path d="M275.0,-10.0Q175.0,-10.0 115.0,59.5Q55.0,129.0 55.0,267.0Q55.0,405.0 115.5,475.5Q176.0,546.0 276.0,546.0Q338.0,546.0 377.5,523.0Q417.0,500.0 442.0,467.0L448.0,467.0Q447.0,480.0 444.5,505.5Q442.0,531.0 442.0,546.0L442.0,760.0L530.0,760.0L530.0,0.0L459.0,0.0L446.0,72.0L442.0,72.0Q418.0,38.0 378.0,14.0Q338.0,-10.0 275.0,-10.0ZM289.0,63.0Q374.0,63.0 408.5,109.5Q443.0,156.0 443.0,250.0L443.0,266.0Q443.0,366.0 410.0,419.5Q377.0,473.0 288.0,473.0Q217.0,473.0 181.5,416.5Q146.0,360.0 146.0,265.0Q146.0,169.0 181.5,116.0Q217.0,63.0 289.0,63.0Z"  transform="translate(3615, 793)"/>
+<path d="M292.0,546.0Q361.0,546.0 410.5,516.0Q460.0,486.0 486.5,431.5Q513.0,377.0 513.0,304.0L513.0,251.0L146.0,251.0Q148.0,160.0 192.5,112.5Q237.0,65.0 317.0,65.0Q368.0,65.0 407.5,74.5Q447.0,84.0 489.0,102.0L489.0,25.0Q448.0,7.0 408.0,-1.5Q368.0,-10.0 313.0,-10.0Q237.0,-10.0 178.5,21.0Q120.0,52.0 87.5,113.5Q55.0,175.0 55.0,264.0Q55.0,352.0 84.5,415.0Q114.0,478.0 167.5,512.0Q221.0,546.0 292.0,546.0ZM291.0,474.0Q228.0,474.0 191.5,433.5Q155.0,393.0 148.0,321.0L421.0,321.0Q420.0,389.0 389.0,431.5Q358.0,474.0 291.0,474.0Z"  transform="translate(4230, 793)"/>
+<path d="M343.0,546.0Q439.0,546.0 488.0,499.5Q537.0,453.0 537.0,349.0L537.0,0.0L450.0,0.0L450.0,343.0Q450.0,472.0 330.0,472.0Q241.0,472.0 207.0,422.0Q173.0,372.0 173.0,278.0L173.0,0.0L85.0,0.0L85.0,536.0L156.0,536.0L169.0,463.0L174.0,463.0Q200.0,505.0 246.0,525.5Q292.0,546.0 343.0,546.0Z"  transform="translate(4794, 793)"/>
+<path d="M288.0,545.0Q386.0,545.0 433.0,502.0Q480.0,459.0 480.0,365.0L480.0,0.0L416.0,0.0L399.0,76.0L395.0,76.0Q360.0,32.0 321.5,11.0Q283.0,-10.0 215.0,-10.0Q142.0,-10.0 94.0,28.5Q46.0,67.0 46.0,149.0Q46.0,229.0 109.0,272.5Q172.0,316.0 303.0,320.0L394.0,323.0L394.0,355.0Q394.0,422.0 365.0,448.0Q336.0,474.0 283.0,474.0Q241.0,474.0 203.0,461.5Q165.0,449.0 132.0,433.0L105.0,499.0Q140.0,518.0 188.0,531.5Q236.0,545.0 288.0,545.0ZM314.0,259.0Q214.0,255.0 175.5,227.0Q137.0,199.0 137.0,148.0Q137.0,103.0 164.5,82.0Q192.0,61.0 235.0,61.0Q303.0,61.0 348.0,98.5Q393.0,136.0 393.0,214.0L393.0,262.0L314.0,259.0Z"  transform="translate(5412, 793)"/>
+<path d="M338.0,400.0Q338.0,279.0 302.5,167.5Q267.0,56.0 191.0,-32.0L109.0,-32.0Q178.0,62.0 213.5,173.5Q249.0,285.0 249.0,401.0Q249.0,520.0 213.5,633.0Q178.0,746.0 108.0,840.0L191.0,840.0Q267.0,749.0 302.5,635.5Q338.0,522.0 338.0,400.0Z"  transform="translate(5973, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6454 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d="M226.0,74.0L200.0,437.0Q196.0,499.0 180.0,537.0Q164.0,575.0 118.0,575.0Q72.0,575.0 10.0,550.0L10.0,623.0Q81.0,653.0 139.0,653.0Q194.0,653.0 223.0,628.0Q252.0,603.0 264.0,556.5Q276.0,510.0 278.0,445.0L281.0,361.0L285.0,361.0Q318.0,444.0 444.0,444.0L816.0,444.0L816.0,364.0L606.0,364.0L587.0,96.0L521.0,96.0L502.0,364.0L445.0,364.0Q390.0,364.0 360.5,350.0Q331.0,336.0 318.5,304.5Q306.0,273.0 302.0,219.0L292.0,74.0L226.0,74.0Z"  transform="translate(0, 793)"/>
+<path d="M248.0,547.0L205.0,586.0Q267.0,673.0 326.0,732.0L387.0,663.0Q342.0,631.0 307.5,602.0Q273.0,573.0 248.0,547.0ZM319.0,-157.0Q260.0,-157.0 218.0,-125.5Q176.0,-94.0 144.5,-38.5Q113.0,17.0 84.0,88.0Q59.0,153.0 38.0,222.0Q17.0,291.0 0.0,364.0L0.0,444.0L643.0,444.0L643.0,364.0L79.0,364.0Q105.0,261.0 142.0,154.0Q166.0,189.0 205.0,210.5Q244.0,232.0 290.0,232.0Q383.0,232.0 437.0,176.5Q491.0,121.0 491.0,27.0Q491.0,-28.0 469.0,-69.5Q447.0,-111.0 408.0,-134.0Q369.0,-157.0 319.0,-157.0ZM319.0,-77.0Q361.0,-77.0 387.0,-49.5Q413.0,-22.0 413.0,27.0Q413.0,84.0 382.5,118.5Q352.0,153.0 290.0,153.0Q252.0,153.0 220.5,132.0Q189.0,111.0 172.0,76.0Q206.0,-6.0 241.5,-41.5Q277.0,-77.0 319.0,-77.0Z"  transform="translate(786, 793)"/>
+<path d="M21.0,527.0L-22.0,566.0Q40.0,653.0 99.0,712.0L160.0,643.0Q115.0,611.0 80.5,582.0Q46.0,553.0 21.0,527.0ZM19.0,96.0L0.0,364.0L0.0,444.0L314.0,444.0L314.0,364.0L104.0,364.0L85.0,96.0L19.0,96.0Z"  transform="translate(1399, 793)"/>
+<path d="M19.0,96.0L0.0,364.0L0.0,444.0L314.0,444.0L314.0,364.0L104.0,364.0L85.0,96.0L19.0,96.0ZM45.0,-163.0L2.0,-124.0Q64.0,-37.0 123.0,22.0L184.0,-47.0Q139.0,-79.0 104.5,-108.0Q70.0,-137.0 45.0,-163.0Z"  transform="translate(1683, 793)"/>
+<path d="M228.0,53.0Q148.0,58.0 89.0,102.5Q30.0,147.0 -1.5,216.0Q-33.0,285.0 -33.0,364.0L-33.0,444.0L41.0,444.0Q41.0,378.0 49.0,323.0Q57.0,268.0 81.0,225.5Q105.0,183.0 151.0,156.0Q151.0,375.0 199.0,555.0Q247.0,734.0 325.0,836.0L417.0,836.0Q372.0,781.0 336.5,708.5Q301.0,636.0 277.0,547.0Q253.0,459.0 240.5,361.0Q228.0,263.0 228.0,156.0L228.0,53.0Z"  transform="translate(1967, 793)"/>
+<path d=""  transform="translate(2394, 793)"/>
+<path d="M83.0,400.0Q83.0,522.0 118.5,635.5Q154.0,749.0 230.0,840.0L313.0,840.0Q243.0,746.0 207.5,633.0Q172.0,520.0 172.0,401.0Q172.0,285.0 207.5,173.5Q243.0,62.0 312.0,-32.0L230.0,-32.0Q154.0,56.0 118.5,167.5Q83.0,279.0 83.0,400.0Z"  transform="translate(2654, 793)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3054, 793)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3654, 793)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(4254, 793)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(4854, 793)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(5454, 793)"/>
+<path d="M338.0,400.0Q338.0,279.0 302.5,167.5Q267.0,56.0 191.0,-32.0L109.0,-32.0Q178.0,62.0 213.5,173.5Q249.0,285.0 249.0,401.0Q249.0,520.0 213.5,633.0Q178.0,746.0 108.0,840.0L191.0,840.0Q267.0,749.0 302.5,635.5Q338.0,522.0 338.0,400.0Z"  transform="translate(6054, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡠ (adu)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u1860.fin=2+634|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u1860.fin=2+634|space=3+260|parenleft=4+400|a=5+561|d=6+615|u=7+618|parenright=8+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ ^^^^^^^    ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4887 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2033, 793)"/>
+<path d=""  transform="translate(2293, 793)"/>
+<path d=""  transform="translate(2693, 793)"/>
+<path d=""  transform="translate(3254, 793)"/>
+<path d=""  transform="translate(3869, 793)"/>
+<path d=""  transform="translate(4487, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4893 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2033, 793)"/>
+<path d=""  transform="translate(2293, 793)"/>
+<path d=""  transform="translate(2693, 793)"/>
+<path d=""  transform="translate(3293, 793)"/>
+<path d=""  transform="translate(3893, 793)"/>
+<path d=""  transform="translate(4493, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡨᡳ (ti) ᡶᠣ (fo) ᡡᡴ (vk) ᡝᡳᠨᠠ (eina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1868.iniV1=0+670|u1873.fin=1+501|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1876.ini=8+520|u1823.fin=9+634|space=10+260|parenleft=11+400|.notdef=12+600|.notdef=13+600|parenright=14+400|space=15+260|u1861.ini=16+1360|u1874.finFem=17+620|space=18+260|parenleft=19+400|.notdef=20+600|.notdef=21+600|parenright=22+400|space=23+260|u185D.ini=24+492|u1873.medV2=25+652|u1828.med=26+284|u1820.fin=27+427|space=28+260|parenleft=29+400|.notdef=30+600|.notdef=31+600|.notdef=32+600|.notdef=33+600|parenright=34+400</pre>
+
+
+
+<pre>Got     : u1868.iniV1=0+670|u1873.fin=1+501|space=2+260|parenleft=3+400|t=4+361|i=5+258|parenright=6+400|space=7+260|u1876.ini=8+520|u1823.fin=9+634|space=10+260|parenleft=11+400|f=12+344|o=13+605|parenright=14+400|space=15+260|u1861.ini=16+1360|u1874.finFem=17+620|space=18+260|parenleft=19+400|v=20+508|k=21+534|parenright=22+400|space=23+260|u185D.ini=24+492|u1873.medV2=25+652|u1828.med=26+284|u1820.fin=27+427|space=28+260|parenleft=29+400|e=30+564|i=31+258|n=32+618|a=33+561|parenright=34+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15791 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1171, 793)"/>
+<path d=""  transform="translate(1431, 793)"/>
+<path d=""  transform="translate(1831, 793)"/>
+<path d=""  transform="translate(2192, 793)"/>
+<path d=""  transform="translate(2450, 793)"/>
+<path d=""  transform="translate(2850, 793)"/>
+<path d=""  transform="translate(3110, 793)"/>
+<path d=""  transform="translate(3630, 793)"/>
+<path d=""  transform="translate(4264, 793)"/>
+<path d=""  transform="translate(4524, 793)"/>
+<path d=""  transform="translate(4924, 793)"/>
+<path d=""  transform="translate(5268, 793)"/>
+<path d=""  transform="translate(5873, 793)"/>
+<path d=""  transform="translate(6273, 793)"/>
+<path d=""  transform="translate(6533, 793)"/>
+<path d=""  transform="translate(7893, 793)"/>
+<path d=""  transform="translate(8513, 793)"/>
+<path d=""  transform="translate(8773, 793)"/>
+<path d=""  transform="translate(9173, 793)"/>
+<path d=""  transform="translate(9681, 793)"/>
+<path d=""  transform="translate(10215, 793)"/>
+<path d=""  transform="translate(10615, 793)"/>
+<path d=""  transform="translate(10875, 793)"/>
+<path d=""  transform="translate(11367, 793)"/>
+<path d=""  transform="translate(12019, 793)"/>
+<path d=""  transform="translate(12303, 793)"/>
+<path d=""  transform="translate(12730, 793)"/>
+<path d=""  transform="translate(12990, 793)"/>
+<path d=""  transform="translate(13390, 793)"/>
+<path d=""  transform="translate(13954, 793)"/>
+<path d=""  transform="translate(14212, 793)"/>
+<path d=""  transform="translate(14830, 793)"/>
+<path d=""  transform="translate(15391, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17180 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1171, 793)"/>
+<path d=""  transform="translate(1431, 793)"/>
+<path d=""  transform="translate(1831, 793)"/>
+<path d=""  transform="translate(2431, 793)"/>
+<path d=""  transform="translate(3031, 793)"/>
+<path d=""  transform="translate(3431, 793)"/>
+<path d=""  transform="translate(3691, 793)"/>
+<path d=""  transform="translate(4211, 793)"/>
+<path d=""  transform="translate(4845, 793)"/>
+<path d=""  transform="translate(5105, 793)"/>
+<path d=""  transform="translate(5505, 793)"/>
+<path d=""  transform="translate(6105, 793)"/>
+<path d=""  transform="translate(6705, 793)"/>
+<path d=""  transform="translate(7105, 793)"/>
+<path d=""  transform="translate(7365, 793)"/>
+<path d=""  transform="translate(8725, 793)"/>
+<path d=""  transform="translate(9345, 793)"/>
+<path d=""  transform="translate(9605, 793)"/>
+<path d=""  transform="translate(10005, 793)"/>
+<path d=""  transform="translate(10605, 793)"/>
+<path d=""  transform="translate(11205, 793)"/>
+<path d=""  transform="translate(11605, 793)"/>
+<path d=""  transform="translate(11865, 793)"/>
+<path d=""  transform="translate(12357, 793)"/>
+<path d=""  transform="translate(13009, 793)"/>
+<path d=""  transform="translate(13293, 793)"/>
+<path d=""  transform="translate(13720, 793)"/>
+<path d=""  transform="translate(13980, 793)"/>
+<path d=""  transform="translate(14380, 793)"/>
+<path d=""  transform="translate(14980, 793)"/>
+<path d=""  transform="translate(15580, 793)"/>
+<path d=""  transform="translate(16180, 793)"/>
+<path d=""  transform="translate(16780, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡨᠠ (ta) ᡶᡳ (fi) ᡝᡴ (ek) ᠠᡳᠨᠠ (aina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1868.iniV1=0+670|u1820.fin=1+427|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1876.ini=8+520|u1873.fin=9+501|space=10+260|parenleft=11+400|.notdef=12+600|.notdef=13+600|parenright=14+400|space=15+260|u185D.ini=16+492|u1874.finFem=17+620|space=18+260|parenleft=19+400|.notdef=20+600|.notdef=21+600|parenright=22+400|space=23+260|u1820.ini=24+786|u1873.medV2=25+652|u1828.med=26+284|u1820.fin=27+427|space=28+260|parenleft=29+400|.notdef=30+600|.notdef=31+600|.notdef=32+600|.notdef=33+600|parenright=34+400</pre>
+
+
+
+<pre>Got     : u1868.iniV1=0+670|u1820.fin=1+427|space=2+260|parenleft=3+400|t=4+361|a=5+561|parenright=6+400|space=7+260|u1876.ini=8+520|u1873.fin=9+501|space=10+260|parenleft=11+400|f=12+344|i=13+258|parenright=14+400|space=15+260|u185D.ini=16+492|u1874.finFem=17+620|space=18+260|parenleft=19+400|e=20+564|k=21+534|parenright=22+400|space=23+260|u1820.ini=24+786|u1873.medV2=25+652|u1828.med=26+284|u1820.fin=27+427|space=28+260|parenleft=29+400|a=30+561|i=31+258|n=32+618|a=33+561|parenright=34+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15019 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1097, 793)"/>
+<path d=""  transform="translate(1357, 793)"/>
+<path d=""  transform="translate(1757, 793)"/>
+<path d=""  transform="translate(2118, 793)"/>
+<path d=""  transform="translate(2679, 793)"/>
+<path d=""  transform="translate(3079, 793)"/>
+<path d=""  transform="translate(3339, 793)"/>
+<path d=""  transform="translate(3859, 793)"/>
+<path d=""  transform="translate(4360, 793)"/>
+<path d=""  transform="translate(4620, 793)"/>
+<path d=""  transform="translate(5020, 793)"/>
+<path d=""  transform="translate(5364, 793)"/>
+<path d=""  transform="translate(5622, 793)"/>
+<path d=""  transform="translate(6022, 793)"/>
+<path d=""  transform="translate(6282, 793)"/>
+<path d=""  transform="translate(6774, 793)"/>
+<path d=""  transform="translate(7394, 793)"/>
+<path d=""  transform="translate(7654, 793)"/>
+<path d=""  transform="translate(8054, 793)"/>
+<path d=""  transform="translate(8618, 793)"/>
+<path d=""  transform="translate(9152, 793)"/>
+<path d=""  transform="translate(9552, 793)"/>
+<path d=""  transform="translate(9812, 793)"/>
+<path d=""  transform="translate(10598, 793)"/>
+<path d=""  transform="translate(11250, 793)"/>
+<path d=""  transform="translate(11534, 793)"/>
+<path d=""  transform="translate(11961, 793)"/>
+<path d=""  transform="translate(12221, 793)"/>
+<path d=""  transform="translate(12621, 793)"/>
+<path d=""  transform="translate(13182, 793)"/>
+<path d=""  transform="translate(13440, 793)"/>
+<path d=""  transform="translate(14058, 793)"/>
+<path d=""  transform="translate(14619, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16399 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1097, 793)"/>
+<path d=""  transform="translate(1357, 793)"/>
+<path d=""  transform="translate(1757, 793)"/>
+<path d=""  transform="translate(2357, 793)"/>
+<path d=""  transform="translate(2957, 793)"/>
+<path d=""  transform="translate(3357, 793)"/>
+<path d=""  transform="translate(3617, 793)"/>
+<path d=""  transform="translate(4137, 793)"/>
+<path d=""  transform="translate(4638, 793)"/>
+<path d=""  transform="translate(4898, 793)"/>
+<path d=""  transform="translate(5298, 793)"/>
+<path d=""  transform="translate(5898, 793)"/>
+<path d=""  transform="translate(6498, 793)"/>
+<path d=""  transform="translate(6898, 793)"/>
+<path d=""  transform="translate(7158, 793)"/>
+<path d=""  transform="translate(7650, 793)"/>
+<path d=""  transform="translate(8270, 793)"/>
+<path d=""  transform="translate(8530, 793)"/>
+<path d=""  transform="translate(8930, 793)"/>
+<path d=""  transform="translate(9530, 793)"/>
+<path d=""  transform="translate(10130, 793)"/>
+<path d=""  transform="translate(10530, 793)"/>
+<path d=""  transform="translate(10790, 793)"/>
+<path d=""  transform="translate(11576, 793)"/>
+<path d=""  transform="translate(12228, 793)"/>
+<path d=""  transform="translate(12512, 793)"/>
+<path d=""  transform="translate(12939, 793)"/>
+<path d=""  transform="translate(13199, 793)"/>
+<path d=""  transform="translate(13599, 793)"/>
+<path d=""  transform="translate(14199, 793)"/>
+<path d=""  transform="translate(14799, 793)"/>
+<path d=""  transform="translate(15399, 793)"/>
+<path d=""  transform="translate(15999, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡨᠣ (to) ᡶᡠ (fu) ᠠᡴᠪᠠ (akba) ᡳᡳᠨᠠ (iina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1868.iniV1=0+670|u1823.fin=1+634|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1876.ini=8+520|u1860.fin=9+634|space=10+260|parenleft=11+400|.notdef=12+600|.notdef=13+600|parenright=14+400|space=15+260|u1820.ini=16+786|u1874.medV1=17+568|u182A_1820.fin=18+1124|space=20+260|parenleft=21+400|.notdef=22+600|.notdef=23+600|.notdef=24+600|.notdef=25+600|parenright=26+400|space=27+260|u1873.ini=28+814|u1873.med=29+361|u1828.med=30+284|u1820.fin=31+427|space=32+260|parenleft=33+400|.notdef=34+600|.notdef=35+600|.notdef=36+600|.notdef=37+600|parenright=38+400</pre>
+
+
+
+<pre>Got     : u1868.iniV1=0+670|u1823.fin=1+634|space=2+260|parenleft=3+400|t=4+361|o=5+605|parenright=6+400|space=7+260|u1876.ini=8+520|u1860.fin=9+634|space=10+260|parenleft=11+400|f=12+344|u=13+618|parenright=14+400|space=15+260|u1820.ini=16+786|u1874.medV1=17+568|u182A_1820.fin=18+1124|space=20+260|parenleft=21+400|a=22+561|k=23+534|b=24+615|a=25+561|parenright=26+400|space=27+260|u1873.ini=28+814|u1873.med=29+361|u1828.med=30+284|u1820.fin=31+427|space=32+260|parenleft=33+400|i=34+258|i=35+258|n=36+618|a=37+561|parenright=38+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^     ^                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17736 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1304, 793)"/>
+<path d=""  transform="translate(1564, 793)"/>
+<path d=""  transform="translate(1964, 793)"/>
+<path d=""  transform="translate(2325, 793)"/>
+<path d=""  transform="translate(2930, 793)"/>
+<path d=""  transform="translate(3330, 793)"/>
+<path d=""  transform="translate(3590, 793)"/>
+<path d=""  transform="translate(4110, 793)"/>
+<path d=""  transform="translate(4744, 793)"/>
+<path d=""  transform="translate(5004, 793)"/>
+<path d=""  transform="translate(5404, 793)"/>
+<path d=""  transform="translate(5748, 793)"/>
+<path d=""  transform="translate(6366, 793)"/>
+<path d=""  transform="translate(6766, 793)"/>
+<path d=""  transform="translate(7026, 793)"/>
+<path d=""  transform="translate(7812, 793)"/>
+<path d=""  transform="translate(8380, 793)"/>
+<path d=""  transform="translate(9504, 793)"/>
+<path d=""  transform="translate(9764, 793)"/>
+<path d=""  transform="translate(10164, 793)"/>
+<path d=""  transform="translate(10725, 793)"/>
+<path d=""  transform="translate(11259, 793)"/>
+<path d=""  transform="translate(11874, 793)"/>
+<path d=""  transform="translate(12435, 793)"/>
+<path d=""  transform="translate(12835, 793)"/>
+<path d=""  transform="translate(13095, 793)"/>
+<path d=""  transform="translate(13909, 793)"/>
+<path d=""  transform="translate(14270, 793)"/>
+<path d=""  transform="translate(14554, 793)"/>
+<path d=""  transform="translate(14981, 793)"/>
+<path d=""  transform="translate(15241, 793)"/>
+<path d=""  transform="translate(15641, 793)"/>
+<path d=""  transform="translate(15899, 793)"/>
+<path d=""  transform="translate(16157, 793)"/>
+<path d=""  transform="translate(16775, 793)"/>
+<path d=""  transform="translate(17336, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19042 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(670, 793)"/>
+<path d=""  transform="translate(1304, 793)"/>
+<path d=""  transform="translate(1564, 793)"/>
+<path d=""  transform="translate(1964, 793)"/>
+<path d=""  transform="translate(2564, 793)"/>
+<path d=""  transform="translate(3164, 793)"/>
+<path d=""  transform="translate(3564, 793)"/>
+<path d=""  transform="translate(3824, 793)"/>
+<path d=""  transform="translate(4344, 793)"/>
+<path d=""  transform="translate(4978, 793)"/>
+<path d=""  transform="translate(5238, 793)"/>
+<path d=""  transform="translate(5638, 793)"/>
+<path d=""  transform="translate(6238, 793)"/>
+<path d=""  transform="translate(6838, 793)"/>
+<path d=""  transform="translate(7238, 793)"/>
+<path d=""  transform="translate(7498, 793)"/>
+<path d=""  transform="translate(8284, 793)"/>
+<path d=""  transform="translate(8852, 793)"/>
+<path d=""  transform="translate(9976, 793)"/>
+<path d=""  transform="translate(10236, 793)"/>
+<path d=""  transform="translate(10636, 793)"/>
+<path d=""  transform="translate(11236, 793)"/>
+<path d=""  transform="translate(11836, 793)"/>
+<path d=""  transform="translate(12436, 793)"/>
+<path d=""  transform="translate(13036, 793)"/>
+<path d=""  transform="translate(13436, 793)"/>
+<path d=""  transform="translate(13696, 793)"/>
+<path d=""  transform="translate(14510, 793)"/>
+<path d=""  transform="translate(14871, 793)"/>
+<path d=""  transform="translate(15155, 793)"/>
+<path d=""  transform="translate(15582, 793)"/>
+<path d=""  transform="translate(15842, 793)"/>
+<path d=""  transform="translate(16242, 793)"/>
+<path d=""  transform="translate(16842, 793)"/>
+<path d=""  transform="translate(17442, 793)"/>
+<path d=""  transform="translate(18042, 793)"/>
+<path d=""  transform="translate(18642, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡩᡠ (du) ᠠᡶᡠᠨᠠ (afuna)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1869.iniV1=0+757|u1860.fin=1+634|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1860.med=10+573|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|.notdef=15+600|.notdef=16+600|.notdef=17+600|.notdef=18+600|.notdef=19+600|parenright=20+400</pre>
+
+
+
+<pre>Got     : u1869.iniV1=0+757|u1860.fin=1+634|space=2+260|parenleft=3+400|d=4+615|u=5+618|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1860.med=10+573|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|a=15+561|f=16+344|u=17+618|n=18+618|a=19+561|parenright=20+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^^ ^^^^                                                                                                                                                 ^^^^^^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10149 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1391, 793)"/>
+<path d=""  transform="translate(1651, 793)"/>
+<path d=""  transform="translate(2051, 793)"/>
+<path d=""  transform="translate(2666, 793)"/>
+<path d=""  transform="translate(3284, 793)"/>
+<path d=""  transform="translate(3684, 793)"/>
+<path d=""  transform="translate(3944, 793)"/>
+<path d=""  transform="translate(4730, 793)"/>
+<path d=""  transform="translate(5103, 793)"/>
+<path d=""  transform="translate(5676, 793)"/>
+<path d=""  transform="translate(5960, 793)"/>
+<path d=""  transform="translate(6387, 793)"/>
+<path d=""  transform="translate(6647, 793)"/>
+<path d=""  transform="translate(7047, 793)"/>
+<path d=""  transform="translate(7608, 793)"/>
+<path d=""  transform="translate(7952, 793)"/>
+<path d=""  transform="translate(8570, 793)"/>
+<path d=""  transform="translate(9188, 793)"/>
+<path d=""  transform="translate(9749, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10414 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1391, 793)"/>
+<path d=""  transform="translate(1651, 793)"/>
+<path d=""  transform="translate(2051, 793)"/>
+<path d=""  transform="translate(2651, 793)"/>
+<path d=""  transform="translate(3251, 793)"/>
+<path d=""  transform="translate(3651, 793)"/>
+<path d=""  transform="translate(3911, 793)"/>
+<path d=""  transform="translate(4697, 793)"/>
+<path d=""  transform="translate(5070, 793)"/>
+<path d=""  transform="translate(5643, 793)"/>
+<path d=""  transform="translate(5927, 793)"/>
+<path d=""  transform="translate(6354, 793)"/>
+<path d=""  transform="translate(6614, 793)"/>
+<path d=""  transform="translate(7014, 793)"/>
+<path d=""  transform="translate(7614, 793)"/>
+<path d=""  transform="translate(8214, 793)"/>
+<path d=""  transform="translate(8814, 793)"/>
+<path d=""  transform="translate(9414, 793)"/>
+<path d=""  transform="translate(10014, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᠪᠠ (atba)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV2=1+857|u182A_1820.fin=2+1124|space=4+260|parenleft=5+400|.notdef=6+600|.notdef=7+600|.notdef=8+600|.notdef=9+600|parenright=10+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV2=1+857|u182A_1820.fin=2+1124|space=4+260|parenleft=5+400|a=6+561|t=7+361|b=8+615|a=9+561|parenright=10+400</pre>
+
+
+
+<pre>                                                                                              ^^^^^^^    ^^ +++ +++    ^^ ^^^^^^^    ^^ ^^^^^^^    ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5925 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1643, 793)"/>
+<path d=""  transform="translate(2767, 793)"/>
+<path d=""  transform="translate(3027, 793)"/>
+<path d=""  transform="translate(3427, 793)"/>
+<path d=""  transform="translate(3988, 793)"/>
+<path d=""  transform="translate(4349, 793)"/>
+<path d=""  transform="translate(4964, 793)"/>
+<path d=""  transform="translate(5525, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6227 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1643, 793)"/>
+<path d=""  transform="translate(2767, 793)"/>
+<path d=""  transform="translate(3027, 793)"/>
+<path d=""  transform="translate(3427, 793)"/>
+<path d=""  transform="translate(4027, 793)"/>
+<path d=""  transform="translate(4627, 793)"/>
+<path d=""  transform="translate(5227, 793)"/>
+<path d=""  transform="translate(5827, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᠣ (ato) ᠠᡶᠣ (afo) ᠣᡴᠪᠠ (okba) ᡡᡳᠨᠠ (vina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1823.fin=2+634|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400|space=9+260|u1820.ini=10+786|u1876.med=11+540|u1823.fin=12+634|space=13+260|parenleft=14+400|.notdef=15+600|.notdef=16+600|.notdef=17+600|parenright=18+400|space=19+260|u1823.ini=20+1065|u1874.medV1=21+568|u182A_1820.fin=22+1124|space=24+260|parenleft=25+400|.notdef=26+600|.notdef=27+600|.notdef=28+600|.notdef=29+600|parenright=30+400|space=31+260|u1861.ini=32+1360|u1873.medV2=33+652|u1828.med=34+284|u1820.fin=35+427|space=36+260|parenleft=37+400|.notdef=38+600|.notdef=39+600|.notdef=40+600|.notdef=41+600|parenright=42+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1823.fin=2+634|space=3+260|parenleft=4+400|a=5+561|t=6+361|o=7+605|parenright=8+400|space=9+260|u1820.ini=10+786|u1876.med=11+540|u1823.fin=12+634|space=13+260|parenleft=14+400|a=15+561|f=16+344|o=17+605|parenright=18+400|space=19+260|u1823.ini=20+1065|u1874.medV1=21+568|u182A_1820.fin=22+1124|space=24+260|parenleft=25+400|o=26+605|k=27+534|b=28+615|a=29+561|parenright=30+400|space=31+260|u1861.ini=32+1360|u1873.medV2=33+652|u1828.med=34+284|u1820.fin=35+427|space=36+260|parenleft=37+400|v=38+508|i=39+258|n=40+618|a=41+561|parenright=42+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21790 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2033, 793)"/>
+<path d=""  transform="translate(2293, 793)"/>
+<path d=""  transform="translate(2693, 793)"/>
+<path d=""  transform="translate(3254, 793)"/>
+<path d=""  transform="translate(3615, 793)"/>
+<path d=""  transform="translate(4220, 793)"/>
+<path d=""  transform="translate(4620, 793)"/>
+<path d=""  transform="translate(4880, 793)"/>
+<path d=""  transform="translate(5666, 793)"/>
+<path d=""  transform="translate(6206, 793)"/>
+<path d=""  transform="translate(6840, 793)"/>
+<path d=""  transform="translate(7100, 793)"/>
+<path d=""  transform="translate(7500, 793)"/>
+<path d=""  transform="translate(8061, 793)"/>
+<path d=""  transform="translate(8405, 793)"/>
+<path d=""  transform="translate(9010, 793)"/>
+<path d=""  transform="translate(9410, 793)"/>
+<path d=""  transform="translate(9670, 793)"/>
+<path d=""  transform="translate(10735, 793)"/>
+<path d=""  transform="translate(11303, 793)"/>
+<path d=""  transform="translate(12427, 793)"/>
+<path d=""  transform="translate(12687, 793)"/>
+<path d=""  transform="translate(13087, 793)"/>
+<path d=""  transform="translate(13692, 793)"/>
+<path d=""  transform="translate(14226, 793)"/>
+<path d=""  transform="translate(14841, 793)"/>
+<path d=""  transform="translate(15402, 793)"/>
+<path d=""  transform="translate(15802, 793)"/>
+<path d=""  transform="translate(16062, 793)"/>
+<path d=""  transform="translate(17422, 793)"/>
+<path d=""  transform="translate(18074, 793)"/>
+<path d=""  transform="translate(18358, 793)"/>
+<path d=""  transform="translate(18785, 793)"/>
+<path d=""  transform="translate(19045, 793)"/>
+<path d=""  transform="translate(19445, 793)"/>
+<path d=""  transform="translate(19953, 793)"/>
+<path d=""  transform="translate(20211, 793)"/>
+<path d=""  transform="translate(20829, 793)"/>
+<path d=""  transform="translate(21390, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22893 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2033, 793)"/>
+<path d=""  transform="translate(2293, 793)"/>
+<path d=""  transform="translate(2693, 793)"/>
+<path d=""  transform="translate(3293, 793)"/>
+<path d=""  transform="translate(3893, 793)"/>
+<path d=""  transform="translate(4493, 793)"/>
+<path d=""  transform="translate(4893, 793)"/>
+<path d=""  transform="translate(5153, 793)"/>
+<path d=""  transform="translate(5939, 793)"/>
+<path d=""  transform="translate(6479, 793)"/>
+<path d=""  transform="translate(7113, 793)"/>
+<path d=""  transform="translate(7373, 793)"/>
+<path d=""  transform="translate(7773, 793)"/>
+<path d=""  transform="translate(8373, 793)"/>
+<path d=""  transform="translate(8973, 793)"/>
+<path d=""  transform="translate(9573, 793)"/>
+<path d=""  transform="translate(9973, 793)"/>
+<path d=""  transform="translate(10233, 793)"/>
+<path d=""  transform="translate(11298, 793)"/>
+<path d=""  transform="translate(11866, 793)"/>
+<path d=""  transform="translate(12990, 793)"/>
+<path d=""  transform="translate(13250, 793)"/>
+<path d=""  transform="translate(13650, 793)"/>
+<path d=""  transform="translate(14250, 793)"/>
+<path d=""  transform="translate(14850, 793)"/>
+<path d=""  transform="translate(15450, 793)"/>
+<path d=""  transform="translate(16050, 793)"/>
+<path d=""  transform="translate(16450, 793)"/>
+<path d=""  transform="translate(16710, 793)"/>
+<path d=""  transform="translate(18070, 793)"/>
+<path d=""  transform="translate(18722, 793)"/>
+<path d=""  transform="translate(19006, 793)"/>
+<path d=""  transform="translate(19433, 793)"/>
+<path d=""  transform="translate(19693, 793)"/>
+<path d=""  transform="translate(20093, 793)"/>
+<path d=""  transform="translate(20693, 793)"/>
+<path d=""  transform="translate(21293, 793)"/>
+<path d=""  transform="translate(21893, 793)"/>
+<path d=""  transform="translate(22493, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡡᠨᠠ (advna)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u1861.med=2+868|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u1861.med=2+868|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|d=8+615|v=9+508|n=10+618|a=11+561|parenright=12+400</pre>
+
+
+
+<pre>                                                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ ^^^^^^^   ^ ^ + +++++     ^^ ^^^^^^^     ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6901 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2267, 793)"/>
+<path d=""  transform="translate(2551, 793)"/>
+<path d=""  transform="translate(2978, 793)"/>
+<path d=""  transform="translate(3238, 793)"/>
+<path d=""  transform="translate(3638, 793)"/>
+<path d=""  transform="translate(4199, 793)"/>
+<path d=""  transform="translate(4814, 793)"/>
+<path d=""  transform="translate(5322, 793)"/>
+<path d=""  transform="translate(5940, 793)"/>
+<path d=""  transform="translate(6501, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7038 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2267, 793)"/>
+<path d=""  transform="translate(2551, 793)"/>
+<path d=""  transform="translate(2978, 793)"/>
+<path d=""  transform="translate(3238, 793)"/>
+<path d=""  transform="translate(3638, 793)"/>
+<path d=""  transform="translate(4238, 793)"/>
+<path d=""  transform="translate(4838, 793)"/>
+<path d=""  transform="translate(5438, 793)"/>
+<path d=""  transform="translate(6038, 793)"/>
+<path d=""  transform="translate(6638, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᠠᠨᠠ (atana) ᠠᡶᡠ (afu) ᡠᡴᠪᠠ (ukba)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1820.med=2+284|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.med=15+540|u1860.fin=16+634|space=17+260|parenleft=18+400|.notdef=19+600|.notdef=20+600|.notdef=21+600|parenright=22+400|space=23+260|u1860.ini=24+1065|u1874.medV1=25+568|u182A_1820.fin=26+1124|space=28+260|parenleft=29+400|.notdef=30+600|.notdef=31+600|.notdef=32+600|.notdef=33+600|parenright=34+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1820.med=2+284|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|t=8+361|a=9+561|n=10+618|a=11+561|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.med=15+540|u1860.fin=16+634|space=17+260|parenleft=18+400|a=19+561|f=20+344|u=21+618|parenright=22+400|space=23+260|u1860.ini=24+1065|u1874.medV1=25+568|u182A_1820.fin=26+1124|space=28+260|parenleft=29+400|u=30+618|k=31+534|b=32+615|a=33+561|parenright=34+400</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17324 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1683, 793)"/>
+<path d=""  transform="translate(1967, 793)"/>
+<path d=""  transform="translate(2394, 793)"/>
+<path d=""  transform="translate(2654, 793)"/>
+<path d=""  transform="translate(3054, 793)"/>
+<path d=""  transform="translate(3615, 793)"/>
+<path d=""  transform="translate(3976, 793)"/>
+<path d=""  transform="translate(4537, 793)"/>
+<path d=""  transform="translate(5155, 793)"/>
+<path d=""  transform="translate(5716, 793)"/>
+<path d=""  transform="translate(6116, 793)"/>
+<path d=""  transform="translate(6376, 793)"/>
+<path d=""  transform="translate(7162, 793)"/>
+<path d=""  transform="translate(7702, 793)"/>
+<path d=""  transform="translate(8336, 793)"/>
+<path d=""  transform="translate(8596, 793)"/>
+<path d=""  transform="translate(8996, 793)"/>
+<path d=""  transform="translate(9557, 793)"/>
+<path d=""  transform="translate(9901, 793)"/>
+<path d=""  transform="translate(10519, 793)"/>
+<path d=""  transform="translate(10919, 793)"/>
+<path d=""  transform="translate(11179, 793)"/>
+<path d=""  transform="translate(12244, 793)"/>
+<path d=""  transform="translate(12812, 793)"/>
+<path d=""  transform="translate(13936, 793)"/>
+<path d=""  transform="translate(14196, 793)"/>
+<path d=""  transform="translate(14596, 793)"/>
+<path d=""  transform="translate(15214, 793)"/>
+<path d=""  transform="translate(15748, 793)"/>
+<path d=""  transform="translate(16363, 793)"/>
+<path d=""  transform="translate(16924, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18011 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1683, 793)"/>
+<path d=""  transform="translate(1967, 793)"/>
+<path d=""  transform="translate(2394, 793)"/>
+<path d=""  transform="translate(2654, 793)"/>
+<path d=""  transform="translate(3054, 793)"/>
+<path d=""  transform="translate(3654, 793)"/>
+<path d=""  transform="translate(4254, 793)"/>
+<path d=""  transform="translate(4854, 793)"/>
+<path d=""  transform="translate(5454, 793)"/>
+<path d=""  transform="translate(6054, 793)"/>
+<path d=""  transform="translate(6454, 793)"/>
+<path d=""  transform="translate(6714, 793)"/>
+<path d=""  transform="translate(7500, 793)"/>
+<path d=""  transform="translate(8040, 793)"/>
+<path d=""  transform="translate(8674, 793)"/>
+<path d=""  transform="translate(8934, 793)"/>
+<path d=""  transform="translate(9334, 793)"/>
+<path d=""  transform="translate(9934, 793)"/>
+<path d=""  transform="translate(10534, 793)"/>
+<path d=""  transform="translate(11134, 793)"/>
+<path d=""  transform="translate(11534, 793)"/>
+<path d=""  transform="translate(11794, 793)"/>
+<path d=""  transform="translate(12859, 793)"/>
+<path d=""  transform="translate(13427, 793)"/>
+<path d=""  transform="translate(14551, 793)"/>
+<path d=""  transform="translate(14811, 793)"/>
+<path d=""  transform="translate(15211, 793)"/>
+<path d=""  transform="translate(15811, 793)"/>
+<path d=""  transform="translate(16411, 793)"/>
+<path d=""  transform="translate(17011, 793)"/>
+<path d=""  transform="translate(17611, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᡳᠨᠠ (atina) ᠠᡶᡡ (afv) ᡡᡴᠪᠠ (vkba)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1873.med=2+361|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.med=15+540|u1861.fin=16+823|space=17+260|parenleft=18+400|.notdef=19+600|.notdef=20+600|.notdef=21+600|parenright=22+400|space=23+260|u1861.ini=24+1360|u1874.medFem=25+330|u182A_1820.fin=26+1124|space=28+260|parenleft=29+400|.notdef=30+600|.notdef=31+600|.notdef=32+600|.notdef=33+600|parenright=34+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1873.med=2+361|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|t=8+361|i=9+258|n=10+618|a=11+561|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.med=15+540|u1861.fin=16+823|space=17+260|parenleft=18+400|a=19+561|f=20+344|v=21+508|parenright=22+400|space=23+260|u1861.ini=24+1360|u1874.medFem=25+330|u182A_1820.fin=26+1124|space=28+260|parenleft=29+400|v=30+508|k=31+534|b=32+615|a=33+561|parenright=34+400</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17124 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1760, 793)"/>
+<path d=""  transform="translate(2044, 793)"/>
+<path d=""  transform="translate(2471, 793)"/>
+<path d=""  transform="translate(2731, 793)"/>
+<path d=""  transform="translate(3131, 793)"/>
+<path d=""  transform="translate(3692, 793)"/>
+<path d=""  transform="translate(4053, 793)"/>
+<path d=""  transform="translate(4311, 793)"/>
+<path d=""  transform="translate(4929, 793)"/>
+<path d=""  transform="translate(5490, 793)"/>
+<path d=""  transform="translate(5890, 793)"/>
+<path d=""  transform="translate(6150, 793)"/>
+<path d=""  transform="translate(6936, 793)"/>
+<path d=""  transform="translate(7476, 793)"/>
+<path d=""  transform="translate(8299, 793)"/>
+<path d=""  transform="translate(8559, 793)"/>
+<path d=""  transform="translate(8959, 793)"/>
+<path d=""  transform="translate(9520, 793)"/>
+<path d=""  transform="translate(9864, 793)"/>
+<path d=""  transform="translate(10372, 793)"/>
+<path d=""  transform="translate(10772, 793)"/>
+<path d=""  transform="translate(11032, 793)"/>
+<path d=""  transform="translate(12392, 793)"/>
+<path d=""  transform="translate(12722, 793)"/>
+<path d=""  transform="translate(13846, 793)"/>
+<path d=""  transform="translate(14106, 793)"/>
+<path d=""  transform="translate(14506, 793)"/>
+<path d=""  transform="translate(15014, 793)"/>
+<path d=""  transform="translate(15548, 793)"/>
+<path d=""  transform="translate(16163, 793)"/>
+<path d=""  transform="translate(16724, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18334 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1760, 793)"/>
+<path d=""  transform="translate(2044, 793)"/>
+<path d=""  transform="translate(2471, 793)"/>
+<path d=""  transform="translate(2731, 793)"/>
+<path d=""  transform="translate(3131, 793)"/>
+<path d=""  transform="translate(3731, 793)"/>
+<path d=""  transform="translate(4331, 793)"/>
+<path d=""  transform="translate(4931, 793)"/>
+<path d=""  transform="translate(5531, 793)"/>
+<path d=""  transform="translate(6131, 793)"/>
+<path d=""  transform="translate(6531, 793)"/>
+<path d=""  transform="translate(6791, 793)"/>
+<path d=""  transform="translate(7577, 793)"/>
+<path d=""  transform="translate(8117, 793)"/>
+<path d=""  transform="translate(8940, 793)"/>
+<path d=""  transform="translate(9200, 793)"/>
+<path d=""  transform="translate(9600, 793)"/>
+<path d=""  transform="translate(10200, 793)"/>
+<path d=""  transform="translate(10800, 793)"/>
+<path d=""  transform="translate(11400, 793)"/>
+<path d=""  transform="translate(11800, 793)"/>
+<path d=""  transform="translate(12060, 793)"/>
+<path d=""  transform="translate(13420, 793)"/>
+<path d=""  transform="translate(13750, 793)"/>
+<path d=""  transform="translate(14874, 793)"/>
+<path d=""  transform="translate(15134, 793)"/>
+<path d=""  transform="translate(15534, 793)"/>
+<path d=""  transform="translate(16134, 793)"/>
+<path d=""  transform="translate(16734, 793)"/>
+<path d=""  transform="translate(17334, 793)"/>
+<path d=""  transform="translate(17934, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡩᡝ (de) ᠠᡶᠣᠨᠠ (afona)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1869.iniV1=0+757|u185D.fin=1+427|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1823.med=10+573|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|.notdef=15+600|.notdef=16+600|.notdef=17+600|.notdef=18+600|.notdef=19+600|parenright=20+400</pre>
+
+
+
+<pre>Got     : u1869.iniV1=0+757|u185D.fin=1+427|space=2+260|parenleft=3+400|d=4+615|e=5+564|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1823.med=10+573|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|a=15+561|f=16+344|o=17+605|n=18+618|a=19+561|parenright=20+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9875 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1184, 793)"/>
+<path d=""  transform="translate(1444, 793)"/>
+<path d=""  transform="translate(1844, 793)"/>
+<path d=""  transform="translate(2459, 793)"/>
+<path d=""  transform="translate(3023, 793)"/>
+<path d=""  transform="translate(3423, 793)"/>
+<path d=""  transform="translate(3683, 793)"/>
+<path d=""  transform="translate(4469, 793)"/>
+<path d=""  transform="translate(4842, 793)"/>
+<path d=""  transform="translate(5415, 793)"/>
+<path d=""  transform="translate(5699, 793)"/>
+<path d=""  transform="translate(6126, 793)"/>
+<path d=""  transform="translate(6386, 793)"/>
+<path d=""  transform="translate(6786, 793)"/>
+<path d=""  transform="translate(7347, 793)"/>
+<path d=""  transform="translate(7691, 793)"/>
+<path d=""  transform="translate(8296, 793)"/>
+<path d=""  transform="translate(8914, 793)"/>
+<path d=""  transform="translate(9475, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10207 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1184, 793)"/>
+<path d=""  transform="translate(1444, 793)"/>
+<path d=""  transform="translate(1844, 793)"/>
+<path d=""  transform="translate(2444, 793)"/>
+<path d=""  transform="translate(3044, 793)"/>
+<path d=""  transform="translate(3444, 793)"/>
+<path d=""  transform="translate(3704, 793)"/>
+<path d=""  transform="translate(4490, 793)"/>
+<path d=""  transform="translate(4863, 793)"/>
+<path d=""  transform="translate(5436, 793)"/>
+<path d=""  transform="translate(5720, 793)"/>
+<path d=""  transform="translate(6147, 793)"/>
+<path d=""  transform="translate(6407, 793)"/>
+<path d=""  transform="translate(6807, 793)"/>
+<path d=""  transform="translate(7407, 793)"/>
+<path d=""  transform="translate(8007, 793)"/>
+<path d=""  transform="translate(8607, 793)"/>
+<path d=""  transform="translate(9207, 793)"/>
+<path d=""  transform="translate(9807, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᠠ (ata) ᡶᡡ (fv) ᡝᡴᠪᠠ (ekba) ᠣᡳᠨᠠ (oina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1820.fin=2+427|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400|space=9+260|u1876.ini=10+520|u1861.fin=11+823|space=12+260|parenleft=13+400|.notdef=14+600|.notdef=15+600|parenright=16+400|space=17+260|u185D.ini=18+492|u1874.medFem=19+330|u182A_1820.fin=20+1124|space=22+260|parenleft=23+400|.notdef=24+600|.notdef=25+600|.notdef=26+600|.notdef=27+600|parenright=28+400|space=29+260|u1823.ini=30+1065|u1873.medV2=31+652|u1828.med=32+284|u1820.fin=33+427|space=34+260|parenleft=35+400|.notdef=36+600|.notdef=37+600|.notdef=38+600|.notdef=39+600|parenright=40+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1820.fin=2+427|space=3+260|parenleft=4+400|a=5+561|t=6+361|a=7+561|parenright=8+400|space=9+260|u1876.ini=10+520|u1861.fin=11+823|space=12+260|parenleft=13+400|f=14+344|v=15+508|parenright=16+400|space=17+260|u185D.ini=18+492|u1874.medFem=19+330|u182A_1820.fin=20+1124|space=22+260|parenleft=23+400|e=24+564|k=25+534|b=26+615|a=27+561|parenright=28+400|space=29+260|u1823.ini=30+1065|u1873.medV2=31+652|u1828.med=32+284|u1820.fin=33+427|space=34+260|parenleft=35+400|o=36+605|i=37+258|n=38+618|a=39+561|parenright=40+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19214 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1826, 793)"/>
+<path d=""  transform="translate(2086, 793)"/>
+<path d=""  transform="translate(2486, 793)"/>
+<path d=""  transform="translate(3047, 793)"/>
+<path d=""  transform="translate(3408, 793)"/>
+<path d=""  transform="translate(3969, 793)"/>
+<path d=""  transform="translate(4369, 793)"/>
+<path d=""  transform="translate(4629, 793)"/>
+<path d=""  transform="translate(5149, 793)"/>
+<path d=""  transform="translate(5972, 793)"/>
+<path d=""  transform="translate(6232, 793)"/>
+<path d=""  transform="translate(6632, 793)"/>
+<path d=""  transform="translate(6976, 793)"/>
+<path d=""  transform="translate(7484, 793)"/>
+<path d=""  transform="translate(7884, 793)"/>
+<path d=""  transform="translate(8144, 793)"/>
+<path d=""  transform="translate(8636, 793)"/>
+<path d=""  transform="translate(8966, 793)"/>
+<path d=""  transform="translate(10090, 793)"/>
+<path d=""  transform="translate(10350, 793)"/>
+<path d=""  transform="translate(10750, 793)"/>
+<path d=""  transform="translate(11314, 793)"/>
+<path d=""  transform="translate(11848, 793)"/>
+<path d=""  transform="translate(12463, 793)"/>
+<path d=""  transform="translate(13024, 793)"/>
+<path d=""  transform="translate(13424, 793)"/>
+<path d=""  transform="translate(13684, 793)"/>
+<path d=""  transform="translate(14749, 793)"/>
+<path d=""  transform="translate(15401, 793)"/>
+<path d=""  transform="translate(15685, 793)"/>
+<path d=""  transform="translate(16112, 793)"/>
+<path d=""  transform="translate(16372, 793)"/>
+<path d=""  transform="translate(16772, 793)"/>
+<path d=""  transform="translate(17377, 793)"/>
+<path d=""  transform="translate(17635, 793)"/>
+<path d=""  transform="translate(18253, 793)"/>
+<path d=""  transform="translate(18814, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20363 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1826, 793)"/>
+<path d=""  transform="translate(2086, 793)"/>
+<path d=""  transform="translate(2486, 793)"/>
+<path d=""  transform="translate(3086, 793)"/>
+<path d=""  transform="translate(3686, 793)"/>
+<path d=""  transform="translate(4286, 793)"/>
+<path d=""  transform="translate(4686, 793)"/>
+<path d=""  transform="translate(4946, 793)"/>
+<path d=""  transform="translate(5466, 793)"/>
+<path d=""  transform="translate(6289, 793)"/>
+<path d=""  transform="translate(6549, 793)"/>
+<path d=""  transform="translate(6949, 793)"/>
+<path d=""  transform="translate(7549, 793)"/>
+<path d=""  transform="translate(8149, 793)"/>
+<path d=""  transform="translate(8549, 793)"/>
+<path d=""  transform="translate(8809, 793)"/>
+<path d=""  transform="translate(9301, 793)"/>
+<path d=""  transform="translate(9631, 793)"/>
+<path d=""  transform="translate(10755, 793)"/>
+<path d=""  transform="translate(11015, 793)"/>
+<path d=""  transform="translate(11415, 793)"/>
+<path d=""  transform="translate(12015, 793)"/>
+<path d=""  transform="translate(12615, 793)"/>
+<path d=""  transform="translate(13215, 793)"/>
+<path d=""  transform="translate(13815, 793)"/>
+<path d=""  transform="translate(14215, 793)"/>
+<path d=""  transform="translate(14475, 793)"/>
+<path d=""  transform="translate(15540, 793)"/>
+<path d=""  transform="translate(16192, 793)"/>
+<path d=""  transform="translate(16476, 793)"/>
+<path d=""  transform="translate(16903, 793)"/>
+<path d=""  transform="translate(17163, 793)"/>
+<path d=""  transform="translate(17563, 793)"/>
+<path d=""  transform="translate(18163, 793)"/>
+<path d=""  transform="translate(18763, 793)"/>
+<path d=""  transform="translate(19363, 793)"/>
+<path d=""  transform="translate(19963, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᡳ (ati) ᠠᡶᡳ (afi) ᡳᡴᠪᠠ (ikba) ᡠᡳᠨᠠ (uina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1873.fin=2+501|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400|space=9+260|u1820.ini=10+786|u1876.med=11+540|u1873.fin=12+501|space=13+260|parenleft=14+400|.notdef=15+600|.notdef=16+600|.notdef=17+600|parenright=18+400|space=19+260|u1873.ini=20+814|u1874.medV1=21+568|u182A_1820.fin=22+1124|space=24+260|parenleft=25+400|.notdef=26+600|.notdef=27+600|.notdef=28+600|.notdef=29+600|parenright=30+400|space=31+260|u1860.ini=32+1065|u1873.medV2=33+652|u1828.med=34+284|u1820.fin=35+427|space=36+260|parenleft=37+400|.notdef=38+600|.notdef=39+600|.notdef=40+600|.notdef=41+600|parenright=42+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1873.fin=2+501|space=3+260|parenleft=4+400|a=5+561|t=6+361|i=7+258|parenright=8+400|space=9+260|u1820.ini=10+786|u1876.med=11+540|u1873.fin=12+501|space=13+260|parenleft=14+400|a=15+561|f=16+344|i=17+258|parenright=18+400|space=19+260|u1873.ini=20+814|u1874.medV1=21+568|u182A_1820.fin=22+1124|space=24+260|parenleft=25+400|i=26+258|k=27+534|b=28+615|a=29+561|parenright=30+400|space=31+260|u1860.ini=32+1065|u1873.medV2=33+652|u1828.med=34+284|u1820.fin=35+427|space=36+260|parenleft=37+400|u=38+618|i=39+258|n=40+618|a=41+561|parenright=42+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20047 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1900, 793)"/>
+<path d=""  transform="translate(2160, 793)"/>
+<path d=""  transform="translate(2560, 793)"/>
+<path d=""  transform="translate(3121, 793)"/>
+<path d=""  transform="translate(3482, 793)"/>
+<path d=""  transform="translate(3740, 793)"/>
+<path d=""  transform="translate(4140, 793)"/>
+<path d=""  transform="translate(4400, 793)"/>
+<path d=""  transform="translate(5186, 793)"/>
+<path d=""  transform="translate(5726, 793)"/>
+<path d=""  transform="translate(6227, 793)"/>
+<path d=""  transform="translate(6487, 793)"/>
+<path d=""  transform="translate(6887, 793)"/>
+<path d=""  transform="translate(7448, 793)"/>
+<path d=""  transform="translate(7792, 793)"/>
+<path d=""  transform="translate(8050, 793)"/>
+<path d=""  transform="translate(8450, 793)"/>
+<path d=""  transform="translate(8710, 793)"/>
+<path d=""  transform="translate(9524, 793)"/>
+<path d=""  transform="translate(10092, 793)"/>
+<path d=""  transform="translate(11216, 793)"/>
+<path d=""  transform="translate(11476, 793)"/>
+<path d=""  transform="translate(11876, 793)"/>
+<path d=""  transform="translate(12134, 793)"/>
+<path d=""  transform="translate(12668, 793)"/>
+<path d=""  transform="translate(13283, 793)"/>
+<path d=""  transform="translate(13844, 793)"/>
+<path d=""  transform="translate(14244, 793)"/>
+<path d=""  transform="translate(14504, 793)"/>
+<path d=""  transform="translate(15569, 793)"/>
+<path d=""  transform="translate(16221, 793)"/>
+<path d=""  transform="translate(16505, 793)"/>
+<path d=""  transform="translate(16932, 793)"/>
+<path d=""  transform="translate(17192, 793)"/>
+<path d=""  transform="translate(17592, 793)"/>
+<path d=""  transform="translate(18210, 793)"/>
+<path d=""  transform="translate(18468, 793)"/>
+<path d=""  transform="translate(19086, 793)"/>
+<path d=""  transform="translate(19647, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22081 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1900, 793)"/>
+<path d=""  transform="translate(2160, 793)"/>
+<path d=""  transform="translate(2560, 793)"/>
+<path d=""  transform="translate(3160, 793)"/>
+<path d=""  transform="translate(3760, 793)"/>
+<path d=""  transform="translate(4360, 793)"/>
+<path d=""  transform="translate(4760, 793)"/>
+<path d=""  transform="translate(5020, 793)"/>
+<path d=""  transform="translate(5806, 793)"/>
+<path d=""  transform="translate(6346, 793)"/>
+<path d=""  transform="translate(6847, 793)"/>
+<path d=""  transform="translate(7107, 793)"/>
+<path d=""  transform="translate(7507, 793)"/>
+<path d=""  transform="translate(8107, 793)"/>
+<path d=""  transform="translate(8707, 793)"/>
+<path d=""  transform="translate(9307, 793)"/>
+<path d=""  transform="translate(9707, 793)"/>
+<path d=""  transform="translate(9967, 793)"/>
+<path d=""  transform="translate(10781, 793)"/>
+<path d=""  transform="translate(11349, 793)"/>
+<path d=""  transform="translate(12473, 793)"/>
+<path d=""  transform="translate(12733, 793)"/>
+<path d=""  transform="translate(13133, 793)"/>
+<path d=""  transform="translate(13733, 793)"/>
+<path d=""  transform="translate(14333, 793)"/>
+<path d=""  transform="translate(14933, 793)"/>
+<path d=""  transform="translate(15533, 793)"/>
+<path d=""  transform="translate(15933, 793)"/>
+<path d=""  transform="translate(16193, 793)"/>
+<path d=""  transform="translate(17258, 793)"/>
+<path d=""  transform="translate(17910, 793)"/>
+<path d=""  transform="translate(18194, 793)"/>
+<path d=""  transform="translate(18621, 793)"/>
+<path d=""  transform="translate(18881, 793)"/>
+<path d=""  transform="translate(19281, 793)"/>
+<path d=""  transform="translate(19881, 793)"/>
+<path d=""  transform="translate(20481, 793)"/>
+<path d=""  transform="translate(21081, 793)"/>
+<path d=""  transform="translate(21681, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡡ (adv)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u1861.fin=2+823|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u1861.fin=2+823|space=3+260|parenleft=4+400|a=5+561|d=6+615|v=7+508|parenright=8+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ ^^^^^^^   ^ ^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4966 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2222, 793)"/>
+<path d=""  transform="translate(2482, 793)"/>
+<path d=""  transform="translate(2882, 793)"/>
+<path d=""  transform="translate(3443, 793)"/>
+<path d=""  transform="translate(4058, 793)"/>
+<path d=""  transform="translate(4566, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5082 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(2222, 793)"/>
+<path d=""  transform="translate(2482, 793)"/>
+<path d=""  transform="translate(2882, 793)"/>
+<path d=""  transform="translate(3482, 793)"/>
+<path d=""  transform="translate(4082, 793)"/>
+<path d=""  transform="translate(4682, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡨᠣᠨᠠ (atona) ᠠᡶᡳᠨᠠ (afina)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1868.medV1=1+613|u1823.med=2+573|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.medV1=15+373|u1873.med=16+361|u1828.med=17+284|u1820.fin=18+427|space=19+260|parenleft=20+400|.notdef=21+600|.notdef=22+600|.notdef=23+600|.notdef=24+600|.notdef=25+600|parenright=26+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1868.medV1=1+613|u1823.med=2+573|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|t=8+361|o=9+605|n=10+618|a=11+561|parenright=12+400|space=13+260|u1820.ini=14+786|u1876.medV1=15+373|u1873.med=16+361|u1828.med=17+284|u1820.fin=18+427|space=19+260|parenleft=20+400|a=21+561|f=22+344|i=23+258|n=24+618|a=25+561|parenright=26+400</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12342 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1972, 793)"/>
+<path d=""  transform="translate(2256, 793)"/>
+<path d=""  transform="translate(2683, 793)"/>
+<path d=""  transform="translate(2943, 793)"/>
+<path d=""  transform="translate(3343, 793)"/>
+<path d=""  transform="translate(3904, 793)"/>
+<path d=""  transform="translate(4265, 793)"/>
+<path d=""  transform="translate(4870, 793)"/>
+<path d=""  transform="translate(5488, 793)"/>
+<path d=""  transform="translate(6049, 793)"/>
+<path d=""  transform="translate(6449, 793)"/>
+<path d=""  transform="translate(6709, 793)"/>
+<path d=""  transform="translate(7495, 793)"/>
+<path d=""  transform="translate(7868, 793)"/>
+<path d=""  transform="translate(8229, 793)"/>
+<path d=""  transform="translate(8513, 793)"/>
+<path d=""  transform="translate(8940, 793)"/>
+<path d=""  transform="translate(9200, 793)"/>
+<path d=""  transform="translate(9600, 793)"/>
+<path d=""  transform="translate(10161, 793)"/>
+<path d=""  transform="translate(10505, 793)"/>
+<path d=""  transform="translate(10763, 793)"/>
+<path d=""  transform="translate(11381, 793)"/>
+<path d=""  transform="translate(11942, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13294 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1972, 793)"/>
+<path d=""  transform="translate(2256, 793)"/>
+<path d=""  transform="translate(2683, 793)"/>
+<path d=""  transform="translate(2943, 793)"/>
+<path d=""  transform="translate(3343, 793)"/>
+<path d=""  transform="translate(3943, 793)"/>
+<path d=""  transform="translate(4543, 793)"/>
+<path d=""  transform="translate(5143, 793)"/>
+<path d=""  transform="translate(5743, 793)"/>
+<path d=""  transform="translate(6343, 793)"/>
+<path d=""  transform="translate(6743, 793)"/>
+<path d=""  transform="translate(7003, 793)"/>
+<path d=""  transform="translate(7789, 793)"/>
+<path d=""  transform="translate(8162, 793)"/>
+<path d=""  transform="translate(8523, 793)"/>
+<path d=""  transform="translate(8807, 793)"/>
+<path d=""  transform="translate(9234, 793)"/>
+<path d=""  transform="translate(9494, 793)"/>
+<path d=""  transform="translate(9894, 793)"/>
+<path d=""  transform="translate(10494, 793)"/>
+<path d=""  transform="translate(11094, 793)"/>
+<path d=""  transform="translate(11694, 793)"/>
+<path d=""  transform="translate(12294, 793)"/>
+<path d=""  transform="translate(12894, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᡩᡡ (dv) ᠠᡶᡡᠨᠠ (afvna)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1869.iniV1=0+757|u1861.fin=1+823|space=2+260|parenleft=3+400|.notdef=4+600|.notdef=5+600|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1861.med=10+868|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|.notdef=15+600|.notdef=16+600|.notdef=17+600|.notdef=18+600|.notdef=19+600|parenright=20+400</pre>
+
+
+
+<pre>Got     : u1869.iniV1=0+757|u1861.fin=1+823|space=2+260|parenleft=3+400|d=4+615|v=5+508|parenright=6+400|space=7+260|u1820.ini=8+786|u1876.medV1=9+373|u1861.med=10+868|u1828.med=11+284|u1820.fin=12+427|space=13+260|parenleft=14+400|a=15+561|f=16+344|v=17+508|n=18+618|a=19+561|parenright=20+400</pre>
+
+
+
+<pre>                                                                        ^^^^^^^^^^^^^^^^^^^^^^ ^^^^                                                                                                                                                 ^^^^^^^    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10413 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1580, 793)"/>
+<path d=""  transform="translate(1840, 793)"/>
+<path d=""  transform="translate(2240, 793)"/>
+<path d=""  transform="translate(2855, 793)"/>
+<path d=""  transform="translate(3363, 793)"/>
+<path d=""  transform="translate(3763, 793)"/>
+<path d=""  transform="translate(4023, 793)"/>
+<path d=""  transform="translate(4809, 793)"/>
+<path d=""  transform="translate(5182, 793)"/>
+<path d=""  transform="translate(6050, 793)"/>
+<path d=""  transform="translate(6334, 793)"/>
+<path d=""  transform="translate(6761, 793)"/>
+<path d=""  transform="translate(7021, 793)"/>
+<path d=""  transform="translate(7421, 793)"/>
+<path d=""  transform="translate(7982, 793)"/>
+<path d=""  transform="translate(8326, 793)"/>
+<path d=""  transform="translate(8834, 793)"/>
+<path d=""  transform="translate(9452, 793)"/>
+<path d=""  transform="translate(10013, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10898 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(757, 793)"/>
+<path d=""  transform="translate(1580, 793)"/>
+<path d=""  transform="translate(1840, 793)"/>
+<path d=""  transform="translate(2240, 793)"/>
+<path d=""  transform="translate(2840, 793)"/>
+<path d=""  transform="translate(3440, 793)"/>
+<path d=""  transform="translate(3840, 793)"/>
+<path d=""  transform="translate(4100, 793)"/>
+<path d=""  transform="translate(4886, 793)"/>
+<path d=""  transform="translate(5259, 793)"/>
+<path d=""  transform="translate(6127, 793)"/>
+<path d=""  transform="translate(6411, 793)"/>
+<path d=""  transform="translate(6838, 793)"/>
+<path d=""  transform="translate(7098, 793)"/>
+<path d=""  transform="translate(7498, 793)"/>
+<path d=""  transform="translate(8098, 793)"/>
+<path d=""  transform="translate(8698, 793)"/>
+<path d=""  transform="translate(9298, 793)"/>
+<path d=""  transform="translate(9898, 793)"/>
+<path d=""  transform="translate(10498, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡠᠨᠠ (aduna)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u1860.med=2+573|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|.notdef=7+600|.notdef=8+600|.notdef=9+600|.notdef=10+600|.notdef=11+600|parenright=12+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u1860.med=2+573|u1828.med=3+284|u1820.fin=4+427|space=5+260|parenleft=6+400|a=7+561|d=8+615|u=9+618|n=10+618|a=11+561|parenright=12+400</pre>
+
+
+
+<pre>                                                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ ^^^^^^^    ^^ + +++++     ^^ ^^^^^^^     ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6716 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1972, 793)"/>
+<path d=""  transform="translate(2256, 793)"/>
+<path d=""  transform="translate(2683, 793)"/>
+<path d=""  transform="translate(2943, 793)"/>
+<path d=""  transform="translate(3343, 793)"/>
+<path d=""  transform="translate(3904, 793)"/>
+<path d=""  transform="translate(4519, 793)"/>
+<path d=""  transform="translate(5137, 793)"/>
+<path d=""  transform="translate(5755, 793)"/>
+<path d=""  transform="translate(6316, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6743 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1972, 793)"/>
+<path d=""  transform="translate(2256, 793)"/>
+<path d=""  transform="translate(2683, 793)"/>
+<path d=""  transform="translate(2943, 793)"/>
+<path d=""  transform="translate(3343, 793)"/>
+<path d=""  transform="translate(3943, 793)"/>
+<path d=""  transform="translate(4543, 793)"/>
+<path d=""  transform="translate(5143, 793)"/>
+<path d=""  transform="translate(5743, 793)"/>
+<path d=""  transform="translate(6343, 793)"/>
+</svg>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ᠠᡩᡝ (ade)</span> (Issue #963)</li>
+
+
+<pre>Expected: u1820.ini=0+786|u1869.medV1=1+613|u185D.fin=2+427|space=3+260|parenleft=4+400|.notdef=5+600|.notdef=6+600|.notdef=7+600|parenright=8+400</pre>
+
+
+
+<pre>Got     : u1820.ini=0+786|u1869.medV1=1+613|u185D.fin=2+427|space=3+260|parenleft=4+400|a=5+561|d=6+615|e=7+564|parenright=8+400</pre>
+
+
+
+<pre>                                                                                        ^^^^^^^    ^^ ++++ ++    ^^ +++++ +    ^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4626 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1826, 793)"/>
+<path d=""  transform="translate(2086, 793)"/>
+<path d=""  transform="translate(2486, 793)"/>
+<path d=""  transform="translate(3047, 793)"/>
+<path d=""  transform="translate(3662, 793)"/>
+<path d=""  transform="translate(4226, 793)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4686 2750" transform="matrix(1 0 0 -1 0 0)">
+<path d=""  transform="translate(0, 793)"/>
+<path d=""  transform="translate(786, 793)"/>
+<path d=""  transform="translate(1399, 793)"/>
+<path d=""  transform="translate(1826, 793)"/>
+<path d=""  transform="translate(2086, 793)"/>
+<path d=""  transform="translate(2486, 793)"/>
+<path d=""  transform="translate(3086, 793)"/>
+<path d=""  transform="translate(3686, 793)"/>
+<path d=""  transform="translate(4286, 793)"/>
+</svg>
+
+
+</div> [code: shaping-regression]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- nbspace
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
+
+
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+
+The following glyphs do not have the recommended number of contours:
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+
+	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+ [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* u1829 (U+1829): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
+
+	* u184A (U+184A): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
+
+	* u1859 (U+1859): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
+
+	* u185E (U+185E): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
+
+	* u185F (U+185F): L<<19.0,96.0>--<0.0,364.0>> -> L<<0.0,364.0>--<0.0,444.0>>
+
+	* u1862 (U+1862): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>> 
+
+	* And u1874 (U+1874): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>> [code: found-colinear-vectors]
+</div></details><br></div></details>
+### Summary
+
+| 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
+|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
+| 0 | 6 | 5 | 115 | 8 | 101 | 0 |
+| 0% | 3% | 2% | 49% | 3% | 43% | 0% |
+
+**Note:** The following loglevels were omitted in this report:
+* **SKIP**
+* **INFO**
+* **PASS**
+* **DEBUG**

@@ -82,7 +82,7 @@ code = "u1821.fin u1821.med u1825.fin u1825.med u1826.fin u1826.med";
 name = class70;
 }
 );
-copyright = "Copyright 2018-2022 Google Inc. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)";
 customParameters = (
 {
 name = openTypeOS2VendorID;
@@ -1696,7 +1696,7 @@ value = (
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = description;
@@ -1708,11 +1708,15 @@ value = "Noto is a trademark of Google Inc.";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = versionString;
-value = "Version 2.002";
+value = "Version 2.003";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2019-09-23 18:22:52 +0000";
@@ -54652,5 +54656,5 @@ manufacturer = "Monotype Imaging Inc.";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }

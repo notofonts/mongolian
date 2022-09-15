@@ -4,5 +4,9 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+- from: Noto Sans
+  ranges:
+    - start: 0x25CC
+      end: 0x25CC
 sources:
 - NotoSansMongolian.glyphs

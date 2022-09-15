@@ -1,5 +1,5 @@
 {
-.appVersion = "3109";
+.appVersion = "3134";
 classes = (
 {
 code = "u1820.ini u1820.med u1822.ini u1822.med u1823.ini u1823.med u1824.ini u1824.med";
@@ -1695,6 +1695,10 @@ value = (
 );
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
@@ -1713,10 +1717,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2019-09-23 18:22:52 +0000";
@@ -1823,7 +1823,7 @@ value = 1457;
 },
 {
 name = winDescent;
-value = 293;
+value = 361;
 },
 {
 name = hheaAscender;

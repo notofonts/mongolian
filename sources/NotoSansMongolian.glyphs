@@ -1,5 +1,8 @@
 {
-.appVersion = "3134";
+.appVersion = "3109";
+DisplayStrings = (
+"/dottedcircle"
+);
 classes = (
 {
 code = "u1820.ini u1820.med u1822.ini u1822.med u1823.ini u1823.med u1824.ini u1824.med";
@@ -49449,9 +49452,19 @@ unicode = 3002;
 },
 {
 glyphname = dottedcircle;
-lastChange = "2019-09-24 14:05:55 +0000";
+lastChange = "2022-09-16 10:34:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{299, -4}";
+},
+{
+name = top;
+position = "{294, 596}";
+}
+);
 layerId = UUID0;
 paths = (
 {

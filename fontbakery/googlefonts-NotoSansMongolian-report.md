@@ -2,34 +2,26 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[6] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+<details><summary><b>[9] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
+* 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
+</div></details><details><summary>💔 <b>ERROR:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
-	- acutecomb
 
-	- brevecomb
+* 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
+</div></details><details><summary>💔 <b>ERROR:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
-	- caroncomb
 
-	- cedillacomb
+* 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
+</div></details><details><summary>💔 <b>ERROR:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
-	- circumflexcomb
 
-	- commaaccentcomb
+* 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
+</div></details><details><summary>💔 <b>ERROR:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-	- commaturnedabovecomb
 
-	- dieresiscomb
-
-	- dotaccentcomb
-
-	- gravecomb 
-
-	- And 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]
+* 💔 **ERROR** The condition <FontBakeryCondition:outlines_dict> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -1440,9 +1432,7 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dottedCircle 
-
-	- And nbspace
+	- nbspace
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1459,31 +1449,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* u1829 (U+1829): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
-
-	* u184A (U+184A): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
-
-	* u1859 (U+1859): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
-
-	* u185E (U+185E): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>>
-
-	* u185F (U+185F): L<<19.0,96.0>--<0.0,364.0>> -> L<<0.0,364.0>--<0.0,444.0>>
-
-	* u1862 (U+1862): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>> 
-
-	* And u1874 (U+1874): L<<64.0,96.0>--<45.0,364.0>> -> L<<45.0,364.0>--<45.0,444.0>> [code: found-colinear-vectors]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 4 | 110 | 7 | 104 | 0 |
-| 0% | 1% | 2% | 48% | 3% | 46% | 0% |
+| 5 | 1 | 3 | 110 | 7 | 101 | 0 |
+| 2% | 0% | 1% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

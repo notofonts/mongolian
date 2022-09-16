@@ -72,20 +72,20 @@
                 <th>✅ PASS</th>
             </tr>
             <tr>
-                <td>0</td>
-                <td>2</td>
-                <td>4</td>
+                <td>5</td>
+                <td>1</td>
+                <td>3</td>
                 <td>110</td>
                 <td>7</td>
-                <td>104</td>
+                <td>101</td>
             </tr>
             <tr>
-                <td>0%</td>
+                <td>3%</td>
                 <td>1%</td>
                 <td>2%</td>
                 <td>64%</td>
                 <td>4%</td>
-                <td>61%</td>
+                <td>59%</td>
             </tr>
             </table>
             
@@ -96,14 +96,12 @@
 
 <details><summary>⚠️ <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- dottedCircle 
-
-- And nbspace
+<pre><code>- nbspace
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -122,53 +120,31 @@
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+<h2>&lt;Section: Outline Correctness Checks&gt; 💥💥💥💥💥</h2>
+<h3>Are there any misaligned on-curve points?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
-<details><summary>🔥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- acutecomb
-
-- brevecomb
-
-- caroncomb
-
-- cedillacomb
-
-- circumflexcomb
-
-- commaaccentcomb
-
-- commaturnedabovecomb
-
-- dieresiscomb
-
-- dotaccentcomb
-
-- gravecomb 
-
-- And 5 more.
-</code></pre>
-<p>Use -F or --full-lists to disable shortening of long lists. [code: unattached-dotted-circle-marks]</p>
+<details><summary>💥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️</h2>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>💥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
 <h3>Do any segments have colinear vectors?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* u1829 (U+1829): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt;
+<details><summary>💥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
 
-* u184A (U+184A): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt;
+<details><summary>💥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
 
-* u1859 (U+1859): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt;
-
-* u185E (U+185E): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt;
-
-* u185F (U+185F): L&lt;&lt;19.0,96.0&gt;--&lt;0.0,364.0&gt;&gt; -&gt; L&lt;&lt;0.0,364.0&gt;--&lt;0.0,444.0&gt;&gt;
-
-* u1862 (U+1862): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt; 
-
-* And u1874 (U+1874): L&lt;&lt;64.0,96.0&gt;--&lt;45.0,364.0&gt;&gt; -&gt; L&lt;&lt;45.0,364.0&gt;--&lt;45.0,444.0&gt;&gt; [code: found-colinear-vectors]
-</code></pre>
+<details><summary>💥 <strong>fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:outlines_dict">FontBakeryCondition:outlines_dict</a> had an error: AttributeError: '_TTGlyphGlyf' object has no attribute '_glyph'</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Shaping Checks&gt; 🔥⏩⏩</h2>
 <h3>Check that texts shape as per expectation</h3>

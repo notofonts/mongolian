@@ -1,0 +1,14 @@
+{
+glyphname = u184D.iniFem;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u183B;
+}
+);
+width = 428;
+}
+);
+}

@@ -1,0 +1,14 @@
+{
+glyphname = u186B.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u186B;
+}
+);
+width = 520;
+}
+);
+}

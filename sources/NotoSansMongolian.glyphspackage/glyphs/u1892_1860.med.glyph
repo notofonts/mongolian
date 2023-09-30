@@ -1,0 +1,19 @@
+{
+glyphname = u1892_1860.med;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-45,0);
+ref = u1892_1823.ini;
+},
+{
+pos = (270,1002);
+ref = MongolianDot;
+}
+);
+width = 888;
+}
+);
+}

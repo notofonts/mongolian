@@ -1,0 +1,14 @@
+{
+glyphname = u1873.finV3;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u185E.finV3;
+}
+);
+width = 785;
+}
+);
+}

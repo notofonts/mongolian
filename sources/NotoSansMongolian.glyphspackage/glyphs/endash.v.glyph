@@ -1,0 +1,22 @@
+{
+glyphname = endash.v;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,194,l),
+(289,194,l),
+(289,614,l),
+(211,614,l)
+);
+}
+);
+vertOrigin = 550;
+vertWidth = 1100;
+width = 500;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = u1865_185D.med;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-48,0);
+ref = u182C_1821.ini;
+},
+{
+pos = (82,990);
+ref = MongolianRing;
+}
+);
+width = 666;
+}
+);
+}

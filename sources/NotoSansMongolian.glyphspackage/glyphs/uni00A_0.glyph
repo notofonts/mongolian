@@ -1,0 +1,11 @@
+{
+glyphname = uni00A0;
+layers = (
+{
+layerId = UUID0;
+width = 260;
+}
+);
+metricWidth = space;
+unicode = 160;
+}

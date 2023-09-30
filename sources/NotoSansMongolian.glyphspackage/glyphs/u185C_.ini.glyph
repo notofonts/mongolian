@@ -1,0 +1,14 @@
+{
+glyphname = u185C.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u185C;
+}
+);
+width = 652;
+}
+);
+}

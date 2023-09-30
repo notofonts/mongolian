@@ -1,0 +1,15 @@
+{
+glyphname = u182C_1827.med;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-48,0);
+ref = u182C_1827.ini;
+}
+);
+width = 837;
+}
+);
+}

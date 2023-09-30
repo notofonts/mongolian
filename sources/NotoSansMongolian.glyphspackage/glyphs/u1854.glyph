@@ -1,0 +1,16 @@
+{
+glyphname = u1854;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (45,0);
+ref = u1835.med;
+}
+);
+width = 650;
+}
+);
+unicode = 6228;
+}

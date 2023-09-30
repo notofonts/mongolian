@@ -1,0 +1,14 @@
+{
+glyphname = u1836.iniV1;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u1835;
+}
+);
+width = 421;
+}
+);
+}

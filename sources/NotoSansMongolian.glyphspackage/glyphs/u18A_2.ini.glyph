@@ -1,0 +1,22 @@
+{
+glyphname = u18A2.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (81,0);
+ref = MongolianDot;
+},
+{
+pos = (288,0);
+ref = MongolianDot;
+},
+{
+ref = u1830;
+}
+);
+width = 681;
+}
+);
+}

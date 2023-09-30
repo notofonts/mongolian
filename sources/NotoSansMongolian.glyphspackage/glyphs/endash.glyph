@@ -1,0 +1,21 @@
+{
+glyphname = endash;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,365,l),
+(460,443,l),
+(40,443,l),
+(40,365,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 8211;
+}

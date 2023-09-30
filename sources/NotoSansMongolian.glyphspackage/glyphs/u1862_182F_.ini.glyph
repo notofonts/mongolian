@@ -1,0 +1,15 @@
+{
+glyphname = u1862_182F.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (45,0);
+ref = u1829_182F.med;
+}
+);
+width = 903;
+}
+);
+}

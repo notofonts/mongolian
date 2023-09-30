@@ -1,0 +1,23 @@
+{
+glyphname = u1874.medFemV1;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (107,52);
+ref = MongolianDot;
+},
+{
+pos = (243,-55);
+ref = MongolianDot;
+},
+{
+pos = (-47,0);
+ref = u182D.iniV2;
+}
+);
+width = 330;
+}
+);
+}

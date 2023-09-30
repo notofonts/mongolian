@@ -1,0 +1,15 @@
+{
+glyphname = u1874.medFem;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-47,0);
+ref = u182D.iniV2;
+}
+);
+width = 330;
+}
+);
+}

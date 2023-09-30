@@ -1,0 +1,12 @@
+{
+category = Mark;
+glyphname = FVS2;
+layers = (
+{
+layerId = UUID0;
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 6156;
+}

@@ -1,0 +1,14 @@
+{
+glyphname = u185D.finV3;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = LeftTail;
+}
+);
+width = 352;
+}
+);
+}

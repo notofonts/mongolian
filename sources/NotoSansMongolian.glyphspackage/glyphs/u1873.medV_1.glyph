@@ -1,0 +1,14 @@
+{
+glyphname = u1873.medV1;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u1822.medV1;
+}
+);
+width = 579;
+}
+);
+}

@@ -1,0 +1,14 @@
+{
+glyphname = u189D.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u189D;
+}
+);
+width = 848;
+}
+);
+}

@@ -1,0 +1,22 @@
+{
+glyphname = u1887.fin;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(412,206,l),
+(484,444,l),
+(0,444,l),
+(0,364,l),
+(376,364,l),
+(328,206,l)
+);
+}
+);
+width = 529;
+}
+);
+}

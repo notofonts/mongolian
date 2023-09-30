@@ -1,0 +1,3721 @@
+{
+.appVersion = "3151";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+classes = (
+{
+code = "u1820.ini u1820.med u1822.ini u1822.med u1823.ini u1823.med u1824.ini u1824.med";
+name = class1;
+},
+{
+code = "u1828.fin u1828.finV1 u1828.med u1828.medV1 u1828.medV2 u1828.medV3 u1829.fin u1829.med u182A.fin u182A.finV1 u182A.med u182B.fin u182B.med u182C.fin u182C.finV1 u182C.med u182C.medV2 u182C.medV3 u182D.fin u182D.finV1 u182D.med u182D.medNV u182D.medV1 u182D.medV2 u182D.medV3 u182E.fin u182E.med u182F.fin u182F.med u1830.fin u1830.finV1 u1830.finV2 u1830.med u1831.fin u1831.med u1832.fin u1832.med u1832.medV1 u1833.fin u1833.finV1 u1833.med u1833.medV1 u1834.fin u1834.med u1835.fin u1835.med u1835.medV1 u1836.fin u1836.med u1836.medV1 u1836.medV2 u1837.fin u1837.med u1838.fin u1838.finV1 u1838.med u1839.fin u1839.med u183A.fin u183A.med u183A.medV1 u183B.fin u183B.med u183C.fin u183C.med u183D.fin u183D.med u183E.fin u183E.med u183F.fin u183F.med u1840.fin u1840.med u1841.fin u1841.med u1842.fin u1842.med u184A.fin u184A.med u184B.fin u184B.med u184C.fin u184C.med u184D.finFem u184D.med u184D.medFem u184E.fin u184E.med u184E.medV1 u184F.fin u184F.med u1850.fin u1850.med u1851.fin u1851.med u1852.fin u1852.med u1853.fin u1853.med u1854.fin u1854.med u1855.fin u1855.med u1856.fin u1856.med u1857.fin u1857.med u1858.fin u1858.med u1859.fin u1859.med u185A.fin u185A.med u185B.fin u185B.med u185C.fin u185C.med";
+name = class2;
+},
+{
+code = "u1828.med u1828.medV1 u1828.medV2 u1828.medV3 u1833.med u1833.medV1";
+name = class4;
+},
+{
+code = "u1821.ini u1821.med u1825.ini u1825.med u1826.ini u1826.med u1827.ini u1827.med";
+name = class7;
+},
+{
+code = "u1822.ini u1822.med u1828.ini u1828.iniV1 u1829.ini u182A.ini u182B.ini u182C.ini u182C.iniV1 u182C.iniV2 u182D.ini u182D.iniFem u182D.iniV1 u182D.iniV2 u182E.ini u182F.ini u1830.ini u1831.ini u1832.ini u1833.ini u1833.iniV1 u1834.ini u1835.ini u1836.ini u1836.iniV1 u1837.ini u1838.ini u1839.ini u183A.ini u183A.iniV1 u183B.ini u183C.ini u183D.ini u183E.ini u183F.ini u1840.ini u1841.ini u1842.ini";
+name = class9;
+},
+{
+code = "u1828.med u1828.medV1 u1828.medV2 u1828.medV3 u1829.med u182A.med u182B.med u182C.med u182C.medV2 u182C.medV3 u182D.med u182D.medNV u182D.medV1 u182D.medV2 u182D.medV3 u182E.med u182F.med u1830.med u1831.med u1832.med u1832.medV1 u1833.med u1833.medV1 u1834.med u1835.med u1835.medV1 u1836.med u1836.medV1 u1836.medV2 u1837.med u1838.med u1839.med u183A.med u183A.medV1 u183B.med u183C.med u183D.med u183E.med u183F.med u1840.med u1841.med u1842.med";
+name = class12;
+},
+{
+code = "u1821.fin u1821.med u1825.fin u1825.med u1826.fin u1826.med u1827.fin u1827.med";
+name = class24;
+},
+{
+code = "u1829.med u182A.med u182B.med u182E.med u182F.med u1830.med u1831.med u1832.med u1832.medV1 u1834.med u1835.med u1835.medV1 u1836.med u1836.medV1 u1836.medV2 u1837.med u1838.med u1839.med u183A.med u183A.medV1 u183B.med u183C.med u183D.med u183E.med u183F.med u1840.med u1841.med u1842.med";
+name = class46;
+},
+{
+code = "u1820.med u1822.med u1823.med u1824.med u1825.med u1826.med u1844.med u1845.med u1846.med u1847.med u1848.med u1849.med u185E.med u1873.med";
+name = class56;
+},
+{
+code = "u1828.med u1829.med u182A.med u182B.med u182C.med u182E.med u182F.med u1830.med u1831.med u1832.med u1833.med u1834.med u1835.med u1836.med u1837.med u1838.med u1839.med u183A.med u183B.med u183C.med u183D.med u183E.med u183F.med u1840.med u1841.med u1842.med";
+name = class57;
+},
+{
+code = "u1828.ini u1829.ini u182A.ini u182B.ini u182E.ini u182F.ini u1830.ini u1831.ini u1832.ini u1833.ini u1834.ini u1835.ini u1836.ini u1837.ini u1838.ini u1839.ini u183A.ini u183B.ini u183C.ini u183D.ini u183E.ini u183F.ini u1840.ini u1841.ini u1842.ini u184A.ini u184B.ini u184C.ini u184D.ini u184E.ini u184F.ini u1850.ini u1851.ini u1852.ini u1853.ini u1854.ini u1855.ini u1856.ini u1857.ini u1858.ini u1859.ini u185A.ini u185B.ini u185C.ini u1862.ini u1863.ini u1864.ini u1865.ini u1866.ini u1867.ini u1868.ini u1869.ini u186A.ini u186B.ini u186C.ini u186D.ini u186E.ini u186F.ini u1870.ini u1871.ini u1872.ini u1874.ini u1875.ini u1876.ini u1877.ini u1878.ini u1889.ini u188A.ini u188B.ini u188C.ini u188D.ini u188E.ini u188F.ini u1890.ini u1891.ini u1892.ini u1893.ini u1894.ini u1895.ini u1896.ini u1897.ini u1898.ini u1899.ini u189A.ini u189B.ini u189C.ini u189D.ini u189E.ini u189F.ini u18A0.ini u18A1.ini u18A2.ini u18A3.ini u18A4.ini u18A5.ini u18A7.ini u18A8.ini u18AA.ini";
+name = class58;
+},
+{
+code = "u1820.fin u1820.med u1823.fin u1823.med u1873.fin u1873.med";
+name = class59;
+},
+{
+code = "u1828.fin u1828.finV1 u1828.med u1828.medV1 u1828.medV2 u1828.medV3 u1829.fin u1829.med u182A.fin u182A.finV1 u182A.med u182B.fin u182B.med u182C.fin u182C.finV1 u182C.med u182C.medV2 u182C.medV3 u182D.fin u182D.finV1 u182D.med u182D.medNV u182D.medV1 u182D.medV2 u182D.medV3 u182E.fin u182E.med u182F.fin u182F.med u1830.fin u1830.finV1 u1830.finV2 u1830.med u1831.fin u1831.med u1832.fin u1832.med u1832.medV1 u1833.fin u1833.finV1 u1833.med u1833.medV1 u1834.fin u1834.med u1835.fin u1835.med u1835.medV1 u1836.fin u1836.med u1836.medV1 u1836.medV2 u1837.fin u1837.med u1838.fin u1838.finV1 u1838.med u1839.fin u1839.med u183A.fin u183A.med u183A.medV1 u183B.fin u183B.med u183C.fin u183C.med u183D.fin u183D.med u183E.fin u183E.med u183F.fin u183F.med u1840.fin u1840.med u1841.fin u1841.med u1842.fin u1842.med u1862.fin u1862.med u1863.fin u1863.med u1864.fin u1864.med u1865.fin u1865.med u1866.fin u1866.med u1867.fin u1867.med u1868.fin u1868.med u1869.fin u1869.med u186A.fin u186A.med u186B.fin u186B.med u186C.fin u186C.med u186D.fin u186D.med u186E.fin u186E.med u186F.fin u186F.med u1870.fin u1870.med u1871.fin u1871.med u1872.fin u1872.med u1874.fin u1874.med u1875.fin u1875.med u1876.fin u1876.med u1877.fin u1877.med u1878.fin u1878.med";
+name = class60;
+},
+{
+code = "u185D.fin u185D.med u1860.fin u1860.med u1861.fin u1861.med";
+name = class61;
+},
+{
+code = "u1820.ini u1820.med u1823.ini u1823.med u1860.ini u1860.med";
+name = class63;
+},
+{
+code = "u1820.ini u1820.med u1821.ini u1821.med u1822.med u1823.ini u1823.med u1824.ini u1824.med u1825.med u1826.med u1827.ini u1827.med";
+name = class64;
+},
+{
+code = "u1820.medV1 u1821.medV1 u1822.medV1 u1823.medV1 u1824.medV1 u1825.medV2 u1826.medV2";
+name = class65;
+},
+{
+code = "u182B.ini u182B.med u1839.ini u1839.med u183A.ini u183A.med u183B.ini u183B.med u1889.ini u1889.med u1892.ini u1892.med u1893.ini u1893.med u1897.ini u1897.med";
+name = class67;
+},
+{
+code = "u1821.ini u1821.med u1825.ini u1825.med u1826.ini u1826.med";
+name = class69;
+},
+{
+code = "u1821.fin u1821.med u1825.fin u1825.med u1826.fin u1826.med";
+name = class70;
+}
+);
+customParameters = (
+{
+name = openTypeOS2VendorID;
+value = GOOG;
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+NULL,
+CR,
+space,
+uni00A0,
+u1820.fin,
+u1823.med,
+u1823.fin,
+u1820.iniV1,
+u1823.finV1,
+u1822.med,
+u1822.medV1,
+u182E,
+u1829.med,
+u182F.fin,
+MongolianDot,
+u1828,
+u1828.ini,
+u1828.iniV1,
+u1826.iniV1,
+u180A,
+u182C.med,
+u182A_1822.ini,
+u182C_1822.ini,
+u182C_1822.med,
+u1830.fin,
+u1834.med,
+u1834.ini,
+tail,
+u182A_1822.med,
+u1837,
+u1837.ini,
+u1837.med,
+u1837.fin,
+u1832.med,
+u1832,
+u1832.ini,
+u1833,
+u1833.iniV1,
+u1833.ini,
+u1834,
+u1830.med,
+u182C.fin,
+u182C.finV1,
+u1830.ini,
+u182A_1823,
+u182A_1823.fin,
+u182A_1823.ini,
+u182A_1823.med,
+u182A_1824.ini,
+u182A_1824.med,
+u182A_1824.fin,
+u182A_1824,
+u1829,
+u1829.ini,
+u1829.fin,
+u1828.medV2,
+u1828.fin,
+u1828.finV1,
+u1822.fin,
+u1822.ini,
+u1820.medV1,
+u1820.medV2,
+u1821.ini,
+u1821.iniV1,
+u1821.med,
+u1824.fin,
+u1825.fin,
+u182A,
+u182A_1825,
+u182A_1825.fin,
+u182A_1825.ini,
+u182A_1825.med,
+u182A_1825.finV1,
+u182A_1826,
+u182F.ini,
+u182F.med,
+u182F,
+u1829_182F.med,
+u182E.fin,
+u182C.ini,
+u1831.ini,
+u1831.med,
+u1831,
+u1830,
+u1831.fin,
+u1830.finV1,
+u183E.med,
+u183F.ini,
+u183F.med,
+u1820,
+u1820.V1,
+u1820.ini,
+u182A_1820.ini,
+u1827.med,
+u182C_1825.V1,
+u182C_1825.iniV1,
+u182C_1821.ini,
+u182B_1820.ini,
+u1839_1823,
+u183B_1820.ini,
+u183C.ini,
+u1835.med,
+u1836.ini,
+u182C_1821.med,
+u182C_1825.fin,
+u182C_1825.ini,
+u182C,
+u182C.iniFem,
+u182B_1823,
+u182B_1823.med,
+u182B_1823.ini,
+u182B_1823.fin,
+u182B_1825.ini,
+u182B_1822.ini,
+u182B_1822.med,
+u182C_1825.med,
+u182C_1827.ini,
+u182C_1827.med,
+u182C_1827.iniV1,
+u182B_1827.ini,
+u182B_1827.med,
+u182A_1820.med,
+u182A_1827.ini,
+u182A_1827.med,
+u1821,
+u1838.ini,
+u1838.med,
+u182B_1820.med,
+u1802,
+u1839_1820.ini,
+u1839_1822.ini,
+u183A,
+u183A.ini,
+u183A.med,
+u1836,
+u1836.med,
+u182C_1821.iniV1,
+u182C_1821.medV1,
+u182C_1827.medV1,
+u1842,
+u1842.fin,
+u1842.ini,
+u1842.med,
+u1841.med,
+u1841.ini,
+u1841,
+u1841.fin,
+u1838.finV1,
+u182A.fin,
+u182B.fin,
+u183A.fin,
+u1843.med,
+u1843.ini,
+u1843.fin,
+u1843,
+u1843.finV1,
+u1845.med,
+u1866_1823,
+u1850,
+u1850.ini,
+u1850.med,
+u1850.fin,
+u184F,
+u1853.med,
+u1853.ini,
+u1853,
+u1846.fin,
+u1846.med,
+u184C.ini,
+u1822,
+u1826.isoV1,
+u184F.fin,
+u186E,
+u1823,
+u1824.ini,
+u1824.med,
+u1824.medV1,
+u1825.ini,
+u1825.medV2,
+u1826.ini,
+u183E.fin,
+u1834.fin,
+u1823.ini,
+u1823.medV1,
+u1825,
+u1825.finV1,
+u1833.fin,
+u182A_1825.V1,
+u182A_1825.medV1,
+u1826,
+u182C_1825,
+u1853.fin,
+u182A_182F.ini,
+u182E.med,
+u182E_182E.med,
+u182E_182F.med,
+u1830.finV2,
+u183E.ini,
+u1824,
+u182F_182F.med,
+u1833.finV1,
+u182D_182F.med,
+u182A_1822,
+u182A_1822.fin,
+u182B_1822.fin,
+u182C_1822.fin,
+u182E.ini,
+u1838.fin,
+MongolianRing,
+u182A.ini,
+u1844.med,
+u1845.medV1,
+u1845.fin,
+u1845,
+u1844.fin,
+u1844.medV1,
+u1845.ini,
+u1844.ini,
+u1844,
+u1846.medV1,
+u1846.ini,
+u1846,
+u1847,
+u1847.V1,
+u1847.ini,
+u1847.med,
+u1847.medV1,
+u1847.medV2,
+u1847.fin,
+u1847.finV1,
+u1848,
+u1848.ini,
+u1848.med,
+u1848.medV1,
+u1848.fin,
+u1849,
+u1849.V1,
+u1849.ini,
+u1849.med,
+u1849.medV1,
+u1849.fin,
+u184A,
+u184A.fin,
+u184A.ini,
+u184A.med,
+u184A_182F.med,
+u184B,
+u184B.ini,
+u184B.med,
+u184B.fin,
+u184B_1820,
+u184B_1820.ini,
+u184B_1820.med,
+u184B_1820.fin,
+u184B_182F.ini,
+u184B_182F.med,
+u184B_1844,
+u184B_1844.ini,
+u184B_1844.fin,
+u184B_1844.med,
+u184B_1845.ini,
+u184B_1845.med,
+u184B_1846,
+u184B_1846.ini,
+u184B_1846.med,
+u184B_1846.fin,
+u184B_1847,
+u184B_1847.ini,
+u184B_1847.med,
+u184B_1847.fin,
+u184B_1848,
+u184B_1848.ini,
+u184B_1848.med,
+u184B_1848.fin,
+u184B_1849,
+u184B_1849.ini,
+u184B_1849.med,
+u184B_1849.fin,
+u184C.med,
+u184C,
+u184C.fin,
+u184C_1823,
+u184C_1823.ini,
+u184C_1823.med,
+u184C_1823.fin,
+u184C_1844,
+u184C_1844.ini,
+u184C_1844.med,
+u184C_1844.fin,
+u184C_1845,
+u184C_1845.ini,
+u184C_1845.med,
+u184C_1845.fin,
+u184C_1820.ini,
+u184C_1820.med,
+u184C_1820.fin,
+u184C_1820,
+u184C_1846.ini,
+u184C_1846.med,
+u184C_1846.fin,
+u184C_1846,
+u184C_1847,
+u184C_1847.ini,
+u184C_1847.med,
+u184C_1847.fin,
+u184C_1848,
+u184C_1848.ini,
+u184C_1848.med,
+u184C_1848.fin,
+u184C_1849,
+u184C_1849.ini,
+u184C_1849.med,
+u184C_1849.fin,
+u184D,
+u184D.ini,
+u184D.med,
+u183B.ini,
+u183B.fin,
+u184D.finFem,
+u184F.ini,
+u184F.med,
+u184F_184F.med,
+u184F_182F.med,
+u1854,
+u1854.ini,
+u1854.med,
+u1854.fin,
+u185C,
+u185C.ini,
+u185C.med,
+u185C.fin,
+u1861,
+u1861.ini,
+u1861.med,
+u1861.fin,
+u1862.ini,
+u1862.med,
+u1862_182F.med,
+u1863.ini,
+u1863.med,
+u1821.fin,
+u1826.medV2,
+u1826.fin,
+u1826.finV1,
+u1827,
+u1827.ini,
+u1827.fin,
+u1828.medV3,
+u182A.med,
+u182A.finV1,
+u182A_1820,
+u182A_1820.fin,
+u182A_1821,
+u182A_1821.ini,
+u182A_1821.med,
+u182A_1821.fin,
+u182A_182F.med,
+u182C.medV3,
+u182A_1826.ini,
+u182A_1826.med,
+u182A_1826.medV1,
+u182A_1826.fin,
+u182A_1826.finV1,
+u182A_1827,
+u182A_1827.fin,
+u182B,
+u182B.ini,
+u182B.med,
+u182B_1820,
+u182B_1820.fin,
+u182B_1821,
+u182B_1821.ini,
+u182B_1821.med,
+u182B_1821.fin,
+u182B_1822,
+u182B_1824,
+u182B_1824.ini,
+u182B_1824.med,
+u182B_1824.fin,
+u182B_1825,
+u182B_1825.V1,
+u182B_1825.med,
+u182B_1825.fin,
+u182B_1825.medV1,
+u182B_1825.finV1,
+u182B_1826,
+u182B_1826.V1,
+u182B_1826.finV1,
+u182B_1826.med,
+u182B_1826.fin,
+u182B_1826.ini,
+u182B_1826.medV1,
+u182B_1827.fin,
+u182B_1827,
+u182C_1821,
+u182C_1821.V1,
+u182C_1821.fin,
+u182C_1821.finV1,
+u182C_1822,
+u182C_1822.V1,
+u182C_1822.medV1,
+u182C_1822.finV1,
+u1832.medV1,
+u1832.fin,
+u1835.V1,
+u1835,
+u1835.ini,
+u1835.medV1,
+u1835.fin,
+u1836.iniV1,
+u1836.medV1,
+u1836.medV2,
+u1836.fin,
+u183B,
+u183B.med,
+u183B_1820,
+u183B_1820.med,
+u183B_1820.fin,
+u183B_1821,
+u183B_1821.ini,
+u183B_1821.med,
+u183B_1821.fin,
+u183B_1822.ini,
+u183B_1822,
+u183B_1822.med,
+u183B_1822.fin,
+u183B_1823.ini,
+u183B_1823.med,
+u183B_1823,
+u183B_1823.fin,
+u183B_1824,
+u183B_1824.ini,
+u183B_1824.med,
+u183B_1824.fin,
+u183B_1825,
+u183B_1825.fin,
+u183B_1826,
+u183B_1826.fin,
+u183B_1825.med,
+u183B_1826.med,
+u183B_1825.V1,
+u183B_1825.finV1,
+u183B_1826.V1,
+u183B_1826.finV1,
+u183B_1825.ini,
+u182A_1826.V1,
+u1839_1820.med,
+u1839_1820,
+u1839,
+u1839.fin,
+u1839.ini,
+u1839.med,
+u1839_1820.fin,
+u1839_1821,
+u1839_1821.ini,
+u1839_1821.med,
+u1839_1821.fin,
+u1839_1822,
+u1839_1822.med,
+u1839_1822.fin,
+u1839_1823.ini,
+u1839_1823.med,
+u1839_1823.fin,
+u1839_1824,
+u1839_1824.ini,
+u1839_1824.med,
+u1839_1824.fin,
+u1839_1825,
+u1839_1825.med,
+u1839_1825.fin,
+u1839_1826,
+u1839_1826.med,
+u1839_1826.fin,
+u1839_1825.V1,
+u1839_1825.ini,
+u1839_1825.medV1,
+u1839_1826.ini,
+u1839_1826.medV1,
+u1839_1825.finV1,
+u1839_1826.V1,
+u1839_1826.finV1,
+u182C_1825.iniV3,
+u182C_1825.iniV2,
+u182C_1825.medV3,
+u182C_1825.finV2,
+u182C_1825.finV3,
+u182C_1826,
+u182C_1826.V3,
+u182C_1826.ini,
+u182C_1826.iniV3,
+u182C_1826.med,
+u182C_1826.medV2,
+u182C_1826.medV3,
+u182C_1826.fin,
+u182C_1826.finV1,
+u182C_1826.finV2,
+u182C_1826.finV3,
+u182C_1827,
+u182C_1827.V1,
+u182C_1827.fin,
+u182C_1827.finV1,
+u182D,
+u182D.ini,
+u182D.iniV1,
+u182D.fin,
+u182D_1821,
+u182D_1821.V1,
+u182D_1821.ini,
+u182D_1821.iniV1,
+u182D_1821.med,
+u182D_1821.medV1,
+u182D_1821.fin,
+u182D_1821.finV1,
+u182D_1822,
+u182D_1822.V1,
+u182D_1822.ini,
+u182D_1822.iniV1,
+u182D_1822.med,
+u182D_1822.medV1,
+u182D_1822.fin,
+u182D_1822.finV1,
+u182D_1825,
+u182D_1825.V2,
+u182D_1825.V3,
+u182D_1825.ini,
+u182D_1825.iniV1,
+u182D_1825.med,
+u182D_1825.medV2,
+u182D_1825.medV3,
+u182D_1825.fin,
+u182D_1825.finV2,
+u182D_1825.finV3,
+u182D_1826,
+u182D_1826.V1,
+u182D_1826.V2,
+u182D_1826.V3,
+u182D_1826.ini,
+u182D_1826.iniV1,
+u182D_1826.med,
+u182D_1826.medV1,
+u182D_1826.medV2,
+u182D_1826.medV3,
+u182D_1826.fin,
+u182D_1826.finV2,
+u182D_1826.finV3,
+u182D_1827,
+u182D_1827.V1,
+u182D_1827.ini,
+u182D_1827.iniV1,
+u182D_1827.med,
+u182D_1827.medV1,
+u182D_1827.fin,
+u182D_1827.finV1,
+u1838,
+u183A.iniV1,
+u183A.medV1,
+u183E,
+u183F,
+u183F.fin,
+u1840,
+u1840.ini,
+u1840.med,
+u1840.fin,
+u183D,
+u183D.ini,
+u183D.med,
+u183D.fin,
+u183A_1820.ini,
+u183A_1820.med,
+u183A_1820,
+u183A_1820.fin,
+u183A_1821,
+u183A_1821.ini,
+u183A_1821.med,
+u183A_1821.fin,
+u183A_1822.ini,
+u183A_1822,
+u183A_1822.med,
+u183A_1822.fin,
+u183A_1823,
+u183A_1823.ini,
+u183A_1823.med,
+u183A_1823.fin,
+u183A_1824,
+u183A_1824.ini,
+u183A_1824.med,
+u183A_1824.fin,
+u183A_1825,
+u183A_1825.V1,
+u183A_1825.finV1,
+u183A_1826.V1,
+u183A_1826.finV1,
+u183A_1825.med,
+u183A_1825.fin,
+u183A_1826,
+u183A_1826.fin,
+u183A_1826.med,
+u183A_1825.ini,
+u183A_1825.medV1,
+u183A_1826.ini,
+u183A_1826.medV1,
+u183A_1827.ini,
+u183A_1827.med,
+u183A_1827.fin,
+u183A_1827,
+u183B_1825.medV1,
+u183B_1826.ini,
+u183B_1826.medV1,
+u183B_1827.ini,
+u183B_1827.med,
+u183B_1827,
+u183B_1827.fin,
+u183C,
+u183C.med,
+u183C.fin,
+u182D.iniFem,
+u182D.iniV2,
+u184D.iniFem,
+u184D.medFem,
+u184D_1844.ini,
+u184D_1844.fin,
+u184D_1844,
+u184D_1844.med,
+u184D_1845.ini,
+u184D_1845,
+u184D_1845.med,
+u184D_1845.fin,
+u184D_1848,
+u184D_1848.ini,
+u184D_1848.med,
+u184D_1848.fin,
+u184D_1849,
+u184D_1849.ini,
+u184D_1849.med,
+u184D_1849.fin,
+u184E,
+u184E.ini,
+u184E.iniFem,
+u184E.med,
+u184E_1844,
+u184E_1844.ini,
+u184E_1844.med,
+u184E_1844.fin,
+u184E_1845.ini,
+u184E_1845.med,
+u184E_1845.fin,
+u184E_1845,
+u184E_1848,
+u184E_1848.ini,
+u184E_1848.med,
+u184E_1848.fin,
+u184E_1849,
+u184E_1849.ini,
+u184E_1849.med,
+u184E_1849.fin,
+u1852.med,
+u1852,
+u1852.fin,
+u1857,
+u1857.ini,
+u1857.med,
+u1857.fin,
+u1857_1820.ini,
+u1857_1820.med,
+u1857_1820.fin,
+u1857_1820,
+u1857_1846,
+u1857_1846.ini,
+u1857_1846.med,
+u1857_1846.fin,
+u1857_1847,
+u1857_1847.ini,
+u1857_1847.fin,
+u1857_1847.med,
+u1858,
+u1858.ini,
+u1858.med,
+u1858.fin,
+u1858_1820.ini,
+u1858_1820.med,
+u1858_1820.fin,
+u1858_1820,
+u1858_1846,
+u1858_1846.ini,
+u1858_1846.med,
+u1858_1846.fin,
+u1858_1847,
+u1858_1847.ini,
+u1858_1847.med,
+u1858_1847.fin,
+u1859,
+u1859.med,
+u1859.fin,
+u1859.ini,
+u185A,
+u185A.ini,
+u185A.med,
+u185A.fin,
+u185B,
+u1862,
+u185B.ini,
+u185B.med,
+u185B.fin,
+u184B_1845.fin,
+u184B_1845,
+u1851,
+u1851.med,
+u1851.ini,
+u1851.fin,
+u185D,
+u185D.fin,
+u185D.finV1,
+u185D.med,
+u185D.medV1,
+u185D.ini,
+u185D.finV2,
+u185D.finV3,
+u185E,
+u185E.ini,
+u185E.medV1,
+u185E.med,
+u185E.medV2,
+u185E.fin,
+u185E.finV1,
+u185E.finV2,
+u185E.finV3,
+u185F,
+u185F.ini,
+u185F.med,
+u185F.fin,
+u1860,
+u1860.ini,
+u1860.med,
+u1860.fin,
+u1860.medV1,
+u1860.finV1,
+u1860.finV2,
+u1860.finV3,
+u1860.medV2,
+u1862.fin,
+u1863.fin,
+u1863,
+u1863_185D,
+u1863_185D.ini,
+u1863_185D.med,
+u1863_185D.fin,
+u1863_185E.med,
+u1863_185E.fin,
+u1863_185E,
+u1863_185E.ini,
+u1863.iniFem,
+u1863_1860,
+u1863_1860.ini,
+u1863_1860.fin,
+u1863_1860.med,
+u1863.medV1,
+u1864,
+u1864.ini,
+u1864.iniV1,
+u1864.med,
+u1864.fin,
+u1864_185D,
+u1864_185D.ini,
+u1864_185D.med,
+u1864_185D.fin,
+u1864_185E,
+u1864_185E.ini,
+u1864_185E.med,
+u1864_185E.fin,
+u1864_1873,
+u1864_1873.ini,
+u1864_1873.med,
+u1864_1873.fin,
+u1864_1860,
+u1864_1860.ini,
+u1864_1860.med,
+u1864_1860.fin,
+u1865,
+u1865.ini,
+u1864.iniFem,
+u1865.iniFem,
+u1865.med,
+u1865.fin,
+u1865.medV1,
+u1865_185D,
+u1865_185D.ini,
+u1865_185D.med,
+u1865_185D.fin,
+u1865_185E,
+u1865_185E.ini,
+u1865_185E.med,
+u1865_185E.fin,
+u1865_1860,
+u1865_1860.ini,
+u1865_1860.med,
+u1865_1860.fin,
+u1865_1873,
+u1865_1873.ini,
+u1865_1873.med,
+u1865_1873.fin,
+u1866.ini,
+u1866,
+u1866.med,
+u1866.fin,
+u1866_1820.ini,
+u1866_1820,
+u1866_1820.fin,
+u1866_1820.med,
+u1866_1823.ini,
+u1866_185D.ini,
+u1866_1860.ini,
+u1866_1860,
+u1866_1823.med,
+u1866_1823.fin,
+u1866_185D,
+u1866_185D.med,
+u1866_185D.fin,
+u1866_185E.ini,
+u1866_185E,
+u1866_185E.med,
+u1866_185E.fin,
+u1866_1860.med,
+u1866_1860.fin,
+u1866_1861,
+u1866_1861.ini,
+u1866_1861.med,
+u1866_1861.fin,
+u1866_1873,
+u1866_1873.ini,
+u1866_1873.med,
+u1866_1873.fin,
+u1866_1888,
+u1866_1888.ini,
+u1866_1888.med,
+u1866_1888.fin,
+u1867,
+u1867.med,
+u1867.ini,
+u1867.fin,
+u1868.medV1,
+u1868.medV2,
+u1868.fin,
+u1868.iniV1,
+u1868,
+u1868.ini,
+u1868.med,
+u1869,
+u1869.iniV1,
+u1869.ini,
+u1869.med,
+u1869.fin,
+u1869.medV1,
+u186A.ini,
+u186A.med,
+u186A,
+u186A.fin,
+u186B,
+u186B.ini,
+u186B.med,
+u186B.fin,
+u186C,
+u186C.ini,
+u186C.med,
+u186C.fin,
+u186C_1820,
+u186C_1820.ini,
+u186C_1820.med,
+u186C_1820.fin,
+u186C_1823,
+u186C_1823.ini,
+u186C_1823.med,
+u186C_1823.fin,
+u186C_185D,
+u186C_185D.ini,
+u186C_185D.med,
+u186C_185D.fin,
+u186C_1860,
+u186C_1860.ini,
+u186C_1860.med,
+u186C_1860.fin,
+u186C_1888,
+u186C_1888.ini,
+u186C_1888.med,
+u186C_1888.fin,
+u186D,
+u186D.ini,
+u186D_1820,
+u186D_1820.ini,
+u186D_1823,
+u186D_1823.ini,
+u186D.med,
+u186D.fin,
+u186D_1820.med,
+u186D_1820.fin,
+u186D_1823.med,
+u186D_1823.fin,
+u186E.ini,
+u186E.med,
+u186E.fin,
+u186F,
+u186F.med,
+u186F.ini,
+u186F.fin,
+u186F.iniV1,
+u186F.medV1,
+u1870,
+u1870.ini,
+u1870.med,
+u1870.fin,
+FVS1,
+FVS2,
+FVS3,
+MVS,
+u1800,
+u1800.V1,
+u1800.V2,
+u1800.V3,
+u1800.V4,
+u1810,
+u1815,
+u1814,
+u1816,
+u1812,
+u1813,
+u1811,
+u1819,
+u1818,
+u1817,
+u1801,
+u1805,
+u1803,
+LeftTail,
+u1820.finV1,
+u1821.finV1,
+u1824.iso,
+u1826.iso,
+u182D.medNV,
+u182D.medV1,
+u182D.med,
+u182D.medV2,
+u182D.medV3,
+u1825.medV1,
+u1825.med,
+u1826.medV1,
+u1826.med,
+u1828.medV1,
+u1828.med,
+u182C.isoV1,
+u182C.isoV2,
+u182C.iniV1,
+u182C.iniV2,
+u182C.medV1,
+u182C.medV2,
+u182C_1822.iniV2,
+u182D.isoV2,
+u182D.finV1,
+u1833.medV1,
+u1833.med,
+u185D.iso,
+u185E.iso,
+u1861.iso,
+u1871,
+u1871.ini,
+u1871.med,
+u1871.fin,
+u1872,
+u1872.ini,
+u1872.med,
+u1872.fin,
+u1873.iso,
+u1873,
+u1873.ini,
+u1873.med,
+u1873.medV1,
+u1873.medV2,
+u1873.fin,
+u1873.finV2,
+u1874.finFem,
+u1874.finFemV1,
+u1874,
+u1874.fin,
+u1874.med,
+u1874.medV1,
+u1874.isoFem,
+u1874.ini,
+u1874_185D,
+u1874_185D.med,
+u1874_185D.ini,
+u1874_185D.fin,
+u1874_185E,
+u1874_185E.ini,
+u1874_185E.med,
+u1874_185E.fin,
+u1874_1860,
+u1874_1860.ini,
+u1874_1860.med,
+u1874_1860.fin,
+u1874_1861.iniV1,
+u1874_1861.medV1,
+u1874_1873,
+u1874_1873.ini,
+u1874_1873.med,
+u1874_1873.fin,
+u1875,
+u1875.ini,
+u1875.med,
+u1875.fin,
+u1876,
+u1876.ini,
+u1876.med,
+u1876.fin,
+u1877,
+u1877.ini,
+u1877.med,
+u1877.fin,
+u1878,
+u1878.ini,
+u1878.med,
+u1878.fin,
+u1880,
+u1880.V1,
+u1881,
+u1882,
+u1888.med,
+u1888.finV1,
+u1889_1820,
+u1889_1820.ini,
+u1889_1820.med,
+u1889_1820.fin,
+u1889_1822,
+u1889_1822.ini,
+u1889_1822.med,
+u1889_1822.fin,
+u1889_1823,
+u1889_1823.ini,
+u1889_1823.med,
+u1889_1823.fin,
+u1889_1826,
+u1889_1826.ini,
+u1889_1826.V1,
+u1889_1826.med,
+u1889_1826.fin,
+u1889_1826.iniV1,
+u1889_1826.medV1,
+u1889_1826.finV1,
+u1889_1844,
+u1889_1844.ini,
+u1889_1844.med,
+u1889_1844.fin,
+u1889_1845,
+u1889_1845.med,
+u1889_1845.fin,
+u1889_1845.ini,
+u1889_1846,
+u1889_1846.ini,
+u1889_1846.med,
+u1889_1846.fin,
+u1889_1847,
+u1889_1847.ini,
+u1889_1847.med,
+u1889_1847.fin,
+u1889_1888,
+u1889_1888.ini,
+u1889_1888.med,
+u1889_1888.fin,
+u188D,
+u18A6,
+u18A6.med,
+u18A6.ini,
+u18A6.fin,
+u188D.med,
+u188D.ini,
+u188D.fin,
+u1892,
+u1892.ini,
+u1892_1822.ini,
+u1892_1820,
+u1892_1820.ini,
+u1892_1820.med,
+u1892_1820.fin,
+u1892.med,
+u1892.fin,
+u1892_1822,
+u1892_1822.fin,
+u1892_1822.med,
+u1892_1823,
+u1892_1823.ini,
+u1892_1823.med,
+u1892_1823.fin,
+u1892_1826,
+u1892_1826.V1,
+u1892_1826.ini,
+u1892_1826.med,
+u1892_1826.fin,
+u1892_1826.finV1,
+u1892_1826.iniV1,
+u1892_1826.medV1,
+u1892_1860,
+u1892_1860.ini,
+u1892_1860.med,
+u1892_1860.fin,
+u1892_1873.med,
+u1892_1873.fin,
+u1892_1873,
+u1892_1873.ini,
+u1892_1888,
+u1892_1888.ini,
+u1892_1888.med,
+u1892_1888.fin,
+u1892_185D.med,
+u1892_185D.fin,
+u1892_185D,
+u1892_185D.ini,
+u1892_1827.ini,
+u1892_1827,
+u1892_1827.med,
+u1892_1827.fin,
+u1892_1844,
+u1892_1844.ini,
+u1892_1844.med,
+u1892_1844.fin,
+u1892_1845.ini,
+u1892_1845,
+u1892_1845.med,
+u1892_1845.fin,
+u1892_1847,
+u1892_1847.ini,
+u1892_1847.med,
+u1892_1847.fin,
+u1895,
+u1895.ini,
+u1895.med,
+u1895.fin,
+u1896,
+u1896.med,
+u1896.ini,
+u1896.fin,
+ZWJ,
+ZWNJ,
+u189A.med,
+u189A.fin,
+u189A,
+u189A.ini,
+u189B,
+u189B.med,
+u189B.ini,
+u189B.fin,
+u189C,
+u189C.med,
+u189C.ini,
+u189C.fin,
+u18A8_1873,
+u18A8_1873.ini,
+u18A8_1873.med,
+u18A8_1873.fin,
+u18A8_1888,
+u18A8_1888.med,
+u18A8_1888.fin,
+u18A8_1888.ini,
+u18A8_1860,
+u18A8_1860.ini,
+u18A8_1860.med,
+u18A8_1860.fin,
+u18A8_185D,
+u18A8_185D.ini,
+u18A8_185D.med,
+u18A8_185D.fin,
+u18A8_1823,
+u18A8_1823.ini,
+u18A8_1823.med,
+u18A8_1823.fin,
+u18A8_1820,
+u18A8_1820.ini,
+u18A8_1820.med,
+u18A8_1820.fin,
+u18A8,
+u18A8.ini,
+u18A8.med,
+u18A8.fin,
+u18A5,
+u18A5.ini,
+u18A5.med,
+u18A5.fin,
+u18A2,
+u18A2.ini,
+u18A2.med,
+u18A2.fin,
+u18A1,
+u18A1.ini,
+u18A1.iniV1,
+u18A1.med,
+u18A1.fin,
+u18A1.medV1,
+u188F,
+u188F.fin,
+u188F.med,
+u188F.ini,
+u188A,
+u188A.ini,
+u18A3,
+u18A3.ini,
+u189E,
+u189E.ini,
+u18A3.med,
+u18A3.fin,
+u189E.med,
+u189E.fin,
+u189F,
+u189F.ini,
+u189F.med,
+u189F.fin,
+u18A4,
+u18A4.ini,
+u18A4.med,
+u18A4.fin,
+u1852.ini,
+u1890,
+u1890.med,
+u1890.ini,
+u1890.fin,
+u1898,
+u1898.ini,
+u1898.med,
+u1898.fin,
+u18A0,
+u18A0.ini,
+u18A0.med,
+u18A0.fin,
+u1891,
+u1891.med,
+u1891.ini,
+u1891.fin,
+u188B,
+u188B.med,
+u188B.ini,
+u188B.fin,
+u1893,
+u1893.ini,
+u1893.med,
+u1893.fin,
+u1893_1822.ini,
+u1893_1823,
+u1893_1823.ini,
+u1893_1827.ini,
+u1893_1820.ini,
+u1893_1820,
+u1893_1820.med,
+u1893_1820.fin,
+u1893_1822,
+u1893_1822.med,
+u1893_1822.fin,
+u1893_1823.fin,
+u1893_1826,
+u1893_1823.med,
+u1893_1826.ini,
+u1893_1826.V1,
+u1893_1826.iniV1,
+u1893_1826.medV1,
+u1893_1826.med,
+u1893_1826.fin,
+u1893_1826.finV1,
+u1893_1827,
+u1893_1827.med,
+u1893_1827.fin,
+u1893_1888,
+u1893_1888.ini,
+u1893_1888.med,
+u1893_1888.fin,
+u1894,
+u1894.ini,
+u1894.med,
+u1894.fin,
+u1897,
+u1897.ini,
+u1897.med,
+u1897.fin,
+u189D,
+u189D.med,
+u189D.ini,
+u189D.fin,
+u1899,
+u1899.ini,
+u1899.med,
+u1899.fin,
+u18A7,
+u18A7.ini,
+u18A7.med,
+u18A7.fin,
+u188C,
+u188C.ini,
+u188C.med,
+u188C.fin,
+u1873.medV3,
+u1873.finV1,
+u1873.finV3,
+u1839_1888,
+u1839_1888.ini,
+u1839_1888.med,
+u1839_1888.fin,
+u1839_1827.ini,
+u1839_1827,
+u1839_1827.med,
+u1839_1827.fin,
+u183B_1847.ini,
+u183B_1847,
+u183B_1847.med,
+u183B_1847.fin,
+u183B_1888,
+u183B_1888.med,
+u183B_1888.fin,
+u183B_1888.ini,
+u184E.medV1,
+u18A9,
+u1855,
+u1855.ini,
+u1855.med,
+u1855.fin,
+u1856,
+u1856.med,
+u1856.ini,
+u1856.fin,
+u184E.fin,
+u1876.iniV1,
+u1876.medV1,
+u188E,
+u188E.ini,
+u188E.med,
+u188E.fin,
+u188A.med,
+u188A.iniV1,
+u188A.medV1,
+u18AA,
+u1889_1827.med,
+u1889_1827.fin,
+u1889_1827,
+u1889_1827.ini,
+u182B_1888,
+u182B_1888.med,
+u182B_1888.fin,
+u182B_1888.ini,
+u182C_1888,
+u182C_1888.V1,
+u182C_1888.fin,
+u182C_1888.finV1,
+u182C_1888.ini,
+u182C_1888.iniV1,
+u182C_1888.med,
+u182C_1888.medV1,
+u1883,
+u1885,
+u1886,
+u1881.V1,
+u1874.medFem,
+u1874.medFemV1,
+u1820_1843.fin,
+u1804,
+NNBSP,
+u188A.fin,
+u182A_1844,
+u182A_1844.ini,
+u182A_1845,
+u182A_1845.ini,
+u182A_1844.med,
+u182A_1844.fin,
+u182A_1845.med,
+u182A_1845.fin,
+u182A_1847,
+u182A_1847.ini,
+u182A_1847.med,
+u182A_1847.fin,
+u182A_1848,
+u182A_1848.ini,
+u182A_1848.med,
+u182A_1848.fin,
+u182A_1849,
+u182A_1849.ini,
+u182A_1849.med,
+u182A_1849.fin,
+u182A_185D,
+u182A_185D.ini,
+u182A_185D.med,
+u182A_185D.fin,
+u182A_185E.med,
+u182A_185E.fin,
+u182A_185E.ini,
+u182A_185E,
+u182A_1860,
+u182A_1860.ini,
+u182A_1860.med,
+u182A_1860.fin,
+u182A_1861.med,
+u182A_1861.fin,
+u182A_1861.ini,
+u182A_1861,
+u182A_1873,
+u182A_1873.ini,
+u182A_1873.med,
+u182A_1873.fin,
+u182A_1888,
+u182A_1888.ini,
+u182A_1888.med,
+u182A_1888.fin,
+u183A_1844.ini,
+u183A_1844,
+u183A_1844.med,
+u183A_1844.fin,
+u183A_1845,
+u183A_1845.ini,
+u183A_1845.med,
+u183A_1845.fin,
+u183A_1847,
+u183A_1847.ini,
+u183A_1847.med,
+u183A_1847.fin,
+u183A_185D,
+u183A_185D.ini,
+u183A_185D.med,
+u183A_185D.fin,
+u183A_1860,
+u183A_1860.ini,
+u183A_1860.med,
+u183A_1860.fin,
+u183A_1873,
+u183A_1873.ini,
+u183A_1873.med,
+u183A_1873.fin,
+u183A_1888.ini,
+u183A_1888.med,
+u183A_1888.fin,
+u183A_1888,
+u182D_1888,
+u182D_1888.V1,
+u182D_1888.ini,
+u182D_1888.iniV1,
+u182D_1888.med,
+u182D_1888.medV1,
+u182D_1888.fin,
+u182D_1888.finV1,
+u1889.med,
+u1889,
+u1889.ini,
+u1888.finV2,
+u1889.fin,
+u1888.medV1,
+u1888.ini,
+u1887.finV1,
+u1887.fin,
+u1887,
+u1887.V1,
+u1887.finV2,
+u1887.finV3,
+u1888,
+u1888.fin,
+u1806,
+u1807,
+u1807.med,
+u1808,
+u1809,
+u2048,
+u2049,
+u3001,
+u3002,
+dottedcircle,
+uFE3D,
+uFE3E,
+uFE41,
+uFE42,
+uFE43,
+uFE44,
+u2460,
+u2466,
+u2461,
+u2462,
+u2463,
+u2464,
+u2465,
+u2467,
+u2468,
+u2469,
+u2473,
+u246A,
+u246B,
+u246C,
+u246D,
+u246E,
+u246F,
+u2470,
+u2471,
+u2472,
+hyphen,
+endash,
+emdash,
+u182C_1825.V2,
+u182C_1825.V3,
+u182C_1825.medV2,
+u182C_1825.medV1,
+u182C_1825.finV1,
+u182C_1826.V2,
+u182C_1826.V1,
+u182C_1826.iniV1,
+u182C_1826.iniV2,
+u182C_1826.medV1,
+u182D_1825.V1,
+u182D_1825.medV1,
+u182D_1825.finV1,
+u182D_1826.finV1,
+u1884,
+u18AA.ini,
+u18AA.med,
+exclam,
+question,
+u1820.med,
+u182E_1820_1.finV1,
+u182Cv1_1820_1.finV1,
+u1822.medV2,
+u1821.medV1,
+u1838.medV1,
+u182F.medx,
+u182D_182F.ini,
+u184A_182F.ini,
+u1862_182F.ini,
+u11660,
+u11661,
+u11662,
+u11663,
+u11664,
+u11665,
+u11666,
+u11667,
+u11668,
+u11669,
+u1166A,
+u1166B,
+u1166C,
+u1846_1843.fin,
+u1848_1843.fin,
+u184E.iniV1,
+exclam.v,
+question.v,
+u2049.v,
+u2048.v,
+parenleft,
+parenright,
+u300A,
+u300B,
+u300C,
+u300D,
+u300E,
+u300F,
+parenleft.v,
+parenright.v,
+u300C.v,
+u300D.v,
+u300A.v,
+u300B.v,
+u300E.v,
+u300F.v,
+endash.v,
+emdash.v,
+quotedblleft,
+quotedblright,
+quotedbl,
+quotedblleft.v,
+quotedblright.v,
+quotedbl.v,
+u3001.v,
+u3002.v
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = codePageRanges;
+value = (
+1252
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+31,
+42,
+45,
+48,
+57,
+65,
+81
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+}
+);
+date = "2019-09-23 18:22:52 +0000";
+familyName = "Noto Sans Mongolian";
+featurePrefixes = (
+{
+code = "lookup SingleSubstitution25 {
+    lookupflag 0;
+    ;
+    # Original source: 24 
+    sub u1828.finV1 by u1828.fin;
+    sub u1822 by u1822.fin;
+    sub u1824.iso by u1824.fin;
+    sub u1826.iso by u1826.fin;
+    sub u182D.medV3 by u182D.fin;
+    sub u185E.iso by u185E.fin;
+    sub u1873.iso by u1873.fin;
+} SingleSubstitution25;
+";
+name = SingleSubstitution25;
+},
+{
+code = "lookup SingleSubstitution23 {
+    lookupflag 0;
+    ;
+    # Original source: 22 
+    sub u1833 by u1833.med;
+    sub u1833.ini by u1833.med;
+    sub u1822.ini by u1822.med;
+    sub u1822 by u1822.med;
+    sub u1824.ini by u1824.med;
+    sub u1826.ini by u1826.med;
+    sub u1824.iso by u1824.med;
+    sub u1826.iso by u1826.med;
+} SingleSubstitution23;
+";
+name = SingleSubstitution23;
+},
+{
+code = "lookup SingleSubstitution24 {
+    lookupflag 0;
+    ;
+    # Original source: 23 
+    sub u182D.ini by u182D.iniFem;
+    sub u184E.ini by u184E.iniFem;
+    sub u1874.fin by u1874.finFem;
+    sub u1874.med by u1874.medFem;
+} SingleSubstitution24;
+";
+name = SingleSubstitution24;
+},
+{
+code = "lookup SingleSubstitution21 {
+    lookupflag 0;
+    ;
+    # Original source: 20 
+    sub u1822.med by u1822.medV2;
+    sub u1828.fin by u1828.medV2;
+    sub u1847.med by u1847.medV2;
+    sub u1860.med by u1860.medV2;
+    sub u1868.med by u1868.medV2;
+    sub u182D.medV1 by u182D.medV2;
+    sub u182D.med by u182D.medV2;
+    sub u1825.medV1 by u1825.medV2;
+    sub u1826.medV1 by u1826.medV2;
+    sub u1873.med by u1873.medV2;
+} SingleSubstitution21;
+";
+name = SingleSubstitution21;
+},
+{
+code = "lookup SingleSubstitution20 {
+    lookupflag 0;
+    ;
+    # Original source: 19 
+    sub u1820 by u1820.finV1;
+    sub u1821 by u1821.finV1;
+    sub u1838.fin by u1838.finV1;
+    sub u1835 by u1835.medV1;
+    sub u1835.fin by u1835.medV1;
+} SingleSubstitution20;
+";
+name = SingleSubstitution20;
+},
+{
+code = "lookup SingleSubstitution19 {
+    lookupflag 0;
+    ;
+    # Original source: 18 
+    sub u1823.med by u1823.medV1;
+    sub u1823.fin by u1823.finV1;
+    sub u1822.med by u1822.medV1;
+    sub u182C.med by u182C.medV1;
+    sub u1833.ini by u1833.iniV1;
+    sub u182F.med by u182F.medx;
+    sub u182C.ini by u182C.iniV1;
+    sub u1820 by u1820.V1;
+    sub u1820.ini by u1820.iniV1;
+    sub u1836.ini by u1836.iniV1;
+    sub u1845.med by u1845.medV1;
+    sub u1846.med by u1846.medV1;
+    sub u1824.med by u1824.medV1;
+    sub u1844.med by u1844.medV1;
+    sub u1847.med by u1847.medV1;
+    sub u1848.med by u1848.medV1;
+    sub u1849.med by u1849.medV1;
+    sub u182D.ini by u182D.iniV1;
+    sub u184E.ini by u184E.iniV1;
+    sub u184E.med by u184E.medV1;
+    sub u185E.med by u185E.medV1;
+    sub u1868.ini by u1868.iniV1;
+    sub u1868.med by u1868.medV1;
+    sub u1869.ini by u1869.iniV1;
+    sub u1869.med by u1869.medV1;
+    sub u182D.med by u182D.medV1;
+    sub u1825.med by u1825.medV1;
+    sub u1826.med by u1826.medV1;
+    sub u1828.med by u1828.medV1;
+    sub u1833.med by u1833.medV1;
+    sub u1873.med by u1873.medV1;
+    sub u1874.med by u1874.medV1;
+    sub u1876.ini by u1876.iniV1;
+    sub u1876.med by u1876.medV1;
+    sub u1820.med by u1820.medV1;
+} SingleSubstitution19;
+";
+name = SingleSubstitution19;
+},
+{
+code = "lookup SingleSubstitution22 {
+    lookupflag 0;
+    ;
+    # Original source: 21 
+    sub u1828.ini by u1828.medV3;
+    sub u182D.fin by u182D.medV3;
+    sub u182D.med by u182D.medV3;
+} SingleSubstitution22;
+";
+name = SingleSubstitution22;
+},
+{
+code = "";
+name = ChainedContextualGSUB18;
+},
+{
+code = "languagesystem mong dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+code = "sub u1828 FVS2 by u1828.finV1;
+sub u1833 FVS1 by u1833.finV1;
+sub u182A FVS1 by u182A.finV1;
+sub u1830 FVS1 by u1830.finV1;
+sub u1830 FVS2 by u1830.finV2;
+sub u1820 FVS1 by u1820.finV1;
+sub u182C FVS1 by u182C.finV1;
+sub u1821 FVS1 by u1821.finV1;
+sub u1843 FVS1 by u1843.finV1;
+sub u1823 FVS1 by u1823.finV1;
+sub u1847 FVS1 by u1847.finV1;
+sub u182D FVS1 by u182D.finV1;
+sub u1838 FVS1 by u1838.finV1;
+sub u185D FVS1 by u185D.finV1;
+sub u185D FVS2 by u185D.finV2;
+sub u185D FVS3 by u185D.finV3;
+sub u185E FVS1 by u185E.finV1;
+sub u185E FVS2 by u185E.finV2;
+sub u185E FVS3 by u185E.finV3;
+sub u1860 FVS1 by u1860.finV1;
+sub u1860 FVS2 by u1860.finV2;
+sub u1860 FVS3 by u1860.finV3;
+sub u1873 FVS1 by u1873.finV1;
+sub u1873 FVS2 by u1873.finV2;
+sub u1873 FVS3 by u1873.finV3;
+sub u1874 FVS1 by u1874.finFem;
+sub u1874 FVS2 by u1874.finFemV1;
+sub u1887 FVS1 by u1887.finV1;
+sub u1887 FVS2 by u1887.finV2;
+sub u1887 FVS3 by u1887.finV3;
+sub u1888 FVS1 by u1888.finV1;
+sub u1888 FVS2 by u1888.finV2;
+
+sub u182E by u182E.fin;
+sub u1828 by u1828.fin;
+sub u1837 by u1837.fin;
+sub u1832 by u1832.fin;
+sub u1833 by u1833.fin;
+sub u1834 by u1834.fin;
+sub u1829 by u1829.fin;
+sub u182A by u182A.fin;
+sub u182F by u182F.fin;
+sub u1831 by u1831.fin;
+sub u1830 by u1830.fin;
+sub u1820 by u1820.fin;
+sub u182C by u182C.fin;
+sub u1821 by u1821.fin;
+sub u183A by u183A.fin;
+sub u1836 by u1836.fin;
+sub u1842 by u1842.fin;
+sub u1841 by u1841.fin;
+sub u1843 by u1843.fin;
+sub u1850 by u1850.fin;
+sub u184F by u184F.fin;
+sub u1853 by u1853.fin;
+sub u1822 by u1822.fin;
+sub u186E by u186E.fin;
+sub u1823 by u1823.fin;
+sub u1825 by u1825.fin;
+sub u1826 by u1826.fin;
+sub u1824 by u1824.fin;
+sub u1845 by u1845.fin;
+sub u1844 by u1844.fin;
+sub u1846 by u1846.fin;
+sub u1847 by u1847.fin;
+sub u1848 by u1848.fin;
+sub u1849 by u1849.fin;
+sub u184A by u184A.fin;
+sub u184B by u184B.fin;
+sub u184C by u184C.fin;
+sub u184D by u184D.finFem;
+sub u1854 by u1854.fin;
+sub u185C by u185C.fin;
+sub u1861 by u1861.fin;
+sub u1827 by u1827.fin;
+sub u182B by u182B.fin;
+sub u1835 by u1835.fin;
+sub u183B by u183B.fin;
+sub u1839 by u1839.fin;
+sub u182D by u182D.fin;
+sub u1838 by u1838.fin;
+sub u183E by u183E.fin;
+sub u183F by u183F.fin;
+sub u1840 by u1840.fin;
+sub u183D by u183D.fin;
+sub u183C by u183C.fin;
+sub u184E by u184E.fin;
+sub u1852 by u1852.fin;
+sub u1857 by u1857.fin;
+sub u1858 by u1858.fin;
+sub u1859 by u1859.fin;
+sub u185A by u185A.fin;
+sub u185B by u185B.fin;
+sub u1862 by u1862.fin;
+sub u1851 by u1851.fin;
+sub u185D by u185D.fin;
+sub u185E by u185E.fin;
+sub u185F by u185F.fin;
+sub u1860 by u1860.fin;
+sub u1863 by u1863.fin;
+sub u1864 by u1864.fin;
+sub u1865 by u1865.fin;
+sub u1866 by u1866.fin;
+sub u1867 by u1867.fin;
+sub u1868 by u1868.fin;
+sub u1869 by u1869.fin;
+sub u186A by u186A.fin;
+sub u186B by u186B.fin;
+sub u186C by u186C.fin;
+sub u186D by u186D.fin;
+sub u186F by u186F.fin;
+sub u1870 by u1870.fin;
+sub u1871 by u1871.fin;
+sub u1872 by u1872.fin;
+sub u1873 by u1873.fin;
+sub u1874 by u1874.fin;
+sub u1875 by u1875.fin;
+sub u1876 by u1876.fin;
+sub u1877 by u1877.fin;
+sub u1878 by u1878.fin;
+sub u188D by u188D.fin;
+sub u18A6 by u18A6.fin;
+sub u1892 by u1892.fin;
+sub u1895 by u1895.fin;
+sub u1896 by u1896.fin;
+sub u189A by u189A.fin;
+sub u189B by u189B.fin;
+sub u189C by u189C.fin;
+sub u18A8 by u18A8.fin;
+sub u18A5 by u18A5.fin;
+sub u18A2 by u18A2.fin;
+sub u18A1 by u18A1.fin;
+sub u188F by u188F.fin;
+sub u188A by u188A.fin;
+sub u18A3 by u18A3.fin;
+sub u189E by u189E.fin;
+sub u189F by u189F.fin;
+sub u18A4 by u18A4.fin;
+sub u1890 by u1890.fin;
+sub u1898 by u1898.fin;
+sub u18A0 by u18A0.fin;
+sub u1891 by u1891.fin;
+sub u188B by u188B.fin;
+sub u1893 by u1893.fin;
+sub u1894 by u1894.fin;
+sub u1897 by u1897.fin;
+sub u189D by u189D.fin;
+sub u1899 by u1899.fin;
+sub u18A7 by u18A7.fin;
+sub u188C by u188C.fin;
+sub u1855 by u1855.fin;
+sub u1856 by u1856.fin;
+sub u188E by u188E.fin;
+sub u1889 by u1889.fin;
+sub u1887 by u1887.fin;
+sub u1888 by u1888.fin;
+";
+tag = fina;
+},
+{
+code = "    sub u1828 FVS1 by u1828.iniV1;
+    sub u1828 FVS2 by u1828.medV3;
+    sub u1833 FVS1 by u1833.iniV1;
+    sub u1820 FVS1 by u1820.iniV1;
+    sub u182C FVS1 by u182C.iniV1;
+    sub u182C FVS2 by u182C.iniV2;
+    sub u1821 FVS1 by u1821.iniV1;
+    sub u183A FVS1 by u183A.iniV1;
+    sub u1836 FVS1 by u1836.iniV1;
+    sub u184D FVS1 by u184D.iniFem;
+    sub u182D FVS1 by u182D.iniV1;
+    sub u182D FVS2 by u182D.iniV2;
+    sub u184E FVS1 by u184E.iniFem;
+    sub u1863 FVS1 by u1863.iniFem;
+    sub u1864 FVS1 by u1864.iniV1;
+    sub u1868 FVS1 by u1868.iniV1;
+    sub u1869 FVS1 by u1869.iniV1;
+    sub u186F FVS1 by u186F.iniV1;
+    sub u1874 FVS1 by u1874.isoFem;
+    sub u1876 FVS1 by u1876.iniV1;
+    sub u18A1 FVS1 by u18A1.iniV1;
+    sub u188A FVS1 by u188A.iniV1;
+
+    sub u182E by u182E.ini;
+    sub u1828 by u1828.ini;
+    sub u1837 by u1837.ini;
+    sub u1832 by u1832.ini;
+    sub u1833 by u1833.ini;
+    sub u1834 by u1834.ini;
+    sub u1829 by u1829.ini;
+    sub u182A by u182A.ini;
+    sub u182F by u182F.ini;
+    sub u1831 by u1831.ini;
+    sub u1830 by u1830.ini;
+    sub u1820 by u1820.ini;
+    sub u182C by u182C.ini;
+    sub u1821 by u1821.ini;
+    sub u183A by u183A.ini;
+    sub u1836 by u1836.ini;
+    sub u1842 by u1842.ini;
+    sub u1841 by u1841.ini;
+    sub u1843 by u1843.ini;
+    sub u1850 by u1850.ini;
+    sub u184F by u184F.ini;
+    sub u1853 by u1853.ini;
+    sub u1822 by u1822.ini;
+    sub u186E by u186E.ini;
+    sub u1823 by u1823.ini;
+    sub u1825 by u1825.ini;
+    sub u1826 by u1826.ini;
+    sub u1824 by u1824.ini;
+    sub u1845 by u1845.ini;
+    sub u1844 by u1844.ini;
+    sub u1846 by u1846.ini;
+    sub u1847 by u1847.ini;
+    sub u1848 by u1848.ini;
+    sub u1849 by u1849.ini;
+    sub u184A by u184A.ini;
+    sub u184B by u184B.ini;
+    sub u184C by u184C.ini;
+    sub u184D by u184D.ini;
+    sub u1854 by u1854.ini;
+    sub u185C by u185C.ini;
+    sub u1861 by u1861.ini;
+    sub u1827 by u1827.ini;
+    sub u182B by u182B.ini;
+    sub u1835 by u1835.ini;
+    sub u183B by u183B.ini;
+    sub u1839 by u1839.ini;
+    sub u182D by u182D.ini;
+    sub u1838 by u1838.ini;
+    sub u183E by u183E.ini;
+    sub u183F by u183F.ini;
+    sub u1840 by u1840.ini;
+    sub u183D by u183D.ini;
+    sub u183C by u183C.ini;
+    sub u184E by u184E.ini;
+    sub u1852 by u1852.ini;
+    sub u1857 by u1857.ini;
+    sub u1858 by u1858.ini;
+    sub u1859 by u1859.ini;
+    sub u185A by u185A.ini;
+    sub u185B by u185B.ini;
+    sub u1862 by u1862.ini;
+    sub u1851 by u1851.ini;
+    sub u185D by u185D.ini;
+    sub u185E by u185E.ini;
+    sub u185F by u185F.ini;
+    sub u1860 by u1860.ini;
+    sub u1863 by u1863.ini;
+    sub u1864 by u1864.ini;
+    sub u1865 by u1865.ini;
+    sub u1866 by u1866.ini;
+    sub u1867 by u1867.ini;
+    sub u1868 by u1868.ini;
+    sub u1869 by u1869.ini;
+    sub u186A by u186A.ini;
+    sub u186B by u186B.ini;
+    sub u186C by u186C.ini;
+    sub u186D by u186D.ini;
+    sub u186F by u186F.ini;
+    sub u1870 by u1870.ini;
+    sub u1871 by u1871.ini;
+    sub u1872 by u1872.ini;
+    sub u1873 by u1873.ini;
+    sub u1874 by u1874.ini;
+    sub u1875 by u1875.ini;
+    sub u1876 by u1876.ini;
+    sub u1877 by u1877.ini;
+    sub u1878 by u1878.ini;
+    sub u188D by u188D.ini;
+    sub u18A6 by u18A6.ini;
+    sub u1892 by u1892.ini;
+    sub u1895 by u1895.ini;
+    sub u1896 by u1896.ini;
+    sub u189A by u189A.ini;
+    sub u189B by u189B.ini;
+    sub u189C by u189C.ini;
+    sub u18A8 by u18A8.ini;
+    sub u18A5 by u18A5.ini;
+    sub u18A2 by u18A2.ini;
+    sub u18A1 by u18A1.ini;
+    sub u188F by u188F.ini;
+    sub u188A by u188A.ini;
+    sub u18A3 by u18A3.ini;
+    sub u189E by u189E.ini;
+    sub u189F by u189F.ini;
+    sub u18A4 by u18A4.ini;
+    sub u1890 by u1890.ini;
+    sub u1898 by u1898.ini;
+    sub u18A0 by u18A0.ini;
+    sub u1891 by u1891.ini;
+    sub u188B by u188B.ini;
+    sub u1893 by u1893.ini;
+    sub u1894 by u1894.ini;
+    sub u1897 by u1897.ini;
+    sub u189D by u189D.ini;
+    sub u1899 by u1899.ini;
+    sub u18A7 by u18A7.ini;
+    sub u188C by u188C.ini;
+    sub u1855 by u1855.ini;
+    sub u1856 by u1856.ini;
+    sub u188E by u188E.ini;
+    sub u18AA by u18AA.ini;
+    sub u1889 by u1889.ini;
+    sub u1888 by u1888.ini;
+";
+tag = init;
+},
+{
+code = "sub u1828 FVS1 by u1828.iniV1;
+sub u1820 FVS1 by u1820.V1;
+sub u182C FVS1 by u182C.isoV1;
+sub u182C FVS2 by u182C.isoV2;
+sub u1847 FVS1 by u1847.V1;
+sub u1849 FVS1 by u1849.V1;
+sub u1861 FVS1 by u1861.iso;
+sub u1835 FVS1 by u1835.V1;
+sub u182D FVS1 by u182C.isoV1;
+sub u182D FVS2 by u182D.isoV2;
+sub u184E FVS1 by u184E.iniFem;
+sub u185D FVS1 by u185D.iso;
+sub u185E FVS1 by u185E.iso;
+sub u1873 FVS1 by u1873.iso;
+sub u1874 FVS1 by u1874.isoFem;
+sub u1887 FVS1 by u1887.V1;
+
+sub u1826 by u1826.iso;
+sub u1824 by u1824.iso;
+sub u1861 by u1861.iso;
+sub u185D by u185D.iso;
+sub u185E by u185E.iso;
+sub u1863 by u1863.iniFem;
+sub u1864 by u1864.iniFem;
+sub u1865 by u1865.iniFem;
+sub u1873 by u1873.iso;
+sub u1874 by u1874.isoFem;";
+tag = isol;
+},
+{
+code = "sub u1828 FVS1 by u1828.medV1;
+sub u1828 FVS2 by u1828.medV2;
+sub u1828 FVS3 by u1828.medV3;
+sub u1832 FVS1 by u1832.medV1;
+sub u1833 FVS1 by u1833.medV1;
+sub u1820 FVS1 by u1820.medV1;
+sub u1820 FVS2 by u1820.medV2;
+sub u182C FVS1 by u182C.medV1;
+sub u182C FVS2 by u182C.medV2;
+sub u182C FVS3 by u182C.medV3;
+sub u1821 FVS1 by u1821.medV1;
+sub u183A FVS1 by u183A.medV1;
+sub u1836 FVS1 by u1836.medV1;
+sub u1836 FVS2 by u1836.medV2;
+sub u1822 FVS1 by u1822.medV1;
+sub u1823 FVS1 by u1823.medV1;
+sub u1825 FVS1 by u1825.medV1;
+sub u1825 FVS2 by u1825.medV2;
+sub u1826 FVS1 by u1826.medV1;
+sub u1826 FVS2 by u1826.medV2;
+sub u1824 FVS1 by u1824.medV1;
+sub u1845 FVS1 by u1845.medV1;
+sub u1844 FVS1 by u1844.medV1;
+sub u1846 FVS1 by u1846.medV1;
+sub u1847 FVS1 by u1847.medV1;
+sub u1847 FVS2 by u1847.medV2;
+sub u1848 FVS1 by u1848.medV1;
+sub u1849 FVS1 by u1849.medV1;
+sub u184D FVS1 by u184D.medFem;
+sub u1835 FVS1 by u1835.medV1;
+sub u182D FVS1 by u182D.medV1;
+sub u182D FVS2 by u182D.medV2;
+sub u182D FVS3 by u182D.medV3;
+sub u182D ZWJ by u182D.medNV;
+sub u1838 FVS1 by u1838.medV1;
+sub u184E FVS1 by u184E.medV1;
+sub u185D FVS1 by u185D.medV1;
+sub u185E FVS1 by u185E.medV1;
+sub u185E FVS2 by u185E.medV2;
+sub u1860 FVS1 by u1860.medV1;
+sub u1860 FVS2 by u1860.medV2;
+sub u1863 FVS1 by u1863.medV1;
+sub u1865 FVS1 by u1865.medV1;
+sub u1868 FVS1 by u1868.medV1;
+sub u1868 FVS2 by u1868.medV2;
+sub u1869 FVS1 by u1869.medV1;
+sub u186F FVS1 by u186F.medV1;
+sub u1873 FVS1 by u1873.medV1;
+sub u1873 FVS2 by u1873.medV2;
+sub u1873 FVS3 by u1873.medV3;
+sub u1874 FVS1 by u1874.medV1;
+sub u1874 FVS2 by u1874.medFem;
+sub u1874 FVS3 by u1874.medFemV1;
+sub u1876 FVS1 by u1876.medV1;
+sub u18A1 FVS1 by u18A1.medV1;
+sub u188A FVS1 by u188A.medV1;
+sub u1888 FVS1 by u1888.medV1;
+
+sub u182E by u182E.med;
+sub u1828 by u1828.med;
+sub u1837 by u1837.med;
+sub u1832 by u1832.med;
+sub u1833 by u1833.med;
+sub u1834 by u1834.med;
+sub u1829 by u1829.med;
+sub u182A by u182A.med;
+sub u182F by u182F.med;
+sub u1831 by u1831.med;
+sub u1830 by u1830.med;
+sub u1820 by u1820.med;
+sub u182C by u182C.med;
+sub u1821 by u1821.med;
+sub u183A by u183A.med;
+sub u1836 by u1836.med;
+sub u1842 by u1842.med;
+sub u1841 by u1841.med;
+sub u1843 by u1843.med;
+sub u1850 by u1850.med;
+sub u184F by u184F.med;
+sub u1853 by u1853.med;
+sub u1822 by u1822.med;
+sub u186E by u186E.med;
+sub u1823 by u1823.med;
+sub u1825 by u1825.med;
+sub u1826 by u1826.med;
+sub u1824 by u1824.med;
+sub u1845 by u1845.med;
+sub u1844 by u1844.med;
+sub u1846 by u1846.med;
+sub u1847 by u1847.med;
+sub u1848 by u1848.med;
+sub u1849 by u1849.med;
+sub u184A by u184A.med;
+sub u184B by u184B.med;
+sub u184C by u184C.med;
+sub u184D by u184D.med;
+sub u1854 by u1854.med;
+sub u185C by u185C.med;
+sub u1861 by u1861.med;
+sub u1827 by u1827.med;
+sub u182B by u182B.med;
+sub u1835 by u1835.med;
+sub u183B by u183B.med;
+sub u1839 by u1839.med;
+sub u182D by u182D.med;
+sub u1838 by u1838.med;
+sub u183E by u183E.med;
+sub u183F by u183F.med;
+sub u1840 by u1840.med;
+sub u183D by u183D.med;
+sub u183C by u183C.med;
+sub u184E by u184E.med;
+sub u1852 by u1852.med;
+sub u1857 by u1857.med;
+sub u1858 by u1858.med;
+sub u1859 by u1859.med;
+sub u185A by u185A.med;
+sub u185B by u185B.med;
+sub u1862 by u1862.med;
+sub u1851 by u1851.med;
+sub u185D by u185D.med;
+sub u185E by u185E.med;
+sub u185F by u185F.med;
+sub u1860 by u1860.med;
+sub u1863 by u1863.med;
+sub u1864 by u1864.med;
+sub u1865 by u1865.med;
+sub u1866 by u1866.med;
+sub u1867 by u1867.med;
+sub u1868 by u1868.med;
+sub u1869 by u1869.med;
+sub u186A by u186A.med;
+sub u186B by u186B.med;
+sub u186C by u186C.med;
+sub u186D by u186D.med;
+sub u186F by u186F.med;
+sub u1870 by u1870.med;
+sub u1871 by u1871.med;
+sub u1872 by u1872.med;
+sub u1873 by u1873.med;
+sub u1874 by u1874.med;
+sub u1875 by u1875.med;
+sub u1876 by u1876.med;
+sub u1877 by u1877.med;
+sub u1878 by u1878.med;
+sub u188D by u188D.med;
+sub u18A6 by u18A6.med;
+sub u1892 by u1892.med;
+sub u1895 by u1895.med;
+sub u1896 by u1896.med;
+sub u189A by u189A.med;
+sub u189B by u189B.med;
+sub u189C by u189C.med;
+sub u18A8 by u18A8.med;
+sub u18A5 by u18A5.med;
+sub u18A2 by u18A2.med;
+sub u18A1 by u18A1.med;
+sub u188F by u188F.med;
+sub u188A by u188A.med;
+sub u18A3 by u18A3.med;
+sub u189E by u189E.med;
+sub u189F by u189F.med;
+sub u18A4 by u18A4.med;
+sub u1890 by u1890.med;
+sub u1898 by u1898.med;
+sub u18A0 by u18A0.med;
+sub u1891 by u1891.med;
+sub u188B by u188B.med;
+sub u1893 by u1893.med;
+sub u1894 by u1894.med;
+sub u1897 by u1897.med;
+sub u189D by u189D.med;
+sub u1899 by u1899.med;
+sub u18A7 by u18A7.med;
+sub u188C by u188C.med;
+sub u1855 by u1855.med;
+sub u1856 by u1856.med;
+sub u188E by u188E.med;
+sub u18AA by u18AA.med;
+sub u1889 by u1889.med;
+sub u1888 by u1888.med;
+sub u1807 by u1807.med;
+";
+tag = medi;
+},
+{
+code = "sub u1800 FVS1 by u1800.V1;
+sub u1800 FVS2 by u1800.V2;
+sub u1800 FVS3 by u1800.V3;
+sub u1800 ZWJ by u1800.V4;
+sub u1880 FVS1 by u1880.V1;
+sub u1881 FVS1 by u1881.V1;
+
+lookup ChainedContextualGSUB10 {
+    sub NNBSP u1828.ini' lookup SingleSubstitution22 u1844.med;
+    sub NNBSP u1828.ini' lookup SingleSubstitution22 u1844.fin;
+    sub NNBSP u1828.ini' u1826.med' lookup SingleSubstitution21 u182D.med' u1826.med' u1833.fin';
+    sub NNBSP u1828.ini' u1826.med' lookup SingleSubstitution21 u182D.med' u1821.med' u1828.fin';
+    sub NNBSP u1832.ini' u1826.med' lookup SingleSubstitution19 u1837.fin';
+    sub NNBSP u1832.ini' u1826.med' lookup SingleSubstitution19 u1828.med' u1822.fin';
+    sub NNBSP u1833' lookup SingleSubstitution23 u1821.med;
+    sub NNBSP u1833' lookup SingleSubstitution23 u1821.fin;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1824.med;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1824.fin;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1826.med;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1826.fin;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1820.med;
+    sub NNBSP u1833.ini' lookup SingleSubstitution19 u1820.fin;
+    sub NNBSP u1833.ini' lookup SingleSubstitution23 u1821.med;
+    sub NNBSP u1833.ini' lookup SingleSubstitution23 u1821.fin;
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1820.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1821.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1820.med' u182D.med' u1820.med' u1828.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1821.med' u182D.med' u1821.med' u1828.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1824.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1826.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1820.med' u182C.med' u1822.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1821.med' u182C.med' u1822.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1824.med' u1837.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1826.med' lookup SingleSubstitution19 u1837.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1824.med' u1828.med' u1822.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1826.med' u1828.med' u1822.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1824.med' u182D.med' u1820.med' u1837.fin';
+    sub NNBSP u1833.ini' lookup SingleSubstitution21 u1826.med' lookup SingleSubstitution19 u182D.med' u1821.med' u1837.fin';
+    sub NNBSP u1822.ini' lookup SingleSubstitution23 u1836.med;
+    sub NNBSP u1822.ini' lookup SingleSubstitution23 u1836.fin;
+    sub NNBSP u1822.ini' lookup SingleSubstitution23 u1822.med;
+    sub NNBSP u1822.ini' lookup SingleSubstitution23 u1822.fin;
+    sub NNBSP u1822.ini' lookup SingleSubstitution19 u1836.med' lookup SingleSubstitution19 u1820.med' u1837.fin';
+    sub NNBSP u1822.ini' lookup SingleSubstitution19 u1836.med' u1821.med' u1837.fin';
+    sub NNBSP u1822.ini' lookup SingleSubstitution19 u1836.med' lookup SingleSubstitution19 u1820.med' u1828.fin';
+    sub NNBSP u1822.ini' lookup SingleSubstitution19 u1836.med' u1821.med' u1828.fin';
+    sub NNBSP u182F.ini' u1826.med' lookup SingleSubstitution19 u182D.med' u1821.fin';
+    sub NNBSP u1820' lookup SingleSubstitution19 u1834.fin;
+    sub MVS u1820' lookup SingleSubstitution20;
+    sub NNBSP u1820.ini' lookup SingleSubstitution19 u1834.med;
+    sub NNBSP u1820.ini' lookup SingleSubstitution19 u1834.med' u1820.fin';
+    sub NNBSP u1820.ini' lookup SingleSubstitution19 u1834.med' u1820.med' u182D.med' u1820.med' u1828.fin';
+    sub NNBSP u1836.ini' lookup SingleSubstitution19 u1822.med;
+    sub NNBSP u1836.ini' lookup SingleSubstitution19 u1822.fin;
+    sub NNBSP u1836.ini' u1826.med' lookup SingleSubstitution19 u182D.med' u1821.med' u1828.fin';
+    sub NNBSP u1836.ini' lookup SingleSubstitution21 u1822.fin';
+    sub NNBSP u1836.ini' lookup SingleSubstitution21 u1822.med' u1828.fin';
+    sub MVS u1821' lookup SingleSubstitution20;
+    sub NNBSP u1822' lookup SingleSubstitution23 u1836.med;
+    sub NNBSP u1822' lookup SingleSubstitution23 u1836.fin;
+    sub NNBSP u1822' lookup SingleSubstitution25;
+    sub NNBSP u1822' lookup SingleSubstitution23 u1822.med;
+    sub NNBSP u1822' lookup SingleSubstitution23 u1822.fin;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1833.med;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1833.fin;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1828.med;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1828.fin;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1824.med;
+    sub NNBSP u1824.ini' lookup SingleSubstitution23 u1824.fin;
+    sub NNBSP u1824.ini' lookup SingleSubstitution21 u1828.fin';
+    sub NNBSP u1824.ini' lookup SingleSubstitution21 u1833.fin';
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1833.med;
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1833.fin;
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1828.med;
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1828.fin;
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1826.med;
+    sub NNBSP u1826.ini' lookup SingleSubstitution23 u1826.fin;
+    sub NNBSP u1826.ini' lookup SingleSubstitution21 u1828.fin';
+    sub NNBSP u1826.ini' lookup SingleSubstitution21 u1833.fin';
+    sub NNBSP u184E.ini' lookup SingleSubstitution24 u1844.med;
+    sub NNBSP u184E.ini' lookup SingleSubstitution24 u1844.fin;
+    sub NNBSP u1824.iso' lookup SingleSubstitution25;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1833.med;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1833.fin;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1828.med;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1828.fin;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1824.med;
+    sub NNBSP u1824.iso' lookup SingleSubstitution23 u1824.fin;
+    sub NNBSP u1826.iso' lookup SingleSubstitution25;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1833.med;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1833.fin;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1828.med;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1828.fin;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1826.med;
+    sub NNBSP u1826.iso' lookup SingleSubstitution23 u1826.fin;
+    sub NNBSP u185E.iso' lookup SingleSubstitution25;
+    sub NNBSP u1873.iso' lookup SingleSubstitution25;
+} ChainedContextualGSUB10;
+
+lookup VariationSelectors {
+    sub u1828.fin MVS by u1828.medV2;
+    sub u1828.finV1 MVS by u1828.fin;
+    sub u1838.fin MVS by u1838.finV1;
+    sub u1835 MVS by u1835.medV1;
+    sub u1835.fin MVS by u1835.medV1;
+    sub u182D.fin MVS by u182D.medV3;
+} VariationSelectors;
+
+lookup ChainedContextualGSUB12 {
+    sub @class1' u182D.med' lookup SingleSubstitution19 @class2;
+    ignore sub [u184E.ini u184E.med]' [u1846.med u1847.med u1820.med];
+    sub [u184E.ini u184E.med]' lookup SingleSubstitution19 @class2;
+} ChainedContextualGSUB12;
+
+lookup ChainedContextualGSUB13 {
+    lookupflag 0;
+    ;
+    # Original source: 12 
+    sub @class4' lookup SingleSubstitution19 @class2;
+    sub @class7 @class4' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 @class4' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class7 u182D.med' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 u182D.med' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class12 u182D.med' lookup SingleSubstitution22 @class2;
+    sub @class9 u182D.med' lookup SingleSubstitution22 @class2;
+    sub @class7 [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class12 [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution22 @class2;
+    sub @class9 [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution22 @class2;
+    sub u182C.ini' lookup SingleSubstitution19 [u182C.med u182C.medV3 u182C.medV2]' [u1822.med u1822.fin];
+    sub @class7 [u182C.med u182C.medV3 u182C.medV2]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 [u182C.med u182C.medV3 u182C.medV2]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21 @class2 @class24;
+    sub [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21 @class2 [u1822.med u1822.fin];
+    sub @class7 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class7 @class12 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 @class12 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class7 @class12 @class12 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 @class12 @class12 @class12 [u1822.med u1822.ini]' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class7' u182D.med' lookup SingleSubstitution21 @class2;
+    sub @class7 @class46' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub @class9 @class46' [u182D.fin u182D.medNV u182D.medV2 u182D.medV3]' lookup SingleSubstitution21;
+    sub u182D.ini' lookup SingleSubstitution24 @class46' @class24;
+    sub u182D.ini' lookup SingleSubstitution24 @class4' @class24;
+    sub u182D.ini' lookup SingleSubstitution24 u182D.med' @class24;
+    sub u182D.ini' lookup SingleSubstitution24 [u182C.med u182C.medV3 u182C.medV2]' @class24;
+} ChainedContextualGSUB13;
+
+lookup ChainedContextualGSUB14 {
+    sub [hyphen endash emdash] @class56' lookup SingleSubstitution19;
+    sub [hyphen endash emdash] u1860.med' lookup SingleSubstitution21;
+} ChainedContextualGSUB14;
+
+lookup ChainedContextualGSUB15 {
+    sub u182D.ini' lookup SingleSubstitution19 @class57;
+} ChainedContextualGSUB15;
+
+lookup ChainedContextualGSUB16 {
+    sub @class58 [u1825.med u1826.med]' lookup SingleSubstitution19;
+    sub [u182C.ini u182D.ini] [u1825.med u1826.med]' lookup SingleSubstitution19;
+    sub [u182C.med u182D.med] [u1825.med u1826.med]' lookup SingleSubstitution21;
+    sub [u182C.med u182D.med] [u1825.medV1 u1826.medV1]' lookup SingleSubstitution21;
+} ChainedContextualGSUB16;
+
+lookup ChainedContextualGSUB17 {
+    lookupflag 0;
+    ;
+    # Original source: 16 
+    sub [u1868.ini u1868.med]' lookup SingleSubstitution19 @class59;
+    sub [u1868.ini u1868.med]' lookup SingleSubstitution21 @class60;
+    sub [u1869.ini u1869.med]' lookup SingleSubstitution19 @class61;
+    sub [u1876.ini u1876.med]' lookup SingleSubstitution19 u1873.med';
+    sub [u1876.ini u1876.med]' lookup SingleSubstitution19 [u1823.med u1861.med u1860.med]';
+    sub [u1861.ini u1861.med u185D.med u185D.ini] [u1874.fin u1874.med]' lookup SingleSubstitution24;
+    sub [u1874.fin u1874.med]' lookup SingleSubstitution19 @class60;
+    sub [u1861.ini u1861.med u185D.med u185D.ini] u1873.med' lookup SingleSubstitution21;
+    sub @class63 u1873.med' lookup SingleSubstitution21;
+    sub [u1865.ini u1865.med u1874.med u1874.ini] u1823.fin' lookup SingleSubstitution19;
+} ChainedContextualGSUB17;
+
+lookup ChainedContextualGSUB18 {
+    lookupflag 0;
+    ;
+    # Original source: 17 
+    sub @class64 u1822.med' lookup SingleSubstitution21;
+    sub [u1830.med u1833.medV1 u1833.med] u182D.med' lookup SingleSubstitution19;
+    sub u182D.med' lookup SingleSubstitution19 @class65;
+    sub [u1830.med u1833.medV1 u1833.med] u182D.medV3' lookup SingleSubstitution25;
+    sub u1828.med' lookup SingleSubstitution19 @class65;
+    sub @class67 u182F.med' lookup SingleSubstitution19;
+    sub @class64 u1845.med' lookup SingleSubstitution19;
+    sub [u1845.med u1845.ini] u1845.med' lookup SingleSubstitution19;
+    sub [u1847.ini u1847.med] u1847.med' lookup SingleSubstitution21;
+} ChainedContextualGSUB18;
+
+lookup VariousLigatures {
+    sub u1829.med u182F.med by u1829_182F.med;
+    sub u182C.med u1825.fin FVS1 by u182C_1825.finV1;
+    sub u182C.med u1825.fin FVS2 by u182C_1825.finV2;
+    sub u182C.med u1825.fin FVS3 by u182C_1825.finV3;
+    sub u182C.med u1825.med FVS1 by u182C_1825.medV1;
+    sub u182C.med u1825.med FVS2 by u182C_1825.medV2;
+    sub u182C.med u1825.med FVS3 by u182C_1825.medV3;
+    sub u182C.med u1826.fin FVS1 by u182C_1826.finV1;
+    sub u182C.med u1826.fin FVS2 by u182C_1826.finV2;
+    sub u182C.med u1826.fin FVS3 by u182C_1826.finV3;
+    sub u182C.med u1826.med FVS1 by u182C_1826.medV1;
+    sub u182C.med u1826.med FVS2 by u182C_1826.medV2;
+    sub u182C.med u1826.med FVS3 by u182C_1826.medV3;
+    sub u182C.med u1821.fin by u182C_1821.fin;
+    sub u182C.med u1821.med by u182C_1821.med;
+    sub u182C.med u1822.fin by u182C_1822.fin;
+    sub u182C.med u1822.med by u182C_1822.med;
+    sub u182C.med u1825.fin by u182C_1825.fin;
+    sub u182C.med u1825.med by u182C_1825.med;
+    sub u182C.med u1826.fin by u182C_1826.fin;
+    sub u182C.med u1826.med by u182C_1826.med;
+    sub u182C.med u1827.fin by u182C_1827.fin;
+    sub u182C.med u1827.med by u182C_1827.med;
+    sub u182C.med u1888.fin by u182C_1888.fin;
+    sub u182C.med u1888.med by u182C_1888.med;
+    sub u182F.med u182F.med by u182F_182F.med;
+    sub u182C.ini u1825.fin FVS1 by u182C_1825.V1;
+    sub u182C.ini u1825.fin FVS2 by u182C_1825.V2;
+    sub u182C.ini u1825.fin FVS3 by u182C_1825.V3;
+    sub u182C.ini u1825.medV1 FVS1 by u182C_1825.iniV1;
+    sub u182C.ini u1825.medV1 FVS2 by u182C_1825.iniV2;
+    sub u182C.ini u1825.medV1 FVS3 by u182C_1825.iniV3;
+    sub u182C.ini u1826.fin FVS1 by u182C_1826.V1;
+    sub u182C.ini u1826.fin FVS2 by u182C_1826.V2;
+    sub u182C.ini u1826.fin FVS3 by u182C_1826.V3;
+    sub u182C.ini u1826.medV1 FVS1 by u182C_1826.iniV1;
+    sub u182C.ini u1826.medV1 FVS2 by u182C_1826.iniV2;
+    sub u182C.ini u1826.medV1 FVS3 by u182C_1826.iniV3;
+    sub u182C.ini u1821.fin by u182C_1821;
+    sub u182C.ini u1821.med by u182C_1821.ini;
+    sub u182C.ini u1822.fin by u182C_1822;
+    sub u182C.ini u1822.med by u182C_1822.ini;
+    sub u182C.ini u1825.fin by u182C_1825;
+    sub u182C.ini u1825.medV1 by u182C_1825.ini;
+    sub u182C.ini u1826.fin by u182C_1826;
+    sub u182C.ini u1826.medV1 by u182C_1826.ini;
+    sub u182C.ini u1827.fin by u182C_1827;
+    sub u182C.ini u1827.med by u182C_1827.ini;
+    sub u182C.ini u1888.fin by u182C_1888;
+    sub u182C.ini u1888.med by u182C_1888.ini;
+    sub u183A.ini u1820.fin by u183A_1820;
+    sub u183A.ini u1820.med by u183A_1820.ini;
+    sub u183A.ini u1821.fin by u183A_1821;
+    sub u183A.ini u1821.med by u183A_1821.ini;
+    sub u183A.ini u1822.fin by u183A_1822;
+    sub u183A.ini u1822.med by u183A_1822.ini;
+    sub u183A.ini u1823.fin by u183A_1823;
+    sub u183A.ini u1823.med by u183A_1823.ini;
+    sub u183A.ini u1824.fin by u183A_1824;
+    sub u183A.ini u1824.med by u183A_1824.ini;
+    sub u183A.ini u1825.fin by u183A_1825;
+    sub u183A.ini u1825.finV1 by u183A_1825.V1;
+    sub u183A.ini u1825.medV1 by u183A_1825.ini;
+    sub u183A.ini u1826.fin by u183A_1826;
+    sub u183A.ini u1826.finV1 by u183A_1826.V1;
+    sub u183A.ini u1826.medV1 by u183A_1826.ini;
+    sub u183A.ini u1827.fin by u183A_1827;
+    sub u183A.ini u1827.med by u183A_1827.ini;
+    sub u183A.ini u1844.fin by u183A_1844;
+    sub u183A.ini u1844.med by u183A_1844.ini;
+    sub u183A.ini u1845.fin by u183A_1845;
+    sub u183A.ini u1845.med by u183A_1845.ini;
+    sub u183A.ini u1847.fin by u183A_1847;
+    sub u183A.ini u1847.med by u183A_1847.ini;
+    sub u183A.ini u185D.fin by u183A_185D;
+    sub u183A.ini u185D.med by u183A_185D.ini;
+    sub u183A.ini u1860.fin by u183A_1860;
+    sub u183A.ini u1860.med by u183A_1860.ini;
+    sub u183A.ini u1873.fin by u183A_1873;
+    sub u183A.ini u1873.med by u183A_1873.ini;
+    sub u183A.ini u1888.fin by u183A_1888;
+    sub u183A.ini u1888.med by u183A_1888.ini;
+    sub u183A.med u1820.fin by u183A_1820.fin;
+    sub u183A.med u1820.med by u183A_1820.med;
+    sub u183A.med u1821.fin by u183A_1821.fin;
+    sub u183A.med u1821.med by u183A_1821.med;
+    sub u183A.med u1822.fin by u183A_1822.fin;
+    sub u183A.med u1822.med by u183A_1822.med;
+    sub u183A.med u1823.fin by u183A_1823.fin;
+    sub u183A.med u1823.med by u183A_1823.med;
+    sub u183A.med u1824.fin by u183A_1824.fin;
+    sub u183A.med u1824.med by u183A_1824.med;
+    sub u183A.med u1825.fin by u183A_1825.fin;
+    sub u183A.med u1825.finV1 by u183A_1825.finV1;
+    sub u183A.med u1825.med by u183A_1825.med;
+    sub u183A.med u1825.medV1 by u183A_1825.medV1;
+    sub u183A.med u1826.fin by u183A_1826.fin;
+    sub u183A.med u1826.finV1 by u183A_1826.finV1;
+    sub u183A.med u1826.med by u183A_1826.med;
+    sub u183A.med u1826.medV1 by u183A_1826.medV1;
+    sub u183A.med u1827.fin by u183A_1827.fin;
+    sub u183A.med u1827.med by u183A_1827.med;
+    sub u183A.med u1844.fin by u183A_1844.fin;
+    sub u183A.med u1844.med by u183A_1844.med;
+    sub u183A.med u1845.fin by u183A_1845.fin;
+    sub u183A.med u1845.med by u183A_1845.med;
+    sub u183A.med u1847.fin by u183A_1847.fin;
+    sub u183A.med u1847.med by u183A_1847.med;
+    sub u183A.med u185D.fin by u183A_185D.fin;
+    sub u183A.med u185D.med by u183A_185D.med;
+    sub u183A.med u1860.fin by u183A_1860.fin;
+    sub u183A.med u1860.med by u183A_1860.med;
+    sub u183A.med u1873.fin by u183A_1873.fin;
+    sub u183A.med u1873.med by u183A_1873.med;
+    sub u183A.med u1888.fin by u183A_1888.fin;
+    sub u183A.med u1888.med by u183A_1888.med;
+    sub u1846.med u1843.fin by u1846_1843.fin;
+    sub u184C.ini u1820.fin by u184C_1820;
+    sub u184C.ini u1820.med by u184C_1820.ini;
+    sub u184C.ini u1823.fin by u184C_1823;
+    sub u184C.ini u1823.med by u184C_1823.ini;
+    sub u184C.ini u1844.fin by u184C_1844;
+    sub u184C.ini u1844.med by u184C_1844.ini;
+    sub u184C.ini u1845.fin by u184C_1845;
+    sub u184C.ini u1845.med by u184C_1845.ini;
+    sub u184C.ini u1846.fin by u184C_1846;
+    sub u184C.ini u1846.med by u184C_1846.ini;
+    sub u184C.ini u1847.fin by u184C_1847;
+    sub u184C.ini u1847.med by u184C_1847.ini;
+    sub u184C.ini u1848.fin by u184C_1848;
+    sub u184C.ini u1848.med by u184C_1848.ini;
+    sub u184C.ini u1849.fin by u184C_1849;
+    sub u184C.ini u1849.med by u184C_1849.ini;
+    sub u182E.med u182E.med by u182E_182E.med;
+    sub u182E.med u182F.med by u182E_182F.med;
+    sub u182E.ini u1820.finV1 by u182E_1820_1.finV1;
+    sub u182E.ini u1821.finV1 by u182E_1820_1.finV1;
+    sub u182A.ini u1825.fin FVS1 by u182A_1825.V1;
+    sub u182A.ini u1825.med FVS1 by u182A_1825.ini;
+    sub u182A.ini u1826.fin FVS1 by u182A_1826.V1;
+    sub u182A.ini u1826.med FVS1 by u182A_1826.ini;
+    sub u182A.ini u1820.fin by u182A_1820;
+    sub u182A.ini u1820.med by u182A_1820.ini;
+    sub u182A.ini u1821.fin by u182A_1821;
+    sub u182A.ini u1821.med by u182A_1821.ini;
+    sub u182A.ini u1822.fin by u182A_1822;
+    sub u182A.ini u1822.med by u182A_1822.ini;
+    sub u182A.ini u1823.fin by u182A_1823;
+    sub u182A.ini u1823.med by u182A_1823.ini;
+    sub u182A.ini u1824.fin by u182A_1824;
+    sub u182A.ini u1824.med by u182A_1824.ini;
+    sub u182A.ini u1825.fin by u182A_1825;
+    sub u182A.ini u1825.finV1 by u182A_1825.V1;
+    sub u182A.ini u1825.medV1 by u182A_1825.ini;
+    sub u182A.ini u1826.fin by u182A_1826;
+    sub u182A.ini u1826.finV1 by u182A_1826.V1;
+    sub u182A.ini u1826.medV1 by u182A_1826.ini;
+    sub u182A.ini u1827.fin by u182A_1827;
+    sub u182A.ini u1827.med by u182A_1827.ini;
+    sub u182A.ini u182F.med by u182A_182F.ini;
+    sub u182A.ini u1844.fin by u182A_1844;
+    sub u182A.ini u1844.med by u182A_1844.ini;
+    sub u182A.ini u1845.fin by u182A_1845;
+    sub u182A.ini u1845.med by u182A_1845.ini;
+    sub u182A.ini u1847.fin by u182A_1847;
+    sub u182A.ini u1847.med by u182A_1847.ini;
+    sub u182A.ini u1848.fin by u182A_1848;
+    sub u182A.ini u1848.med by u182A_1848.ini;
+    sub u182A.ini u1849.fin by u182A_1849;
+    sub u182A.ini u1849.med by u182A_1849.ini;
+    sub u182A.ini u185D.fin by u182A_185D;
+    sub u182A.ini u185D.med by u182A_185D.ini;
+    sub u182A.ini u185E.fin by u182A_185E;
+    sub u182A.ini u185E.med by u182A_185E.ini;
+    sub u182A.ini u1860.fin by u182A_1860;
+    sub u182A.ini u1860.med by u182A_1860.ini;
+    sub u182A.ini u1861.fin by u182A_1861;
+    sub u182A.ini u1861.med by u182A_1861.ini;
+    sub u182A.ini u1873.fin by u182A_1873;
+    sub u182A.ini u1873.med by u182A_1873.ini;
+    sub u182A.ini u1888.fin by u182A_1888;
+    sub u182A.ini u1888.med by u182A_1888.ini;
+    sub u1848.med u1843.fin by u1848_1843.fin;
+    sub u184A.ini u182F.med by u184A_182F.ini;
+    sub u184A.med u182F.med by u184A_182F.med;
+    sub u184B.ini u1820.fin by u184B_1820;
+    sub u184B.ini u1820.med by u184B_1820.ini;
+    sub u184B.ini u182F.med by u184B_182F.ini;
+    sub u184B.ini u1844.fin by u184B_1844;
+    sub u184B.ini u1844.med by u184B_1844.ini;
+    sub u184B.ini u1845.fin by u184B_1845;
+    sub u184B.ini u1845.med by u184B_1845.ini;
+    sub u184B.ini u1846.fin by u184B_1846;
+    sub u184B.ini u1846.med by u184B_1846.ini;
+    sub u184B.ini u1847.fin by u184B_1847;
+    sub u184B.ini u1847.med by u184B_1847.ini;
+    sub u184B.ini u1848.fin by u184B_1848;
+    sub u184B.ini u1848.med by u184B_1848.ini;
+    sub u184B.ini u1849.fin by u184B_1849;
+    sub u184B.ini u1849.med by u184B_1849.ini;
+    sub u184B.med u1820.fin by u184B_1820.fin;
+    sub u184B.med u1820.med by u184B_1820.med;
+    sub u184B.med u182F.med by u184B_182F.med;
+    sub u184B.med u1844.fin by u184B_1844.fin;
+    sub u184B.med u1844.med by u184B_1844.med;
+    sub u184B.med u1845.fin by u184B_1845.fin;
+    sub u184B.med u1845.med by u184B_1845.med;
+    sub u184B.med u1846.fin by u184B_1846.fin;
+    sub u184B.med u1846.med by u184B_1846.med;
+    sub u184B.med u1847.fin by u184B_1847.fin;
+    sub u184B.med u1847.med by u184B_1847.med;
+    sub u184B.med u1848.fin by u184B_1848.fin;
+    sub u184B.med u1848.med by u184B_1848.med;
+    sub u184B.med u1849.fin by u184B_1849.fin;
+    sub u184B.med u1849.med by u184B_1849.med;
+    sub u184C.med u1820.fin by u184C_1820.fin;
+    sub u184C.med u1820.med by u184C_1820.med;
+    sub u184C.med u1823.fin by u184C_1823.fin;
+    sub u184C.med u1823.med by u184C_1823.med;
+    sub u184C.med u1844.fin by u184C_1844.fin;
+    sub u184C.med u1844.med by u184C_1844.med;
+    sub u184C.med u1845.fin by u184C_1845.fin;
+    sub u184C.med u1845.med by u184C_1845.med;
+    sub u184C.med u1846.fin by u184C_1846.fin;
+    sub u184C.med u1846.med by u184C_1846.med;
+    sub u184C.med u1847.fin by u184C_1847.fin;
+    sub u184C.med u1847.med by u184C_1847.med;
+    sub u184C.med u1848.fin by u184C_1848.fin;
+    sub u184C.med u1848.med by u184C_1848.med;
+    sub u184C.med u1849.fin by u184C_1849.fin;
+    sub u184C.med u1849.med by u184C_1849.med;
+    sub u184D.ini u1844.fin by u184D_1844;
+    sub u184D.ini u1844.med by u184D_1844.ini;
+    sub u184D.ini u1845.fin by u184D_1845;
+    sub u184D.ini u1845.med by u184D_1845.ini;
+    sub u184D.ini u1848.fin by u184D_1848;
+    sub u184D.ini u1848.med by u184D_1848.ini;
+    sub u184D.ini u1849.fin by u184D_1849;
+    sub u184D.ini u1849.med by u184D_1849.ini;
+    sub u184D.med u1844.fin by u184D_1844.fin;
+    sub u184D.med u1844.med by u184D_1844.med;
+    sub u184D.med u1845.fin by u184D_1845.fin;
+    sub u184D.med u1845.med by u184D_1845.med;
+    sub u184D.med u1848.fin by u184D_1848.fin;
+    sub u184D.med u1848.med by u184D_1848.med;
+    sub u184D.med u1849.fin by u184D_1849.fin;
+    sub u184D.med u1849.med by u184D_1849.med;
+    sub u183B.ini u1825.fin FVS1 by u183B_1825.V1;
+    sub u183B.ini u1826.fin FVS1 by u183B_1826.V1;
+    sub u183B.ini u1820.fin by u183B_1820;
+    sub u183B.ini u1820.med by u183B_1820.ini;
+    sub u183B.ini u1821.fin by u183B_1821;
+    sub u183B.ini u1821.med by u183B_1821.ini;
+    sub u183B.ini u1822.fin by u183B_1822;
+    sub u183B.ini u1822.med by u183B_1822.ini;
+    sub u183B.ini u1823.fin by u183B_1823;
+    sub u183B.ini u1823.med by u183B_1823.ini;
+    sub u183B.ini u1824.fin by u183B_1824;
+    sub u183B.ini u1824.med by u183B_1824.ini;
+    sub u183B.ini u1825.fin by u183B_1825;
+    sub u183B.ini u1825.med by u183B_1825.ini;
+    sub u183B.ini u1825.medV1 by u183B_1825.ini;
+    sub u183B.ini u1826.fin by u183B_1826;
+    sub u183B.ini u1826.medV1 by u183B_1826.ini;
+    sub u183B.ini u1827.fin by u183B_1827;
+    sub u183B.ini u1827.med by u183B_1827.ini;
+    sub u183B.ini u1847.fin by u183B_1847;
+    sub u183B.ini u1847.med by u183B_1847.ini;
+    sub u183B.ini u1888.fin by u183B_1888;
+    sub u183B.ini u1888.med by u183B_1888.ini;
+    sub u184F.med u182F.med by u184F_182F.med;
+    sub u184F.med u184F.med by u184F_184F.med;
+    sub u1862.ini u182F.med by u1862_182F.ini;
+    sub u1862.med u182F.med by u1862_182F.med;
+    sub u1863.ini u185D.fin by u1863_185D;
+    sub u1863.ini u185D.med by u1863_185D.ini;
+    sub u1863.ini u185E.fin by u1863_185E;
+    sub u1863.ini u185E.med by u1863_185E.ini;
+    sub u1863.ini u1860.fin by u1863_1860;
+    sub u1863.ini u1860.med by u1863_1860.ini;
+    sub u1863.med u185D.fin by u1863_185D.fin;
+    sub u1863.med u185D.med by u1863_185D.med;
+    sub u1863.med u185E.fin by u1863_185E.fin;
+    sub u1863.med u185E.med by u1863_185E.med;
+    sub u1863.med u1860.fin by u1863_1860.fin;
+    sub u1863.med u1860.med by u1863_1860.med;
+    sub u182A.med u1825.fin FVS1 by u182A_1825.finV1;
+    sub u182A.med u1825.med FVS1 by u182A_1825.medV1;
+    sub u182A.med u1826.fin FVS1 by u182A_1826.finV1;
+    sub u182A.med u1826.med FVS1 by u182A_1826.medV1;
+    sub u182A.med u1820.fin by u182A_1820.fin;
+    sub u182A.med u1820.med by u182A_1820.med;
+    sub u182A.med u1821.fin by u182A_1821.fin;
+    sub u182A.med u1821.med by u182A_1821.med;
+    sub u182A.med u1822.fin by u182A_1822.fin;
+    sub u182A.med u1822.med by u182A_1822.med;
+    sub u182A.med u1823.fin by u182A_1823.fin;
+    sub u182A.med u1823.med by u182A_1823.med;
+    sub u182A.med u1824.fin by u182A_1824.fin;
+    sub u182A.med u1824.med by u182A_1824.med;
+    sub u182A.med u1825.fin by u182A_1825.fin;
+    sub u182A.med u1825.finV1 by u182A_1825.finV1;
+    sub u182A.med u1825.med by u182A_1825.med;
+    sub u182A.med u1825.medV1 by u182A_1825.medV1;
+    sub u182A.med u1826.fin by u182A_1826.fin;
+    sub u182A.med u1826.finV1 by u182A_1826.finV1;
+    sub u182A.med u1826.med by u182A_1826.med;
+    sub u182A.med u1826.medV1 by u182A_1826.medV1;
+    sub u182A.med u1827.fin by u182A_1827.fin;
+    sub u182A.med u1827.med by u182A_1827.med;
+    sub u182A.med u182F.med by u182A_182F.med;
+    sub u182A.med u1844.fin by u182A_1844.fin;
+    sub u182A.med u1844.med by u182A_1844.med;
+    sub u182A.med u1845.fin by u182A_1845.fin;
+    sub u182A.med u1845.med by u182A_1845.med;
+    sub u182A.med u1847.fin by u182A_1847.fin;
+    sub u182A.med u1847.med by u182A_1847.med;
+    sub u182A.med u1848.fin by u182A_1848.fin;
+    sub u182A.med u1848.med by u182A_1848.med;
+    sub u182A.med u1849.fin by u182A_1849.fin;
+    sub u182A.med u1849.med by u182A_1849.med;
+    sub u182A.med u185D.fin by u182A_185D.fin;
+    sub u182A.med u185D.med by u182A_185D.med;
+    sub u182A.med u185E.fin by u182A_185E.fin;
+    sub u182A.med u185E.med by u182A_185E.med;
+    sub u182A.med u1860.fin by u182A_1860.fin;
+    sub u182A.med u1860.med by u182A_1860.med;
+    sub u182A.med u1861.fin by u182A_1861.fin;
+    sub u182A.med u1861.med by u182A_1861.med;
+    sub u182A.med u1873.fin by u182A_1873.fin;
+    sub u182A.med u1873.med by u182A_1873.med;
+    sub u182A.med u1888.fin by u182A_1888.fin;
+    sub u182A.med u1888.med by u182A_1888.med;
+    sub u182B.ini u1825.fin FVS1 by u182B_1825.V1;
+    sub u182B.ini u1825.med FVS1 by u182B_1825.ini;
+    sub u182B.ini u1826.fin FVS1 by u182B_1826.V1;
+    sub u182B.ini u1826.med FVS1 by u182B_1826.ini;
+    sub u182B.ini u1820.fin by u182B_1820;
+    sub u182B.ini u1820.med by u182B_1820.ini;
+    sub u182B.ini u1821.fin by u182B_1821;
+    sub u182B.ini u1821.med by u182B_1821.ini;
+    sub u182B.ini u1822.fin by u182B_1822;
+    sub u182B.ini u1822.med by u182B_1822.ini;
+    sub u182B.ini u1823.fin by u182B_1823;
+    sub u182B.ini u1823.med by u182B_1823.ini;
+    sub u182B.ini u1824.fin by u182B_1824;
+    sub u182B.ini u1824.med by u182B_1824.ini;
+    sub u182B.ini u1825.fin by u182B_1825;
+    sub u182B.ini u1825.medV1 by u182B_1825.ini;
+    sub u182B.ini u1826.fin by u182B_1826;
+    sub u182B.ini u1826.medV1 by u182B_1826.ini;
+    sub u182B.ini u1827.fin by u182B_1827;
+    sub u182B.ini u1827.med by u182B_1827.ini;
+    sub u182B.ini u1888.fin by u182B_1888;
+    sub u182B.ini u1888.med by u182B_1888.ini;
+    sub u182B.med u1825.fin FVS1 by u182B_1825.finV1;
+    sub u182B.med u1825.med FVS1 by u182B_1825.medV1;
+    sub u182B.med u1826.fin FVS1 by u182B_1826.finV1;
+    sub u182B.med u1826.med FVS1 by u182B_1826.medV1;
+    sub u182B.med u1820.fin by u182B_1820.fin;
+    sub u182B.med u1820.med by u182B_1820.med;
+    sub u182B.med u1821.fin by u182B_1821.fin;
+    sub u182B.med u1821.med by u182B_1821.med;
+    sub u182B.med u1822.fin by u182B_1822.fin;
+    sub u182B.med u1822.med by u182B_1822.med;
+    sub u182B.med u1823.fin by u182B_1823.fin;
+    sub u182B.med u1823.med by u182B_1823.med;
+    sub u182B.med u1824.fin by u182B_1824.fin;
+    sub u182B.med u1824.med by u182B_1824.med;
+    sub u182B.med u1825.fin by u182B_1825.fin;
+    sub u182B.med u1825.med by u182B_1825.med;
+    sub u182B.med u1826.fin by u182B_1826.fin;
+    sub u182B.med u1826.med by u182B_1826.med;
+    sub u182B.med u1827.fin by u182B_1827.fin;
+    sub u182B.med u1827.med by u182B_1827.med;
+    sub u182B.med u1888.fin by u182B_1888.fin;
+    sub u182B.med u1888.med by u182B_1888.med;
+    sub u183B.med u1825.fin FVS1 by u183B_1825.finV1;
+    sub u183B.med u1825.med FVS1 by u183B_1825.medV1;
+    sub u183B.med u1826.fin FVS1 by u183B_1826.finV1;
+    sub u183B.med u1826.med FVS1 by u183B_1826.medV1;
+    sub u183B.med u1820.fin by u183B_1820.fin;
+    sub u183B.med u1820.med by u183B_1820.med;
+    sub u183B.med u1821.fin by u183B_1821.fin;
+    sub u183B.med u1821.med by u183B_1821.med;
+    sub u183B.med u1822.fin by u183B_1822.fin;
+    sub u183B.med u1822.med by u183B_1822.med;
+    sub u183B.med u1823.fin by u183B_1823.fin;
+    sub u183B.med u1823.med by u183B_1823.med;
+    sub u183B.med u1824.fin by u183B_1824.fin;
+    sub u183B.med u1824.med by u183B_1824.med;
+    sub u183B.med u1825.fin by u183B_1825.fin;
+    sub u183B.med u1825.med by u183B_1825.med;
+    sub u183B.med u1826.fin by u183B_1826.fin;
+    sub u183B.med u1826.med by u183B_1826.med;
+    sub u183B.med u1827.fin by u183B_1827.fin;
+    sub u183B.med u1827.med by u183B_1827.med;
+    sub u183B.med u1847.fin by u183B_1847.fin;
+    sub u183B.med u1847.med by u183B_1847.med;
+    sub u183B.med u1888.fin by u183B_1888.fin;
+    sub u183B.med u1888.med by u183B_1888.med;
+    sub u1839.ini u1825.fin FVS1 by u1839_1825.V1;
+    sub u1839.ini u1825.med FVS1 by u1839_1825.ini;
+    sub u1839.ini u1826.fin FVS1 by u1839_1826.V1;
+    sub u1839.ini u1826.med FVS1 by u1839_1826.ini;
+    sub u1839.ini u1820.fin by u1839_1820;
+    sub u1839.ini u1820.med by u1839_1820.ini;
+    sub u1839.ini u1821.fin by u1839_1821;
+    sub u1839.ini u1821.med by u1839_1821.ini;
+    sub u1839.ini u1822.fin by u1839_1822;
+    sub u1839.ini u1822.med by u1839_1822.ini;
+    sub u1839.ini u1823.fin by u1839_1823;
+    sub u1839.ini u1823.med by u1839_1823.ini;
+    sub u1839.ini u1824.fin by u1839_1824;
+    sub u1839.ini u1824.med by u1839_1824.ini;
+    sub u1839.ini u1825.fin by u1839_1825;
+    sub u1839.ini u1825.medV1 by u1839_1825.ini;
+    sub u1839.ini u1826.fin by u1839_1826;
+    sub u1839.ini u1826.med by u1839_1826.ini;
+    sub u1839.ini u1826.medV1 by u1839_1826.ini;
+    sub u1839.ini u1827.fin by u1839_1827;
+    sub u1839.ini u1827.med by u1839_1827.ini;
+    sub u1839.ini u1888.fin by u1839_1888;
+    sub u1839.ini u1888.med by u1839_1888.ini;
+    sub u1839.med u1825.fin FVS1 by u1839_1825.finV1;
+    sub u1839.med u1825.med FVS1 by u1839_1825.medV1;
+    sub u1839.med u1826.fin FVS1 by u1839_1826.finV1;
+    sub u1839.med u1826.med FVS1 by u1839_1826.medV1;
+    sub u1839.med u1820.fin by u1839_1820.fin;
+    sub u1839.med u1820.med by u1839_1820.med;
+    sub u1839.med u1821.fin by u1839_1821.fin;
+    sub u1839.med u1821.med by u1839_1821.med;
+    sub u1839.med u1822.fin by u1839_1822.fin;
+    sub u1839.med u1822.med by u1839_1822.med;
+    sub u1839.med u1823.fin by u1839_1823.fin;
+    sub u1839.med u1823.med by u1839_1823.med;
+    sub u1839.med u1824.fin by u1839_1824.fin;
+    sub u1839.med u1824.med by u1839_1824.med;
+    sub u1839.med u1825.fin by u1839_1825.fin;
+    sub u1839.med u1825.med by u1839_1825.med;
+    sub u1839.med u1826.fin by u1839_1826.fin;
+    sub u1839.med u1826.med by u1839_1826.med;
+    sub u1839.med u1827.fin by u1839_1827.fin;
+    sub u1839.med u1827.med by u1839_1827.med;
+    sub u1839.med u1888.fin by u1839_1888.fin;
+    sub u1839.med u1888.med by u1839_1888.med;
+    sub u182D.ini u1825.fin FVS1 by u182D_1825.V1;
+    sub u182D.ini u1825.fin FVS2 by u182D_1825.V2;
+    sub u182D.ini u1825.fin FVS3 by u182D_1825.V3;
+    sub u182D.ini u1825.medV1 FVS1 by u182D_1825.iniV1;
+    sub u182D.ini u1826.fin FVS1 by u182D_1826.V1;
+    sub u182D.ini u1826.fin FVS2 by u182D_1826.V2;
+    sub u182D.ini u1826.fin FVS3 by u182D_1826.V3;
+    sub u182D.ini u1826.medV1 FVS1 by u182D_1826.iniV1;
+    sub u182D.ini u1821.fin by u182D_1821;
+    sub u182D.ini u1821.med by u182D_1821.ini;
+    sub u182D.ini u1822.fin by u182D_1822;
+    sub u182D.ini u1822.med by u182D_1822.ini;
+    sub u182D.ini u1825.fin by u182D_1825;
+    sub u182D.ini u1825.medV1 by u182D_1825.ini;
+    sub u182D.ini u1826.fin by u182D_1826;
+    sub u182D.ini u1826.medV1 by u182D_1826.ini;
+    sub u182D.ini u1827.fin by u182D_1827;
+    sub u182D.ini u1827.med by u182D_1827.ini;
+    sub u182D.ini u182F.med by u182D_182F.ini;
+    sub u182D.ini u1888.fin by u182D_1888;
+    sub u182D.ini u1888.med by u182D_1888.ini;
+    sub u182D.iniV1 u1821.fin by u182D_1821.V1;
+    sub u182D.iniV1 u1821.med by u182D_1821.iniV1;
+    sub u182D.iniV1 u1822.fin by u182D_1822.V1;
+    sub u182D.iniV1 u1822.med by u182D_1822.iniV1;
+    sub u182D.iniV1 u1827.fin by u182D_1827.V1;
+    sub u182D.iniV1 u1827.med by u182D_1827.iniV1;
+    sub u182D.iniV1 u1888.fin by u182D_1888.V1;
+    sub u182D.iniV1 u1888.med by u182D_1888.iniV1;
+    sub u184E.ini u1844.fin by u184E_1844;
+    sub u184E.ini u1844.med by u184E_1844.ini;
+    sub u184E.ini u1845.fin by u184E_1845;
+    sub u184E.ini u1845.med by u184E_1845.ini;
+    sub u184E.ini u1848.fin by u184E_1848;
+    sub u184E.ini u1848.med by u184E_1848.ini;
+    sub u184E.ini u1849.fin by u184E_1849;
+    sub u184E.ini u1849.med by u184E_1849.ini;
+    sub u184E.med u1844.fin by u184E_1844.fin;
+    sub u184E.med u1844.med by u184E_1844.med;
+    sub u184E.med u1845.fin by u184E_1845.fin;
+    sub u184E.med u1845.med by u184E_1845.med;
+    sub u184E.med u1848.fin by u184E_1848.fin;
+    sub u184E.med u1848.med by u184E_1848.med;
+    sub u184E.med u1849.fin by u184E_1849.fin;
+    sub u184E.med u1849.med by u184E_1849.med;
+    sub u1857.ini u1820.fin by u1857_1820;
+    sub u1857.ini u1820.med by u1857_1820.ini;
+    sub u1857.ini u1846.fin by u1857_1846;
+    sub u1857.ini u1846.med by u1857_1846.ini;
+    sub u1857.ini u1847.fin by u1857_1847;
+    sub u1857.ini u1847.med by u1857_1847.ini;
+    sub u1857.med u1820.fin by u1857_1820.fin;
+    sub u1857.med u1820.med by u1857_1820.med;
+    sub u1857.med u1846.fin by u1857_1846.fin;
+    sub u1857.med u1846.med by u1857_1846.med;
+    sub u1857.med u1847.fin by u1857_1847.fin;
+    sub u1857.med u1847.med by u1857_1847.med;
+    sub u1858.ini u1820.fin by u1858_1820;
+    sub u1858.ini u1820.med by u1858_1820.ini;
+    sub u1858.ini u1846.fin by u1858_1846;
+    sub u1858.ini u1846.med by u1858_1846.ini;
+    sub u1858.ini u1847.fin by u1858_1847;
+    sub u1858.ini u1847.med by u1858_1847.ini;
+    sub u1858.med u1820.fin by u1858_1820.fin;
+    sub u1858.med u1820.med by u1858_1820.med;
+    sub u1858.med u1846.fin by u1858_1846.fin;
+    sub u1858.med u1846.med by u1858_1846.med;
+    sub u1858.med u1847.fin by u1858_1847.fin;
+    sub u1858.med u1847.med by u1858_1847.med;
+    sub u1864.ini u185D.fin by u1864_185D;
+    sub u1864.ini u185D.med by u1864_185D.ini;
+    sub u1864.ini u185E.fin by u1864_185E;
+    sub u1864.ini u185E.med by u1864_185E.ini;
+    sub u1864.ini u1860.fin by u1864_1860;
+    sub u1864.ini u1860.med by u1864_1860.ini;
+    sub u1864.ini u1873.fin by u1864_1873;
+    sub u1864.ini u1873.med by u1864_1873.ini;
+    sub u1864.med u185D.fin by u1864_185D.fin;
+    sub u1864.med u185D.med by u1864_185D.med;
+    sub u1864.med u185E.fin by u1864_185E.fin;
+    sub u1864.med u185E.med by u1864_185E.med;
+    sub u1864.med u1860.fin by u1864_1860.fin;
+    sub u1864.med u1860.med by u1864_1860.med;
+    sub u1864.med u1873.fin by u1864_1873.fin;
+    sub u1864.med u1873.med by u1864_1873.med;
+    sub u1865.ini u185D.fin by u1865_185D;
+    sub u1865.ini u185D.med by u1865_185D.ini;
+    sub u1865.ini u185E.fin by u1865_185E;
+    sub u1865.ini u185E.med by u1865_185E.ini;
+    sub u1865.ini u1860.fin by u1865_1860;
+    sub u1865.ini u1860.med by u1865_1860.ini;
+    sub u1865.ini u1873.fin by u1865_1873;
+    sub u1865.ini u1873.med by u1865_1873.ini;
+    sub u1865.med u185D.fin by u1865_185D.fin;
+    sub u1865.med u185D.med by u1865_185D.med;
+    sub u1865.med u185E.fin by u1865_185E.fin;
+    sub u1865.med u185E.med by u1865_185E.med;
+    sub u1865.med u1860.fin by u1865_1860.fin;
+    sub u1865.med u1860.med by u1865_1860.med;
+    sub u1865.med u1873.fin by u1865_1873.fin;
+    sub u1865.med u1873.med by u1865_1873.med;
+    sub u1866.ini u1820.fin by u1866_1820;
+    sub u1866.ini u1820.med by u1866_1820.ini;
+    sub u1866.ini u1823.fin by u1866_1823;
+    sub u1866.ini u1823.med by u1866_1823.ini;
+    sub u1866.ini u185D.fin by u1866_185D;
+    sub u1866.ini u185D.med by u1866_185D.ini;
+    sub u1866.ini u185E.fin by u1866_185E;
+    sub u1866.ini u185E.med by u1866_185E.ini;
+    sub u1866.ini u1860.fin by u1866_1860;
+    sub u1866.ini u1860.med by u1866_1860.ini;
+    sub u1866.ini u1861.fin by u1866_1861;
+    sub u1866.ini u1861.med by u1866_1861.ini;
+    sub u1866.ini u1873.fin by u1866_1873;
+    sub u1866.ini u1873.med by u1866_1873.ini;
+    sub u1866.ini u1888.fin by u1866_1888;
+    sub u1866.ini u1888.med by u1866_1888.ini;
+    sub u1866.med u1820.fin by u1866_1820.fin;
+    sub u1866.med u1820.med by u1866_1820.med;
+    sub u1866.med u1823.fin by u1866_1823.fin;
+    sub u1866.med u1823.med by u1866_1823.med;
+    sub u1866.med u185D.fin by u1866_185D.fin;
+    sub u1866.med u185D.med by u1866_185D.med;
+    sub u1866.med u185E.fin by u1866_185E.fin;
+    sub u1866.med u185E.med by u1866_185E.med;
+    sub u1866.med u1860.fin by u1866_1860.fin;
+    sub u1866.med u1860.med by u1866_1860.med;
+    sub u1866.med u1861.fin by u1866_1861.fin;
+    sub u1866.med u1861.med by u1866_1861.med;
+    sub u1866.med u1873.fin by u1866_1873.fin;
+    sub u1866.med u1873.med by u1866_1873.med;
+    sub u1866.med u1888.fin by u1866_1888.fin;
+    sub u1866.med u1888.med by u1866_1888.med;
+    sub u186C.ini u1820.fin by u186C_1820;
+    sub u186C.ini u1820.med by u186C_1820.ini;
+    sub u186C.ini u1823.fin by u186C_1823;
+    sub u186C.ini u1823.med by u186C_1823.ini;
+    sub u186C.ini u185D.fin by u186C_185D;
+    sub u186C.ini u185D.med by u186C_185D.ini;
+    sub u186C.ini u1860.fin by u186C_1860;
+    sub u186C.ini u1860.med by u186C_1860.ini;
+    sub u186C.ini u1888.fin by u186C_1888;
+    sub u186C.ini u1888.med by u186C_1888.ini;
+    sub u186C.med u1820.fin by u186C_1820.fin;
+    sub u186C.med u1820.med by u186C_1820.med;
+    sub u186C.med u1823.fin by u186C_1823.fin;
+    sub u186C.med u1823.med by u186C_1823.med;
+    sub u186C.med u185D.fin by u186C_185D.fin;
+    sub u186C.med u185D.med by u186C_185D.med;
+    sub u186C.med u1860.fin by u186C_1860.fin;
+    sub u186C.med u1860.med by u186C_1860.med;
+    sub u186C.med u1888.fin by u186C_1888.fin;
+    sub u186C.med u1888.med by u186C_1888.med;
+    sub u186D.ini u1820.fin by u186D_1820;
+    sub u186D.ini u1820.med by u186D_1820.ini;
+    sub u186D.ini u1823.fin by u186D_1823;
+    sub u186D.ini u1823.med by u186D_1823.ini;
+    sub u186D.med u1820.fin by u186D_1820.fin;
+    sub u186D.med u1820.med by u186D_1820.med;
+    sub u186D.med u1823.fin by u186D_1823.fin;
+    sub u186D.med u1823.med by u186D_1823.med;
+    sub u182D.medV1 u1821.fin by u182D_1821.finV1;
+    sub u182D.medV1 u1821.med by u182D_1821.medV1;
+    sub u182D.medV1 u1822.fin by u182D_1822.finV1;
+    sub u182D.medV1 u1822.med by u182D_1822.medV1;
+    sub u182D.medV1 u1827.fin by u182D_1827.finV1;
+    sub u182D.medV1 u1827.med by u182D_1827.medV1;
+    sub u182D.medV1 u1888.fin by u182D_1888.finV1;
+    sub u182D.medV1 u1888.med by u182D_1888.medV1;
+    sub u182D.med u1825.fin FVS1 by u182D_1825.finV1;
+    sub u182D.med u1825.fin FVS2 by u182D_1825.finV2;
+    sub u182D.med u1825.fin FVS3 by u182D_1825.finV3;
+    sub u182D.med u1825.med FVS1 by u182D_1825.medV1;
+    sub u182D.med u1825.med FVS2 by u182D_1825.medV2;
+    sub u182D.med u1825.med FVS3 by u182D_1825.medV3;
+    sub u182D.med u1826.fin FVS1 by u182D_1826.finV1;
+    sub u182D.med u1826.fin FVS2 by u182D_1826.finV2;
+    sub u182D.med u1826.fin FVS3 by u182D_1826.finV3;
+    sub u182D.med u1826.med FVS1 by u182D_1826.medV1;
+    sub u182D.med u1826.med FVS2 by u182D_1826.medV2;
+    sub u182D.med u1826.med FVS3 by u182D_1826.medV3;
+    sub u182D.med u1821.fin by u182D_1821.fin;
+    sub u182D.med u1821.med by u182D_1821.med;
+    sub u182D.med u1822.fin by u182D_1822.fin;
+    sub u182D.med u1822.med by u182D_1822.med;
+    sub u182D.med u1825.fin by u182D_1825.fin;
+    sub u182D.med u1825.med by u182D_1825.med;
+    sub u182D.med u1826.fin by u182D_1826.fin;
+    sub u182D.med u1826.med by u182D_1826.med;
+    sub u182D.med u1827.fin by u182D_1827.fin;
+    sub u182D.med u1827.med by u182D_1827.med;
+    sub u182D.med u1888.fin by u182D_1888.fin;
+    sub u182D.med u1888.med by u182D_1888.med;
+    sub u182D.medV2 u182F.med by u182D_182F.med;
+    sub u182C.iniV1 u1820.finV1 by u182Cv1_1820_1.finV1;
+    sub u182C.iniV1 u1821.fin by u182C_1821.V1;
+    sub u182C.iniV1 u1821.finV1 by u182Cv1_1820_1.finV1;
+    sub u182C.iniV1 u1821.med by u182C_1821.iniV1;
+    sub u182C.iniV1 u1822.fin by u182C_1822.V1;
+    sub u182C.iniV1 u1827.fin by u182C_1827.V1;
+    sub u182C.iniV1 u1827.med by u182C_1827.iniV1;
+    sub u182C.iniV1 u1888.fin by u182C_1888.V1;
+    sub u182C.iniV1 u1888.med by u182C_1888.iniV1;
+    sub u182C.iniV2 u1822.med by u182C_1822.iniV2;
+    sub u182C.medV1 u1821.fin by u182C_1821.finV1;
+    sub u182C.medV1 u1821.med by u182C_1821.medV1;
+    sub u182C.medV1 u1822.fin by u182C_1822.finV1;
+    sub u182C.medV1 u1822.med by u182C_1822.medV1;
+    sub u182C.medV1 u1827.fin by u182C_1827.finV1;
+    sub u182C.medV1 u1827.med by u182C_1827.medV1;
+    sub u182C.medV1 u1888.fin by u182C_1888.finV1;
+    sub u182C.medV1 u1888.med by u182C_1888.medV1;
+    sub u1874.med u185D.fin by u1874_185D.fin;
+    sub u1874.med u185D.med by u1874_185D.med;
+    sub u1874.med u185E.fin by u1874_185E.fin;
+    sub u1874.med u185E.med by u1874_185E.med;
+    sub u1874.med u1860.fin by u1874_1860.fin;
+    sub u1874.med u1860.med by u1874_1860.med;
+    sub u1874.med u1873.fin by u1874_1873.fin;
+    sub u1874.med u1873.med by u1874_1873.med;
+    sub u1874.medV1 u1861.med by u1874_1861.medV1;
+    sub u1874.isoFem u1861.med by u1874_1861.iniV1;
+    sub u1874.ini u185D.fin by u1874_185D;
+    sub u1874.ini u185D.med by u1874_185D.ini;
+    sub u1874.ini u185E.fin by u1874_185E;
+    sub u1874.ini u185E.med by u1874_185E.ini;
+    sub u1874.ini u1860.fin by u1874_1860;
+    sub u1874.ini u1860.med by u1874_1860.ini;
+    sub u1874.ini u1873.fin by u1874_1873;
+    sub u1874.ini u1873.med by u1874_1873.ini;
+    sub u1892.ini u1820.fin by u1892_1820;
+    sub u1892.ini u1820.med by u1892_1820.ini;
+    sub u1892.ini u1822.fin by u1892_1822;
+    sub u1892.ini u1822.med by u1892_1822.ini;
+    sub u1892.ini u1823.fin by u1892_1823;
+    sub u1892.ini u1823.med by u1892_1823.ini;
+    sub u1892.ini u1826.fin by u1892_1826;
+    sub u1892.ini u1826.finV1 by u1892_1826.V1;
+    sub u1892.ini u1826.med by u1892_1826.ini;
+    sub u1892.ini u1826.medV1 by u1892_1826.iniV1;
+    sub u1892.ini u1827.fin by u1892_1827;
+    sub u1892.ini u1827.med by u1892_1827.ini;
+    sub u1892.ini u1844.fin by u1892_1844;
+    sub u1892.ini u1844.med by u1892_1844.ini;
+    sub u1892.ini u1845.fin by u1892_1845;
+    sub u1892.ini u1845.med by u1892_1845.ini;
+    sub u1892.ini u1847.fin by u1892_1847;
+    sub u1892.ini u1847.med by u1892_1847.ini;
+    sub u1892.ini u185D.fin by u1892_185D;
+    sub u1892.ini u185D.med by u1892_185D.ini;
+    sub u1892.ini u1860.fin by u1892_1860;
+    sub u1892.ini u1860.med by u1892_1860.ini;
+    sub u1892.ini u1873.fin by u1892_1873;
+    sub u1892.ini u1873.med by u1892_1873.ini;
+    sub u1892.ini u1888.fin by u1892_1888;
+    sub u1892.ini u1888.med by u1892_1888.ini;
+    sub u1892.med u1820.fin by u1892_1820.fin;
+    sub u1892.med u1820.med by u1892_1820.med;
+    sub u1892.med u1822.fin by u1892_1822.fin;
+    sub u1892.med u1822.med by u1892_1822.med;
+    sub u1892.med u1823.fin by u1892_1823.fin;
+    sub u1892.med u1823.med by u1892_1823.med;
+    sub u1892.med u1826.fin by u1892_1826.fin;
+    sub u1892.med u1826.finV1 by u1892_1826.finV1;
+    sub u1892.med u1826.med by u1892_1826.med;
+    sub u1892.med u1826.medV1 by u1892_1826.medV1;
+    sub u1892.med u1827.fin by u1892_1827.fin;
+    sub u1892.med u1827.med by u1892_1827.med;
+    sub u1892.med u1844.fin by u1892_1844.fin;
+    sub u1892.med u1844.med by u1892_1844.med;
+    sub u1892.med u1845.fin by u1892_1845.fin;
+    sub u1892.med u1845.med by u1892_1845.med;
+    sub u1892.med u1847.fin by u1892_1847.fin;
+    sub u1892.med u1847.med by u1892_1847.med;
+    sub u1892.med u185D.fin by u1892_185D.fin;
+    sub u1892.med u185D.med by u1892_185D.med;
+    sub u1892.med u1860.fin by u1892_1860.fin;
+    sub u1892.med u1860.med by u1892_1860.med;
+    sub u1892.med u1873.fin by u1892_1873.fin;
+    sub u1892.med u1873.med by u1892_1873.med;
+    sub u1892.med u1888.fin by u1892_1888.fin;
+    sub u1892.med u1888.med by u1892_1888.med;
+    sub u18A8.ini u1820.fin by u18A8_1820;
+    sub u18A8.ini u1820.med by u18A8_1820.ini;
+    sub u18A8.ini u1823.fin by u18A8_1823;
+    sub u18A8.ini u1823.med by u18A8_1823.ini;
+    sub u18A8.ini u185D.fin by u18A8_185D;
+    sub u18A8.ini u185D.med by u18A8_185D.ini;
+    sub u18A8.ini u1860.fin by u18A8_1860;
+    sub u18A8.ini u1860.med by u18A8_1860.ini;
+    sub u18A8.ini u1873.fin by u18A8_1873;
+    sub u18A8.ini u1873.med by u18A8_1873.ini;
+    sub u18A8.ini u1888.fin by u18A8_1888;
+    sub u18A8.ini u1888.med by u18A8_1888.ini;
+    sub u18A8.med u1820.fin by u18A8_1820.fin;
+    sub u18A8.med u1820.med by u18A8_1820.med;
+    sub u18A8.med u1823.fin by u18A8_1823.fin;
+    sub u18A8.med u1823.med by u18A8_1823.med;
+    sub u18A8.med u185D.fin by u18A8_185D.fin;
+    sub u18A8.med u185D.med by u18A8_185D.med;
+    sub u18A8.med u1860.fin by u18A8_1860.fin;
+    sub u18A8.med u1860.med by u18A8_1860.med;
+    sub u18A8.med u1873.fin by u18A8_1873.fin;
+    sub u18A8.med u1873.med by u18A8_1873.med;
+    sub u18A8.med u1888.fin by u18A8_1888.fin;
+    sub u18A8.med u1888.med by u18A8_1888.med;
+    sub u1893.ini u1820.fin by u1893_1820;
+    sub u1893.ini u1820.med by u1893_1820.ini;
+    sub u1893.ini u1822.fin by u1893_1822;
+    sub u1893.ini u1822.med by u1893_1822.ini;
+    sub u1893.ini u1823.fin by u1893_1823;
+    sub u1893.ini u1823.med by u1893_1823.ini;
+    sub u1893.ini u1826.fin by u1893_1826;
+    sub u1893.ini u1826.finV1 by u1893_1826.V1;
+    sub u1893.ini u1826.med by u1893_1826.ini;
+    sub u1893.ini u1826.medV1 by u1893_1826.iniV1;
+    sub u1893.ini u1827.fin by u1893_1827;
+    sub u1893.ini u1827.med by u1893_1827.ini;
+    sub u1893.ini u1888.fin by u1893_1888;
+    sub u1893.ini u1888.med by u1893_1888.ini;
+    sub u1893.med u1820.fin by u1893_1820.fin;
+    sub u1893.med u1820.med by u1893_1820.med;
+    sub u1893.med u1822.fin by u1893_1822.fin;
+    sub u1893.med u1822.med by u1893_1822.med;
+    sub u1893.med u1823.fin by u1893_1823.fin;
+    sub u1893.med u1823.med by u1893_1823.med;
+    sub u1893.med u1826.fin by u1893_1826.fin;
+    sub u1893.med u1826.finV1 by u1893_1826.finV1;
+    sub u1893.med u1826.med by u1893_1826.med;
+    sub u1893.med u1826.medV1 by u1893_1826.medV1;
+    sub u1893.med u1827.fin by u1893_1827.fin;
+    sub u1893.med u1827.med by u1893_1827.med;
+    sub u1893.med u1888.fin by u1893_1888.fin;
+    sub u1893.med u1888.med by u1893_1888.med;
+    sub u1889.med u1820.fin by u1889_1820.fin;
+    sub u1889.med u1820.med by u1889_1820.med;
+    sub u1889.med u1822.fin by u1889_1822.fin;
+    sub u1889.med u1822.med by u1889_1822.med;
+    sub u1889.med u1823.fin by u1889_1823.fin;
+    sub u1889.med u1823.med by u1889_1823.med;
+    sub u1889.med u1826.fin by u1889_1826.fin;
+    sub u1889.med u1826.finV1 by u1889_1826.finV1;
+    sub u1889.med u1826.med by u1889_1826.med;
+    sub u1889.med u1826.medV1 by u1889_1826.medV1;
+    sub u1889.med u1827.fin by u1889_1827.fin;
+    sub u1889.med u1827.med by u1889_1827.med;
+    sub u1889.med u1844.fin by u1889_1844.fin;
+    sub u1889.med u1844.med by u1889_1844.med;
+    sub u1889.med u1845.fin by u1889_1845.fin;
+    sub u1889.med u1845.med by u1889_1845.med;
+    sub u1889.med u1846.fin by u1889_1846.fin;
+    sub u1889.med u1846.med by u1889_1846.med;
+    sub u1889.med u1847.fin by u1889_1847.fin;
+    sub u1889.med u1847.med by u1889_1847.med;
+    sub u1889.med u1888.fin by u1889_1888.fin;
+    sub u1889.med u1888.med by u1889_1888.med;
+    sub u1889.ini u1820.fin by u1889_1820;
+    sub u1889.ini u1820.med by u1889_1820.ini;
+    sub u1889.ini u1822.fin by u1889_1822;
+    sub u1889.ini u1822.med by u1889_1822.ini;
+    sub u1889.ini u1823.fin by u1889_1823;
+    sub u1889.ini u1823.med by u1889_1823.ini;
+    sub u1889.ini u1826.fin by u1889_1826;
+    sub u1889.ini u1826.finV1 by u1889_1826.V1;
+    sub u1889.ini u1826.med by u1889_1826.iniV1;
+    sub u1889.ini u1826.medV1 by u1889_1826.ini;
+    sub u1889.ini u1827.fin by u1889_1827;
+    sub u1889.ini u1827.med by u1889_1827.ini;
+    sub u1889.ini u1844.fin by u1889_1844;
+    sub u1889.ini u1844.med by u1889_1844.ini;
+    sub u1889.ini u1845.fin by u1889_1845;
+    sub u1889.ini u1845.med by u1889_1845.ini;
+    sub u1889.ini u1846.fin by u1889_1846;
+    sub u1889.ini u1846.med by u1889_1846.ini;
+    sub u1889.ini u1847.fin by u1889_1847;
+    sub u1889.ini u1847.med by u1889_1847.ini;
+    sub u1889.ini u1888.fin by u1889_1888;
+    sub u1889.ini u1888.med by u1889_1888.ini;
+    sub u1820.med u1843.fin by u1820_1843.fin;
+} VariousLigatures;
+
+lookup VariationSelector1 {
+    sub u1825.fin FVS1 by u1825.finV1;
+    sub u1826.ini FVS1 by u1826.iniV1;
+    sub u1826.fin FVS1 by u1826.finV1;
+    sub u1826.iso FVS1 by u1826.isoV1;
+    sub u1825.med FVS1 by u1825.medV1;
+    sub u1825.med FVS2 by u1825.medV2;
+    sub u1826.med FVS1 by u1826.medV1;
+    sub u1826.med FVS2 by u1826.medV2;
+} VariationSelector1;
+
+# Medial ga - la ligature
+sub @class69 u182D.med' u182F.med' by u182D_182F.med;
+sub [u1822.med u1822.ini] u182D.med' u182F.med' @class70 by u182D_182F.med;
+";
+tag = rlig;
+},
+{
+code = "sub u2048 by u2048.v;
+sub u2049 by u2049.v;
+sub u3001 by u3001.v;
+sub u3002 by u3002.v;
+sub endash by endash.v;
+sub emdash by emdash.v;
+sub exclam by exclam.v;
+sub question by question.v;
+sub parenleft by parenleft.v;
+sub parenright by parenright.v;
+sub u300A by u300A.v;
+sub u300B by u300B.v;
+sub u300C by u300C.v;
+sub u300D by u300D.v;
+sub u300E by u300E.v;
+sub u300F by u300F.v;
+sub quotedblleft by quotedblleft.v;
+sub quotedblright by quotedblright.v;
+sub quotedbl by quotedbl.v;
+
+";
+tag = vert;
+},
+{
+code = "sub u2048 by u2048.v;
+sub u2049 by u2049.v;
+sub u3001 by u3001.v;
+sub u3002 by u3002.v;
+sub endash by endash.v;
+sub emdash by emdash.v;
+sub exclam by exclam.v;
+sub question by question.v;
+sub parenleft by parenleft.v;
+sub parenright by parenright.v;
+sub u300A by u300A.v;
+sub u300B by u300B.v;
+sub u300C by u300C.v;
+sub u300D by u300D.v;
+sub u300E by u300E.v;
+sub u300F by u300F.v;
+sub quotedblleft by quotedblleft.v;
+sub quotedblright by quotedblright.v;
+sub quotedbl by quotedbl.v;";
+tag = vrt2;
+}
+);
+fontMaster = (
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1457;
+},
+{
+name = typoDescender;
+value = -293;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1457;
+},
+{
+name = winDescent;
+value = 361;
+},
+{
+name = hheaAscender;
+value = 1457;
+},
+{
+name = hheaDescender;
+value = -293;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -100;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = vheaVertAscender;
+value = 500;
+},
+{
+name = vheaVertDescender;
+value = -500;
+},
+{
+name = vheaVertLineGap;
+value = 0;
+},
+{
+name = openTypeVheaVertTypoAscender;
+value = 500;
+},
+{
+name = openTypeVheaVertTypoDescender;
+value = -500;
+},
+{
+name = openTypeVheaVertTypoLineGap;
+value = 0;
+}
+);
+id = UUID0;
+metricValues = (
+{
+over = 15;
+pos = 836;
+},
+{
+over = 15;
+pos = 714;
+},
+{
+over = 15;
+pos = 444;
+},
+{
+over = -15;
+},
+{
+over = -15;
+pos = -264;
+},
+{
+}
+);
+name = Regular;
+stemValues = (
+83,
+79
+);
+}
+);
+instances = (
+{
+axesValues = (
+100
+);
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+5,
+2,
+4,
+5,
+4,
+2,
+2,
+4
+);
+},
+{
+name = xHeight;
+value = "536";
+}
+);
+instanceInterpolations = {
+UUID0 = 1;
+};
+name = Regular;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/mongolian)";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Monotype Design Team";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.monotype.com/studio";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Monotype Imaging Inc.";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.google.com/get/noto/";
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Noto is a trademark of Google Inc.";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = versionString;
+value = "Version 2.003";
+}
+);
+settings = {
+disablesAutomaticAlignment = 1;
+disablesNiceNames = 1;
+};
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+name = vStem0;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 2;
+versionMinor = 3;
+}

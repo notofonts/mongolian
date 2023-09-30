@@ -1,0 +1,12 @@
+{
+category = Mark;
+glyphname = MVS;
+layers = (
+{
+layerId = UUID0;
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 6158;
+}

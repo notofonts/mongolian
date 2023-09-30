@@ -1,0 +1,15 @@
+{
+glyphname = u185F.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (69,0);
+ref = u185F;
+}
+);
+width = 353;
+}
+);
+}

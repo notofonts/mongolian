@@ -1,0 +1,21 @@
+{
+glyphname = u180A;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,364,l),
+(188,444,l),
+(0,444,l),
+(0,364,l)
+);
+}
+);
+width = 168;
+}
+);
+unicode = 6154;
+}

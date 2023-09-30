@@ -1,0 +1,17 @@
+{
+glyphname = u1166C;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+angle = 180;
+pos = (1030,559);
+ref = u1166B;
+}
+);
+width = 1030;
+}
+);
+unicode = 71276;
+}

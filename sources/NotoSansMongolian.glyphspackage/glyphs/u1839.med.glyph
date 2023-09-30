@@ -1,0 +1,15 @@
+{
+glyphname = u1839.med;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-46,0);
+ref = u1839.ini;
+}
+);
+width = 511;
+}
+);
+}

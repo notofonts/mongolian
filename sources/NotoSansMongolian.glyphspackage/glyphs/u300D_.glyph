@@ -1,0 +1,25 @@
+{
+glyphname = u300D;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,-23,l),
+(318,502,l),
+(252,502,l),
+(252,47,l),
+(60,47,l),
+(60,-23,l)
+);
+}
+);
+vertOrigin = 550;
+vertWidth = 1100;
+width = 418;
+}
+);
+unicode = 12301;
+}

@@ -1,0 +1,10 @@
+{
+glyphname = NNBSP;
+layers = (
+{
+layerId = UUID0;
+width = 120;
+}
+);
+unicode = 8239;
+}

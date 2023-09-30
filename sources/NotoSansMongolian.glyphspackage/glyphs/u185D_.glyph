@@ -1,0 +1,20 @@
+{
+glyphname = u185D;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (78,0);
+ref = u1820.fin;
+},
+{
+pos = (20,730);
+ref = MongolianDot;
+}
+);
+width = 505;
+}
+);
+unicode = 6237;
+}

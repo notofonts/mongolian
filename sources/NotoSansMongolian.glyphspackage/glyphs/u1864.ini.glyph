@@ -1,0 +1,18 @@
+{
+glyphname = u1864.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u182C.ini;
+},
+{
+pos = (600,710);
+ref = MongolianDot;
+}
+);
+width = 788;
+}
+);
+}

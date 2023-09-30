@@ -1,0 +1,14 @@
+{
+glyphname = u186E.ini;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u186E;
+}
+);
+width = 681;
+}
+);
+}

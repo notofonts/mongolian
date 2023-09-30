@@ -1,0 +1,15 @@
+{
+glyphname = u183A_1845.fin;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (-45,0);
+ref = u183A_1845;
+}
+);
+width = 1195;
+}
+);
+}

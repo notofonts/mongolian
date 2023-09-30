@@ -1,0 +1,22 @@
+{
+glyphname = u182C_1888.V1;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = u182C_1822;
+},
+{
+pos = (93,-33);
+ref = MongolianDot;
+},
+{
+pos = (308,-33);
+ref = MongolianDot;
+}
+);
+width = 1060;
+}
+);
+}

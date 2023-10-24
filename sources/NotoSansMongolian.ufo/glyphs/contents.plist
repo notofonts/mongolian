@@ -1340,18 +1340,6 @@
   <string>u1166C_.glif</string>
   <key>uni0020</key>
   <string>uni0020.glif</string>
-  <key>uni0025</key>
-  <string>uni0025.glif</string>
-  <key>uni002B</key>
-  <string>uni002B_.glif</string>
-  <key>uni002D</key>
-  <string>uni002D_.glif</string>
-  <key>uni002F</key>
-  <string>uni002F_.glif</string>
-  <key>uni003D</key>
-  <string>uni003D_.glif</string>
-  <key>uni007E</key>
-  <string>uni007E_.glif</string>
   <key>uni00B7</key>
   <string>uni00B_7.glif</string>
   <key>uni00B7.vert</key>
@@ -3038,20 +3026,12 @@
   <string>uni18A_A_.L_c.medi._fina.glif</string>
   <key>uni2018</key>
   <string>uni2018.glif</string>
-  <key>uni2018.vert</key>
-  <string>uni2018.vert.glif</string>
   <key>uni2019</key>
   <string>uni2019.glif</string>
-  <key>uni2019.vert</key>
-  <string>uni2019.vert.glif</string>
   <key>uni201C</key>
   <string>uni201C_.glif</string>
-  <key>uni201C.vert</key>
-  <string>uni201C_.vert.glif</string>
   <key>uni201D</key>
   <string>uni201D_.glif</string>
-  <key>uni201D.vert</key>
-  <string>uni201D_.vert.glif</string>
   <key>uni2048</key>
   <string>uni2048.glif</string>
   <key>uni2048.vert</key>

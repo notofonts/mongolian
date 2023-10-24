@@ -213,7 +213,7 @@
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <string>880</string>
+      <integer>880</integer>
     </dict>
   </lib>
 </glyph>

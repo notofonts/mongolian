@@ -25,10 +25,6 @@ lookup Ib.punctuation.vertical {
     sub uni300D by uni300D.vert;
     sub uni300E by uni300E.vert;
     sub uni300F by uni300F.vert;
-    sub uni2018 by uni2018.vert;
-    sub uni2019 by uni2019.vert;
-    sub uni201C by uni201C.vert;
-    sub uni201D by uni201D.vert;
     sub uniFF3B by uniFF3B.vert;
     sub uniFF3D by uniFF3D.vert;
     sub uniFF0C by uniFF0C.vert;
@@ -45,10 +41,6 @@ lookup Ib.punctuation.propotional {
     pos uni300D.vert <0 0 0 -600>;
     pos uni300E.vert <0 0 0 -581>;
     pos uni300F.vert <0 0 0 -581>;
-    pos uni2018.vert <0 0 0 -644>;
-    pos uni2019.vert <0 0 0 -644>;
-    pos uni201C.vert <0 0 0 -644>;
-    pos uni201D.vert <0 0 0 -644>;
     pos uniFF3B.vert <0 0 0 -678>;
     pos uniFF3D.vert <0 0 0 -678>;
     pos uni3001.vert <0 0 0 -500>;

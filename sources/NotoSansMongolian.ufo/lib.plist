@@ -1518,12 +1518,6 @@
     <string>uni1808</string>
     <string>uni1809</string>
     <string>uni0020</string>
-    <string>uni0025</string>
-    <string>uni002B</string>
-    <string>uni002D</string>
-    <string>uni002F</string>
-    <string>uni003D</string>
-    <string>uni007E</string>
     <string>uni00B7</string>
     <string>uni00B7.vert</string>
     <string>uni2048</string>
@@ -1563,13 +1557,9 @@
     <string>uni300F</string>
     <string>uni300F.vert</string>
     <string>uni2018</string>
-    <string>uni2018.vert</string>
     <string>uni2019</string>
-    <string>uni2019.vert</string>
     <string>uni201C</string>
-    <string>uni201C.vert</string>
     <string>uni201D</string>
-    <string>uni201D.vert</string>
     <string>uniFF3B</string>
     <string>uniFF3B.vert</string>
     <string>uniFF3D</string>

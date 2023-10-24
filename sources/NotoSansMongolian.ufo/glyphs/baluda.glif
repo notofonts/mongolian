@@ -2,7 +2,7 @@
 <glyph name="baluda" format="2">
   <advance width="0" height="1000"/>
   <unicode hex="1885"/>
-  <anchor x="0" y="0" name="_mong"/>
+  <anchor x="0" y="0" name="mong"/>
   <outline>
     <contour>
       <point x="207" y="1004" type="curve"/>
@@ -76,7 +76,7 @@
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <string>880</string>
+      <integer>880</integer>
     </dict>
   </lib>
 </glyph>

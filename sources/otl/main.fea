@@ -7,14 +7,7 @@ table GDEF {
 } GDEF;
 
 languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem hani dflt;
-languagesystem hani ZHS;
-languagesystem hani ZHT;
 languagesystem mong dflt;
-languagesystem mong MCH;
-languagesystem mong MNG;
-languagesystem mong SIB;
 
 # IIa. Cursive script: Initiation of cursive positions
 include(otl/lookups-joining.fea);
@@ -51,10 +44,6 @@ feature rlig {
 feature vert {
     lookup Ib.punctuation.vertical;
 } vert;
-
-feature vrt2 {
-    lookup Ib.punctuation.vertical;
-} vrt2;
 
 feature vpal {
     lookup Ib.punctuation.propotional;

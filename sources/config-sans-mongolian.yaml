@@ -5,4 +5,4 @@ includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Kernel
 sources:
-- NotoSansMongolian.ufo
+- NotoSansMongolian.designspace

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni185B.Ny.init" format="2">
+  <advance width="443" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="294" y="-119" type="curve"/>
+      <point x="331" y="-119"/>
+      <point x="363" y="-106"/>
+      <point x="377" y="-85" type="curve"/>
+      <point x="377" y="6" type="line"/>
+      <point x="357" y="-22"/>
+      <point x="330" y="-36"/>
+      <point x="294" y="-36" type="curve"/>
+      <point x="214" y="-36"/>
+      <point x="164" y="69"/>
+      <point x="140" y="170" type="curve"/>
+      <point x="125" y="232"/>
+      <point x="116" y="296"/>
+      <point x="116" y="364" type="curve"/>
+      <point x="473" y="364" type="line"/>
+      <point x="473" y="444" type="line"/>
+      <point x="346" y="444" type="line"/>
+      <point x="346" y="674" type="line"/>
+      <point x="275" y="674" type="line"/>
+      <point x="196" y="674"/>
+      <point x="120" y="686"/>
+      <point x="45" y="710" type="curve"/>
+      <point x="45" y="364" type="line"/>
+      <point x="45" y="253"/>
+      <point x="57" y="143"/>
+      <point x="102" y="36" type="curve"/>
+      <point x="142" y="-59"/>
+      <point x="194" y="-119"/>
+    </contour>
+    <contour>
+      <point x="116" y="444" type="line"/>
+      <point x="116" y="612" type="line"/>
+      <point x="167" y="600"/>
+      <point x="220" y="594"/>
+      <point x="275" y="594" type="curve"/>
+      <point x="275" y="444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

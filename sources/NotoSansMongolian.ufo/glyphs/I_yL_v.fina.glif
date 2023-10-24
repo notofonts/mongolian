@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IyLv.fina" format="2">
+  <advance width="250" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="180" y="162" type="line"/>
+      <point x="197" y="199"/>
+      <point x="205" y="238"/>
+      <point x="205" y="279" type="curve"/>
+      <point x="205" y="282" type="line"/>
+      <point x="205" y="390"/>
+      <point x="146" y="444"/>
+      <point x="30" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="30" y="364" type="line"/>
+      <point x="65" y="364"/>
+      <point x="91" y="357"/>
+      <point x="106" y="342" type="curve"/>
+      <point x="121" y="327"/>
+      <point x="128" y="306"/>
+      <point x="128" y="279" type="curve"/>
+      <point x="128" y="235"/>
+      <point x="121" y="196"/>
+      <point x="106" y="162" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-72" y="444" type="line"/>
+      <point x="-49" y="632" type="line"/>
+      <point x="-137" y="632" type="line"/>
+      <point x="-115" y="444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

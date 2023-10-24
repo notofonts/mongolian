@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni186F.Zs.init" format="2">
+  <advance width="681" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="443" y="73" type="curve"/>
+      <point x="519" y="73" type="line"/>
+      <point x="507" y="127"/>
+      <point x="484" y="225"/>
+      <point x="450" y="364" type="curve"/>
+      <point x="711" y="364" type="line"/>
+      <point x="711" y="444" type="line"/>
+      <point x="428" y="444" type="line"/>
+      <point x="405" y="527"/>
+      <point x="380" y="610"/>
+      <point x="352" y="694" type="curve"/>
+      <point x="499" y="694" type="line"/>
+      <point x="499" y="756" type="line"/>
+      <point x="114" y="756" type="line"/>
+      <point x="114" y="694" type="line"/>
+      <point x="258" y="694" type="line"/>
+      <point x="227" y="559" type="line"/>
+      <point x="210" y="487"/>
+      <point x="184" y="427"/>
+      <point x="130" y="427" type="curve"/>
+      <point x="104" y="427"/>
+      <point x="76" y="433"/>
+      <point x="45" y="446" type="curve"/>
+      <point x="45" y="371" type="line"/>
+      <point x="74" y="354"/>
+      <point x="104" y="346"/>
+      <point x="135" y="346" type="curve"/>
+      <point x="208" y="346"/>
+      <point x="243" y="379"/>
+      <point x="270" y="459" type="curve"/>
+      <point x="284" y="501"/>
+      <point x="295" y="544"/>
+      <point x="304" y="590" type="curve"/>
+      <point x="308" y="590" type="line"/>
+      <point x="356" y="458"/>
+      <point x="413" y="231"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1894.Sx.fina" format="2">
+  <advance width="647" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="218" y="-163" type="line"/>
+      <point x="248" y="-130"/>
+      <point x="294" y="-92"/>
+      <point x="357" y="-47" type="curve"/>
+      <point x="296" y="22" type="line"/>
+      <point x="257" y="-17"/>
+      <point x="216" y="-66"/>
+      <point x="175" y="-124" type="curve"/>
+    </contour>
+    <contour>
+      <point x="11" y="-163" type="line"/>
+      <point x="42" y="-130"/>
+      <point x="88" y="-91"/>
+      <point x="150" y="-47" type="curve"/>
+      <point x="89" y="22" type="line"/>
+      <point x="50" y="-17"/>
+      <point x="9" y="-66"/>
+      <point x="-32" y="-124" type="curve"/>
+    </contour>
+    <contour>
+      <point x="370" y="73" type="line"/>
+      <point x="409" y="274"/>
+      <point x="486" y="452"/>
+      <point x="602" y="609" type="curve"/>
+      <point x="505" y="609" type="line"/>
+      <point x="426" y="495"/>
+      <point x="368" y="369"/>
+      <point x="330" y="231" type="curve"/>
+      <point x="290" y="416"/>
+      <point x="275" y="586"/>
+      <point x="272" y="734" type="curve"/>
+      <point x="193" y="734" type="line"/>
+      <point x="62" y="630"/>
+      <point x="-3" y="483"/>
+      <point x="-3" y="294" type="curve"/>
+      <point x="-3" y="225"/>
+      <point x="6" y="152"/>
+      <point x="25" y="73" type="curve"/>
+      <point x="102" y="73" type="line"/>
+      <point x="85" y="152"/>
+      <point x="76" y="225"/>
+      <point x="76" y="294" type="curve"/>
+      <point x="76" y="444"/>
+      <point x="117" y="555"/>
+      <point x="198" y="627" type="curve"/>
+      <point x="202" y="627" type="line"/>
+      <point x="211" y="433"/>
+      <point x="239" y="248"/>
+      <point x="287" y="73" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

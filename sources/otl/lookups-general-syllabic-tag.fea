@@ -1,0 +1,38 @@
+# ==================================
+# III.2: Phonetic - Syllabic: Todo+AG with UTN request
+# ==================================
+
+# Syllabic - n - Onset
+
+lookup III.tod.n.onset_and_devsger {
+    lookupflag IgnoreMarks;
+    sub [@n-tod]' lookup condition.tod.onset @tod.vowel;
+    sub @tod.vowel [@n-tod]' lookup condition.tod.devsger;
+    lookupflag 0;
+} III.tod.n.onset_and_devsger;
+
+# EAC does not support two-root word
+lookup III.utn.tod_two_root {
+    lookupflag IgnoreMarks;
+    sub zwj.ignored @tod.vowel.medi' lookup condition.tod.toothed;
+    lookupflag 0;
+} III.utn.tod_two_root;
+
+# Syllabic - h/g - Masculine_Onset
+# Syllabic - h/g - Feminine
+# Syllabic - g - Masculine_Devsger
+
+lookup III.tod.h_g.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    sub [@h-tod @g-tod]' lookup condition.tod.masculine_onset @tod.vowel.masculine;
+    sub [@h-tod @g-tod]' lookup condition.tod.feminine [@tod.vowel.feminine @tod.vowel.neuter];
+    sub @tod.vowel [@g-tod]' lookup condition.tod.masculine_devsger;
+    lookupflag 0;
+} III.tod.h_g.onset_and_devsger_and_gender;
+
+# Todo AG hh initial
+lookup III.tag.hh.initial {
+    lookupflag IgnoreMarks;
+    sub [@g-tod @zr-tod @dr-tag @d-tod @b-tod] @hh-tod' lookup condition.tag.toothless;
+    lookupflag 0;
+} III.tag.hh.initial;

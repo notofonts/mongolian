@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="BhO.isol" format="2">
+  <advance width="1011" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="764" y="123" type="curve"/>
+      <point x="688" y="124"/>
+      <point x="650" y="174"/>
+      <point x="650" y="275" type="curve"/>
+      <point x="650" y="311"/>
+      <point x="655" y="341"/>
+      <point x="666" y="364" type="curve"/>
+      <point x="885" y="364" type="line"/>
+      <point x="886" y="345"/>
+      <point x="887" y="324"/>
+      <point x="887" y="303" type="curve"/>
+      <point x="887" y="177"/>
+      <point x="833" y="123"/>
+    </contour>
+    <contour>
+      <point x="770" y="40" type="curve"/>
+      <point x="886" y="40"/>
+      <point x="966" y="144"/>
+      <point x="966" y="303" type="curve"/>
+      <point x="966" y="593"/>
+      <point x="847" y="760"/>
+      <point x="627" y="760" type="curve"/>
+      <point x="455" y="760"/>
+      <point x="322" y="644"/>
+      <point x="308" y="444" type="curve"/>
+      <point x="63" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="309" y="364" type="line"/>
+      <point x="314" y="305"/>
+      <point x="327" y="248"/>
+      <point x="345" y="190" type="curve"/>
+      <point x="123" y="190" type="line"/>
+      <point x="105" y="110" type="line"/>
+      <point x="463" y="110" type="line"/>
+      <point x="429" y="190" type="line"/>
+      <point x="399" y="268"/>
+      <point x="386" y="347"/>
+      <point x="386" y="405" type="curve"/>
+      <point x="386" y="575"/>
+      <point x="480" y="677"/>
+      <point x="627" y="677" type="curve"/>
+      <point x="765" y="677"/>
+      <point x="848" y="599"/>
+      <point x="876" y="444" type="curve"/>
+      <point x="609" y="444" type="line"/>
+      <point x="588" y="403"/>
+      <point x="571" y="336"/>
+      <point x="571" y="275" type="curve"/>
+      <point x="571" y="112"/>
+      <point x="654" y="40"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

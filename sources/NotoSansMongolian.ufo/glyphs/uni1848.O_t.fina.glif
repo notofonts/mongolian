@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1848.Ot.fina" format="2">
+  <advance width="423" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="378" y="3" type="line"/>
+      <point x="378" y="444" type="line"/>
+      <point x="236" y="444" type="line"/>
+      <point x="208" y="513"/>
+      <point x="174" y="585"/>
+      <point x="133" y="661" type="curve"/>
+      <point x="62" y="621" type="line"/>
+      <point x="93" y="566"/>
+      <point x="122" y="507"/>
+      <point x="150" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="267" type="line"/>
+      <point x="0" y="154"/>
+      <point x="57" y="73"/>
+      <point x="176" y="47" type="curve"/>
+    </contour>
+    <contour>
+      <point x="300" y="104" type="line"/>
+      <point x="198" y="127" type="line"/>
+      <point x="118" y="145"/>
+      <point x="79" y="196"/>
+      <point x="79" y="267" type="curve"/>
+      <point x="79" y="364" type="line"/>
+      <point x="300" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

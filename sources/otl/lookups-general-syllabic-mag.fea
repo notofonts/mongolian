@@ -1,0 +1,72 @@
+# ==================================
+# III.2: Phonetic - Syllabic: Manchu+AG
+# ==================================
+
+# Syllabic - i/o/u - Marked
+
+lookup III.man.i_o_u_f.marked {
+    lookupflag IgnoreMarks;
+    sub @man.consonant.init [@o-man.fina @u-man.fina]' lookup condition.man.marked;
+    sub @f-man' lookup condition.man.marked [@i-man @o-man @u-man @ue-man];
+    sub @z-man @i-man' lookup condition.man.marked;
+    lookupflag 0;
+} III.man.i_o_u_f.marked;
+
+lookup III.mag.i_o_u.marked {
+    lookupflag IgnoreMarks;
+    sub @mag.consonant.init [@o-man.fina @u-man.fina]' lookup condition.man.marked;
+    sub @f-man' lookup condition.man.marked [@i-man @o-man @u-man @ue-man];
+    sub [@c-mag @z-man @jh-mag] @i-man' lookup condition.man.marked;
+    lookupflag 0;
+} III.mag.i_o_u.marked;
+
+# Syllabic - e/u - Feminine
+
+lookup III.man.e_u.feminine {
+    lookupflag IgnoreMarks;
+    sub [@t-man @d-man @k-man @g-man @h-man] [@e-man @u-man]' lookup condition.man.feminine;
+} III.man.e_u.feminine;
+
+lookup III.mag.e_u.feminine {
+    lookupflag IgnoreMarks;
+    sub [@t-mag @t-man @d-man @dh-mag @g-man @k-man @gh-mag @h-man] [@e-man @u-man]' lookup condition.man.feminine;
+} III.mag.e_u.feminine;
+
+# Syllabic - n - Onset and Devsger
+
+lookup III.man.n.onset_and_devsger {
+    lookupflag IgnoreMarks;
+    sub @n-man' lookup condition.man.onset @man.vowel;
+    sub @man.vowel @n-man' lookup condition.man.devsger;
+    lookupflag 0;
+} III.man.n.onset_and_devsger;
+
+# Syllabic - k/g/h - Masculine_Onset and Feminine
+# Syllabic - t/d - Masculine_Onset and Feminine
+# Syllabic - k/t - Devsger
+
+lookup III.man.k_g_h.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    sub [@k-man @g-man @h-man]' lookup condition.man.masculine_onset @man.vowel.masculine;
+    sub [@k-man @g-man @h-man]' lookup condition.man.feminine [@man.vowel.feminine @man.vowel.neuter];
+    sub @t-man @e-man @k-man' lookup condition.man.masculine_devsger;
+    sub [@k-man @g-man @h-man] @u-man @k-man' lookup condition.man.feminine;
+    sub [@e-man @ue-man] @k-man' lookup condition.man.feminine;
+    sub [@a-man @i-man @o-man @u-man] @k-man' lookup condition.man.masculine_devsger;
+    lookupflag 0;
+} III.man.k_g_h.onset_and_devsger_and_gender;
+
+lookup III.man.t_d.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    sub [@t-man @d-man]' lookup condition.man.masculine_onset [@a-man @i-man @o-man];
+    sub [@t-man @d-man]' lookup condition.man.feminine [@e-man @u-man @ue-man];
+    sub @man.vowel @t-man' lookup condition.man.devsger;
+    lookupflag 0;
+} III.man.t_d.onset_and_devsger_and_gender;
+
+lookup III.mag.t_dh.gender {
+    lookupflag IgnoreMarks;
+    sub [@t-mag @dh-mag]' lookup condition.mag.masculine_onset [@a-man @i-man @o-man];
+    sub [@t-mag @dh-mag]' lookup condition.mag.feminine [@e-man @u-man @ue-man];
+    lookupflag 0;
+} III.mag.t_dh.gender;

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WpA2.fina" format="2">
+  <advance width="591" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="194" y="102" type="curve"/>
+      <point x="131" y="198"/>
+      <point x="92" y="294"/>
+      <point x="82" y="364" type="curve"/>
+      <point x="282" y="364" type="line"/>
+      <point x="257" y="288"/>
+      <point x="228" y="201"/>
+    </contour>
+    <contour>
+      <point x="252" y="29" type="line"/>
+      <point x="347" y="343"/>
+      <point x="427" y="574"/>
+      <point x="581" y="836" type="curve"/>
+      <point x="489" y="836" type="line"/>
+      <point x="423" y="715"/>
+      <point x="364" y="584"/>
+      <point x="311" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="14" y="275"/>
+      <point x="71" y="136"/>
+      <point x="149" y="29" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+# ==================================
+# III.2: Phonetic - Syllabic: Sibe
+# ==================================
+
+# Syllabic - i/o/u - Marked
+
+lookup III.sib.i_o_u.marked {
+    lookupflag IgnoreMarks;
+    sub @sib.consonant.init [@o-sib.fina @u-sib.fina]' lookup condition.sib.marked;
+    sub @z-sib [@i-sib]' lookup condition.sib.marked;
+    lookupflag 0;
+} III.sib.i_o_u.marked;
+
+# Syllabic - e/u - Feminine
+
+lookup III.sib.e_u.feminine {
+    lookupflag IgnoreMarks;
+    sub [@t-sib @d-sib @k-sib @g-sib @h-sib] [@e-sib @u-sib]' lookup condition.sib.feminine;
+} III.sib.e_u.feminine;
+
+# Syllabic - n - Onset and Devsger
+
+lookup III.sib.n.onset_and_devsger {
+    lookupflag IgnoreMarks;
+    sub [@n-sib]' lookup condition.sib.onset @sib.vowel;
+    sub @sib.vowel [@n-sib]' lookup condition.sib.devsger;
+    lookupflag 0;
+} III.sib.n.onset_and_devsger;
+
+# Syllabic - k/g/h - Masculine_Onset and Feminine
+# Syllabic - t/d - Masculine_Onset and Feminine
+# Syllabic - k/t - Devsger
+
+lookup III.sib.k_g_h_t_d.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    sub [@k-sib @g-sib @h-sib]' lookup condition.sib.masculine_onset @sib.vowel.masculine;
+    sub [@k-sib @g-sib @h-sib]' lookup condition.sib.feminine [@sib.vowel.feminine @sib.vowel.neuter];
+    sub [@t-sib @d-sib]' lookup condition.sib.masculine_onset [@a-sib @i-sib @o-sib];
+    sub [@t-sib @d-sib]' lookup condition.sib.feminine [@e-sib @u-sib @ue-sib];
+    sub @sib.vowel [@k-sib @t-sib]' lookup condition.sib.devsger;
+    lookupflag 0;
+} III.sib.k_g_h_t_d.onset_and_devsger_and_gender;

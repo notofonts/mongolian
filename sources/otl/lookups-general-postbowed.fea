@@ -1,0 +1,136 @@
+# ==================================
+# III.5: Graphemic - Postbowed: Hudum
+# ==================================
+
+@hud.bowed.B = [@b-hud @p-hud @f-hud];
+@hud.bowed.K = [@k-hud @k2-hud];
+@hud.bowed.G = [uni182C.G.init uni182C.Gx.init uni182C.G.medi uni182C.Gx.medi uni182D.G.init uni182D.Gx.init uni182D.G.medi uni182D.Gx.medi];
+@hud.bowed.B.init = [@b-hud.init @p-hud.init @f-hud.init];
+@hud.bowed.K.init = [@k-hud.init @k2-hud.init];
+lookup III.hud.o_u_oe_ue.post_bowed {
+    lookupflag IgnoreMarks;
+    ignore sub [@hud.bowed.B @hud.bowed.K @hud.bowed.G] [uni1825.Ue.fina uni1826.Ue.fina]';
+    sub [@hud.bowed.B @hud.bowed.K @hud.bowed.G] [@o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.hud.post_bowed;
+    lookupflag 0;
+} III.hud.o_u_oe_ue.post_bowed;
+
+# EAC supports a/e following bowed consonant
+# EAC handles errors
+lookup III.eac.post_bowed.preprocessing {
+    sub [@hud.bowed.B @hud.bowed.K @g-hud @h-hud] @fvs.ignored' lookup _.nominal;
+} III.eac.post_bowed.preprocessing;
+
+lookup III.eac.a_e_o_u_oe_ue.post_bowed {
+    lookupflag IgnoreMarks;
+    # a/e
+    sub [@hud.bowed.B @hud.bowed.K] [@a-hud.fina @e-hud.fina]' lookup condition.hud.post_bowed;
+    sub [@hud.bowed.B @hud.bowed.K] @fvs [@a-hud.fina @e-hud.fina]' lookup condition.hud.post_bowed;
+    sub [@g-hud @h-hud] @e-hud.fina' lookup condition.hud.post_bowed;
+    sub [@g-hud @h-hud] [@fvs2 @fvs4] @e-hud.fina' lookup condition.hud.post_bowed;
+    sub [@g-hud @h-hud] [@fvs1 @fvs3] @e-hud.fina' lookup condition.eac.fina;
+    # o/u/oe/ue
+    sub [@hud.bowed.B.init @hud.bowed.K.init] @fvs [@oe-hud.fina @ue-hud.fina]' lookup condition.hud.marked;
+    sub [@g-hud @h-hud] [@fvs1 @fvs3] [@o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.eac.fina;
+    sub [@g-hud.medi @h-hud.medi] [@fvs2 @fvs4] [@o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.hud.post_bowed;
+    sub [@g-hud.init @h-hud.init] [@fvs2 @fvs4] [@o-hud.fina @u-hud.fina]' lookup condition.eac.fina;
+    sub [@g-hud.init @h-hud.init] [@fvs2 @fvs4] [@oe-hud.fina @ue-hud.fina]' lookup condition.hud.marked;
+    lookupflag 0;
+} III.eac.a_e_o_u_oe_ue.post_bowed;
+
+lookup III.eac.post_bowed.postprocessing {
+    sub [@hud.bowed.B @hud.bowed.K @g-hud @h-hud] @fvs.nominal' lookup _.ignored;
+} III.eac.post_bowed.postprocessing;
+
+# Ali Gali post bowed
+@hag.bowed.B = [@p-hag @ph-hag @b-hud];
+@hag.bowed.K = [@k-hag @k2-hud @k-hud];
+lookup III.hag.a_o_u_oe_ue.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@hag.bowed.B @hag.bowed.K] [@a-hud.fina @o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.hud.post_bowed;
+    lookupflag 0;
+} III.hag.a_o_u_oe_ue.post_bowed;
+
+lookup III.hag.a.post_wa {
+    lookupflag IgnoreMarks;
+    sub @wa-hag @a-hag.fina' lookup condition.hag.post_wa;
+    lookupflag 0;
+} III.hag.a.post_wa;
+
+
+# ==================================
+# III.5: Graphemic - Postbowed: Todo
+# ==================================
+
+@tod.bowed.B = [@b-tod @p-tod];
+@tod.bowed.K = [@kh-tod @gh-tod];
+@tod.bowed.G = [uni184D.K.init uni184D.K.medi uni184E.G.init uni184E.G.medi];
+lookup III.tod.a_i_ue.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@tod.bowed.B @tod.bowed.K @tod.bowed.G] [@a-tod.fina @i-tod.fina @u-tod.fina @ue-tod.fina]' lookup condition.tod.post_bowed;
+    lookupflag 0;
+} III.tod.a_i_ue.post_bowed;
+
+@tag.bowed.B = [@p-tag @p-tod @b-tod];
+@tag.bowed.K = [@k-tag @kh-tag @g-tag];
+lookup III.tag.a_i_ue.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@tag.bowed.K @tag.bowed.B] [@a-tod.fina @i-tod.fina @ue-tod.fina]' lookup condition.tod.post_bowed;
+    lookupflag 0;
+} III.tag.a_i_ue.post_bowed;
+
+@tod.bowed.O_fina = [uni1846.Ob.fina uni1847.Op.fina uni1848.Ot.fina uni1848.O.fina uni1849.O.fina];
+lookup III.tod.lvs.postprocessing {
+    lookupflag UseMarkFilteringSet [lvs.ignored];
+    sub [@tod.bowed.B @tod.bowed.K] uni1820.Aa.fina' lookup condition.tod_tag.medi lvs.ignored' lookup condition.tod.post_bowed_a;
+    sub @tod.bowed.O_fina' lookup condition.tod_tag.vowel_medi lvs.ignored' lookup condition.tod_tag.fina;
+    lookupflag 0;
+} III.tod.lvs.postprocessing;
+
+@tag.bowed.O_fina = [uni1846.Ob.fina uni1849.O.fina];
+lookup III.tag.lvs.postprocessing {
+    lookupflag UseMarkFilteringSet [lvs.ignored];
+    sub [@tag.bowed.B @tag.bowed.K] uni1820.Aa.fina' lookup condition.tod_tag.medi lvs.ignored' lookup condition.tod.post_bowed_a;
+    sub [@tag.bowed.B @tag.bowed.K] uni1845.Ip.fina' lookup condition.tod_tag.medi lvs.ignored' lookup condition.tod.post_bowed_i;
+    sub @tag.bowed.O_fina' lookup condition.tod_tag.vowel_medi lvs.ignored' lookup condition.tod_tag.fina;
+    lookupflag 0;
+} III.tag.lvs.postprocessing;
+
+
+# ==================================
+# III.5: Graphemic - Postbowed: Manchu
+# ==================================
+
+@man.bowed.B = [@b-man @p-man];
+@man.bowed.G = [uni1874.G.init uni1874.Gx.init uni1874.G.medi uni1874.Gx.medi uni1864.Gh.init uni1864.Gh.medi uni1865.Gc.init uni1865.Gc.medi];
+@man.bowed.K = [@kh-man @gh-man @hh-man];
+lookup III.man.a_e_o_u.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@man.bowed.B @man.bowed.G] [@e-man @u-man]' lookup condition.man.post_bowed;
+    sub [@man.bowed.B @man.bowed.K] [@a-man @o-man]' lookup condition.man.post_bowed;
+    lookupflag 0;
+} III.man.a_e_o_u.post_bowed;
+
+@mag.bowed.B = [@p-mag @p-man @b-man @bh-mag];
+@mag.bowed.K = [@gh-man @kh-man];
+@mag.bowed.G = [uni1864.Gh.init uni1864.Gh.medi uni1874.G.init uni1874.G.medi uni1865.Gc.init uni1865.Gc.medi];
+lookup III.mag.a_e_o_u.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@mag.bowed.B @mag.bowed.G @gh-mag @ng-mag] [@e-man @u-man]' lookup condition.man.post_bowed;
+    sub [@mag.bowed.B @mag.bowed.K] [@a-man @o-man]' lookup condition.man.post_bowed;
+    lookupflag 0;
+} III.mag.a_e_o_u.post_bowed;
+
+
+# ==================================
+# III.5: Graphemic - Postbowed: Sibe
+# ==================================
+
+@sib.bowed.B = [@b-sib @p-sib];
+@sib.bowed.G = [uni1863.G.init uni1863.Gx.init uni1863.G.medi uni1863.Gx.medi uni1864.Gh.init uni1864.Gh.medi uni1865.Gc.init uni1865.Gc.medi];
+@sib.bowed.K = [@kh-sib @gh-sib @hh-sib];
+lookup III.sib.a_e_o_u.post_bowed {
+    lookupflag IgnoreMarks;
+    sub [@sib.bowed.B @sib.bowed.G] [@e-sib @u-sib]' lookup condition.sib.post_bowed;
+    sub [@sib.bowed.B @sib.bowed.K] [@a-sib @o-sib]' lookup condition.sib.post_bowed;
+    lookupflag 0;
+} III.sib.a_e_o_u.post_bowed;

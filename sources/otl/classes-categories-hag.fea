@@ -1,0 +1,14 @@
+@hud.consonant = [@n-hud @ng-hud @b-hud @p-hud @h-hud @g-hud @m-hud @l-hud @s-hud @sh-hud @t-hud @d-hud @ch-hud @j-hud @y-hud @r-hud @w-hud @f-hud @k2-hud @k-hud @c-hud @z-hud @hh-hud @rh-hud @lh-hud @zr-hud @cr-hud];
+@hud.consonant.init = [@n-hud.init @ng-hud.init @b-hud.init @p-hud.init @h-hud.init @g-hud.init @m-hud.init @l-hud.init @s-hud.init @sh-hud.init @t-hud.init @d-hud.init @ch-hud.init @j-hud.init @y-hud.init @r-hud.init @w-hud.init @f-hud.init @k2-hud.init @k-hud.init @c-hud.init @z-hud.init @hh-hud.init @rh-hud.init @lh-hud.init @zr-hud.init @cr-hud.init];
+@hud.consonant.medi = [@n-hud.medi @ng-hud.medi @b-hud.medi @p-hud.medi @h-hud.medi @g-hud.medi @m-hud.medi @l-hud.medi @s-hud.medi @sh-hud.medi @t-hud.medi @d-hud.medi @ch-hud.medi @j-hud.medi @y-hud.medi @r-hud.medi @w-hud.medi @f-hud.medi @k2-hud.medi @k-hud.medi @c-hud.medi @z-hud.medi @hh-hud.medi @rh-hud.medi @lh-hud.medi @zr-hud.medi @cr-hud.medi];
+@hud.vowel.masculine = [@a-hud @o-hud @u-hud];
+@hud.vowel.feminine = [@e-hud @oe-hud @ue-hud @ee-hud];
+@hud.vowel.neuter = [@i-hud];
+@hud.vowel = [@hud.vowel.masculine @hud.vowel.feminine @hud.vowel.neuter];
+@hud.vowel.medi = [@a-hud.medi @e-hud.medi @i-hud.medi @o-hud.medi @u-hud.medi @oe-hud.medi @ue-hud.medi @ee-hud.medi];
+@hud.vowel.fina = [@a-hud.fina @e-hud.fina @i-hud.fina @o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina @ee-hud.fina];
+
+@hag.consonant = [@k-hag @k-hud @k2-hud @ng-hud @ng-hag @c-hag @c-hud @z-hud @ny-hag @tr-hag @trh-hag @dr-hag @nr-hag @t-hag @th-hag @d-hag @n-hud @p-hag @ph-hag @b-hud @m-hag @y-hag @r-hud @l-hud @w-hud @wa-hag @sh-hud @sh-hag @s-hud @h-hag @cr-hag @ch-hud @zr-hag @z-hag @q-hag @lh-hud];
+@hag.consonant.init = [@k-hag.init @k-hud.init @k2-hud.init @ng-hud.init @ng-hag.init @c-hag.init @c-hud.init @z-hud.init @ny-hag.init @tr-hag.init @trh-hag.init @dr-hag.init @nr-hag.init @t-hag.init @th-hag.init @d-hag.init @n-hud.init @p-hag.init @ph-hag.init @b-hud.init @m-hag.init @y-hag.init @r-hud.init @l-hud.init @w-hud.init @wa-hag.init @sh-hud.init @sh-hag.init @s-hud.init @h-hag.init @cr-hag.init @ch-hud.init @zr-hag.init @z-hag.init @q-hag.init @lh-hud.init];
+@hag.consonant.medi = [@k-hag.medi @k-hud.medi @k2-hud.medi @ng-hud.medi @ng-hag.medi @c-hag.medi @c-hud.medi @z-hud.medi @ny-hag.medi @tr-hag.medi @trh-hag.medi @dr-hag.medi @nr-hag.medi @t-hag.medi @th-hag.medi @d-hag.medi @n-hud.medi @p-hag.medi @ph-hag.medi @b-hud.medi @m-hag.medi @y-hag.medi @r-hud.medi @l-hud.medi @w-hud.medi @wa-hag.medi @sh-hud.medi @sh-hag.medi @s-hud.medi @h-hag.medi @cr-hag.medi @ch-hud.medi @zr-hag.medi @z-hag.medi @q-hag.medi @lh-hud.medi];
+@hag.vowel = [@a-hud @a-hag @i-hag @ue-hud @ee-hud @o-hud];

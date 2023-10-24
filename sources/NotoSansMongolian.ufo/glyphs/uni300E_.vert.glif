@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni300E.vert" format="2">
+  <advance width="1000" height="419"/>
+  <outline>
+    <contour>
+      <point x="801" y="690" type="line"/>
+      <point x="801" y="495" type="line"/>
+      <point x="967" y="495" type="line"/>
+      <point x="967" y="846" type="line"/>
+      <point x="304" y="846" type="line"/>
+      <point x="304" y="690" type="line"/>
+    </contour>
+    <contour>
+      <point x="934" y="813" type="line"/>
+      <point x="934" y="528" type="line"/>
+      <point x="834" y="528" type="line"/>
+      <point x="834" y="723" type="line"/>
+      <point x="337" y="723" type="line"/>
+      <point x="337" y="813" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

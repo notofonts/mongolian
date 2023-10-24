@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni185E.AI.fina" format="2">
+  <advance width="785" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="411" y="42" type="curve"/>
+      <point x="483" y="85" type="line"/>
+      <point x="407" y="191"/>
+      <point x="361" y="290"/>
+      <point x="361" y="407" type="curve"/>
+      <point x="361" y="544"/>
+      <point x="418" y="609"/>
+      <point x="510" y="609" type="curve"/>
+      <point x="598" y="609"/>
+      <point x="649" y="525"/>
+      <point x="660" y="376" type="curve"/>
+      <point x="740" y="386" type="line"/>
+      <point x="730" y="552"/>
+      <point x="663" y="692"/>
+      <point x="510" y="692" type="curve"/>
+      <point x="374" y="692"/>
+      <point x="294" y="595"/>
+      <point x="283" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="19" y="96" type="line"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="284" y="364" type="line"/>
+      <point x="293" y="260"/>
+      <point x="336" y="152"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

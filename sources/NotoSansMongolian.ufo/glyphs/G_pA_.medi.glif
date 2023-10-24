@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GpA.medi" format="2">
+  <advance width="666" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="126" y="42" type="curve"/>
+      <point x="197" y="85" type="line"/>
+      <point x="121" y="197"/>
+      <point x="76" y="291"/>
+      <point x="76" y="417" type="curve"/>
+      <point x="76" y="571"/>
+      <point x="135" y="644"/>
+      <point x="227" y="644" type="curve"/>
+      <point x="347" y="644"/>
+      <point x="370" y="529"/>
+      <point x="382" y="359" type="curve"/>
+      <point x="401" y="96" type="line"/>
+      <point x="467" y="96" type="line"/>
+      <point x="486" y="364" type="line"/>
+      <point x="696" y="364" type="line"/>
+      <point x="696" y="444" type="line"/>
+      <point x="455" y="444" type="line"/>
+      <point x="434" y="614"/>
+      <point x="376" y="727"/>
+      <point x="226" y="727" type="curve"/>
+      <point x="89" y="727"/>
+      <point x="-3" y="610"/>
+      <point x="-3" y="420" type="curve"/>
+      <point x="-3" y="367"/>
+      <point x="5" y="309"/>
+      <point x="22" y="253" type="curve"/>
+      <point x="-9" y="210"/>
+      <point x="-39" y="167"/>
+      <point x="-68" y="120" type="curve"/>
+      <point x="2" y="77" type="line"/>
+      <point x="18" y="105"/>
+      <point x="36" y="134"/>
+      <point x="57" y="164" type="curve"/>
+      <point x="75" y="125"/>
+      <point x="98" y="84"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

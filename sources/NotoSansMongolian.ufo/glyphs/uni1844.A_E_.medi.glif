@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1844.AE.medi" format="2">
+  <advance width="768" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="646" y="9" type="curve"/>
+      <point x="646" y="92" type="line"/>
+      <point x="625" y="110"/>
+      <point x="590" y="119"/>
+      <point x="541" y="119" type="curve"/>
+      <point x="500" y="119" type="line"/>
+      <point x="409" y="119"/>
+      <point x="363" y="167"/>
+      <point x="363" y="263" type="curve"/>
+      <point x="363" y="364" type="line"/>
+      <point x="798" y="364" type="line"/>
+      <point x="798" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="19" y="96" type="line"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="284" y="364" type="line"/>
+      <point x="284" y="263" type="line"/>
+      <point x="284" y="109"/>
+      <point x="361" y="36"/>
+      <point x="500" y="36" type="curve"/>
+      <point x="541" y="36" type="line"/>
+      <point x="591" y="36"/>
+      <point x="626" y="27"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

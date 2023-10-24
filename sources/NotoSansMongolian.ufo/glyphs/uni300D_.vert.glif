@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni300D.vert" format="2">
+  <advance width="1000" height="400"/>
+  <outline>
+    <contour>
+      <point x="25" y="522" type="line"/>
+      <point x="731" y="522" type="line"/>
+      <point x="731" y="594" type="line"/>
+      <point x="99" y="594" type="line"/>
+      <point x="99" y="838" type="line"/>
+      <point x="25" y="838" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

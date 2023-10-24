@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="MM.medi" format="2">
+  <advance width="568" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="19" y="96" type="line"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="284" y="364" type="line"/>
+      <point x="303" y="96" type="line"/>
+      <point x="369" y="96" type="line"/>
+      <point x="388" y="364" type="line"/>
+      <point x="598" y="364" type="line"/>
+      <point x="598" y="444" type="line"/>
+      <point x="368" y="444" type="line"/>
+      <point x="367" y="500"/>
+      <point x="363" y="548"/>
+      <point x="359" y="589" type="curve"/>
+      <point x="374" y="589" type="line"/>
+      <point x="456" y="589"/>
+      <point x="508" y="590"/>
+      <point x="553" y="627" type="curve"/>
+      <point x="553" y="705" type="line"/>
+      <point x="502" y="671"/>
+      <point x="452" y="669"/>
+      <point x="374" y="669" type="curve"/>
+      <point x="279" y="669" type="line"/>
+      <point x="279" y="603" type="line"/>
+      <point x="290" y="557"/>
+      <point x="296" y="504"/>
+      <point x="298" y="444" type="curve"/>
+      <point x="84" y="444" type="line"/>
+      <point x="83" y="527"/>
+      <point x="73" y="606"/>
+      <point x="54" y="679" type="curve"/>
+      <point x="100" y="679" type="line"/>
+      <point x="140" y="679"/>
+      <point x="179" y="681"/>
+      <point x="209" y="700" type="curve"/>
+      <point x="209" y="778" type="line"/>
+      <point x="189" y="765"/>
+      <point x="152" y="759"/>
+      <point x="100" y="759" type="curve"/>
+      <point x="-31" y="759" type="line"/>
+      <point x="-31" y="693" type="line"/>
+      <point x="-3" y="618"/>
+      <point x="12" y="535"/>
+      <point x="14" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

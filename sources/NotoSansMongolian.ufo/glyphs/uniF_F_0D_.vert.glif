@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFF0D.vert" format="2">
+  <advance width="1000" height="1000"/>
+  <outline>
+    <contour>
+      <point x="535" y="17" type="line"/>
+      <point x="535" y="743" type="line"/>
+      <point x="466" y="743" type="line"/>
+      <point x="466" y="17" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

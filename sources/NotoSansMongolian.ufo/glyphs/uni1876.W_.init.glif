@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1876.W.init" format="2">
+  <advance width="418" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="249" y="-59" type="curve"/>
+      <point x="286" y="-59"/>
+      <point x="317" y="-46"/>
+      <point x="332" y="-25" type="curve"/>
+      <point x="332" y="66" type="line"/>
+      <point x="313" y="38"/>
+      <point x="286" y="24"/>
+      <point x="249" y="24" type="curve"/>
+      <point x="198" y="24"/>
+      <point x="162" y="83"/>
+      <point x="140" y="198" type="curve"/>
+      <point x="129" y="255"/>
+      <point x="123" y="311"/>
+      <point x="123" y="364" type="curve"/>
+      <point x="448" y="364" type="line"/>
+      <point x="448" y="444" type="line"/>
+      <point x="45" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="45" y="310"/>
+      <point x="51" y="250"/>
+      <point x="63" y="186" type="curve"/>
+      <point x="90" y="43"/>
+      <point x="133" y="-59"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

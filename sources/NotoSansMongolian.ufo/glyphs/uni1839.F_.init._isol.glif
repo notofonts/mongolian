@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1839.F.init._isol" format="2">
+  <advance width="697" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="239" y="-182" type="curve"/>
+      <point x="329" y="-182" type="line"/>
+      <point x="304" y="-148"/>
+      <point x="291" y="-108"/>
+      <point x="291" y="-63" type="curve"/>
+      <point x="291" y="-25"/>
+      <point x="298" y="9"/>
+      <point x="311" y="40" type="curve"/>
+      <point x="315" y="40" type="line"/>
+      <point x="416" y="40"/>
+      <point x="491" y="138"/>
+      <point x="491" y="274" type="curve"/>
+      <point x="491" y="311"/>
+      <point x="480" y="410"/>
+      <point x="468" y="444" type="curve"/>
+      <point x="164" y="444" type="line"/>
+      <point x="166" y="590"/>
+      <point x="238" y="699"/>
+      <point x="375" y="699" type="curve"/>
+      <point x="507" y="699"/>
+      <point x="592" y="576"/>
+      <point x="597" y="364" type="curve"/>
+      <point x="671" y="364" type="line"/>
+      <point x="671" y="586"/>
+      <point x="572" y="782"/>
+      <point x="376" y="782" type="curve"/>
+      <point x="181" y="782"/>
+      <point x="85" y="624"/>
+      <point x="85" y="408" type="curve"/>
+      <point x="85" y="202"/>
+      <point x="136" y="83"/>
+      <point x="241" y="50" type="curve"/>
+      <point x="220" y="14"/>
+      <point x="209" y="-24"/>
+      <point x="209" y="-64" type="curve"/>
+      <point x="209" y="-113"/>
+      <point x="219" y="-152"/>
+    </contour>
+    <contour>
+      <point x="304" y="123" type="curve"/>
+      <point x="213" y="123"/>
+      <point x="166" y="203"/>
+      <point x="164" y="364" type="curve"/>
+      <point x="402" y="364" type="line"/>
+      <point x="409" y="345"/>
+      <point x="412" y="315"/>
+      <point x="412" y="275" type="curve"/>
+      <point x="412" y="190"/>
+      <point x="377" y="123"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

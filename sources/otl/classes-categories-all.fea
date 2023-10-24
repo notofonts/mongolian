@@ -1,0 +1,11 @@
+@msc = [mvs mvs.narrow mvs.wide mvs.nominal nnbsp];
+@msc.effective = [mvs.narrow mvs.wide];
+
+@fvs.nominal = [fvs1 fvs2 fvs3 fvs4];
+@fvs.effective = [fvs1.effective fvs2.effective fvs3.effective fvs4.effective];
+@fvs.ignored = [fvs1.ignored fvs2.ignored fvs3.ignored fvs4.ignored];
+@fvs1 = [fvs1 fvs1.ignored fvs1.effective];
+@fvs2 = [fvs2 fvs2.ignored fvs2.effective];
+@fvs3 = [fvs3 fvs3.ignored fvs3.effective];
+@fvs4 = [fvs4 fvs4.ignored fvs4.effective];
+@fvs = [@fvs1 @fvs2 @fvs3 @fvs4];

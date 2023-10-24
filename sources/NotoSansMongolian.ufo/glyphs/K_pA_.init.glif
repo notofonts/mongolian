@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KpA.init" format="2">
+  <advance width="714" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="27" y="96" type="line"/>
+      <point x="238" y="96" type="line"/>
+      <point x="167" y="202"/>
+      <point x="124" y="296"/>
+      <point x="124" y="417" type="curve"/>
+      <point x="124" y="571"/>
+      <point x="182" y="644"/>
+      <point x="275" y="644" type="curve"/>
+      <point x="396" y="644"/>
+      <point x="418" y="528"/>
+      <point x="430" y="358" type="curve"/>
+      <point x="449" y="96" type="line"/>
+      <point x="515" y="96" type="line"/>
+      <point x="534" y="364" type="line"/>
+      <point x="744" y="364" type="line"/>
+      <point x="744" y="444" type="line"/>
+      <point x="503" y="444" type="line"/>
+      <point x="482" y="614"/>
+      <point x="424" y="727"/>
+      <point x="274" y="727" type="curve"/>
+      <point x="137" y="727"/>
+      <point x="45" y="610"/>
+      <point x="45" y="418" type="curve"/>
+      <point x="45" y="339"/>
+      <point x="63" y="258"/>
+      <point x="99" y="176" type="curve"/>
+      <point x="27" y="176" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

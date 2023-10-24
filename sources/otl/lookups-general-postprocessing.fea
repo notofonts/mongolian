@@ -1,0 +1,17 @@
+# ==================================
+# postprocessing: control characters
+# ==================================
+
+lookup IIb.controls.postprocessing {
+    sub nirugu.ignored' lookup _.nominal;
+    sub @fvs.ignored' lookup _.nominal;
+    sub mvs' lookup _.nominal;
+} IIb.controls.postprocessing;
+
+lookup IIb.lvs.postprocessing {
+    lookupflag IgnoreMarks;
+    sub [@tod.consonant.init @tod.consonant.medi @tag.consonant.init @tag.consonant.medi] lvs.ignored' lookup condition.tod_tag.medi [@tod.consonant @tod.vowel @tag.consonant @tag.vowel];
+    sub lvs.ignored' lookup condition.tod_tag.init [@tod.consonant @tod.vowel @tag.consonant @tag.vowel];
+    sub [@tod.consonant.init @tod.consonant.medi @tag.consonant.init @tag.consonant.medi] lvs.ignored' lookup condition.tod_tag.fina;
+    lookupflag 0;
+} IIb.lvs.postprocessing;

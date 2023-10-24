@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1870.Rr.init._isol" format="2">
+  <advance width="428" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="85" y="96" type="line"/>
+      <point x="158" y="96" type="line"/>
+      <point x="158" y="364" type="line"/>
+      <point x="368" y="364" type="line"/>
+      <point x="368" y="444" type="line"/>
+      <point x="158" y="444" type="line"/>
+      <point x="158" y="712" type="line"/>
+      <point x="85" y="712" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <string>880</string>
+    </dict>
+  </lib>
+</glyph>

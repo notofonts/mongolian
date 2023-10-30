@@ -37,13 +37,13 @@ feature rclt {
 
 # IB.1: Vertical forms of punctuation marks
 include(otl/lookups-punctuation.fea);
-feature rlig {
-    lookup Ib.punctuation.ligature;
-} rlig;
-
 feature vert {
     lookup Ib.punctuation.vertical;
 } vert;
+
+feature rlig {
+    lookup Ib.punctuation.ligature;
+} rlig;
 
 feature vpal {
     lookup Ib.punctuation.propotional;

@@ -3,24 +3,24 @@
   <advance width="1000" height="500"/>
   <outline>
     <contour>
-      <point x="500" y="736" type="curve"/>
-      <point x="441" y="736"/>
-      <point x="394" y="689"/>
-      <point x="394" y="630" type="curve"/>
-      <point x="394" y="571"/>
-      <point x="441" y="524"/>
-      <point x="500" y="524" type="curve"/>
-      <point x="559" y="524"/>
-      <point x="606" y="571"/>
-      <point x="606" y="630" type="curve"/>
-      <point x="606" y="689"/>
-      <point x="559" y="736"/>
+      <point x="500" y="486" type="curve"/>
+      <point x="441" y="486"/>
+      <point x="394" y="439"/>
+      <point x="394" y="380" type="curve"/>
+      <point x="394" y="321"/>
+      <point x="441" y="274"/>
+      <point x="500" y="274" type="curve"/>
+      <point x="559" y="274"/>
+      <point x="606" y="321"/>
+      <point x="606" y="380" type="curve"/>
+      <point x="606" y="439"/>
+      <point x="559" y="486"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <integer>630</integer>
     </dict>
   </lib>
 </glyph>

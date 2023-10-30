@@ -3,26 +3,26 @@
   <advance width="1000" height="419"/>
   <outline>
     <contour>
-      <point x="801" y="690" type="line"/>
-      <point x="801" y="495" type="line"/>
-      <point x="967" y="495" type="line"/>
-      <point x="967" y="846" type="line"/>
-      <point x="304" y="846" type="line"/>
-      <point x="304" y="690" type="line"/>
+      <point x="802" y="109" type="line"/>
+      <point x="802" y="-86" type="line"/>
+      <point x="968" y="-86" type="line"/>
+      <point x="968" y="265" type="line"/>
+      <point x="305" y="265" type="line"/>
+      <point x="305" y="109" type="line"/>
     </contour>
     <contour>
-      <point x="934" y="813" type="line"/>
-      <point x="934" y="528" type="line"/>
-      <point x="834" y="528" type="line"/>
-      <point x="834" y="723" type="line"/>
-      <point x="337" y="723" type="line"/>
-      <point x="337" y="813" type="line"/>
+      <point x="935" y="232" type="line"/>
+      <point x="935" y="-53" type="line"/>
+      <point x="835" y="-53" type="line"/>
+      <point x="835" y="142" type="line"/>
+      <point x="338" y="142" type="line"/>
+      <point x="338" y="232" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <integer>299</integer>
     </dict>
   </lib>
 </glyph>

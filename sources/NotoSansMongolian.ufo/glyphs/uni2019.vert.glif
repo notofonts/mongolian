@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2019.vert" format="2">
+  <advance width="442" height="1000"/>
+  <outline>
+    <contour>
+      <point x="324" y="689" type="curve"/>
+      <point x="362" y="710" type="line"/>
+      <point x="332" y="774"/>
+      <point x="264" y="835"/>
+      <point x="175" y="835" type="curve"/>
+      <point x="120" y="835"/>
+      <point x="80" y="799"/>
+      <point x="80" y="756" type="curve"/>
+      <point x="80" y="711"/>
+      <point x="113" y="688"/>
+      <point x="145" y="688" type="curve"/>
+      <point x="181" y="688"/>
+      <point x="209" y="713"/>
+      <point x="209" y="751" type="curve"/>
+      <point x="209" y="762"/>
+      <point x="205" y="772"/>
+      <point x="201" y="778" type="curve"/>
+      <point x="245" y="778"/>
+      <point x="297" y="743"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

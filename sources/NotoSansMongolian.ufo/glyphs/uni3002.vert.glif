@@ -3,38 +3,38 @@
   <advance width="1000" height="500"/>
   <outline>
     <contour>
-      <point x="501" y="783" type="curve"/>
-      <point x="418" y="783"/>
-      <point x="349" y="715"/>
-      <point x="349" y="631" type="curve"/>
-      <point x="349" y="546"/>
-      <point x="418" y="478"/>
-      <point x="501" y="478" type="curve"/>
-      <point x="586" y="478"/>
-      <point x="654" y="546"/>
-      <point x="654" y="631" type="curve"/>
-      <point x="654" y="715"/>
-      <point x="586" y="783"/>
+      <point x="499" y="532" type="curve"/>
+      <point x="416" y="532"/>
+      <point x="347" y="464"/>
+      <point x="347" y="380" type="curve"/>
+      <point x="347" y="295"/>
+      <point x="416" y="227"/>
+      <point x="499" y="227" type="curve"/>
+      <point x="584" y="227"/>
+      <point x="652" y="295"/>
+      <point x="652" y="380" type="curve"/>
+      <point x="652" y="464"/>
+      <point x="584" y="532"/>
     </contour>
     <contour>
-      <point x="501" y="529" type="curve"/>
-      <point x="446" y="529"/>
-      <point x="400" y="574"/>
-      <point x="400" y="631" type="curve"/>
-      <point x="400" y="686"/>
-      <point x="446" y="732"/>
-      <point x="501" y="732" type="curve"/>
-      <point x="558" y="732"/>
-      <point x="603" y="686"/>
-      <point x="603" y="631" type="curve"/>
-      <point x="603" y="574"/>
-      <point x="558" y="529"/>
+      <point x="499" y="278" type="curve"/>
+      <point x="444" y="278"/>
+      <point x="398" y="323"/>
+      <point x="398" y="380" type="curve"/>
+      <point x="398" y="435"/>
+      <point x="444" y="481"/>
+      <point x="499" y="481" type="curve"/>
+      <point x="556" y="481"/>
+      <point x="601" y="435"/>
+      <point x="601" y="380" type="curve"/>
+      <point x="601" y="323"/>
+      <point x="556" y="278"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <integer>630</integer>
     </dict>
   </lib>
 </glyph>

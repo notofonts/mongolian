@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>.notdef</key>
+  <string>_notdef.glif</string>
   <key>AALv.init</key>
   <string>A_A_L_v.init.glif</string>
   <key>AALv.isol</key>
@@ -1094,8 +1096,6 @@
   <string>Z_tO_h.isol.glif</string>
   <key>ZtOh.medi</key>
   <string>Z_tO_h.medi.glif</string>
-  <key>.notdef</key>
-  <string>_notdef.glif</string>
   <key>_uni1820.A.fina</key>
   <string>_uni1820.A_.fina.glif</string>
   <key>_uni1822.AI.init</key>
@@ -3026,12 +3026,20 @@
   <string>uni18A_A_.L_c.medi._fina.glif</string>
   <key>uni2018</key>
   <string>uni2018.glif</string>
+  <key>uni2018.vert</key>
+  <string>uni2018.vert.glif</string>
   <key>uni2019</key>
   <string>uni2019.glif</string>
+  <key>uni2019.vert</key>
+  <string>uni2019.vert.glif</string>
   <key>uni201C</key>
   <string>uni201C_.glif</string>
+  <key>uni201C.vert</key>
+  <string>uni201C_.vert.glif</string>
   <key>uni201D</key>
   <string>uni201D_.glif</string>
+  <key>uni201D.vert</key>
+  <string>uni201D_.vert.glif</string>
   <key>uni2048</key>
   <string>uni2048.glif</string>
   <key>uni2048.vert</key>

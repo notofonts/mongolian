@@ -3,20 +3,20 @@
   <advance width="1000" height="322"/>
   <outline>
     <contour>
-      <point x="966" y="846" type="line"/>
-      <point x="34" y="846" type="line"/>
-      <point x="34" y="592" type="line"/>
-      <point x="87" y="592" type="line"/>
-      <point x="87" y="777" type="line"/>
-      <point x="913" y="777" type="line"/>
-      <point x="913" y="592" type="line"/>
-      <point x="966" y="592" type="line"/>
+      <point x="966" y="168" type="line"/>
+      <point x="34" y="168" type="line"/>
+      <point x="34" y="-86" type="line"/>
+      <point x="87" y="-86" type="line"/>
+      <point x="87" y="99" type="line"/>
+      <point x="913" y="99" type="line"/>
+      <point x="913" y="-86" type="line"/>
+      <point x="966" y="-86" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <integer>202</integer>
     </dict>
   </lib>
 </glyph>

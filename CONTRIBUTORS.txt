@@ -8,3 +8,9 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+# Version 3.000 re-engineering
+Kushim Jiang 姜 兆勤 <kushim_jiang@outlook.com>
+梁海 Liang Hai <lianghai@gmail.com>
+Greg Eck <greg@postone.net>
+

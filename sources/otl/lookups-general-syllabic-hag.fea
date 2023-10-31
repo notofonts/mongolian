@@ -1,0 +1,204 @@
+# ==================================
+# III.2: Phonetic - Syllabic: Hudum+AG with EAC request and UTN request
+# ==================================
+
+# Syllabic - o/u/oe/ue - Marked
+lookup III.hud.o_u_oe_ue.marked {
+    lookupflag IgnoreMarks;
+    sub @hud.consonant.init [@o-hud @u-hud @oe-hud @ue-hud]' lookup condition.hud.marked;
+    lookupflag 0;
+} III.hud.o_u_oe_ue.marked;
+
+lookup III.hag.o_u_oe_ue.marked {
+    lookupflag IgnoreMarks;
+    sub @hag.consonant.init [@o-hud @ue-hud]' lookup condition.hud.marked;
+    lookupflag 0;
+} III.hag.o_u_oe_ue.marked;
+
+# EAC makes FVSes break the feature
+lookup III.eac.o_u_oe_ue.marked {
+    lookupflag UseMarkFilteringSet @fvs;
+    sub @fvs [@o-hud.medi @u-hud.medi @oe-hud.medi @ue-hud.medi]' lookup condition.eac.medi;
+    sub @fvs [@o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.eac.fina;
+    sub [@o-hud.medi @u-hud.medi @oe-hud.medi @ue-hud.medi]' lookup condition.eac.medi @fvs;
+    sub [@o-hud.fina @u-hud.fina @oe-hud.fina @ue-hud.fina]' lookup condition.eac.fina @fvs;
+    lookupflag 0;
+} III.eac.o_u_oe_ue.marked;
+
+# EAC handles marked d
+lookup III.eac.d.marked {
+    lookupflag UseMarkFilteringSet @fvs;
+    ignore sub @d-hud.init' @hud.vowel @fvs;
+    sub @d-hud.init' lookup condition.hud.marked @hud.vowel.fina;
+} III.eac.d.marked;
+
+# EAC predicts oe/ue after G/Gx
+lookup III.eac.oe_ue.marked {
+    lookupflag UseMarkFilteringSet @fvs;
+    sub [@g-hud.init @h-hud.init] [@fvs2 @fvs4] [@oe-hud.fina @ue-hud.fina]' lookup condition.hud.marked;
+} III.eac.oe_ue.marked;
+
+# EAC supports consonant cluster
+lookup III.eac.oe_ue.initial_marked.A {
+    lookupflag IgnoreMarks;
+    sub [@hud.consonant.init @hud.marked_1] @hud.consonant.medi' lookup _.hud.marked;
+    lookupflag 0;
+} III.eac.oe_ue.initial_marked.A;
+
+lookup III.eac.oe_ue.initial_marked.B {
+    lookupflag IgnoreMarks;
+    sub [@hud.consonant.init @hud.marked_1] [@o-hud.medi @u-hud.medi @oe-hud.medi @ue-hud.medi]' lookup condition.hud.marked;
+    lookupflag 0;
+} III.eac.oe_ue.initial_marked.B;
+
+lookup III.eac.oe_ue.initial_marked.C {
+    sub @hud.marked_1' lookup _.hud.unmarked;
+} III.eac.oe_ue.initial_marked.C;
+
+# Hudum AG marked u
+lookup III.hag.u.marked {
+    lookupflag IgnoreMarks;
+    sub @hag.consonant.init @h-hag @ue-hud' lookup condition.hud.marked;
+    lookupflag 0;
+} III.hag.u.marked;
+
+# Syllabic - n/j/y/w - Chachlag_Onset
+# Syllabic - h/g - Chachlag_Onset
+
+lookup III.hud.n_j_w_h_g.chachlag_onset {
+    lookupflag IgnoreMarks;
+    sub [@n-hud.fina @j-hud.isol @j-hud.fina @w-hud.fina]' lookup condition.hud.chachlag_onset @msc.effective [uni1820.Aa.isol uni1821.Aa.isol];
+    sub [@h-hud.fina @g-hud.fina]' lookup condition.hud.chachlag_onset @msc.effective uni1820.Aa.isol;
+    lookupflag 0;
+} III.hud.n_j_w_h_g.chachlag_onset;
+
+# EAC support <g, FVS, e>
+lookup III.eac.g.chachlag_onset {
+    lookupflag IgnoreMarks;
+    sub @g-hud.fina' lookup condition.eac.chachlag @msc.effective uni1821.Aa.isol;
+    lookupflag 0;
+} III.eac.g.chachlag_onset;
+
+# Hudum AG a <a, FVS, a>
+lookup III.hag.a.chachlag_onset {
+    lookupflag IgnoreMarks;
+    sub @a-hud.fina' lookup condition.hud.chachlag_onset @msc.effective uni1820.Aa.isol;
+    lookupflag 0;
+} III.hag.a.chachlag_onset;
+
+# Syllabic - n/t/d - Onset
+# Syllabic - n/t/d - Devsger
+
+lookup III.hud.n_t_d.onset_and_devsger {
+    lookupflag IgnoreMarks;
+    ignore sub [@n-hud.init @t-hud.init @d-hud.init]' @hud.vowel.fina;
+    ignore sub @n-hud.fina' @msc.effective;
+    sub [@n-hud @t-hud @d-hud]' lookup condition.hud.onset @hud.vowel;
+    sub @hud.vowel [@n-hud @d-hud]' lookup condition.hud.devsger;
+    lookupflag 0;
+} III.hud.n_t_d.onset_and_devsger;
+
+# EAC does not support two-root word
+lookup III.utn.hud_two_root {
+    lookupflag IgnoreMarks;
+    sub zwj.ignored @hud.vowel.medi' lookup condition.hud.toothed;
+    lookupflag 0;
+} III.utn.hud_two_root;
+
+# Syllabic - h/g - Masculine_Onset
+# Syllabic - h/g - Feminine
+# Syllabic - g - Masculine_Devsger
+# Syllabic - g - Feminine
+
+lookup III.hud.h_g.onset_and_devsger_and_gender.A {
+    lookupflag IgnoreMarks;
+    ignore sub [@h-hud @g-hud]' @msc [@a-hud.isol @e-hud.isol];
+    sub [@h-hud @g-hud]' lookup condition.hud.masculine_onset @hud.vowel.masculine;
+    sub [@h-hud @g-hud]' lookup condition.hud.feminine [@hud.vowel.feminine @hud.vowel.neuter];
+    sub @hud.vowel.masculine [@h-hud @g-hud]' lookup condition.hud.masculine_devsger;
+    sub @hud.vowel.feminine [@h-hud @g-hud]' lookup condition.hud.feminine;
+    lookupflag 0;
+} III.hud.h_g.onset_and_devsger_and_gender.A;
+
+lookup III.hud.h_g.onset_and_devsger_and_gender.B {
+    lookupflag UseMarkFilteringSet @signal.masculine;
+    ignore sub [@h-hud @g-hud]' @hud.vowel;
+    ignore sub [@h-hud @g-hud]' masculine @hud.vowel;
+    ignore sub [@h-hud @g-hud]' @msc [@a-hud.isol @e-hud.isol];
+    sub @i-hud [@g-hud @h-hud]' lookup condition.hud.masculine_devsger masculine;
+    sub @i-hud @g-hud' lookup condition.hud.feminine;
+    lookupflag 0;
+} III.hud.h_g.onset_and_devsger_and_gender.B;
+
+# EAC request for solitary g/h
+lookup III.eac.h_g.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    sub [@h-hud.init @g-hud.init]' lookup condition.hud.feminine @hud.consonant;
+    lookupflag 0;
+} III.eac.h_g.onset_and_devsger_and_gender;
+
+lookup III.hud.ig.postprocessing.A {
+    lookupflag UseMarkFilteringSet @signal.masculine;
+    sub uni182D.Hx.init masculine by uni182D.Hx.init;
+    sub uni182D.H.init masculine by uni182D.H.init;
+    sub uni182D.G.init masculine by uni182D.G.init;
+    sub uni182D.G.medi masculine by uni182D.G.medi;
+    sub uni182D.H.medi masculine by uni182D.H.medi;
+    sub uni182D.Hx.medi masculine by uni182D.Hx.medi;
+    sub uni182D.G.fina masculine by uni182D.G.fina;
+    sub uni182D.H.fina masculine by uni182D.H.fina;
+    sub uni182D.Hx.fina masculine by uni182D.Hx.fina;
+    sub uni182D.Hx.fina masculine by uni182D.Hx.fina;
+    sub uni182C.H.init masculine by uni182C.H.init;
+    sub uni182C.Hx.init masculine by uni182C.Hx.init;
+    sub uni182C.G.init masculine by uni182C.G.init;
+    sub uni182C.G.medi masculine by uni182C.G.medi;
+    sub uni182C.H.medi masculine by uni182C.H.medi;
+    sub uni182C.Hx.medi masculine by uni182C.Hx.medi;
+    sub uni182C.H.fina masculine by uni182C.H.fina;
+    sub uni182C.Hx.fina masculine by uni182C.Hx.fina;
+    lookupflag 0;
+} III.hud.ig.postprocessing.A;
+
+lookup III.hud.ig.postprocessing.B {
+    lookupflag UseMarkFilteringSet @signal.feminine;
+    sub uni182D.Hx.init feminine by uni182D.Hx.init;
+    sub uni182D.H.init feminine by uni182D.H.init;
+    sub uni182D.G.init feminine by uni182D.G.init;
+    sub uni182D.G.medi feminine by uni182D.G.medi;
+    sub uni182D.H.medi feminine by uni182D.H.medi;
+    sub uni182D.Hx.medi feminine by uni182D.Hx.medi;
+    sub uni182D.G.fina feminine by uni182D.G.fina;
+    sub uni182D.H.fina feminine by uni182D.H.fina;
+    sub uni182C.H.init feminine by uni182C.H.init;
+    sub uni182C.Hx.init feminine by uni182C.Hx.init;
+    sub uni182C.G.init feminine by uni182C.G.init;
+    sub uni182C.G.medi feminine by uni182C.G.medi;
+    sub uni182C.H.medi feminine by uni182C.H.medi;
+    sub uni182C.Hx.medi feminine by uni182C.Hx.medi;
+    sub uni182C.H.fina feminine by uni182C.H.fina;
+    sub uni182C.Hx.fina feminine by uni182C.Hx.fina;
+    lookupflag 0;
+} III.hud.ig.postprocessing.B;
+
+# EAC request for t/sh/g
+lookup III.eac.t_sh_g {
+    lookupflag IgnoreMarks;
+    # MTZ21: t + ee/consonant
+    sub @t-hud' lookup condition.hud.devsger [@ee-hud @hud.consonant];
+
+    # MXS21: sh + i -> s + i
+    sub [@sh-hud.init @sh-hud.medi]' lookup condition.hud.dotless [@i-hud.medi @i-hud.fina];
+
+    # MGZ12, MGZ62: s/d + g -> s/d + h
+    sub [@s-hud @d-hud] @g-hud.medi' lookup condition.hud.dotless @hud.vowel.masculine;
+    sub [@s-hud @d-hud] @g-hud.fina' lookup condition.hud.dotless @msc uni1820.Aa.isol;
+    lookupflag 0;
+} III.eac.t_sh_g;
+
+# Hudum AG h initial
+lookup III.hag.h.initial {
+    lookupflag IgnoreMarks;
+    sub [@k2-hud @z-hud @dr-hag @d-hag @b-hud] @h-hag' lookup condition.hag.toothless;
+    lookupflag 0;
+} III.hag.h.initial;

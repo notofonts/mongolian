@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IrLv.fina" format="2">
+  <advance width="414" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="0" y="87" type="line"/>
+      <point x="218" y="87"/>
+      <point x="369" y="209"/>
+      <point x="369" y="428" type="curve"/>
+      <point x="369" y="541"/>
+      <point x="342" y="631"/>
+      <point x="278" y="714" type="curve"/>
+      <point x="209" y="668" type="line"/>
+      <point x="266" y="597"/>
+      <point x="290" y="528"/>
+      <point x="290" y="428" type="curve"/>
+      <point x="290" y="333"/>
+      <point x="256" y="266"/>
+      <point x="207" y="227" type="curve"/>
+      <point x="226" y="384" type="line"/>
+      <point x="138" y="384" type="line"/>
+      <point x="160" y="197" type="line"/>
+      <point x="136" y="186"/>
+      <point x="109" y="177"/>
+      <point x="79" y="172" type="curve"/>
+      <point x="79" y="705" type="line"/>
+      <point x="0" y="705" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

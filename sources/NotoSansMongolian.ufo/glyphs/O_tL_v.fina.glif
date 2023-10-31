@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="OtLv.fina" format="2">
+  <advance width="423" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="79" y="364" type="line"/>
+      <point x="300" y="364" type="line"/>
+      <point x="300" y="104" type="line"/>
+      <point x="198" y="127" type="line"/>
+      <point x="158" y="136"/>
+      <point x="128" y="153"/>
+      <point x="109" y="177" type="curve"/>
+      <point x="89" y="202"/>
+      <point x="79" y="232"/>
+      <point x="79" y="267" type="curve"/>
+    </contour>
+    <contour>
+      <point x="319" y="444" type="line"/>
+      <point x="139" y="444" type="line"/>
+      <point x="112" y="513"/>
+      <point x="77" y="585"/>
+      <point x="36" y="661" type="curve"/>
+      <point x="-35" y="621" type="line"/>
+      <point x="-4" y="566"/>
+      <point x="25" y="507"/>
+      <point x="53" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="267" type="line"/>
+      <point x="0" y="210"/>
+      <point x="15" y="163"/>
+      <point x="44" y="125" type="curve"/>
+      <point x="73" y="86"/>
+      <point x="117" y="60"/>
+      <point x="176" y="47" type="curve"/>
+      <point x="378" y="3" type="line"/>
+      <point x="378" y="444" type="line"/>
+      <point x="362" y="444" type="line"/>
+      <point x="385" y="632" type="line"/>
+      <point x="297" y="632" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

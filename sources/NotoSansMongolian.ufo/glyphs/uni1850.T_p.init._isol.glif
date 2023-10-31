@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1850.Tp.init._isol" format="2">
+  <advance width="788" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="321" y="96" type="curve"/>
+      <point x="410" y="96" type="line"/>
+      <point x="455" y="173"/>
+      <point x="478" y="263"/>
+      <point x="483" y="364" type="curve"/>
+      <point x="718" y="364" type="line"/>
+      <point x="718" y="444" type="line"/>
+      <point x="483" y="444" type="line"/>
+      <point x="479" y="625"/>
+      <point x="418" y="711"/>
+      <point x="293" y="711" type="curve"/>
+      <point x="171" y="711"/>
+      <point x="85" y="604"/>
+      <point x="85" y="420" type="curve"/>
+      <point x="85" y="401"/>
+      <point x="86" y="383"/>
+      <point x="90" y="364" type="curve"/>
+      <point x="185" y="300"/>
+      <point x="262" y="210"/>
+    </contour>
+    <contour>
+      <point x="364" y="176" type="curve"/>
+      <point x="319" y="262"/>
+      <point x="242" y="353"/>
+      <point x="166" y="405" type="curve"/>
+      <point x="164" y="415"/>
+      <point x="164" y="417"/>
+      <point x="164" y="420" type="curve"/>
+      <point x="164" y="553"/>
+      <point x="218" y="633"/>
+      <point x="293" y="633" type="curve"/>
+      <point x="387" y="633"/>
+      <point x="404" y="538"/>
+      <point x="404" y="409" type="curve"/>
+      <point x="404" y="318"/>
+      <point x="395" y="248"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

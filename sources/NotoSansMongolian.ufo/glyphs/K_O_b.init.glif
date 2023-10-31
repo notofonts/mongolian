@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KOb.init" format="2">
+  <advance width="875" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="615" y="104" type="line"/>
+      <point x="513" y="127" type="line"/>
+      <point x="428" y="147"/>
+      <point x="394" y="202"/>
+      <point x="394" y="267" type="curve"/>
+      <point x="394" y="364" type="line"/>
+      <point x="615" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="693" y="3" type="line"/>
+      <point x="693" y="364" type="line"/>
+      <point x="905" y="364" type="line"/>
+      <point x="905" y="444" type="line"/>
+      <point x="693" y="444" type="line"/>
+      <point x="657" y="647"/>
+      <point x="550" y="760"/>
+      <point x="365" y="760" type="curve"/>
+      <point x="182" y="760"/>
+      <point x="45" y="629"/>
+      <point x="45" y="408" type="curve"/>
+      <point x="45" y="294"/>
+      <point x="82" y="164"/>
+      <point x="146" y="42" type="curve"/>
+      <point x="219" y="73" type="line"/>
+      <point x="164" y="174"/>
+      <point x="133" y="271"/>
+      <point x="126" y="364" type="curve"/>
+      <point x="263" y="364" type="line"/>
+      <point x="263" y="444" type="line"/>
+      <point x="125" y="444" type="line"/>
+      <point x="142" y="602"/>
+      <point x="238" y="677"/>
+      <point x="365" y="677" type="curve"/>
+      <point x="503" y="677"/>
+      <point x="586" y="599"/>
+      <point x="614" y="444" type="curve"/>
+      <point x="315" y="444" type="line"/>
+      <point x="315" y="267" type="line"/>
+      <point x="315" y="158"/>
+      <point x="368" y="75"/>
+      <point x="491" y="47" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

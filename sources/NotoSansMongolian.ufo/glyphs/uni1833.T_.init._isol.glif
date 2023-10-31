@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1833.T.init._isol" format="2">
+  <advance width="810" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="445" y="96" type="line"/>
+      <point x="511" y="96" type="line"/>
+      <point x="530" y="364" type="line"/>
+      <point x="740" y="364" type="line"/>
+      <point x="740" y="444" type="line"/>
+      <point x="500" y="444" type="line"/>
+      <point x="488" y="680"/>
+      <point x="428" y="777"/>
+      <point x="283" y="777" type="curve"/>
+      <point x="162" y="777"/>
+      <point x="85" y="686"/>
+      <point x="85" y="563" type="curve"/>
+      <point x="85" y="497"/>
+      <point x="101" y="421"/>
+      <point x="131" y="364" type="curve"/>
+      <point x="426" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="187" y="444" type="line"/>
+      <point x="172" y="473"/>
+      <point x="164" y="512"/>
+      <point x="164" y="563" type="curve"/>
+      <point x="164" y="646"/>
+      <point x="211" y="694"/>
+      <point x="283" y="694" type="curve"/>
+      <point x="373" y="694"/>
+      <point x="414" y="616"/>
+      <point x="420" y="444" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

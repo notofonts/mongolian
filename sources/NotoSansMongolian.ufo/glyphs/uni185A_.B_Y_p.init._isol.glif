@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni185A.BYp.init._isol" format="2">
+  <advance width="1005" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="504" y="-83" type="line"/>
+      <point x="734" y="-83" type="line"/>
+      <point x="734" y="-3" type="line"/>
+      <point x="602" y="-3" type="line"/>
+      <point x="680" y="94"/>
+      <point x="727" y="221"/>
+      <point x="728" y="364" type="curve"/>
+      <point x="935" y="364" type="line"/>
+      <point x="935" y="444" type="line"/>
+      <point x="724" y="444" type="line"/>
+      <point x="701" y="649"/>
+      <point x="593" y="782"/>
+      <point x="400" y="782" type="curve"/>
+      <point x="203" y="782"/>
+      <point x="85" y="640"/>
+      <point x="85" y="408" type="curve"/>
+      <point x="85" y="162"/>
+      <point x="157" y="40"/>
+      <point x="313" y="40" type="curve"/>
+      <point x="416" y="40"/>
+      <point x="491" y="138"/>
+      <point x="491" y="275" type="curve"/>
+      <point x="491" y="315"/>
+      <point x="480" y="410"/>
+      <point x="468" y="444" type="curve"/>
+      <point x="164" y="444" type="line"/>
+      <point x="166" y="593"/>
+      <point x="247" y="699"/>
+      <point x="400" y="699" type="curve"/>
+      <point x="576" y="699"/>
+      <point x="649" y="560"/>
+      <point x="649" y="368" type="curve"/>
+      <point x="649" y="223"/>
+      <point x="600" y="106"/>
+      <point x="504" y="-9" type="curve"/>
+    </contour>
+    <contour>
+      <point x="304" y="123" type="curve"/>
+      <point x="213" y="123"/>
+      <point x="166" y="203"/>
+      <point x="164" y="364" type="curve"/>
+      <point x="402" y="364" type="line"/>
+      <point x="409" y="345"/>
+      <point x="412" y="314"/>
+      <point x="412" y="274" type="curve"/>
+      <point x="412" y="189"/>
+      <point x="376" y="123"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

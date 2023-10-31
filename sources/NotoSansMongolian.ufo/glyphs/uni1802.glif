@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1802" format="2">
+  <advance width="268" height="1000"/>
+  <unicode hex="1802"/>
+  <outline>
+    <contour>
+      <point x="133" y="337" type="curve"/>
+      <point x="168" y="337"/>
+      <point x="196" y="357"/>
+      <point x="196" y="405" type="curve"/>
+      <point x="196" y="454"/>
+      <point x="168" y="472"/>
+      <point x="133" y="472" type="curve"/>
+      <point x="98" y="472"/>
+      <point x="72" y="454"/>
+      <point x="72" y="405" type="curve"/>
+      <point x="72" y="357"/>
+      <point x="98" y="337"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

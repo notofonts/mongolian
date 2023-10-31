@@ -1,0 +1,53 @@
+lookup Ib.punctuation.vertical {
+    sub uni00B7 by uni00B7.vert;
+    sub uni2048 by uni2048.vert;
+    sub uni2049 by uni2049.vert;
+    sub uni3001 by uni3001.vert;
+    sub uni3002 by uni3002.vert;
+    sub uniFF1B by uniFF1B.vert;
+    sub uniFF01 by uniFF01.vert;
+    sub uniFF1F by uniFF1F.vert;
+    sub uniFF0D by uniFF0D.vert;
+    sub uniFF08 by uniFF08.vert;
+    sub uniFF09 by uniFF09.vert;
+    sub uni300A by uni300A.vert;
+    sub uni300B by uni300B.vert;
+    sub uni3008 by uni3008.vert;
+    sub uni3009 by uni3009.vert;
+    sub uni300C by uni300C.vert;
+    sub uni300D by uni300D.vert;
+    sub uni300E by uni300E.vert;
+    sub uni300F by uni300F.vert;
+    sub uni2018 by uni2018.vert;
+    sub uni2019 by uni2019.vert;
+    sub uni201C by uni201C.vert;
+    sub uni201D by uni201D.vert;
+    sub uniFF3B by uniFF3B.vert;
+    sub uniFF3D by uniFF3D.vert;
+    sub uniFF0C by uniFF0C.vert;
+} Ib.punctuation.vertical;
+
+lookup Ib.punctuation.ligature {
+    sub uniFF1F.vert uniFF01.vert by uni2048.vert;
+    sub uniFF01.vert uniFF1F.vert by uni2049.vert;
+} Ib.punctuation.ligature;
+
+lookup Ib.punctuation.propotional {
+    pos uni00B7.vert <0 250 0 -500>;
+    pos uni3001.vert <0 250 0 -500>;
+    pos uni3002.vert <0 250 0 -500>;
+    pos uniFF08.vert <0 649 0 -649>;
+    pos uniFF09.vert <0 0 0 -649>;
+    pos uni300A.vert <0 494 0 -494>;
+    pos uni300B.vert <0 0 0 -494>;
+    pos uni3008.vert <0 536 0 -536>;
+    pos uni3009.vert <0 0 0 -536>;
+    pos uni300C.vert <0 600 0 -600>;
+    pos uni300D.vert <0 0 0 -600>;
+    pos uni300E.vert <0 581 0 -581>;
+    pos uni300F.vert <0 0 0 -581>;
+    pos uniFF3B.vert <0 678 0 -678>;
+    pos uniFF3D.vert <0 0 0 -678>;
+    pos uniFF0C.vert <0 250 0 -500>;
+} Ib.punctuation.propotional;
+

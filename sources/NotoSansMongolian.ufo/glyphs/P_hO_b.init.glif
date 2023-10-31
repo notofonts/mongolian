@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PhOb.init" format="2">
+  <advance width="1248" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="456" y="190" type="curve"/>
+      <point x="289" y="190" type="line"/>
+      <point x="289" y="364" type="line"/>
+      <point x="420" y="364" type="line"/>
+      <point x="425" y="305"/>
+      <point x="438" y="248"/>
+    </contour>
+    <contour>
+      <point x="988" y="104" type="line"/>
+      <point x="886" y="127" type="line"/>
+      <point x="801" y="147"/>
+      <point x="767" y="202"/>
+      <point x="767" y="267" type="curve"/>
+      <point x="767" y="364" type="line"/>
+      <point x="988" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="1066" y="3" type="line"/>
+      <point x="1066" y="364" type="line"/>
+      <point x="1278" y="364" type="line"/>
+      <point x="1278" y="444" type="line"/>
+      <point x="1066" y="444" type="line"/>
+      <point x="1030" y="647"/>
+      <point x="923" y="760"/>
+      <point x="738" y="760" type="curve"/>
+      <point x="566" y="760"/>
+      <point x="433" y="644"/>
+      <point x="419" y="444" type="curve"/>
+      <point x="63" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="209" y="364" type="line"/>
+      <point x="209" y="190" type="line"/>
+      <point x="148" y="190" type="line"/>
+      <point x="130" y="110" type="line"/>
+      <point x="574" y="110" type="line"/>
+      <point x="540" y="190" type="line"/>
+      <point x="510" y="268"/>
+      <point x="497" y="347"/>
+      <point x="497" y="405" type="curve"/>
+      <point x="497" y="575"/>
+      <point x="591" y="677"/>
+      <point x="738" y="677" type="curve"/>
+      <point x="876" y="677"/>
+      <point x="959" y="599"/>
+      <point x="987" y="444" type="curve"/>
+      <point x="688" y="444" type="line"/>
+      <point x="688" y="267" type="line"/>
+      <point x="688" y="158"/>
+      <point x="741" y="75"/>
+      <point x="864" y="47" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

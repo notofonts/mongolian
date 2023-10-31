@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GM.init" format="2">
+  <advance width="714" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="174" y="42" type="curve"/>
+      <point x="245" y="85" type="line"/>
+      <point x="159" y="211"/>
+      <point x="124" y="304"/>
+      <point x="124" y="417" type="curve"/>
+      <point x="124" y="566"/>
+      <point x="179" y="644"/>
+      <point x="274" y="644" type="curve"/>
+      <point x="379" y="644"/>
+      <point x="413" y="571"/>
+      <point x="430" y="364" type="curve"/>
+      <point x="449" y="96" type="line"/>
+      <point x="515" y="96" type="line"/>
+      <point x="534" y="364" type="line"/>
+      <point x="744" y="364" type="line"/>
+      <point x="744" y="444" type="line"/>
+      <point x="503" y="444" type="line"/>
+      <point x="483" y="604"/>
+      <point x="432" y="699"/>
+      <point x="328" y="722" type="curve"/>
+      <point x="322" y="752"/>
+      <point x="314" y="785"/>
+      <point x="304" y="822" type="curve"/>
+      <point x="340" y="822" type="line"/>
+      <point x="437" y="822"/>
+      <point x="483" y="829"/>
+      <point x="519" y="860" type="curve"/>
+      <point x="519" y="937" type="line"/>
+      <point x="484" y="914"/>
+      <point x="424" y="902"/>
+      <point x="340" y="902" type="curve"/>
+      <point x="219" y="902" type="line"/>
+      <point x="219" y="836" type="line"/>
+      <point x="236" y="793"/>
+      <point x="248" y="756"/>
+      <point x="256" y="726" type="curve"/>
+      <point x="138" y="718"/>
+      <point x="45" y="614"/>
+      <point x="45" y="417" type="curve"/>
+      <point x="45" y="300"/>
+      <point x="88" y="175"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1887.A2.fina" format="2">
+  <advance width="332" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="146" y="364" type="line"/>
+      <point x="174" y="582"/>
+      <point x="241" y="734"/>
+      <point x="322" y="836" type="curve"/>
+      <point x="230" y="836" type="line"/>
+      <point x="162" y="746"/>
+      <point x="106" y="601"/>
+      <point x="80" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

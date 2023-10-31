@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="WpLv.fina" format="2">
+  <advance width="460" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="335" y="292" type="line"/>
+      <point x="272" y="330"/>
+      <point x="177" y="374"/>
+      <point x="73" y="409" type="curve"/>
+      <point x="165" y="471"/>
+      <point x="265" y="511"/>
+      <point x="335" y="521" type="curve"/>
+    </contour>
+    <contour>
+      <point x="415" y="198" type="line"/>
+      <point x="415" y="603" type="line"/>
+      <point x="335" y="603" type="line"/>
+      <point x="304" y="599"/>
+      <point x="270" y="590"/>
+      <point x="232" y="576" type="curve"/>
+      <point x="252" y="737" type="line"/>
+      <point x="164" y="737" type="line"/>
+      <point x="185" y="557" type="line"/>
+      <point x="171" y="551" type="line"/>
+      <point x="108" y="525"/>
+      <point x="51" y="489"/>
+      <point x="0" y="444" type="curve"/>
+      <point x="0" y="364" type="line"/>
+      <point x="123" y="315"/>
+      <point x="235" y="260"/>
+      <point x="335" y="198" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1852.Jb.init" format="2">
+  <advance width="710" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="299" y="-120" type="curve"/>
+      <point x="372" y="-120"/>
+      <point x="431" y="-65"/>
+      <point x="431" y="14" type="curve"/>
+      <point x="431" y="66"/>
+      <point x="406" y="108"/>
+      <point x="367" y="130" type="curve"/>
+      <point x="425" y="161" type="line"/>
+      <point x="500" y="201"/>
+      <point x="531" y="262"/>
+      <point x="531" y="364" type="curve"/>
+      <point x="740" y="364" type="line"/>
+      <point x="740" y="444" type="line"/>
+      <point x="63" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="454" y="364" type="line"/>
+      <point x="454" y="292"/>
+      <point x="434" y="253"/>
+      <point x="376" y="222" type="curve"/>
+      <point x="264" y="162" type="line"/>
+      <point x="196" y="125"/>
+      <point x="162" y="84"/>
+      <point x="162" y="12" type="curve"/>
+      <point x="162" y="-60"/>
+      <point x="219" y="-120"/>
+    </contour>
+    <contour>
+      <point x="299" y="-50" type="curve"/>
+      <point x="262" y="-50"/>
+      <point x="236" y="-23"/>
+      <point x="236" y="14" type="curve"/>
+      <point x="236" y="51"/>
+      <point x="260" y="79"/>
+      <point x="299" y="79" type="curve"/>
+      <point x="335" y="79"/>
+      <point x="361" y="54"/>
+      <point x="361" y="15" type="curve"/>
+      <point x="361" y="-24"/>
+      <point x="335" y="-50"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

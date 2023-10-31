@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1880.fvs1" format="2">
+  <advance width="545" height="1000"/>
+  <outline>
+    <contour>
+      <point x="272" y="185" type="curve"/>
+      <point x="415" y="185"/>
+      <point x="500" y="263"/>
+      <point x="500" y="403" type="curve"/>
+      <point x="500" y="539"/>
+      <point x="419" y="622"/>
+      <point x="272" y="622" type="curve"/>
+      <point x="130" y="622"/>
+      <point x="45" y="544"/>
+      <point x="45" y="403" type="curve"/>
+      <point x="45" y="265"/>
+      <point x="126" y="185"/>
+    </contour>
+    <contour>
+      <point x="272" y="265" type="curve"/>
+      <point x="179" y="265"/>
+      <point x="123" y="315"/>
+      <point x="123" y="403" type="curve"/>
+      <point x="123" y="491"/>
+      <point x="179" y="542"/>
+      <point x="272" y="542" type="curve"/>
+      <point x="366" y="542"/>
+      <point x="422" y="491"/>
+      <point x="422" y="403" type="curve"/>
+      <point x="422" y="315"/>
+      <point x="366" y="265"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

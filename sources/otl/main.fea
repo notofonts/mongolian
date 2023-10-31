@@ -1,0 +1,56 @@
+# Ia. General: Basic character-to-glyph mapping
+include(otl/classes-letters.fea);
+include(otl/classes-categories.fea);
+
+table GDEF {
+    GlyphClassDef [nirugu @fvs.nominal @msc zwnj zwj zwj.ignored], , [nirugu.ignored @fvs.ignored @fvs.effective zwnj.ignored baluda tribaluda dagalga masculine feminine], ;
+} GDEF;
+
+languagesystem DFLT dflt;
+languagesystem mong dflt;
+
+# IIa. Cursive script: Initiation of cursive positions
+include(otl/lookups-joining.fea);
+
+feature isol {
+    lookup IIa.isol;
+} isol;
+
+feature init {
+    lookup IIa.init;
+} init;
+
+feature medi {
+    lookup IIa.medi;
+} medi;
+
+feature fina {
+    lookup IIa.fina;
+} fina;
+
+# III. Mongolian-specific
+include(otl/lookups-conditions.fea);
+include(otl/lookups-general.fea);
+feature rclt {
+    include(otl/lookups-tags.fea);
+} rclt;
+
+# IB.1: Vertical forms of punctuation marks
+include(otl/lookups-punctuation.fea);
+feature vert {
+    lookup Ib.punctuation.vertical;
+} vert;
+
+feature rlig {
+    lookup Ib.punctuation.ligature;
+} rlig;
+
+feature vpal {
+    lookup Ib.punctuation.propotional;
+} vpal;
+
+# IB.2: Optional treatments
+include(otl/lookups-marks.fea);
+feature mark {
+    lookup Ib.marks.posit;
+} mark;

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nirugu" format="2">
+  <advance width="168" height="1000"/>
+  <unicode hex="180A"/>
+  <outline>
+    <contour>
+      <point x="0" y="364" type="line"/>
+      <point x="188" y="364" type="line"/>
+      <point x="188" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

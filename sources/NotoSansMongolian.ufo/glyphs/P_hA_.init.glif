@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PhA.init" format="2">
+  <advance width="1087" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="467" y="190" type="curve"/>
+      <point x="289" y="190" type="line"/>
+      <point x="289" y="364" type="line"/>
+      <point x="421" y="364" type="line"/>
+      <point x="427" y="307"/>
+      <point x="442" y="249"/>
+    </contour>
+    <contour>
+      <point x="888" y="96" type="line"/>
+      <point x="907" y="364" type="line"/>
+      <point x="1117" y="364" type="line"/>
+      <point x="1117" y="444" type="line"/>
+      <point x="876" y="444" type="line"/>
+      <point x="851" y="642"/>
+      <point x="778" y="727"/>
+      <point x="647" y="727" type="curve"/>
+      <point x="521" y="727"/>
+      <point x="426" y="627"/>
+      <point x="419" y="444" type="curve"/>
+      <point x="63" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="209" y="364" type="line"/>
+      <point x="209" y="190" type="line"/>
+      <point x="148" y="190" type="line"/>
+      <point x="130" y="110" type="line"/>
+      <point x="601" y="110" type="line"/>
+      <point x="555" y="190" type="line"/>
+      <point x="516" y="267"/>
+      <point x="497" y="333"/>
+      <point x="497" y="417" type="curve"/>
+      <point x="497" y="566"/>
+      <point x="552" y="644"/>
+      <point x="647" y="644" type="curve"/>
+      <point x="749" y="644"/>
+      <point x="786" y="575"/>
+      <point x="803" y="364" type="curve"/>
+      <point x="822" y="96" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

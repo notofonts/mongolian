@@ -1,0 +1,8 @@
+# ==================================
+# letters for Hudum+AG, Todo+AG, Manchu+AG, Sibe
+# ==================================
+
+include(otl/classes-letters-hag.fea);
+include(otl/classes-letters-tag.fea);
+include(otl/classes-letters-mag.fea);
+include(otl/classes-letters-sib.fea);

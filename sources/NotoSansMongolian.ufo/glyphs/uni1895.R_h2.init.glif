@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1895.Rh2.init" format="2">
+  <advance width="833" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="382" y="-117" type="curve"/>
+      <point x="454" y="-117"/>
+      <point x="508" y="-83"/>
+      <point x="545" y="-14" type="curve"/>
+      <point x="479" y="27" type="line"/>
+      <point x="462" y="-10"/>
+      <point x="425" y="-35"/>
+      <point x="382" y="-35" type="curve"/>
+      <point x="241" y="-35"/>
+      <point x="124" y="139"/>
+      <point x="124" y="364" type="curve"/>
+      <point x="124" y="538"/>
+      <point x="214" y="665"/>
+      <point x="359" y="665" type="curve"/>
+      <point x="474" y="665"/>
+      <point x="531" y="567"/>
+      <point x="546" y="364" type="curve"/>
+      <point x="567" y="74" type="line"/>
+      <point x="633" y="74" type="line"/>
+      <point x="643" y="219" type="line"/>
+      <point x="652" y="336"/>
+      <point x="677" y="364"/>
+      <point x="786" y="364" type="curve"/>
+      <point x="863" y="364" type="line"/>
+      <point x="863" y="444" type="line"/>
+      <point x="785" y="444" type="line"/>
+      <point x="701" y="444"/>
+      <point x="648" y="416"/>
+      <point x="626" y="361" type="curve"/>
+      <point x="622" y="361" type="line"/>
+      <point x="603" y="629"/>
+      <point x="523" y="742"/>
+      <point x="359" y="742" type="curve"/>
+      <point x="173" y="742"/>
+      <point x="45" y="571"/>
+      <point x="45" y="364" type="curve"/>
+      <point x="45" y="90"/>
+      <point x="187" y="-117"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

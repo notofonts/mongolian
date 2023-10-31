@@ -1,0 +1,15 @@
+# ==================================
+# conditions for Hudum+AG, Todo+AG, Manchu+AG, Sibe
+# ==================================
+
+include(otl/lookups-conditions-hag.fea);
+include(otl/lookups-conditions-tag.fea);
+include(otl/lookups-conditions-mag.fea);
+include(otl/lookups-conditions-sib.fea);
+
+
+# ==================================
+# conditions for EAC request
+# ==================================
+
+include(otl/lookups-conditions-eac.fea);

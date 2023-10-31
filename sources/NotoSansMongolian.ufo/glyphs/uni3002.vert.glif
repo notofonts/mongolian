@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni3002.vert" format="2">
+  <advance width="1000" height="500"/>
+  <outline>
+    <contour>
+      <point x="499" y="532" type="curve"/>
+      <point x="416" y="532"/>
+      <point x="347" y="464"/>
+      <point x="347" y="380" type="curve"/>
+      <point x="347" y="295"/>
+      <point x="416" y="227"/>
+      <point x="499" y="227" type="curve"/>
+      <point x="584" y="227"/>
+      <point x="652" y="295"/>
+      <point x="652" y="380" type="curve"/>
+      <point x="652" y="464"/>
+      <point x="584" y="532"/>
+    </contour>
+    <contour>
+      <point x="499" y="278" type="curve"/>
+      <point x="444" y="278"/>
+      <point x="398" y="323"/>
+      <point x="398" y="380" type="curve"/>
+      <point x="398" y="435"/>
+      <point x="444" y="481"/>
+      <point x="499" y="481" type="curve"/>
+      <point x="556" y="481"/>
+      <point x="601" y="435"/>
+      <point x="601" y="380" type="curve"/>
+      <point x="601" y="323"/>
+      <point x="556" y="278"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>630</integer>
+    </dict>
+  </lib>
+</glyph>

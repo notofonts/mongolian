@@ -1,0 +1,90 @@
+# ==================================
+# conditions for Manchu
+# ==================================
+
+lookup condition.man.particle {
+    sub @i-man.isol by uni1873.I.isol;
+} condition.man.particle;
+
+lookup condition.man.marked {
+    sub uni1823.U.fina by uni1823.O.fina;
+    sub uni1860.Uh.fina by uni1860.Oh.fina;
+    sub uni1873.I.fina by uni1873.Iy.fina;
+    sub uni1876.V.init by uni1876.W.init;
+    sub uni1876.V.medi by uni1876.W.medi;
+} condition.man.marked;
+
+lookup condition.man.post_bowed {
+    sub uni1820.A.fina by uni1820.Aa.fina;
+    sub uni185D.Ah.fina by uni185D.At.fina;
+    sub uni185D.A.fina by uni185D.Aa.fina;
+    sub uni1823.U.fina by uni1823.O.fina;
+    sub uni1860.Uh.fina by uni1860.Oh.fina;
+    sub uni1860.U.fina by uni1860.O.fina;
+} condition.man.post_bowed;
+
+lookup condition.man.devsger {
+    sub @n-man.medi by uni1828.A.medi;
+    sub @k-man.medi by uni1874.Hx.medi;
+    sub @t-man.medi by uni1868.Dd.medi;
+    sub @i-man.medi by uni1873.II.medi;
+} condition.man.devsger;
+
+lookup condition.man.masculine_devsger {
+    sub @k-man.medi by uni1874.Hx.medi;
+    sub @k-man.fina by uni1874.Hx.fina;
+} condition.man.masculine_devsger;
+
+lookup condition.man.onset {
+    sub @n-man.medi by uni1828.N.medi;
+} condition.man.onset;
+
+lookup condition.man.masculine_onset {
+    sub @k-man.init by uni1874.H.init;
+    sub @k-man.medi by uni1874.H.medi;
+    sub @g-man.init by uni1864.Hh.init;
+    sub @g-man.medi by uni1864.Hh.medi;
+    sub @h-man.init by uni1865.Hc.init;
+    sub @h-man.medi by uni1865.Hc.medi;
+    sub @t-man.init by uni1868.T.init;
+    sub @t-man.medi by uni1868.D.medi;
+    sub @d-man.init by uni1869.Th.init;
+    sub @d-man.medi by uni1869.Dh.medi;
+} condition.man.masculine_onset;
+
+lookup condition.man.feminine {
+    sub uni185D.Ah.medi by uni185D.A.medi;
+    sub uni185D.Ah.fina by uni185D.A.fina;
+    sub uni1860.Oh.medi by uni1860.O.medi;
+    sub uni1860.Uh.fina by uni1860.U.fina;
+    sub uni1860.Oh.fina by uni1860.O.fina;
+    sub @k-man.init by uni1874.G.init;
+    sub @k-man.medi by uni1874.G.medi;
+    sub @k-man.fina by uni1874.G4.fina;
+    sub @g-man.init by uni1864.Gh.init;
+    sub @g-man.medi by uni1864.Gh.medi;
+    sub @h-man.init by uni1865.Gc.init;
+    sub @h-man.medi by uni1865.Gc.medi;
+    sub @t-man.init by uni1868.Tb.init;
+    sub @t-man.medi by uni1868.Db.medi;
+    sub @d-man.init by uni1869.Tt.init;
+    sub @d-man.medi by uni1869.Dt.medi;
+} condition.man.feminine;
+
+# ==================================
+# conditions for Manchu AG
+# ==================================
+
+lookup condition.mag.masculine_onset {
+    sub @t-mag.init by uni18A0.Dr.init;
+    sub @t-mag.medi by uni18A0.Dr.medi;
+    sub @dh-mag.init by uni18A1.Tx.init;
+    sub @dh-mag.medi by uni18A1.Dx.medi;
+} condition.mag.masculine_onset;
+
+lookup condition.mag.feminine {
+    sub @t-mag.init by uni18A0.Dy.init;
+    sub @t-mag.medi by uni18A0.Dy.medi;
+    sub @dh-mag.init by uni18A1.Ts.init;
+    sub @dh-mag.medi by uni18A1.Ds.medi;
+} condition.mag.feminine;

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni188F.Wn.medi" format="2">
+  <advance width="458" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="299" y="-119" type="curve"/>
+      <point x="349" y="-119"/>
+      <point x="392" y="-75"/>
+      <point x="392" y="-26" type="curve"/>
+      <point x="392" y="26"/>
+      <point x="349" y="67"/>
+      <point x="299" y="67" type="curve"/>
+      <point x="264" y="67"/>
+      <point x="241" y="52"/>
+      <point x="221" y="25" type="curve"/>
+      <point x="183" y="84"/>
+      <point x="114" y="240"/>
+      <point x="79" y="364" type="curve"/>
+      <point x="488" y="364" type="line"/>
+      <point x="488" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="27" y="266"/>
+      <point x="58" y="176"/>
+      <point x="95" y="94" type="curve"/>
+      <point x="164" y="-64"/>
+      <point x="220" y="-119"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="GA.init" format="2">
+  <advance width="714" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="174" y="42" type="curve"/>
+      <point x="245" y="85" type="line"/>
+      <point x="169" y="197"/>
+      <point x="124" y="291"/>
+      <point x="124" y="417" type="curve"/>
+      <point x="124" y="571"/>
+      <point x="183" y="644"/>
+      <point x="275" y="644" type="curve"/>
+      <point x="394" y="644"/>
+      <point x="418" y="529"/>
+      <point x="430" y="363" type="curve"/>
+      <point x="449" y="96" type="line"/>
+      <point x="515" y="96" type="line"/>
+      <point x="534" y="364" type="line"/>
+      <point x="744" y="364" type="line"/>
+      <point x="744" y="444" type="line"/>
+      <point x="503" y="444" type="line"/>
+      <point x="482" y="614"/>
+      <point x="424" y="727"/>
+      <point x="274" y="727" type="curve"/>
+      <point x="136" y="727"/>
+      <point x="45" y="606"/>
+      <point x="45" y="417" type="curve"/>
+      <point x="45" y="299"/>
+      <point x="88" y="174"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

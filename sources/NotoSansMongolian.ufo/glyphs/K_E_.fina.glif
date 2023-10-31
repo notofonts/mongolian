@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KE.fina" format="2">
+  <advance width="788" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="743" y="9" type="curve"/>
+      <point x="743" y="92" type="line"/>
+      <point x="722" y="110"/>
+      <point x="687" y="119"/>
+      <point x="638" y="119" type="curve"/>
+      <point x="597" y="119" type="line"/>
+      <point x="506" y="119"/>
+      <point x="460" y="167"/>
+      <point x="460" y="263" type="curve"/>
+      <point x="460" y="364" type="line"/>
+      <point x="743" y="364" type="line"/>
+      <point x="743" y="444" type="line"/>
+      <point x="457" y="444" type="line"/>
+      <point x="443" y="599"/>
+      <point x="373" y="727"/>
+      <point x="226" y="727" type="curve"/>
+      <point x="89" y="727"/>
+      <point x="-3" y="609"/>
+      <point x="-3" y="419" type="curve"/>
+      <point x="-3" y="301"/>
+      <point x="40" y="174"/>
+      <point x="126" y="42" type="curve"/>
+      <point x="197" y="85" type="line"/>
+      <point x="135" y="174"/>
+      <point x="88" y="262"/>
+      <point x="78" y="364" type="curve"/>
+      <point x="237" y="364" type="line"/>
+      <point x="237" y="444" type="line"/>
+      <point x="76" y="444" type="line"/>
+      <point x="82" y="579"/>
+      <point x="140" y="644"/>
+      <point x="226" y="644" type="curve"/>
+      <point x="329" y="644"/>
+      <point x="381" y="554"/>
+      <point x="381" y="374" type="curve"/>
+      <point x="381" y="263" type="line"/>
+      <point x="381" y="109"/>
+      <point x="458" y="36"/>
+      <point x="597" y="36" type="curve"/>
+      <point x="638" y="36" type="line"/>
+      <point x="688" y="36"/>
+      <point x="723" y="27"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

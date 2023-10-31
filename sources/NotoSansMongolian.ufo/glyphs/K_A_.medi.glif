@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="KA.medi" format="2">
+  <advance width="666" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="126" y="42" type="curve"/>
+      <point x="197" y="85" type="line"/>
+      <point x="135" y="174"/>
+      <point x="88" y="262"/>
+      <point x="78" y="364" type="curve"/>
+      <point x="237" y="364" type="line"/>
+      <point x="237" y="444" type="line"/>
+      <point x="76" y="444" type="line"/>
+      <point x="82" y="579"/>
+      <point x="140" y="644"/>
+      <point x="226" y="644" type="curve"/>
+      <point x="346" y="644"/>
+      <point x="370" y="530"/>
+      <point x="382" y="360" type="curve"/>
+      <point x="401" y="96" type="line"/>
+      <point x="467" y="96" type="line"/>
+      <point x="486" y="364" type="line"/>
+      <point x="696" y="364" type="line"/>
+      <point x="696" y="444" type="line"/>
+      <point x="455" y="444" type="line"/>
+      <point x="434" y="614"/>
+      <point x="376" y="727"/>
+      <point x="226" y="727" type="curve"/>
+      <point x="89" y="727"/>
+      <point x="-3" y="608"/>
+      <point x="-3" y="417" type="curve"/>
+      <point x="-3" y="299"/>
+      <point x="40" y="174"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

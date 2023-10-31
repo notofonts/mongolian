@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1855.I3.fina" format="2">
+  <advance width="414" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="278" y="87" type="line"/>
+      <point x="341" y="168"/>
+      <point x="369" y="257"/>
+      <point x="369" y="373" type="curve"/>
+      <point x="369" y="586"/>
+      <point x="224" y="714"/>
+      <point x="0" y="714" type="curve"/>
+      <point x="0" y="96" type="line"/>
+      <point x="79" y="96" type="line"/>
+      <point x="79" y="629" type="line"/>
+      <point x="216" y="605"/>
+      <point x="290" y="516"/>
+      <point x="290" y="373" type="curve"/>
+      <point x="290" y="275"/>
+      <point x="265" y="203"/>
+      <point x="209" y="133" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

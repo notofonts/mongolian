@@ -1,0 +1,109 @@
+# ==================================
+# III.3: Phonetic - Particle: Hudum
+# ==================================
+
+lookup III.eac.hud_dictionary_particle {
+    lookupflag UseMarkFilteringSet @fvs;
+    ignore sub @msc' @a-hud.init' @ch-hud.medi @a-hud.fina @fvs;
+    ignore sub @msc' @a-hud.init' @ch-hud.medi @a-hud.init @g-hud.medi @a-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @i-hud.isol' @fvs;
+    ignore sub @msc' @i-hud.init' @y-hud.medi' [@a-hud.medi @e-hud.medi] [@r-hud.fina @n-hud.fina] @fvs;
+    ignore sub @msc' [@u-hud.isol @ue-hud.isol]' @fvs;
+    ignore sub @msc' [@u-hud.init @ue-hud.init]' [@n-hud.fina @d-hud.fina] @fvs;
+    ignore sub @msc' [@ch-hud.init @t-hud.init @d-hud.init]' [@u-hud.fina @ue-hud.fina]' @fvs;
+    ignore sub @msc' @t-hud.init' @ue-hud.medi' @r-hud.fina @fvs;
+    ignore sub @msc' @t-hud.init' @ue-hud.medi' @n-hud.medi @i-hud.fina @fvs;
+    ignore sub @msc' [@n-hud.init @y-hud.init]' @ue-hud.medi' @g-hud.medi @e-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @l-hud.init' @ue-hud.medi' @g-hud.medi @e-hud.fina @fvs;
+    ignore sub @msc' @n-hud.init' @ue-hud.medi' @g-hud.medi @ue-hud.medi @d-hud.fina @fvs;
+    ignore sub @msc' @y-hud.init' @ue-hud.medi' @m-hud.fina @fvs;
+    ignore sub @msc' @y-hud.init' @ue-hud.medi' @m-hud.medi @s-hud.medi @e-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @h-hud.init' @ue-hud.fina' @fvs;
+    ignore sub @msc' @y-hud.init' @i-hud.fina @fvs;
+    ignore sub @msc' @y-hud.init' @i-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' @a-hud.medi @g-hud.medi @a-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' @e-hud.medi @g-hud.medi @e-hud.medi @n-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' [@a-hud.medi @e-hud.medi] @g-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' [@a-hud.medi @e-hud.medi] @h-hud.medi @i-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' [@u-hud.medi @ue-hud.medi]' @r-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' [@u-hud.medi @ue-hud.medi]' @n-hud.medi @i-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' @u-hud.medi @g-hud.medi @a-hud.medi @r-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' @ue-hud.medi' @g-hud.medi @e-hud.medi @r-hud.fina @fvs;
+    ignore sub @msc' @d-hud.init' [@a-hud.fina @e-hud.fina] @fvs;
+    sub @msc' lookup _.wide @a-hud.init' lookup condition.hud.particle @ch-hud.medi @a-hud.fina;
+    sub @msc' lookup _.wide @a-hud.init' lookup condition.hud.particle @ch-hud.medi @a-hud.medi @g-hud.medi @a-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @i-hud.isol' lookup condition.hud.particle;
+    sub @msc' lookup _.wide @i-hud.init' lookup condition.hud.particle @y-hud.medi' lookup condition.hud.particle [@a-hud.medi @e-hud.medi] [@r-hud.fina @n-hud.fina];
+    sub @msc' lookup _.wide [@u-hud.isol @ue-hud.isol]' lookup condition.hud.particle;
+    sub @msc' lookup _.wide [@u-hud.init @ue-hud.init]' lookup condition.hud.particle [@n-hud.fina @d-hud.fina];
+    sub @msc' lookup _.wide [@ch-hud.init @t-hud.init @d-hud.init]' lookup condition.hud.particle [@u-hud.fina @ue-hud.fina]' lookup condition.hud.particle;
+    sub @msc' lookup _.wide @t-hud.init' @ue-hud.medi' lookup condition.hud.particle @r-hud.fina;
+    sub @msc' lookup _.wide @t-hud.init' @ue-hud.medi' lookup condition.hud.particle @n-hud.medi @i-hud.fina;
+    sub @msc' lookup _.wide [@n-hud.init @y-hud.init]' @ue-hud.medi' lookup condition.hud.particle @g-hud.medi @e-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @l-hud.init' @ue-hud.medi' lookup condition.hud.particle @g-hud.medi @e-hud.fina;
+    sub @msc' lookup _.wide @n-hud.init' @ue-hud.medi' lookup condition.hud.particle @g-hud.medi @ue-hud.medi @d-hud.fina;
+    sub @msc' lookup _.wide @y-hud.init' @ue-hud.medi' lookup condition.hud.particle @m-hud.fina;
+    sub @msc' lookup _.wide @y-hud.init' @ue-hud.medi' lookup condition.hud.particle @m-hud.medi @s-hud.medi @e-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @h-hud.init' @ue-hud.fina' lookup condition.hud.particle;
+    sub @msc' lookup _.wide @y-hud.init' lookup condition.hud.particle @i-hud.fina;
+    sub @msc' lookup _.wide @y-hud.init' lookup condition.hud.particle @i-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle @a-hud.medi @g-hud.medi @a-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle @e-hud.medi @g-hud.medi @e-hud.medi @n-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle [@a-hud.medi @e-hud.medi] @g-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle [@a-hud.medi @e-hud.medi] @h-hud.medi @i-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle [@u-hud.medi @ue-hud.medi]' lookup condition.hud.particle @r-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle [@u-hud.medi @ue-hud.medi]' lookup condition.hud.particle @n-hud.medi @i-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle @u-hud.medi @g-hud.medi @a-hud.medi @r-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle @ue-hud.medi' lookup condition.hud.particle @g-hud.medi @e-hud.medi @r-hud.fina;
+    sub @msc' lookup _.wide @d-hud.init' lookup condition.hud.particle [@a-hud.fina @e-hud.fina];
+    lookupflag 0;
+} III.eac.hud_dictionary_particle;
+
+# EAC request for dictionary particle without MCS
+lookup III.eac.hud_dictionary_word {
+    lookupflag UseMarkFilteringSet @fvs;
+    ignore sub @u-hud.init' @u-hud.fina @fvs;
+    ignore sub @ue-hud.init' @ue-hud.fina @fvs;
+    ignore sub @b-hud.init @ue-hud.medi' @ue-hud.fina @fvs;
+    sub @u-hud.init' lookup condition.hud.particle @u-hud.fina;
+    sub @ue-hud.init' lookup condition.hud.particle @ue-hud.fina;
+    sub @b-hud.init @ue-hud.medi' lookup condition.hud.particle @ue-hud.fina;
+    lookupflag 0;
+} III.eac.hud_dictionary_word;
+
+
+# ==================================
+# III.3: Phonetic - Particle: Todo
+# ==================================
+
+lookup III.tod.particle {
+    sub @msc' lookup _.wide @n-tod.init' lookup condition.tod.particle @i-tod.fina;
+} III.tod.particle;
+
+
+# ==================================
+# III.3: Phonetic - Particle: Manchu
+# ==================================
+
+lookup III.man.particle {
+    sub @msc' lookup _.wide @i-man.isol' lookup condition.man.particle;
+} III.man.particle;
+
+
+# ==================================
+# III.3: Phonetic - Particle: Sibe
+# ==================================
+
+lookup III.sib.particle {
+    sub @msc' lookup _.wide @i-sib.isol' lookup condition.sib.particle;
+    lookupflag 0;
+} III.sib.particle;
+
+
+# ==================================
+# III.3: Phonetic - Particle: MSC postprocessing
+# ==================================
+
+lookup III.eac.msc.postprocessing {
+    sub [mvs mvs.nominal nnbsp]' lookup _.wide [@vowel @consonant];
+} III.eac.msc.postprocessing;

@@ -1,0 +1,56 @@
+# ==================================
+# III.4: Graphemic - Devsger: Hudum
+# ==================================
+
+lookup III.hud.i.devsger {
+    lookupflag IgnoreMarks;
+    @hud.vowel.not_ending_with_I = [@a-hud @e-hud uni1823.AO.isol uni1823.AO.init uni1823.O.medi uni1824.AO.isol uni1824.AO.init uni1824.O.init uni1824.O.medi uni1825.O.medi uni1826.O.init uni1826.O.medi @ee-hud];
+    sub @hud.vowel.not_ending_with_I @i-hud' lookup condition.hud.devsger;
+    lookupflag 0;
+} III.hud.i.devsger;
+
+# EAC predicts the I in MIZ14
+lookup III.eac.i.devsger {
+    lookupflag UseMarkFilteringSet @fvs;
+    sub [@oe-hud.medi @ue-hud.medi] [@fvs1 @fvs2] @i-hud.medi' lookup condition.eac.medi;
+    sub [@oe-hud.medi @ue-hud.medi] [@fvs1 @fvs2] @i-hud.fina' lookup condition.eac.fina;
+    sub [@oe-hud.medi @ue-hud.medi] @fvs3 @i-hud' lookup condition.hud.devsger;
+    sub @ue-hud.init @fvs1 @i-hud' lookup condition.hud.devsger;
+    sub @ue-hud.init @fvs2 @i-hud.medi' lookup condition.eac.medi;
+    sub @ue-hud.init @fvs2 @i-hud.fina' lookup condition.eac.fina;
+    lookupflag 0;
+} III.eac.i.devsger;
+
+
+# ==================================
+# III.4: Graphemic - Devsger: Todo
+# ==================================
+
+lookup III.tod.i_u.devsger {
+    lookupflag IgnoreMarks;
+    sub @tod.vowel @i-tod' lookup condition.tod.devsger;
+    sub @u-tod @u-tod' lookup condition.tod.devsger;
+    lookupflag 0;
+} III.tod.i_u.devsger;
+
+
+# ==================================
+# III.4: Graphemic - Devsger: Manchu
+# ==================================
+
+lookup III.man.i.devsger {
+    lookupflag IgnoreMarks;
+    sub @man.vowel @i-man' lookup condition.man.devsger;
+    lookupflag 0;
+} III.man.i.devsger;
+
+
+# ==================================
+# III.4: Graphemic - Devsger: Sibe
+# ==================================
+
+lookup III.sib.i.devsger {
+    lookupflag IgnoreMarks;
+    sub @sib.vowel @i-sib' lookup condition.sib.devsger;
+    lookupflag 0;
+} III.sib.i.devsger;

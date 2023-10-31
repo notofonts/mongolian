@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1863.H.medi" format="2">
+  <advance width="568" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="19" y="96" type="line"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="284" y="364" type="line"/>
+      <point x="303" y="96" type="line"/>
+      <point x="369" y="96" type="line"/>
+      <point x="388" y="364" type="line"/>
+      <point x="598" y="364" type="line"/>
+      <point x="598" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni184C.Pp.medi" format="2">
+  <advance width="549" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="0" y="63" type="line"/>
+      <point x="360" y="63" type="line"/>
+      <point x="283" y="198"/>
+      <point x="244" y="320"/>
+      <point x="244" y="430" type="curve"/>
+      <point x="244" y="575"/>
+      <point x="302" y="644"/>
+      <point x="394" y="644" type="curve"/>
+      <point x="514" y="644"/>
+      <point x="538" y="529"/>
+      <point x="549" y="364" type="curve"/>
+      <point x="623" y="364" type="line"/>
+      <point x="613" y="610"/>
+      <point x="542" y="727"/>
+      <point x="394" y="727" type="curve"/>
+      <point x="261" y="727"/>
+      <point x="165" y="616"/>
+      <point x="165" y="444" type="curve"/>
+      <point x="71" y="444" type="line"/>
+      <point x="71" y="711" type="line"/>
+      <point x="0" y="711" type="line"/>
+    </contour>
+    <contour>
+      <point x="71" y="146" type="line"/>
+      <point x="71" y="364" type="line"/>
+      <point x="168" y="364" type="line"/>
+      <point x="176" y="293"/>
+      <point x="197" y="220"/>
+      <point x="231" y="146" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

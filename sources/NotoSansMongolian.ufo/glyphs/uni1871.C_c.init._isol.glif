@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1871.Cc.init._isol" format="2">
+  <advance width="832" height="1000"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="417" y="519" type="curve"/>
+      <point x="484" y="519"/>
+      <point x="536" y="573"/>
+      <point x="536" y="638" type="curve"/>
+      <point x="536" y="705"/>
+      <point x="482" y="757"/>
+      <point x="417" y="757" type="curve"/>
+      <point x="350" y="757"/>
+      <point x="298" y="703"/>
+      <point x="298" y="638" type="curve"/>
+      <point x="298" y="571"/>
+      <point x="352" y="519"/>
+    </contour>
+    <contour>
+      <point x="417" y="569" type="curve"/>
+      <point x="381" y="569"/>
+      <point x="349" y="595"/>
+      <point x="349" y="638" type="curve"/>
+      <point x="349" y="678"/>
+      <point x="378" y="706"/>
+      <point x="417" y="706" type="curve"/>
+      <point x="457" y="706"/>
+      <point x="486" y="676"/>
+      <point x="486" y="638" type="curve"/>
+      <point x="486" y="599"/>
+      <point x="456" y="569"/>
+    </contour>
+    <contour>
+      <point x="202" y="16" type="line"/>
+      <point x="270" y="57"/>
+      <point x="340" y="63"/>
+      <point x="437" y="63" type="curve"/>
+      <point x="558" y="63" type="line"/>
+      <point x="558" y="129" type="line"/>
+      <point x="531" y="209"/>
+      <point x="517" y="280"/>
+      <point x="517" y="364" type="curve"/>
+      <point x="762" y="364" type="line"/>
+      <point x="762" y="444" type="line"/>
+      <point x="103" y="444" type="line"/>
+      <point x="85" y="364" type="line"/>
+      <point x="443" y="364" type="line"/>
+      <point x="443" y="280"/>
+      <point x="453" y="207"/>
+      <point x="473" y="143" type="curve"/>
+      <point x="437" y="143" type="line"/>
+      <point x="343" y="143"/>
+      <point x="265" y="140"/>
+      <point x="202" y="101" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

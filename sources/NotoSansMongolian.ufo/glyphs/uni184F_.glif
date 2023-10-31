@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni184F" format="2">
+  <advance width="526" height="1000"/>
+  <unicode hex="184F"/>
+  <outline>
+    <contour>
+      <point x="262" y="183" type="curve"/>
+      <point x="215" y="200"/>
+      <point x="179" y="229"/>
+      <point x="155" y="269" type="curve"/>
+      <point x="131" y="310"/>
+      <point x="119" y="356"/>
+      <point x="119" y="409" type="curve"/>
+      <point x="119" y="468"/>
+      <point x="131" y="514"/>
+      <point x="156" y="545" type="curve"/>
+      <point x="180" y="577"/>
+      <point x="210" y="593"/>
+      <point x="246" y="593" type="curve"/>
+      <point x="279" y="593"/>
+      <point x="305" y="578"/>
+      <point x="324" y="548" type="curve"/>
+      <point x="283" y="444"/>
+      <point x="262" y="322"/>
+    </contour>
+    <contour>
+      <point x="246" y="665" type="curve"/>
+      <point x="209" y="665"/>
+      <point x="175" y="655"/>
+      <point x="144" y="634" type="curve"/>
+      <point x="113" y="613"/>
+      <point x="89" y="583"/>
+      <point x="71" y="544" type="curve"/>
+      <point x="54" y="505"/>
+      <point x="45" y="460"/>
+      <point x="45" y="409" type="curve"/>
+      <point x="45" y="346"/>
+      <point x="58" y="290"/>
+      <point x="83" y="239" type="curve"/>
+      <point x="108" y="188"/>
+      <point x="143" y="148"/>
+      <point x="188" y="120" type="curve"/>
+      <point x="233" y="91"/>
+      <point x="284" y="76"/>
+      <point x="341" y="74" type="curve"/>
+      <point x="341" y="186" type="line"/>
+      <point x="341" y="287"/>
+      <point x="354" y="379"/>
+      <point x="381" y="460" type="curve"/>
+      <point x="407" y="542"/>
+      <point x="452" y="628"/>
+      <point x="516" y="718" type="curve"/>
+      <point x="417" y="718" type="line"/>
+      <point x="394" y="685"/>
+      <point x="372" y="651"/>
+      <point x="353" y="614" type="curve"/>
+      <point x="327" y="648"/>
+      <point x="291" y="665"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagalga" format="2">
+  <advance width="0" height="1000"/>
+  <unicode hex="18A9"/>
+  <anchor x="0" y="0" name="mong"/>
+  <outline>
+    <contour>
+      <point x="271" y="-388" type="curve"/>
+      <point x="345" y="-388" type="line"/>
+      <point x="355" y="-373"/>
+      <point x="360" y="-354"/>
+      <point x="360" y="-331" type="curve"/>
+      <point x="360" y="-249"/>
+      <point x="316" y="-206"/>
+      <point x="235" y="-206" type="curve"/>
+      <point x="100" y="-206" type="line"/>
+      <point x="100" y="-286" type="line"/>
+      <point x="235" y="-286" type="line"/>
+      <point x="270" y="-286"/>
+      <point x="283" y="-302"/>
+      <point x="283" y="-331" type="curve"/>
+      <point x="283" y="-352"/>
+      <point x="279" y="-372"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

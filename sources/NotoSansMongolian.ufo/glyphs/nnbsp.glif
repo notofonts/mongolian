@@ -137,18 +137,18 @@
       <point x="486" y="189" type="line"/>
       <point x="283" y="515" type="line"/>
       <point x="280" y="515" type="line"/>
-      <point x="281" y="496"/>
-      <point x="284" y="439"/>
-      <point x="284" y="417" type="qcurve"/>
+      <point x="281.33333" y="489.66667"/>
+      <point x="284" y="446.33333"/>
+      <point x="284" y="417" type="curve" smooth="yes"/>
       <point x="284" y="189" type="line"/>
       <point x="229" y="189" type="line"/>
       <point x="229" y="591" type="line"/>
       <point x="304" y="591" type="line"/>
       <point x="507" y="267" type="line"/>
       <point x="509" y="267" type="line"/>
-      <point x="507" y="281"/>
-      <point x="506" y="336"/>
-      <point x="506" y="361" type="qcurve"/>
+      <point x="506.33333" y="285.66667"/>
+      <point x="506" y="327.66667"/>
+      <point x="506" y="361" type="curve" smooth="yes"/>
       <point x="506" y="591" type="line"/>
     </contour>
   </outline>

@@ -51,10 +51,8 @@
   <string>Noto Sans Mongolian</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
-  <key>openTypeNameUniqueID</key>
-  <string>2.001;GOOG;NotoSansMongolian-Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.001</string>
+  <string>Version 3.000</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -160,9 +158,9 @@
   <key>unitsPerEm</key>
   <integer>1000</integer>
   <key>versionMajor</key>
-  <integer>2</integer>
+  <integer>3</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>xHeight</key>
   <integer>500</integer>
 </dict>

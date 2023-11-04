@@ -8,7 +8,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Kernel/kl_Latn (Kalaallisut): [FAIL: Some base glyphs were missing: å, æ, ø, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̊, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Kernel/seh_Latn (Sena): [FAIL: Some base glyphs were missing: À, Á, Â, Ã, Ç, É, Ê, Í, Ò, Ó, Ô, Õ, Ú, à, á, â, ã, ç, é, ê, í, ò, ó, ô, õ, ú, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Kernel/zu_Latn (Zulu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̄, ◌̆, ◌̈, ◌̊, ◌̧] [code: failed-language-shaping]
-</div></details><br></div></details><details><summary><b>[15] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'u1820.ini'
@@ -671,27 +671,23 @@ fontbakery version: 0.10.3
     definitions.
 
  * U+180F MONGOLIAN FREE VARIATION SELECTOR FOUR: not included in any glyphset definition
- * U+3008 LEFT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-hongkong, tai-le, japanese, yi, phags-pa, chinese-simplified
- * U+3009 RIGHT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-hongkong, tai-le, japanese, yi, phags-pa, chinese-simplified
- * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese
- * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese
- * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese
- * U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese
+ * U+3008 LEFT ANGLE BRACKET: try adding one of: tai-le, chinese-hongkong, chinese-simplified, japanese, phags-pa, yi, chinese-traditional
+ * U+3009 RIGHT ANGLE BRACKET: try adding one of: tai-le, chinese-hongkong, chinese-simplified, japanese, phags-pa, yi, chinese-traditional
+ * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, yi, chinese-simplified
+ * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified
+ * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, yi, chinese-simplified
+ * U+FF0C FULLWIDTH COMMA: try adding one of: japanese, yi, chinese-simplified
  * U+FF0D FULLWIDTH HYPHEN-MINUS: try adding chinese-simplified
- * U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese
- * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese
- * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese
- * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese
+ * U+FF1B FULLWIDTH SEMICOLON: try adding one of: japanese, yi, chinese-simplified
+ * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: japanese, yi, chinese-simplified
+ * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: japanese, yi, chinese-simplified
+ * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: japanese, yi, chinese-simplified
 
 Or you can add the above codepoints to one of the subsets supported by the font: `mongolian` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** Glyph 0x0020 is called "uni0020": Change to "space" [code: not-recommended-0020]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -1035,7 +1031,7 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 4 | 11 | 120 | 7 | 112 | 0 |
+| 1 | 4 | 10 | 120 | 7 | 113 | 0 |
 | 0% | 2% | 4% | 47% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

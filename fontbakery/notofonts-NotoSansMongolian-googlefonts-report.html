@@ -128,19 +128,19 @@ ul {
             </tr>
             <tr>
                 <td>1</td>
-                <td>9</td>
-                <td>11</td>
-                <td>121</td>
                 <td>7</td>
-                <td>105</td>
+                <td>12</td>
+                <td>120</td>
+                <td>7</td>
+                <td>108</td>
             </tr>
             <tr>
                 <td>1%</td>
-                <td>5%</td>
-                <td>6%</td>
-                <td>63%</td>
                 <td>4%</td>
-                <td>54%</td>
+                <td>6%</td>
+                <td>62%</td>
+                <td>4%</td>
+                <td>56%</td>
             </tr>
             </table>
             
@@ -163,10 +163,10 @@ ul {
     <p>(but other kinds of bug reports and/or feature requests
        are also always welcome, of course!)</p>
 
-    <p>FontBakery version: 0.10.2</p>
+    <p>FontBakery version: 0.10.3</p>
     
 <h2>Section: Google Fonts</h2>
-<span class='section__emoji'>🔥🔥🔥🔥🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
+<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/glyph_coverage</div>
 
@@ -818,45 +818,37 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+180F MONGOLIAN FREE VARIATION SELECTOR FOUR: not included in any glyphset definition</li>
-<li>U+3008 LEFT ANGLE BRACKET: try adding one of: tai-le, chinese-traditional, chinese-hongkong, yi, chinese-simplified, japanese, phags-pa</li>
-<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: tai-le, chinese-traditional, chinese-hongkong, yi, chinese-simplified, japanese, phags-pa</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified</li>
 <li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding chinese-simplified</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>mongolian</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<h3>Check copyright namerecords match license file.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/name/license</div>
+<h3>License URL matches License text on name table?</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/name/license_url</div>
 
-<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.&quot; Must be changed to &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL&quot; [code: wrong]</p>
+<details><summary>⚠️ NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
 </span></li></ul></div></details>
-<h3>Copyright notices match canonical pattern in fonts</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/font_copyright</div>
+<h3><div style='color:#88c'>EXPERIMENTAL CHECK - Since 2023/Nov/02</div>Shapes languages in all GF glyphsets.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/glyphsets/shape_languages</div>
 
-<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Name Table entry: Copyright notices should match a pattern similar to: &quot;Copyright 2019 The Familyname Project Authors (git url)&quot;
-But instead we have got:
-&quot;Copyright 2018 Google Inc. All Rights Reserved.&quot; [code: bad-notice-format]</p>
+<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Kernel/kl_Latn (Kalaallisut): [FAIL: Some base glyphs were missing: å, æ, ø, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̊, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Kernel/seh_Latn (Sena): [FAIL: Some base glyphs were missing: À, Á, Â, Ã, Ç, É, Ê, Í, Ò, Ó, Ô, Õ, Ú, à, á, â, ã, ç, é, ê, í, ò, ó, ô, õ, ú, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Kernel/zu_Latn (Zulu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̄, ◌̆, ◌̈, ◌̊, ◌̧] [code: failed-language-shaping]</p>
 </span></li></ul></div></details>
 <h3>Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/vertical_metrics_regressions</div>
 
-<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Noto Sans Mongolian Regular: OS/2 sTypoAscender is 962 when it should be 1457 [code: bad-typo-ascender]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Noto Sans Mongolian Regular: OS/2 sTypoDescender is -264 when it should be -293 [code: bad-typo-descender]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Noto Sans Mongolian Regular: hhea Ascender is 962 when it should be 1457 [code: bad-hhea-ascender]</p>
+<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Noto Sans Mongolian Regular: hhea Ascender is 962 when it should be 1457 [code: bad-hhea-ascender]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Noto Sans Mongolian Regular: hhea Descender is -264 when it should be -293 [code: bad-hhea-descender]</p>
-</span></li></ul></div></details>
-<h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/os2/use_typo_metrics</div>
-
-<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/meta/script_lang_tags</div>
@@ -870,11 +862,10 @@ But instead we have got:
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
 <span class='section__emoji'>🔥🔥⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</span>
-<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
-<div class='check__idlabel'>Check ID: com.google.fonts/check/family/win_ascent_and_descent</div>
+<h3>Checking OS/2 Metrics match hhea Metrics.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/os2_metrics_match_hhea</div>
 
-<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1642, but got 962 instead [code: ascent]</p>
-</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 388, but got 264 instead [code: descent]</p>
+<details><summary>🔥 NotoSansMongolian-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (1457) and hhea ascent (962) must be equal. [code: ascender]</p>
 </span></li></ul></div></details>
 <h3>Font has **proper** whitespace glyph names?</h3>
 <div class='check__idlabel'>Check ID: com.google.fonts/check/whitespace_glyphnames</div>
@@ -1021,6 +1012,10 @@ fvs1 (U+180B), fvs2 (U+180C), fvs3 (U+180D) and fvs4 (U+180F) [code: mark-chars]
 * uni185A (U+185A): X=360.0,Y=699.0 (should be at cap-height 700?)
 
 * uni1868 (U+1868): X=197.0,Y=701.0 (should be at cap-height 700?)
+
+* tribaluda (U+1886): X=634.0,Y=1456.0 (should be at ascender 1457?)
+
+* tribaluda (U+1886): X=593.0,Y=1456.0 (should be at ascender 1457?)
 
 * uni1892 (U+1892): X=335.0,Y=699.0 (should be at cap-height 700?)
 

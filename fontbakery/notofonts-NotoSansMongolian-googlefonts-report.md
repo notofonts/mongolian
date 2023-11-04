@@ -1,8 +1,14 @@
 ## FontBakery report
 
-fontbakery version: 0.10.2
+fontbakery version: 0.10.3
 
-<details><summary><b>[21] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Latin_Kernel/kl_Latn (Kalaallisut): [FAIL: Some base glyphs were missing: å, æ, ø, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̊, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Kernel/seh_Latn (Sena): [FAIL: Some base glyphs were missing: À, Á, Â, Ã, Ç, É, Ê, Í, Ò, Ó, Ô, Õ, Ú, à, á, â, ã, ç, é, ê, í, ò, ó, ô, õ, ú, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Kernel/zu_Latn (Zulu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̄, ◌̆, ◌̈, ◌̊, ◌̧] [code: failed-language-shaping]
+</div></details><br></div></details><details><summary><b>[19] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'u1820.ini'
@@ -646,37 +652,19 @@ fontbakery version: 0.10.2
 
 	- 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2018 Google Inc. All Rights Reserved." [code: bad-notice-format]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
 
 
-* 🔥 **FAIL** fsSelection bit 7 needs to be enabled because the family on Google Fonts has it enabled. [code: bad-fsselection-bit7]
-* 🔥 **FAIL** Noto Sans Mongolian Regular: OS/2 sTypoAscender is 962 when it should be 1457 [code: bad-typo-ascender]
-* 🔥 **FAIL** Noto Sans Mongolian Regular: OS/2 sTypoDescender is -264 when it should be -293 [code: bad-typo-descender]
 * 🔥 **FAIL** Noto Sans Mongolian Regular: hhea Ascender is 962 when it should be 1457 [code: bad-hhea-ascender]
 * 🔥 **FAIL** Noto Sans Mongolian Regular: hhea Descender is -264 when it should be -293 [code: bad-hhea-descender]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1642, but got 962 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 388, but got 264 instead [code: descent]
+* 🔥 **FAIL** OS/2 sTypoAscender (1457) and hhea ascent (962) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
@@ -696,19 +684,23 @@ But instead we have got:
     definitions.
 
  * U+180F MONGOLIAN FREE VARIATION SELECTOR FOUR: not included in any glyphset definition
- * U+3008 LEFT ANGLE BRACKET: try adding one of: tai-le, chinese-traditional, chinese-hongkong, yi, chinese-simplified, japanese, phags-pa
- * U+3009 RIGHT ANGLE BRACKET: try adding one of: tai-le, chinese-traditional, chinese-hongkong, yi, chinese-simplified, japanese, phags-pa
- * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, japanese, yi
- * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi
- * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, japanese, yi
- * U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, japanese, yi
+ * U+3008 LEFT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong
+ * U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong
+ * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified
+ * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified
+ * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified
+ * U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified
  * U+FF0D FULLWIDTH HYPHEN-MINUS: try adding chinese-simplified
- * U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, japanese, yi
- * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, japanese, yi
- * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi
- * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, japanese, yi
+ * U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified
+ * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified
+ * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified
+ * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified
 
 Or you can add the above codepoints to one of the subsets supported by the font: `mongolian` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -838,6 +830,10 @@ minus
 	* uni185A (U+185A): X=360.0,Y=699.0 (should be at cap-height 700?)
 
 	* uni1868 (U+1868): X=197.0,Y=701.0 (should be at cap-height 700?)
+
+	* tribaluda (U+1886): X=634.0,Y=1456.0 (should be at ascender 1457?)
+
+	* tribaluda (U+1886): X=593.0,Y=1456.0 (should be at ascender 1457?)
 
 	* uni1892 (U+1892): X=335.0,Y=699.0 (should be at cap-height 700?)
 
@@ -1056,8 +1052,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 9 | 11 | 121 | 7 | 105 | 0 |
-| 0% | 4% | 4% | 48% | 3% | 41% | 0% |
+| 1 | 7 | 12 | 120 | 7 | 108 | 0 |
+| 0% | 3% | 5% | 47% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

@@ -8,7 +8,7 @@ fontbakery version: 0.10.3
 * 🔥 **FAIL** GF_Latin_Kernel/kl_Latn (Kalaallisut): [FAIL: Some base glyphs were missing: å, æ, ø, FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̊, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Kernel/seh_Latn (Sena): [FAIL: Some base glyphs were missing: À, Á, Â, Ã, Ç, É, Ê, Í, Ò, Ó, Ô, Õ, Ú, à, á, â, ã, ç, é, ê, í, ò, ó, ô, õ, ú, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Kernel/zu_Latn (Zulu): [FAIL: Some mark glyphs were missing: ◌̀, ◌́, ◌̂, ◌̃, ◌̄, ◌̆, ◌̈, ◌̊, ◌̧] [code: failed-language-shaping]
-</div></details><br></div></details><details><summary><b>[19] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansMongolian-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with KeyError: 'u1820.ini'
@@ -652,28 +652,15 @@ fontbakery version: 0.10.3
 
 	- 0x02DB (OGONEK)
  [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions">com.google.fonts/check/vertical_metrics_regressions</a>)</summary><div>
-
-
-* 🔥 **FAIL** Noto Sans Mongolian Regular: hhea Ascender is 962 when it should be 1457 [code: bad-hhea-ascender]
-* 🔥 **FAIL** Noto Sans Mongolian Regular: hhea Descender is -264 when it should be -293 [code: bad-hhea-descender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (1457) and hhea ascent (962) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
 * 🔥 **FAIL** Glyph 'mvs' has ink. It needs to be replaced by an empty glyph. [code: has-ink]
 * 🔥 **FAIL** Glyph 'nnbsp' has ink. It needs to be replaced by an empty glyph. [code: has-ink]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check hhea.caretSlopeRise and hhea.caretSlopeRun (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/caret_slope">com.google.fonts/check/caret_slope</a>)</summary><div>
-
-
-* 🔥 **FAIL** caretSlopeRise must not be zero. Set it to 1 for upright fonts. [code: zero-rise]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -684,23 +671,19 @@ fontbakery version: 0.10.3
     definitions.
 
  * U+180F MONGOLIAN FREE VARIATION SELECTOR FOUR: not included in any glyphset definition
- * U+3008 LEFT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong
- * U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, chinese-simplified, tai-le, chinese-traditional, japanese, phags-pa, chinese-hongkong
- * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified
- * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified
- * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified
- * U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified
+ * U+3008 LEFT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-hongkong, tai-le, japanese, yi, phags-pa, chinese-simplified
+ * U+3009 RIGHT ANGLE BRACKET: try adding one of: chinese-traditional, chinese-hongkong, tai-le, japanese, yi, phags-pa, chinese-simplified
+ * U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: chinese-simplified, yi, japanese
+ * U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese
+ * U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: chinese-simplified, yi, japanese
+ * U+FF0C FULLWIDTH COMMA: try adding one of: chinese-simplified, yi, japanese
  * U+FF0D FULLWIDTH HYPHEN-MINUS: try adding chinese-simplified
- * U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified
- * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified
- * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified
- * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified
+ * U+FF1B FULLWIDTH SEMICOLON: try adding one of: chinese-simplified, yi, japanese
+ * U+FF1F FULLWIDTH QUESTION MARK: try adding one of: chinese-simplified, yi, japanese
+ * U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese
+ * U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: chinese-simplified, yi, japanese
 
 Or you can add the above codepoints to one of the subsets supported by the font: `mongolian` [code: unreachable-subsetting]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -1052,8 +1035,8 @@ minus
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 7 | 12 | 120 | 7 | 108 | 0 |
-| 0% | 3% | 5% | 47% | 3% | 42% | 0% |
+| 1 | 4 | 11 | 120 | 7 | 112 | 0 |
+| 0% | 2% | 4% | 47% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

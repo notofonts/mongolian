@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>700</integer>
   <key>copyright</key>
-  <string>Copyright 2018 Google Inc. All Rights Reserved.</string>
+  <string>Copyright 2023 The Noto Project Authors (https://github.com/notofonts/mongolian)</string>
   <key>descender</key>
   <integer>-264</integer>
   <key>familyName</key>
@@ -40,7 +40,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://www.monotype.com/studio</string>
   <key>openTypeNameLicense</key>
-  <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.</string>
+  <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
   <key>openTypeNameLicenseURL</key>
   <string>http://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
@@ -77,6 +77,7 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>250</integer>
@@ -102,9 +103,9 @@
   <array>
   </array>
   <key>openTypeOS2TypoAscender</key>
-  <integer>962</integer>
+  <integer>1457</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-264</integer>
+  <integer>-293</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -126,13 +127,13 @@
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>962</integer>
+  <integer>1642</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>264</integer>
+  <integer>388</integer>
   <key>openTypeVheaCaretOffset</key>
   <integer>0</integer>
   <key>openTypeVheaCaretSlopeRise</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>openTypeVheaCaretSlopeRun</key>
   <integer>0</integer>
   <key>openTypeVheaVertTypoAscender</key>

@@ -22,15 +22,15 @@
   <key>openTypeHeadLowestRecPPEM</key>
   <integer>7</integer>
   <key>openTypeHheaAscender</key>
-  <integer>962</integer>
+  <integer>1457</integer>
   <key>openTypeHheaCaretOffset</key>
   <integer>0</integer>
   <key>openTypeHheaCaretSlopeRise</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>openTypeHheaCaretSlopeRun</key>
   <integer>0</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-264</integer>
+  <integer>-293</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -42,7 +42,7 @@
   <key>openTypeNameLicense</key>
   <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
   <key>openTypeNameLicenseURL</key>
-  <string>http://scripts.sil.org/OFL</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>Monotype Imaging Inc.</string>
   <key>openTypeNameManufacturerURL</key>

@@ -1310,6 +1310,8 @@
   <string>nirugu.ignored.glif</string>
   <key>nnbsp</key>
   <string>nnbsp.glif</string>
+  <key>space</key>
+  <string>space.glif</string>
   <key>tribaluda</key>
   <string>tribaluda.glif</string>
   <key>u11660</key>
@@ -1338,8 +1340,6 @@
   <string>u1166B_.glif</string>
   <key>u1166C</key>
   <string>u1166C_.glif</string>
-  <key>uni0020</key>
-  <string>uni0020.glif</string>
   <key>uni00B7</key>
   <string>uni00B_7.glif</string>
   <key>uni00B7.vert</key>

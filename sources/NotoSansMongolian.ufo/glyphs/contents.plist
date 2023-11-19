@@ -574,10 +574,10 @@
   <string>J_hA_h.fina.glif</string>
   <key>JhAh.medi</key>
   <string>J_hA_h.medi.glif</string>
-  <key>JhOh.fina</key>
-  <string>J_hO_h.fina.glif</string>
   <key>JhOh.medi</key>
   <string>J_hO_h.medi.glif</string>
+  <key>JhUh.fina</key>
+  <string>J_hU_h.fina.glif</string>
   <key>K2A.init</key>
   <string>K_2A_.init.glif</string>
   <key>K2A.medi</key>
@@ -780,14 +780,14 @@
   <string>L_cA_h.isol.glif</string>
   <key>LcAh.medi</key>
   <string>L_cA_h.medi.glif</string>
-  <key>LcOh.fina</key>
-  <string>L_cO_h.fina.glif</string>
   <key>LcOh.init</key>
   <string>L_cO_h.init.glif</string>
   <key>LcOh.isol</key>
   <string>L_cO_h.isol.glif</string>
   <key>LcOh.medi</key>
   <string>L_cO_h.medi.glif</string>
+  <key>LcUh.fina</key>
+  <string>L_cU_h.fina.glif</string>
   <key>ML.medi</key>
   <string>M_L_.medi.glif</string>
   <key>MM.medi</key>
@@ -1088,14 +1088,14 @@
   <string>Z_tA_h.isol.glif</string>
   <key>ZtAh.medi</key>
   <string>Z_tA_h.medi.glif</string>
-  <key>ZtOh.fina</key>
-  <string>Z_tO_h.fina.glif</string>
   <key>ZtOh.init</key>
   <string>Z_tO_h.init.glif</string>
   <key>ZtOh.isol</key>
   <string>Z_tO_h.isol.glif</string>
   <key>ZtOh.medi</key>
   <string>Z_tO_h.medi.glif</string>
+  <key>ZtUh.fina</key>
+  <string>Z_tU_h.fina.glif</string>
   <key>_uni1820.A.fina</key>
   <string>_uni1820.A_.fina.glif</string>
   <key>_uni1822.AI.init</key>
@@ -2732,6 +2732,12 @@
   <string>uni188E_.D_s.init._isol.glif</string>
   <key>uni188E.Ds.medi</key>
   <string>uni188E_.D_s.medi.glif</string>
+  <key>uni188E.Ds2.init</key>
+  <string>uni188E_.D_s2.init.glif</string>
+  <key>uni188E.Ds2.init._isol</key>
+  <string>uni188E_.D_s2.init._isol.glif</string>
+  <key>uni188E.Ds2.medi</key>
+  <string>uni188E_.D_s2.medi.glif</string>
   <key>uni188F</key>
   <string>uni188F_.glif</string>
   <key>uni188F.Wn.fina</key>
@@ -2972,6 +2978,12 @@
   <string>uni18A_4.S_t.init._isol.glif</string>
   <key>uni18A4.St.medi</key>
   <string>uni18A_4.S_t.medi.glif</string>
+  <key>uni18A4.St2.init</key>
+  <string>uni18A_4.S_t2.init.glif</string>
+  <key>uni18A4.St2.init._isol</key>
+  <string>uni18A_4.S_t2.init._isol.glif</string>
+  <key>uni18A4.St2.medi</key>
+  <string>uni18A_4.S_t2.medi.glif</string>
   <key>uni18A5</key>
   <string>uni18A_5.glif</string>
   <key>uni18A5.Sc.fina</key>

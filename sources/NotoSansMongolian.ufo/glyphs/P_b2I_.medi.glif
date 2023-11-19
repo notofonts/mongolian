@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Pb2I.medi" format="2">
   <advance width="929" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="741" y="-67" type="curve"/>
@@ -12,37 +13,25 @@
       <point x="959" y="364" type="line"/>
       <point x="959" y="444" type="line"/>
       <point x="640" y="444" type="line"/>
-      <point x="624" y="542"/>
-      <point x="599" y="615"/>
-      <point x="565" y="662" type="curve"/>
-      <point x="530" y="709"/>
-      <point x="482" y="733"/>
+      <point x="609" y="634"/>
+      <point x="548" y="733"/>
       <point x="420" y="733" type="curve"/>
-      <point x="396" y="733"/>
-      <point x="375" y="729"/>
-      <point x="358" y="720" type="curve"/>
-      <point x="341" y="711"/>
-      <point x="325" y="697"/>
+      <point x="370" y="733"/>
+      <point x="341" y="716"/>
       <point x="310" y="680" type="curve"/>
       <point x="281" y="715"/>
       <point x="242" y="733"/>
       <point x="195" y="733" type="curve"/>
-      <point x="128" y="733"/>
-      <point x="79" y="704"/>
-      <point x="47" y="647" type="curve"/>
-      <point x="15" y="589"/>
-      <point x="-1" y="509"/>
+      <point x="55" y="733"/>
+      <point x="-1" y="601"/>
       <point x="-1" y="408" type="curve"/>
       <point x="0" y="364" type="line"/>
       <point x="316" y="364" type="line"/>
       <point x="323" y="346"/>
       <point x="326" y="316"/>
       <point x="326" y="275" type="curve"/>
-      <point x="326" y="222"/>
-      <point x="316" y="184"/>
-      <point x="295" y="160" type="curve"/>
-      <point x="274" y="135"/>
-      <point x="249" y="123"/>
+      <point x="326" y="172"/>
+      <point x="282" y="123"/>
       <point x="218" y="123" type="curve"/>
       <point x="147" y="123"/>
       <point x="103" y="172"/>
@@ -51,49 +40,33 @@
       <point x="32" y="116"/>
       <point x="104" y="40"/>
       <point x="225" y="40" type="curve"/>
-      <point x="276" y="40"/>
-      <point x="319" y="61"/>
-      <point x="354" y="103" type="curve"/>
-      <point x="388" y="144"/>
-      <point x="405" y="202"/>
+      <point x="325" y="40"/>
+      <point x="405" y="123"/>
       <point x="405" y="275" type="curve"/>
-      <point x="405" y="294"/>
-      <point x="403" y="322"/>
-      <point x="399" y="358" type="curve"/>
-      <point x="394" y="393"/>
-      <point x="389" y="422"/>
+      <point x="405" y="314"/>
+      <point x="397" y="398"/>
       <point x="382" y="444" type="curve"/>
       <point x="78" y="444" type="line"/>
-      <point x="81" y="513"/>
-      <point x="92" y="564"/>
-      <point x="111" y="599" type="curve"/>
-      <point x="129" y="633"/>
-      <point x="157" y="650"/>
+      <point x="84" y="582"/>
+      <point x="120" y="650"/>
       <point x="195" y="650" type="curve"/>
       <point x="245" y="650"/>
       <point x="283" y="624"/>
       <point x="310" y="571" type="curve"/>
-      <point x="325" y="598"/>
-      <point x="342" y="618"/>
-      <point x="359" y="631" type="curve"/>
-      <point x="376" y="644"/>
-      <point x="397" y="650"/>
+      <point x="341" y="626"/>
+      <point x="375" y="650"/>
       <point x="420" y="650" type="curve"/>
-      <point x="459" y="650"/>
-      <point x="490" y="631"/>
-      <point x="513" y="594" type="curve"/>
-      <point x="535" y="557"/>
-      <point x="552" y="498"/>
+      <point x="500" y="650"/>
+      <point x="540" y="576"/>
       <point x="564" y="418" type="curve"/>
-      <point x="577" y="338"/>
-      <point x="597" y="263"/>
-      <point x="622" y="192" type="curve"/>
-      <point x="647" y="121"/>
-      <point x="687" y="34"/>
+      <point x="590" y="260"/>
+      <point x="637" y="127"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1895.Rh2.medi" format="2">
   <advance width="788" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="337" y="-117" type="curve"/>
@@ -9,23 +10,23 @@
       <point x="463" y="-83"/>
       <point x="500" y="-14" type="curve"/>
       <point x="434" y="27" type="line"/>
-      <point x="417" y="-10"/>
+      <point x="416" y="-12"/>
       <point x="380" y="-35"/>
       <point x="337" y="-35" type="curve"/>
-      <point x="196" y="-35"/>
-      <point x="79" y="139"/>
+      <point x="174" y="-35"/>
+      <point x="79" y="174"/>
       <point x="79" y="364" type="curve"/>
-      <point x="79" y="538"/>
-      <point x="169" y="665"/>
+      <point x="79" y="529"/>
+      <point x="163" y="665"/>
       <point x="314" y="665" type="curve"/>
-      <point x="429" y="665"/>
-      <point x="486" y="567"/>
+      <point x="431" y="665"/>
+      <point x="487" y="562"/>
       <point x="501" y="364" type="curve"/>
       <point x="522" y="74" type="line"/>
       <point x="588" y="74" type="line"/>
       <point x="598" y="219" type="line"/>
-      <point x="607" y="336"/>
-      <point x="632" y="364"/>
+      <point x="606" y="332"/>
+      <point x="630" y="364"/>
       <point x="741" y="364" type="curve"/>
       <point x="818" y="364" type="line"/>
       <point x="818" y="444" type="line"/>
@@ -34,14 +35,14 @@
       <point x="603" y="416"/>
       <point x="581" y="361" type="curve"/>
       <point x="577" y="361" type="line"/>
-      <point x="558" y="629"/>
-      <point x="478" y="742"/>
+      <point x="562" y="586"/>
+      <point x="503" y="742"/>
       <point x="314" y="742" type="curve"/>
-      <point x="128" y="742"/>
-      <point x="0" y="571"/>
+      <point x="126" y="742"/>
+      <point x="0" y="570"/>
       <point x="0" y="364" type="curve"/>
-      <point x="0" y="90"/>
-      <point x="142" y="-117"/>
+      <point x="0" y="123"/>
+      <point x="118" y="-117"/>
     </contour>
   </outline>
   <lib>

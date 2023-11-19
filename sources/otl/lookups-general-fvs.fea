@@ -295,6 +295,9 @@ lookup _.tod_tag.manual {
     sub @zr-tod.isol' fvs1.ignored by uni185C.Zc.init._isol;
     sub @zr-tod.init' fvs1.ignored by uni185C.Zc.init;
     sub @zr-tod.medi' fvs1.ignored by uni185C.Zc.medi;
+    sub @dr-tag.isol' fvs1.ignored by uni188E.Ds2.init._isol;
+    sub @dr-tag.init' fvs1.ignored by uni188E.Ds2.init;
+    sub @dr-tag.medi' fvs1.ignored by uni188E.Ds2.medi;
     sub @p-tag.isol' fvs1.ignored by uni1892.Bh.init._isol;
     sub @p-tag.init' fvs1.ignored by uni1892.Bh.init;
     sub @p-tag.medi' fvs1.ignored by uni1892.Bh.medi;
@@ -362,6 +365,9 @@ lookup III.tod_tag.fvs {
     sub @zr-tod.isol' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @zr-tod.init' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @zr-tod.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
+    sub @dr-tag.isol' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
+    sub @dr-tag.init' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
+    sub @dr-tag.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @p-tag.isol' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @p-tag.init' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @p-tag.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
@@ -497,6 +503,9 @@ lookup _.man_mag.manual {
     sub @dh-mag.init' fvs1.ignored by uni18A1.Ts.init;
     sub @dh-mag.medi' fvs2.ignored by uni18A1.Dx.medi;
     sub @dh-mag.medi' fvs1.ignored by uni18A1.Ds.medi;
+    sub @zh-mag.isol' fvs1.ignored by uni18A4.St2.init._isol;
+    sub @zh-mag.init' fvs1.ignored by uni18A4.St2.init;
+    sub @zh-mag.medi' fvs1.ignored by uni18A4.St2.medi;
 } _.man_mag.manual;
 
 lookup III.man_mag.fvs {
@@ -592,6 +601,9 @@ lookup III.man_mag.fvs {
     sub @dh-mag.init' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
     sub @dh-mag.medi' lookup _.man_mag.manual fvs2.ignored' lookup _.effective;
     sub @dh-mag.medi' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
+    sub @zh-mag.isol' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
+    sub @zh-mag.init' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
+    sub @zh-mag.medi' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
 } III.man_mag.fvs;
 
 

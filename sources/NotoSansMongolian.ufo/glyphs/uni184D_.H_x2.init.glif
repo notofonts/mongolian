@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni184D.Hx2.init" format="2">
   <advance width="786" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="219" y="-124" type="curve"/>
       <point x="262" y="-163" type="line"/>
       <point x="295" y="-128"/>
       <point x="341" y="-90"/>
@@ -11,9 +13,9 @@
       <point x="340" y="22" type="line"/>
       <point x="301" y="-17"/>
       <point x="261" y="-65"/>
-      <point x="219" y="-124" type="curve"/>
     </contour>
     <contour>
+      <point x="504" y="-124" type="curve"/>
       <point x="547" y="-163" type="line"/>
       <point x="580" y="-128"/>
       <point x="626" y="-90"/>
@@ -21,9 +23,9 @@
       <point x="625" y="22" type="line"/>
       <point x="586" y="-17"/>
       <point x="546" y="-65"/>
-      <point x="504" y="-124" type="curve"/>
     </contour>
     <contour>
+      <point x="200" y="437" type="curve"/>
       <point x="226" y="74" type="line"/>
       <point x="292" y="74" type="line"/>
       <point x="302" y="219" type="line"/>
@@ -54,7 +56,6 @@
       <point x="118" y="575" type="curve"/>
       <point x="179" y="575"/>
       <point x="194" y="520"/>
-      <point x="200" y="437" type="curve"/>
     </contour>
   </outline>
   <lib>

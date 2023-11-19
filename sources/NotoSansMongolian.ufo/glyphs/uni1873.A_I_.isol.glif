@@ -1,56 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1873.AI.isol" format="2">
   <advance width="993" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="619" y="42" type="curve"/>
-      <point x="691" y="85" type="line"/>
-      <point x="617" y="188"/>
-      <point x="569" y="287"/>
-      <point x="569" y="407" type="curve"/>
-      <point x="569" y="544"/>
-      <point x="626" y="609"/>
-      <point x="718" y="609" type="curve"/>
-      <point x="806" y="609"/>
-      <point x="857" y="525"/>
-      <point x="868" y="376" type="curve"/>
-      <point x="948" y="386" type="line"/>
-      <point x="938" y="552"/>
-      <point x="871" y="692"/>
-      <point x="718" y="692" type="curve"/>
-      <point x="582" y="692"/>
-      <point x="502" y="595"/>
-      <point x="491" y="444" type="curve"/>
-      <point x="444" y="444" type="line"/>
-      <point x="360" y="444"/>
-      <point x="307" y="416"/>
-      <point x="285" y="361" type="curve"/>
-      <point x="281" y="361" type="line"/>
-      <point x="278" y="445" type="line"/>
-      <point x="273" y="575"/>
-      <point x="248" y="653"/>
-      <point x="139" y="653" type="curve"/>
-      <point x="100" y="653"/>
-      <point x="57" y="643"/>
-      <point x="10" y="623" type="curve"/>
-      <point x="10" y="550" type="line"/>
-      <point x="52" y="567"/>
-      <point x="88" y="575"/>
-      <point x="118" y="575" type="curve"/>
-      <point x="179" y="575"/>
-      <point x="194" y="520"/>
-      <point x="200" y="437" type="curve"/>
-      <point x="226" y="74" type="line"/>
-      <point x="292" y="74" type="line"/>
-      <point x="302" y="219" type="line"/>
-      <point x="309" y="326"/>
-      <point x="335" y="364"/>
-      <point x="445" y="364" type="curve"/>
-      <point x="492" y="364" type="line"/>
-      <point x="501" y="260"/>
-      <point x="544" y="152"/>
-    </contour>
+  <component base="uni1822.AI.isol"/>
   </outline>
   <lib>
     <dict>

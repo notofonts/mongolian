@@ -1,37 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1828.A.init" format="2">
   <advance width="492" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="226" y="74" type="line"/>
-      <point x="292" y="74" type="line"/>
-      <point x="302" y="219" type="line"/>
-      <point x="310" y="329"/>
-      <point x="337" y="364"/>
-      <point x="445" y="364" type="curve"/>
-      <point x="522" y="364" type="line"/>
-      <point x="522" y="444" type="line"/>
-      <point x="444" y="444" type="line"/>
-      <point x="360" y="444"/>
-      <point x="307" y="416"/>
-      <point x="285" y="361" type="curve"/>
-      <point x="281" y="361" type="line"/>
-      <point x="278" y="445" type="line"/>
-      <point x="273" y="575"/>
-      <point x="248" y="653"/>
-      <point x="139" y="653" type="curve"/>
-      <point x="100" y="653"/>
-      <point x="57" y="643"/>
-      <point x="10" y="623" type="curve"/>
-      <point x="10" y="550" type="line"/>
-      <point x="52" y="567"/>
-      <point x="88" y="575"/>
-      <point x="118" y="575" type="curve"/>
-      <point x="180" y="575"/>
-      <point x="194" y="522"/>
-      <point x="200" y="437" type="curve"/>
-    </contour>
+  <component base="uni1820.A.init"/>
   </outline>
   <lib>
     <dict>

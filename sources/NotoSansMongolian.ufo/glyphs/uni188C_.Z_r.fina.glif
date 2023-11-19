@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni188C.Zr.fina" format="2">
   <advance width="706" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="178" y="-82" type="line"/>
       <point x="373" y="107" type="line"/>
       <point x="207" y="364" type="line"/>
       <point x="486" y="364" type="line"/>
-      <point x="521" y="364"/>
-      <point x="547" y="357"/>
-      <point x="562" y="342" type="curve"/>
-      <point x="577" y="327"/>
-      <point x="584" y="306"/>
+      <point x="556" y="364"/>
+      <point x="584" y="335"/>
       <point x="584" y="279" type="curve"/>
       <point x="584" y="235"/>
       <point x="577" y="196"/>
@@ -21,9 +19,8 @@
       <point x="653" y="199"/>
       <point x="661" y="238"/>
       <point x="661" y="279" type="curve"/>
-      <point x="661" y="282" type="line"/>
-      <point x="661" y="390"/>
-      <point x="602" y="444"/>
+      <point x="661" y="389"/>
+      <point x="605" y="444"/>
       <point x="486" y="444" type="curve"/>
       <point x="0" y="444" type="line"/>
       <point x="0" y="364" type="line"/>
@@ -36,6 +33,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

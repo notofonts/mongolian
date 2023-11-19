@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1860.Oh.medi" format="2">
   <advance width="573" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="197" y="40" type="curve"/>
@@ -38,6 +39,7 @@
       <point x="271" y="123"/>
     </contour>
     <contour>
+      <point x="119" y="566" type="curve"/>
       <point x="162" y="527" type="line"/>
       <point x="195" y="562"/>
       <point x="241" y="600"/>
@@ -45,7 +47,6 @@
       <point x="240" y="712" type="line"/>
       <point x="201" y="673"/>
       <point x="161" y="625"/>
-      <point x="119" y="566" type="curve"/>
     </contour>
   </outline>
   <lib>

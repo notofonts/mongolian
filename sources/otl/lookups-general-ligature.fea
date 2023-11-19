@@ -762,7 +762,7 @@ lookup IIb.man_mag.ligature {
     sub uni189D.Zt.init uni1860.Oh.fina by ZtOh.isol;
     sub uni189D.Zt.init uni1860.Oh.medi by ZtOh.init;
     sub uni189D.Zt.medi uni1860.Oh.medi by ZtOh.medi;
-    sub uni189D.Zt.medi uni1860.Oh.fina by ZtOh.fina;
+    sub uni189D.Zt.medi uni1860.Uh.fina by ZtUh.fina;
     sub uni189F.Ih.init uni185D.Ah.fina by IhAh.isol;
     sub uni189F.Ih.init uni185D.Ah.medi by IhAh.init;
     sub uni189F.Jh.medi uni185D.Ah.medi by JhAh.medi;
@@ -770,7 +770,7 @@ lookup IIb.man_mag.ligature {
     sub uni189F.Ih.init uni1860.Oh.fina by IhOh.isol;
     sub uni189F.Ih.init uni1860.Oh.medi by IhOh.init;
     sub uni189F.Jh.medi uni1860.Oh.medi by JhOh.medi;
-    sub uni189F.Jh.medi uni1860.Oh.fina by JhOh.fina;
+    sub uni189F.Jh.medi uni1860.Uh.fina by JhUh.fina;
     sub uni18AA.Lc.init uni185D.Ah.fina by LcAh.isol;
     sub uni18AA.Lc.init uni185D.Ah.medi by LcAh.init;
     sub uni18AA.Lc.medi uni185D.Ah.medi by LcAh.medi;
@@ -778,7 +778,7 @@ lookup IIb.man_mag.ligature {
     sub uni18AA.Lc.init uni1860.Oh.fina by LcOh.isol;
     sub uni18AA.Lc.init uni1860.Oh.medi by LcOh.init;
     sub uni18AA.Lc.medi uni1860.Oh.medi by LcOh.medi;
-    sub uni18AA.Lc.medi uni1860.Oh.fina by LcOh.fina;
+    sub uni18AA.Lc.medi uni1860.Uh.fina by LcUh.fina;
     lookupflag 0;
 } IIb.man_mag.ligature;
 

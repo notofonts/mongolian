@@ -1,73 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1826.AOI.init" format="2">
   <advance width="1360" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="1172" y="-67" type="curve"/>
-      <point x="1245" y="-31" type="line"/>
-      <point x="1172" y="100"/>
-      <point x="1116" y="231"/>
-      <point x="1078" y="364" type="curve"/>
-      <point x="1390" y="364" type="line"/>
-      <point x="1390" y="444" type="line"/>
-      <point x="444" y="444" type="line"/>
-      <point x="360" y="444"/>
-      <point x="307" y="416"/>
-      <point x="285" y="361" type="curve"/>
-      <point x="281" y="361" type="line"/>
-      <point x="278" y="445" type="line"/>
-      <point x="273" y="575"/>
-      <point x="248" y="653"/>
-      <point x="139" y="653" type="curve"/>
-      <point x="100" y="653"/>
-      <point x="57" y="643"/>
-      <point x="10" y="623" type="curve"/>
-      <point x="10" y="550" type="line"/>
-      <point x="52" y="567"/>
-      <point x="88" y="575"/>
-      <point x="118" y="575" type="curve"/>
-      <point x="179" y="575"/>
-      <point x="194" y="520"/>
-      <point x="200" y="437" type="curve"/>
-      <point x="226" y="74" type="line"/>
-      <point x="292" y="74" type="line"/>
-      <point x="302" y="219" type="line"/>
-      <point x="309" y="326"/>
-      <point x="335" y="364"/>
-      <point x="445" y="364" type="curve"/>
-      <point x="512" y="364" type="line"/>
-      <point x="499" y="333"/>
-      <point x="492" y="294"/>
-      <point x="492" y="249" type="curve"/>
-      <point x="492" y="116"/>
-      <point x="562" y="40"/>
-      <point x="689" y="40" type="curve"/>
-      <point x="816" y="40"/>
-      <point x="887" y="123"/>
-      <point x="887" y="249" type="curve"/>
-      <point x="887" y="293"/>
-      <point x="880" y="331"/>
-      <point x="865" y="364" type="curve"/>
-      <point x="999" y="364" type="line"/>
-      <point x="1036" y="224"/>
-      <point x="1093" y="80"/>
-    </contour>
-    <contour>
-      <point x="689" y="123" type="curve"/>
-      <point x="610" y="123"/>
-      <point x="571" y="166"/>
-      <point x="571" y="251" type="curve"/>
-      <point x="571" y="294"/>
-      <point x="578" y="332"/>
-      <point x="591" y="364" type="curve"/>
-      <point x="788" y="364" type="line"/>
-      <point x="801" y="332"/>
-      <point x="808" y="294"/>
-      <point x="808" y="251" type="curve"/>
-      <point x="808" y="166"/>
-      <point x="763" y="123"/>
-    </contour>
+  <component base="uni1825.AOI.init"/>
   </outline>
   <lib>
     <dict>

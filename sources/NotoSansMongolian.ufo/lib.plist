@@ -568,8 +568,11 @@
     <string>uni188D.Cr2.medi</string>
     <string>uni188D.Cr2.medi._fina</string>
     <string>uni188E.Ds.init._isol</string>
+    <string>uni188E.Ds2.init._isol</string>
     <string>uni188E.Ds.init</string>
+    <string>uni188E.Ds2.init</string>
     <string>uni188E.Ds.medi</string>
+    <string>uni188E.Ds2.medi</string>
     <string>uni188E.Ds.fina</string>
     <string>uni188F.Wn.init._isol</string>
     <string>uni188F.Wn.init</string>
@@ -662,8 +665,11 @@
     <string>uni18A3.Jq.medi</string>
     <string>uni18A3.Jq.fina</string>
     <string>uni18A4.St.init._isol</string>
+    <string>uni18A4.St2.init._isol</string>
     <string>uni18A4.St.init</string>
+    <string>uni18A4.St2.init</string>
     <string>uni18A4.St.medi</string>
+    <string>uni18A4.St2.medi</string>
     <string>uni18A4.St.fina</string>
     <string>uni18A5.Sc.init._isol</string>
     <string>uni18A5.Sc.init</string>
@@ -1094,7 +1100,7 @@
     <string>JhAh.medi</string>
     <string>JhAh.fina</string>
     <string>JhOh.medi</string>
-    <string>JhOh.fina</string>
+    <string>JhUh.fina</string>
     <string>K2Aa.isol</string>
     <string>K2A.init</string>
     <string>K2A.medi</string>
@@ -1198,7 +1204,7 @@
     <string>LcOh.isol</string>
     <string>LcOh.init</string>
     <string>LcOh.medi</string>
-    <string>LcOh.fina</string>
+    <string>LcUh.fina</string>
     <string>LL.medi</string>
     <string>ML.medi</string>
     <string>MM.medi</string>
@@ -1352,7 +1358,7 @@
     <string>ZtOh.isol</string>
     <string>ZtOh.init</string>
     <string>ZtOh.medi</string>
-    <string>ZtOh.fina</string>
+    <string>ZtUh.fina</string>
     <string>_uni1820.A.fina</string>
     <string>_uni1822.AI.init</string>
     <string>_uni1822.I.fina</string>
@@ -1517,7 +1523,6 @@
     <string>uni1806</string>
     <string>uni1808</string>
     <string>uni1809</string>
-    <string>uni0020</string>
     <string>uni00B7</string>
     <string>uni00B7.vert</string>
     <string>uni2048</string>
@@ -1570,6 +1575,7 @@
     <string>uniFF3D.vert</string>
     <string>uniFF0C</string>
     <string>uniFF0C.vert</string>
+    <string>space</string>
   </array>
 </dict>
 </plist>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="PbAa.isol" format="2">
   <advance width="1200" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="894" y="-264" type="curve"/>
       <point x="976" y="-264" type="line"/>
       <point x="962" y="-240"/>
       <point x="955" y="-214"/>
@@ -12,11 +12,8 @@
       <point x="955" y="-122"/>
       <point x="974" y="-94"/>
       <point x="1022" y="-31" type="curve"/>
-      <point x="1069" y="30"/>
-      <point x="1104" y="82"/>
-      <point x="1124" y="123" type="curve"/>
-      <point x="1145" y="165"/>
-      <point x="1155" y="206"/>
+      <point x="1119" y="95"/>
+      <point x="1155" y="167"/>
       <point x="1155" y="245" type="curve"/>
       <point x="1155" y="373"/>
       <point x="1078" y="444"/>
@@ -63,17 +60,15 @@
       <point x="1030" y="364"/>
       <point x="1077" y="325"/>
       <point x="1077" y="245" type="curve"/>
-      <point x="1077" y="214"/>
-      <point x="1069" y="183"/>
-      <point x="1053" y="152" type="curve"/>
-      <point x="1037" y="121"/>
-      <point x="1011" y="80"/>
+      <point x="1077" y="186"/>
+      <point x="1048" y="127"/>
       <point x="970" y="28" type="curve"/>
       <point x="913" y="-45"/>
       <point x="875" y="-111"/>
       <point x="875" y="-187" type="curve"/>
       <point x="875" y="-217"/>
       <point x="881" y="-243"/>
+      <point x="894" y="-264" type="curve"/>
     </contour>
     <contour>
       <point x="264" y="123" type="curve"/>

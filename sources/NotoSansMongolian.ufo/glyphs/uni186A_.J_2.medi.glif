@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni186A.J2.medi" format="2">
   <advance width="360" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="114" y="-94" type="curve"/>
       <point x="201" y="-94" type="line"/>
       <point x="228" y="-75"/>
       <point x="245" y="-36"/>
@@ -27,6 +27,7 @@
       <point x="166" y="9" type="curve"/>
       <point x="166" y="-35"/>
       <point x="148" y="-69"/>
+      <point x="114" y="-94" type="curve"/>
     </contour>
   </outline>
   <lib>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="WpLv.fina" format="2">
   <advance width="460" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="335" y="292" type="line"/>
@@ -22,9 +23,8 @@
       <point x="252" y="737" type="line"/>
       <point x="164" y="737" type="line"/>
       <point x="185" y="557" type="line"/>
-      <point x="171" y="551" type="line"/>
-      <point x="108" y="525"/>
-      <point x="51" y="489"/>
+      <point x="112" y="526"/>
+      <point x="63" y="500"/>
       <point x="0" y="444" type="curve"/>
       <point x="0" y="364" type="line"/>
       <point x="123" y="315"/>
@@ -34,6 +34,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

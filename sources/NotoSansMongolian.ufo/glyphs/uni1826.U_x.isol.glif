@@ -1,83 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1826.Ux.isol" format="2">
-  <advance width="634" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <advance width="680" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="218" y="123" type="curve"/>
-      <point x="127" y="123"/>
-      <point x="81" y="203"/>
-      <point x="78" y="364" type="curve"/>
-      <point x="316" y="364" type="line"/>
-      <point x="323" y="344"/>
-      <point x="326" y="314"/>
-      <point x="326" y="275" type="curve"/>
-      <point x="326" y="189"/>
-      <point x="292" y="123"/>
-    </contour>
-    <contour>
-      <point x="263" y="-185" type="line"/>
-      <point x="298" y="-149"/>
-      <point x="344" y="-110"/>
-      <point x="402" y="-69" type="curve"/>
-      <point x="341" y="0" type="line"/>
-      <point x="302" y="-39"/>
-      <point x="261" y="-88"/>
-      <point x="220" y="-146" type="curve"/>
-    </contour>
-    <contour>
-      <point x="225" y="40" type="curve"/>
-      <point x="294" y="40"/>
-      <point x="347" y="78"/>
-      <point x="382" y="153" type="curve"/>
-      <point x="397" y="188"/>
-      <point x="405" y="229"/>
-      <point x="405" y="275" type="curve"/>
-      <point x="405" y="296"/>
-      <point x="403" y="325"/>
-      <point x="398" y="362" type="curve"/>
-      <point x="393" y="398"/>
-      <point x="388" y="425"/>
-      <point x="382" y="444" type="curve"/>
-      <point x="78" y="444" type="line"/>
-      <point x="81" y="546"/>
-      <point x="113" y="620"/>
-      <point x="174" y="666" type="curve"/>
-      <point x="205" y="688"/>
-      <point x="243" y="699"/>
-      <point x="289" y="699" type="curve"/>
-      <point x="334" y="699"/>
-      <point x="372" y="687"/>
-      <point x="403" y="662" type="curve"/>
-      <point x="434" y="637"/>
-      <point x="459" y="602"/>
-      <point x="477" y="557" type="curve"/>
-      <point x="494" y="513"/>
-      <point x="505" y="464"/>
-      <point x="509" y="409" type="curve"/>
-      <point x="589" y="419" type="line"/>
-      <point x="582" y="520"/>
-      <point x="552" y="605"/>
-      <point x="501" y="675" type="curve"/>
-      <point x="447" y="746"/>
-      <point x="376" y="782"/>
-      <point x="289" y="782" type="curve"/>
-      <point x="226" y="782"/>
-      <point x="172" y="766"/>
-      <point x="129" y="735" type="curve"/>
-      <point x="86" y="704"/>
-      <point x="53" y="659"/>
-      <point x="31" y="601" type="curve"/>
-      <point x="10" y="544"/>
-      <point x="-1" y="480"/>
-      <point x="-1" y="408" type="curve"/>
-      <point x="-1" y="403" type="line"/>
-      <point x="-1" y="161"/>
-      <point x="74" y="40"/>
-    </contour>
+  <component base="uni1824.Ux.isol"/>
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

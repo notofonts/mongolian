@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1871.Cc.init" format="2">
   <advance width="692" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="377" y="519" type="curve"/>
@@ -32,6 +33,7 @@
       <point x="416" y="569"/>
     </contour>
     <contour>
+      <point x="162" y="101" type="curve"/>
       <point x="162" y="16" type="line"/>
       <point x="230" y="57"/>
       <point x="300" y="63"/>
@@ -52,7 +54,6 @@
       <point x="397" y="143" type="line"/>
       <point x="303" y="143"/>
       <point x="225" y="140"/>
-      <point x="162" y="101" type="curve"/>
     </contour>
   </outline>
   <lib>

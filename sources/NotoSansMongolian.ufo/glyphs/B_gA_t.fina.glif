@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="BgAt.fina" format="2">
   <advance width="1125" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="241" y="881" type="curve"/>
       <point x="284" y="842" type="line"/>
       <point x="317" y="877"/>
       <point x="363" y="915"/>
@@ -11,7 +13,6 @@
       <point x="362" y="1027" type="line"/>
       <point x="323" y="988"/>
       <point x="283" y="940"/>
-      <point x="241" y="881" type="curve"/>
     </contour>
     <contour>
       <point x="819" y="-264" type="curve"/>

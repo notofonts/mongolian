@@ -1,16 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AI3Lv.isol" format="2">
   <advance width="906" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="292" y="74" type="line"/>
       <point x="302" y="219" type="line"/>
-      <point x="305" y="260"/>
-      <point x="311" y="290"/>
-      <point x="320" y="309" type="curve"/>
-      <point x="338" y="348"/>
-      <point x="370" y="364"/>
+      <point x="311" y="340"/>
+      <point x="341" y="364"/>
       <point x="445" y="364" type="curve"/>
       <point x="492" y="364" type="line"/>
       <point x="492" y="96" type="line"/>
@@ -60,6 +58,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

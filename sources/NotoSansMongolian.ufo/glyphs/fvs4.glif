@@ -146,21 +146,23 @@
     </contour>
     <contour>
       <point x="415" y="331" type="line"/>
-      <point x="415" y="424" type="line" smooth="yes"/>
+      <point x="415" y="424" type="line"/>
       <point x="415" y="452"/>
-      <point x="415.33333" y="493"/>
+      <point x="415" y="493"/>
       <point x="418" y="525" type="curve"/>
-      <point x="414.66667" y="517.66667"/>
-      <point x="407.66667" y="505.83333"/>
-      <point x="397" y="489.5" type="curve" smooth="yes"/>
-      <point x="386.33333" y="473.16667"/>
-      <point x="377.33333" y="459.33333"/>
-      <point x="370" y="448" type="curve" smooth="yes"/>
+      <point x="415" y="518"/>
+      <point x="408" y="506"/>
+      <point x="397" y="490" type="curve"/>
+      <point x="386" y="473"/>
+      <point x="377" y="459"/>
+      <point x="370" y="448" type="curve"/>
       <point x="290" y="331" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni185A.BYp.medi" format="2">
   <advance width="819" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="418" y="-9" type="curve"/>
       <point x="418" y="-83" type="line"/>
       <point x="648" y="-83" type="line"/>
       <point x="648" y="-3" type="line"/>
@@ -38,7 +40,6 @@
       <point x="563" y="368" type="curve"/>
       <point x="563" y="223"/>
       <point x="514" y="106"/>
-      <point x="418" y="-9" type="curve"/>
     </contour>
     <contour>
       <point x="218" y="123" type="curve"/>

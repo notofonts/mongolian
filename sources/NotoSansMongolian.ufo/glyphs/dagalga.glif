@@ -2,7 +2,7 @@
 <glyph name="dagalga" format="2">
   <advance width="0" height="1000"/>
   <unicode hex="18A9"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="_dagalga"/>
   <outline>
     <contour>
       <point x="271" y="-388" type="curve"/>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni25CC" format="2">
   <advance width="588" height="1000"/>
+  <anchor x="-50" y="-350" name="baluda"/>
+  <anchor x="-50" y="150" name="dagalga"/>
   <unicode hex="25CC"/>
   <outline>
     <contour>

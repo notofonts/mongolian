@@ -243,9 +243,9 @@
 @cr-mag.medi = [uni18A3.Jq.medi];
 @cr-mag.fina = [uni18A3.Jq.fina];
 @cr-mag = [@cr-mag.isol @cr-mag.init @cr-mag.medi @cr-mag.fina];
-@zh-mag.isol = [uni18A4.St.init._isol];
-@zh-mag.init = [uni18A4.St.init];
-@zh-mag.medi = [uni18A4.St.medi];
+@zh-mag.isol = [uni18A4.St.init._isol uni18A4.St2.init._isol];
+@zh-mag.init = [uni18A4.St.init uni18A4.St2.init];
+@zh-mag.medi = [uni18A4.St.medi uni18A4.St2.medi];
 @zh-mag.fina = [uni18A4.St.fina];
 @zh-mag = [@zh-mag.isol @zh-mag.init @zh-mag.medi @zh-mag.fina];
 @z-mag.isol = [uni18A5.Sc.init._isol];

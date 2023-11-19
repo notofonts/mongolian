@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1891.Dq.medi" format="2">
   <advance width="507" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="297" y="246" type="line"/>
-      <point x="390" y="62" type="line"/>
       <point x="136" y="-90" type="line"/>
-      <point x="0" y="364" type="line"/>
-      <point x="0" y="444" type="line"/>
-      <point x="537" y="444" type="line"/>
-      <point x="537" y="364" type="line"/>
-      <point x="77" y="364" type="line"/>
-      <point x="178" y="28" type="line"/>
-      <point x="291" y="95" type="line"/>
+      <point x="390" y="62" type="line"/>
+      <point x="297" y="246" type="line"/>
       <point x="215" y="246" type="line"/>
+      <point x="291" y="95" type="line"/>
+      <point x="178" y="28" type="line"/>
+      <point x="77" y="364" type="line"/>
+      <point x="537" y="364" type="line"/>
+      <point x="537" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
     </contour>
   </outline>
   <lib>

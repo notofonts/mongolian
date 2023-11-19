@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18A3.Iq.init._isol" format="2">
   <advance width="520" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="10" y="646" type="line"/>
       <point x="210" y="66" type="line"/>
       <point x="300" y="66" type="line"/>
       <point x="187" y="364" type="line"/>
@@ -12,6 +12,7 @@
       <point x="475" y="444" type="line"/>
       <point x="156" y="444" type="line"/>
       <point x="80" y="646" type="line"/>
+      <point x="10" y="646" type="line"/>
     </contour>
   </outline>
   <lib>

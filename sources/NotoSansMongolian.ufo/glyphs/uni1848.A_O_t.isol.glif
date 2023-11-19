@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1848.AOt.isol" format="2">
   <advance width="915" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="668" y="47" type="curve"/>
       <point x="870" y="3" type="line"/>
       <point x="870" y="444" type="line"/>
       <point x="631" y="444" type="line"/>
@@ -43,7 +45,6 @@
       <point x="492" y="267" type="line"/>
       <point x="492" y="154"/>
       <point x="549" y="73"/>
-      <point x="668" y="47" type="curve"/>
     </contour>
     <contour>
       <point x="792" y="104" type="line"/>

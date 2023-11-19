@@ -51,6 +51,7 @@ lookup III.man.k_g_h.onset_and_devsger_and_gender {
     sub [@k-man @g-man @h-man]' lookup condition.man.feminine [@man.vowel.feminine @man.vowel.neuter];
     sub @t-man @e-man @k-man' lookup condition.man.masculine_devsger;
     sub [@k-man @g-man @h-man] @u-man @k-man' lookup condition.man.feminine;
+    sub [@kh-man @gh-man @hh-man] @a-man @k-man' lookup condition.man.feminine;
     sub [@e-man @ue-man] @k-man' lookup condition.man.feminine;
     sub [@a-man @i-man @o-man @u-man] @k-man' lookup condition.man.masculine_devsger;
     lookupflag 0;

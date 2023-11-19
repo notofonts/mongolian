@@ -100,7 +100,8 @@ lookup III.hud.i.devsger;
 lookup III.eac.i.devsger;
 lookup III.tod.i_u.devsger;
 lookup III.man.i.devsger;
-lookup III.sib.i.devsger;
+lookup III.mag.u.devsger;
+lookup III.sib.i_u.devsger;
 
 # ==================================
 # III.5: Postbowed

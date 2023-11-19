@@ -44,13 +44,19 @@ lookup III.man.i.devsger {
     lookupflag 0;
 } III.man.i.devsger;
 
+lookup III.mag.u.devsger {
+    lookupflag IgnoreMarks;
+    sub @mag.vowel @u-man' lookup condition.man.feminine;
+    lookupflag 0;
+} III.mag.u.devsger;
 
 # ==================================
 # III.4: Graphemic - Devsger: Sibe
 # ==================================
 
-lookup III.sib.i.devsger {
+lookup III.sib.i_u.devsger {
     lookupflag IgnoreMarks;
     sub @sib.vowel @i-sib' lookup condition.sib.devsger;
+    sub @sib.vowel @u-sib' lookup condition.sib.feminine;
     lookupflag 0;
-} III.sib.i.devsger;
+} III.sib.i_u.devsger;

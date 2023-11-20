@@ -914,6 +914,10 @@
   <string>P_b2O_.isol.glif</string>
   <key>Pb2O.medi</key>
   <string>P_b2O_.medi.glif</string>
+  <key>Pb2OI.init</key>
+  <string>P_b2O_I_.init.glif</string>
+  <key>Pb2OI.medi</key>
+  <string>P_b2O_I_.medi.glif</string>
   <key>Pb2Oh.fina</key>
   <string>P_b2O_h.fina.glif</string>
   <key>Pb2Oh.init</key>
@@ -922,6 +926,10 @@
   <string>P_b2O_h.isol.glif</string>
   <key>Pb2Oh.medi</key>
   <string>P_b2O_h.medi.glif</string>
+  <key>Pb2Ue.fina</key>
+  <string>P_b2U_e.fina.glif</string>
+  <key>Pb2Ue.isol</key>
+  <string>P_b2U_e.isol.glif</string>
   <key>PbA.init</key>
   <string>P_bA_.init.glif</string>
   <key>PbA.medi</key>

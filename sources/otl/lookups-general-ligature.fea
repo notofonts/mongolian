@@ -856,8 +856,17 @@ lookup IIb.man_mag.ligature {
     sub uni18AA.Lc.init uni1860.Oh.medi by LcOh.init;
     sub uni18AA.Lc.medi uni1860.Oh.medi by LcOh.medi;
     sub uni18AA.Lc.medi uni1860.Uh.fina by LcUh.fina;
-    lookupflag 0;
 } IIb.man_mag.ligature;
+
+lookup IIb.man_mag.ligature.eac {
+    lookupflag UseMarkFilteringSet @break_ligature;
+
+    sub uni1866.Pb2.init uni1861.Ue.fina by Pb2Ue.isol;
+    sub uni1866.Pb2.init uni1861.OI.medi by Pb2OI.init;
+    sub uni1866.Pb2.medi uni1861.OI.medi by Pb2OI.medi;
+    sub uni1866.Pb2.medi uni1861.Ue.fina by Pb2Ue.fina;
+    lookupflag 0;
+} IIb.man_mag.ligature.eac;
 
 
 # ==================================

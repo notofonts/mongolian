@@ -140,6 +140,7 @@ lookup IIb.hud_hag.ligature.eac;
 lookup IIb.tod_tag.ligature;
 lookup IIb.tod_tag.ligature.eac;
 lookup IIb.man_mag.ligature;
+lookup IIb.man_mag.ligature.eac;
 lookup IIb.sib.ligature;
 
 # ==================================

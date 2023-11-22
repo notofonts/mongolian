@@ -1,39 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1858.Gp.init._isol" format="2">
-  <advance width="568" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <advance width="548" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="214" y="42" type="curve"/>
-      <point x="285" y="85" type="line"/>
-      <point x="207" y="194"/>
-      <point x="164" y="285"/>
-      <point x="164" y="407" type="curve"/>
-      <point x="164" y="544"/>
-      <point x="221" y="609"/>
-      <point x="313" y="609" type="curve"/>
-      <point x="430" y="609"/>
-      <point x="457" y="516"/>
-      <point x="468" y="364" type="curve"/>
-      <point x="542" y="364" type="line"/>
-      <point x="532" y="586"/>
-      <point x="463" y="692"/>
-      <point x="313" y="692" type="curve"/>
-      <point x="164" y="692"/>
-      <point x="85" y="574"/>
-      <point x="85" y="407" type="curve"/>
-      <point x="85" y="356"/>
-      <point x="93" y="305"/>
-      <point x="109" y="252" type="curve"/>
-      <point x="78" y="209"/>
-      <point x="49" y="166"/>
-      <point x="20" y="120" type="curve"/>
-      <point x="90" y="77" type="line"/>
-      <point x="108" y="107"/>
-      <point x="126" y="136"/>
-      <point x="144" y="163" type="curve"/>
-      <point x="164" y="123"/>
-      <point x="187" y="82"/>
+      <point x="174" y="42" type="curve"/>
+      <point x="246" y="85" type="line"/>
+      <point x="172" y="188"/>
+      <point x="124" y="287"/>
+      <point x="124" y="407" type="curve"/>
+      <point x="124" y="544"/>
+      <point x="181" y="609"/>
+      <point x="273" y="609" type="curve"/>
+      <point x="361" y="609"/>
+      <point x="413" y="525"/>
+      <point x="423" y="376" type="curve"/>
+      <point x="503" y="386" type="line"/>
+      <point x="493" y="556"/>
+      <point x="424" y="692"/>
+      <point x="273" y="692" type="curve"/>
+      <point x="124" y="692"/>
+      <point x="45" y="574"/>
+      <point x="45" y="407" type="curve"/>
+      <point x="45" y="356"/>
+      <point x="53" y="305"/>
+      <point x="69" y="252" type="curve"/>
+      <point x="38" y="209"/>
+      <point x="9" y="166"/>
+      <point x="-20" y="120" type="curve"/>
+      <point x="50" y="77" type="line"/>
+      <point x="68" y="107"/>
+      <point x="86" y="136"/>
+      <point x="104" y="163" type="curve"/>
+      <point x="124" y="123"/>
+      <point x="147" y="82"/>
     </contour>
   </outline>
   <lib>

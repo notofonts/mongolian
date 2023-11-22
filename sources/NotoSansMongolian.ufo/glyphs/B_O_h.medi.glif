@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="BOh.medi" format="2">
   <advance width="887" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="203" y="40" type="curve"/>
@@ -47,15 +48,16 @@
       <point x="592" y="123"/>
     </contour>
     <contour>
+      <point x="622" y="444" type="curve"/>
       <point x="81" y="444" type="line"/>
       <point x="99" y="605"/>
       <point x="190" y="699"/>
       <point x="359" y="699" type="curve"/>
       <point x="510" y="699"/>
       <point x="601" y="596"/>
-      <point x="622" y="444" type="curve"/>
     </contour>
     <contour>
+      <point x="296" y="878" type="curve"/>
       <point x="339" y="839" type="line"/>
       <point x="372" y="874"/>
       <point x="418" y="912"/>
@@ -63,7 +65,6 @@
       <point x="417" y="1024" type="line"/>
       <point x="378" y="985"/>
       <point x="338" y="937"/>
-      <point x="296" y="878" type="curve"/>
     </contour>
   </outline>
   <lib>

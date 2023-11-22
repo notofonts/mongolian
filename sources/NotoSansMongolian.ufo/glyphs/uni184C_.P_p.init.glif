@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni184C.Pp.init" format="2">
   <advance width="594" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="45" y="63" type="line"/>
@@ -27,12 +28,12 @@
       <point x="45" y="711" type="line"/>
     </contour>
     <contour>
+      <point x="276" y="146" type="curve"/>
       <point x="116" y="146" type="line"/>
       <point x="116" y="364" type="line"/>
       <point x="213" y="364" type="line"/>
       <point x="221" y="293"/>
       <point x="242" y="220"/>
-      <point x="276" y="146" type="curve"/>
     </contour>
   </outline>
   <lib>

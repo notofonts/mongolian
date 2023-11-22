@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="PhO.isol" format="2">
   <advance width="1122" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="456" y="190" type="curve"/>
@@ -64,6 +65,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

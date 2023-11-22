@@ -1,17 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1821.A.medi" format="2">
   <advance width="284" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="19" y="96" type="line"/>
-      <point x="85" y="96" type="line"/>
-      <point x="104" y="364" type="line"/>
-      <point x="314" y="364" type="line"/>
-      <point x="314" y="444" type="line"/>
-      <point x="0" y="444" type="line"/>
-      <point x="0" y="364" type="line"/>
-    </contour>
+  <component base="uni1820.A.medi"/>
   </outline>
   <lib>
     <dict>

@@ -1,55 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1858" format="2">
-  <advance width="548" height="1000"/>
+  <advance width="613" height="1000"/>
   <unicode hex="1858"/>
   <outline>
-    <contour>
-      <point x="174" y="42" type="curve"/>
-      <point x="246" y="85" type="line"/>
-      <point x="205" y="142"/>
-      <point x="174" y="196"/>
-      <point x="154" y="247" type="curve"/>
-      <point x="134" y="299"/>
-      <point x="124" y="352"/>
-      <point x="124" y="407" type="curve"/>
-      <point x="124" y="476"/>
-      <point x="137" y="527"/>
-      <point x="164" y="559" type="curve"/>
-      <point x="191" y="592"/>
-      <point x="227" y="609"/>
-      <point x="273" y="609" type="curve"/>
-      <point x="317" y="609"/>
-      <point x="352" y="589"/>
-      <point x="377" y="548" type="curve"/>
-      <point x="402" y="508"/>
-      <point x="418" y="451"/>
-      <point x="423" y="376" type="curve"/>
-      <point x="503" y="386" type="line"/>
-      <point x="497" y="484"/>
-      <point x="474" y="560"/>
-      <point x="434" y="613" type="curve"/>
-      <point x="394" y="666"/>
-      <point x="340" y="692"/>
-      <point x="273" y="692" type="curve"/>
-      <point x="203" y="692"/>
-      <point x="148" y="666"/>
-      <point x="107" y="615" type="curve"/>
-      <point x="66" y="564"/>
-      <point x="45" y="495"/>
-      <point x="45" y="407" type="curve"/>
-      <point x="45" y="356"/>
-      <point x="53" y="305"/>
-      <point x="69" y="252" type="curve"/>
-      <point x="38" y="209"/>
-      <point x="9" y="165"/>
-      <point x="-20" y="120" type="curve"/>
-      <point x="50" y="77" type="line"/>
-      <point x="68" y="107"/>
-      <point x="86" y="136"/>
-      <point x="104" y="163" type="curve"/>
-      <point x="124" y="122"/>
-      <point x="147" y="82"/>
-    </contour>
+  <component base="uni1858.Gp.init._isol" xOffset="65"/>
   </outline>
   <lib>
     <dict>

@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18A6.Wp.medi" format="2">
   <advance width="454" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="194" y="102" type="curve"/>
-      <point x="131" y="198"/>
-      <point x="92" y="294"/>
-      <point x="82" y="364" type="curve"/>
-      <point x="311" y="364" type="line"/>
-      <point x="273" y="301"/>
-      <point x="229" y="206"/>
-    </contour>
-    <contour>
+      <point x="149" y="29" type="curve"/>
       <point x="252" y="29" type="line"/>
       <point x="290" y="152"/>
       <point x="341" y="264"/>
@@ -21,9 +14,17 @@
       <point x="484" y="444" type="line"/>
       <point x="0" y="444" type="line"/>
       <point x="0" y="364" type="line"/>
-      <point x="13" y="270"/>
-      <point x="75" y="133"/>
-      <point x="149" y="29" type="curve"/>
+      <point x="15" y="263"/>
+      <point x="84" y="119"/>
+    </contour>
+    <contour>
+      <point x="194" y="102" type="curve"/>
+      <point x="146" y="174"/>
+      <point x="93" y="283"/>
+      <point x="82" y="364" type="curve"/>
+      <point x="311" y="364" type="line"/>
+      <point x="272" y="299"/>
+      <point x="222" y="186"/>
     </contour>
   </outline>
   <lib>

@@ -1,31 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1834.Ch.init._isol" format="2">
-  <advance width="832" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <advance width="767" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="202" y="16" type="line"/>
-      <point x="270" y="57"/>
-      <point x="340" y="63"/>
-      <point x="437" y="63" type="curve"/>
-      <point x="558" y="63" type="line"/>
-      <point x="558" y="129" type="line"/>
-      <point x="531" y="209"/>
-      <point x="517" y="280"/>
-      <point x="517" y="364" type="curve"/>
-      <point x="762" y="364" type="line"/>
-      <point x="762" y="444" type="line"/>
-      <point x="103" y="444" type="line"/>
-      <point x="85" y="364" type="line"/>
-      <point x="443" y="364" type="line"/>
-      <point x="443" y="280"/>
-      <point x="453" y="207"/>
-      <point x="473" y="143" type="curve"/>
-      <point x="437" y="143" type="line"/>
-      <point x="343" y="143"/>
-      <point x="265" y="140"/>
-      <point x="202" y="101" type="curve"/>
-    </contour>
+  <component base="uni1834.Ch.init"/>
   </outline>
   <lib>
     <dict>

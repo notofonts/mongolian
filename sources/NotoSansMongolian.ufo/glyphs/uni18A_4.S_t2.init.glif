@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni18A4.St2.init" format="2">
+  <advance width="681" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
+  <outline>
+    <contour>
+      <point x="305" y="70" type="curve"/>
+      <point x="349" y="124" type="line"/>
+      <point x="287" y="184"/>
+      <point x="197" y="250"/>
+      <point x="122" y="286" type="curve"/>
+      <point x="86" y="228" type="line"/>
+      <point x="158" y="193"/>
+      <point x="247" y="128"/>
+    </contour>
+    <contour>
+      <point x="519" y="73" type="line"/>
+      <point x="507" y="127"/>
+      <point x="484" y="225"/>
+      <point x="450" y="364" type="curve"/>
+      <point x="711" y="364" type="line"/>
+      <point x="711" y="444" type="line"/>
+      <point x="428" y="444" type="line"/>
+      <point x="405" y="527"/>
+      <point x="380" y="610"/>
+      <point x="352" y="694" type="curve"/>
+      <point x="499" y="694" type="line"/>
+      <point x="499" y="756" type="line"/>
+      <point x="114" y="756" type="line"/>
+      <point x="114" y="694" type="line"/>
+      <point x="258" y="694" type="line"/>
+      <point x="227" y="559" type="line"/>
+      <point x="210" y="487"/>
+      <point x="184" y="427"/>
+      <point x="130" y="427" type="curve"/>
+      <point x="104" y="427"/>
+      <point x="76" y="433"/>
+      <point x="45" y="446" type="curve"/>
+      <point x="45" y="371" type="line"/>
+      <point x="74" y="354"/>
+      <point x="104" y="346"/>
+      <point x="135" y="346" type="curve"/>
+      <point x="208" y="346"/>
+      <point x="243" y="379"/>
+      <point x="270" y="459" type="curve"/>
+      <point x="284" y="501"/>
+      <point x="295" y="544"/>
+      <point x="304" y="590" type="curve"/>
+      <point x="308" y="590" type="line"/>
+      <point x="356" y="458"/>
+      <point x="413" y="231"/>
+      <point x="443" y="73" type="curve"/>
+    </contour>
+    <contour>
+      <point x="306" y="821" type="curve"/>
+      <point x="373" y="821"/>
+      <point x="425" y="875"/>
+      <point x="425" y="940" type="curve"/>
+      <point x="425" y="1007"/>
+      <point x="371" y="1059"/>
+      <point x="306" y="1059" type="curve"/>
+      <point x="239" y="1059"/>
+      <point x="187" y="1005"/>
+      <point x="187" y="940" type="curve"/>
+      <point x="187" y="873"/>
+      <point x="241" y="821"/>
+    </contour>
+    <contour>
+      <point x="306" y="871" type="curve"/>
+      <point x="270" y="871"/>
+      <point x="238" y="897"/>
+      <point x="238" y="940" type="curve"/>
+      <point x="238" y="980"/>
+      <point x="267" y="1008"/>
+      <point x="306" y="1008" type="curve"/>
+      <point x="346" y="1008"/>
+      <point x="375" y="978"/>
+      <point x="375" y="940" type="curve"/>
+      <point x="375" y="901"/>
+      <point x="345" y="871"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

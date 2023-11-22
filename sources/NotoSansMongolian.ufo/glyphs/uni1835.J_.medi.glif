@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1835.J.medi" format="2">
   <advance width="530" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="0" y="100" type="curve"/>
       <point x="0" y="5" type="line"/>
       <point x="43" y="44"/>
       <point x="89" y="77"/>
@@ -23,7 +25,6 @@
       <point x="114" y="178" type="line"/>
       <point x="59" y="149"/>
       <point x="22" y="122"/>
-      <point x="0" y="100" type="curve"/>
     </contour>
   </outline>
   <lib>

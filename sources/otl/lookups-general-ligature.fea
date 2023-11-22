@@ -275,6 +275,56 @@ lookup IIb.hud_hag.ligature {
     lookupflag 0;
 } IIb.hud_hag.ligature;
 
+lookup IIb.hud_hag.ligature.eac {
+    lookupflag UseMarkFilteringSet @break_ligature;
+
+    # p-hag
+    sub uni1892.Bg.init [uni1820.Aa.fina uni1821.Aa.fina] by BgAa.isol;
+    sub uni1892.Bg.init [uni1820.A.medi uni1821.A.medi] by BgA.init;
+    sub uni1892.Bg.medi [uni1820.A.medi uni1821.A.medi] by BgA.medi;
+    sub uni1892.Bg.medi [uni1820.Aa.fina uni1821.Aa.fina] by BgAa.fina;
+    sub uni1892.Bg.init uni1822.I.fina by BgI.isol;
+    sub uni1892.Bg.init uni1822.I.medi by BgI.init;
+    sub uni1892.Bg.medi uni1822.I.medi by BgI.medi;
+    sub uni1892.Bg.medi uni1822.I.fina by BgI.fina;
+    sub uni1892.Bg.init [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by BgO.isol;
+    sub uni1892.Bg.init [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by BgO.init;
+    sub uni1892.Bg.medi [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by BgO.medi;
+    sub uni1892.Bg.medi [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by BgO.fina;
+    sub uni1892.Bg.init [uni1825.Ue.fina uni1826.Ue.fina] by BgUe.isol;
+    sub uni1892.Bg.init [uni1825.OI.medi uni1826.OI.medi] by BgOI.init;
+    sub uni1892.Bg.medi [uni1825.OI.medi uni1826.OI.medi] by BgOI.medi;
+    sub uni1892.Bg.medi [uni1825.Ue.fina uni1826.Ue.fina] by BgUe.fina;
+    sub uni1892.Bg.init uni1827.W.fina by BgW.isol;
+    sub uni1892.Bg.init uni1827.W.medi by BgW.init;
+    sub uni1892.Bg.medi uni1827.W.medi by BgW.medi;
+    sub uni1892.Bg.medi uni1827.W.fina by BgW.fina;
+
+    # ph-hag
+    sub uni1893.Pg.init [uni1820.Aa.fina uni1821.Aa.fina] by PgAa.isol;
+    sub uni1893.Pg.init [uni1820.A.medi uni1821.A.medi] by PgA.init;
+    sub uni1893.Pg.medi [uni1820.A.medi uni1821.A.medi] by PgA.medi;
+    sub uni1893.Pg.medi [uni1820.Aa.fina uni1821.Aa.fina] by PgAa.fina;
+    sub uni1893.Pg.init uni1822.I.fina by PgI.isol;
+    sub uni1893.Pg.init uni1822.I.medi by PgI.init;
+    sub uni1893.Pg.medi uni1822.I.medi by PgI.medi;
+    sub uni1893.Pg.medi uni1822.I.fina by PgI.fina;
+    sub uni1893.Pg.init [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by PgO.isol;
+    sub uni1893.Pg.init [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by PgO.init;
+    sub uni1893.Pg.medi [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by PgO.medi;
+    sub uni1893.Pg.medi [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by PgO.fina;
+    sub uni1893.Pg.init [uni1825.Ue.fina uni1826.Ue.fina] by PgUe.isol;
+    sub uni1893.Pg.init [uni1825.OI.medi uni1826.OI.medi] by PgOI.init;
+    sub uni1893.Pg.medi [uni1825.OI.medi uni1826.OI.medi] by PgOI.medi;
+    sub uni1893.Pg.medi [uni1825.Ue.fina uni1826.Ue.fina] by PgUe.fina;
+    sub uni1893.Pg.init uni1827.W.fina by PgW.isol;
+    sub uni1893.Pg.init uni1827.W.medi by PgW.init;
+    sub uni1893.Pg.medi uni1827.W.medi by PgW.medi;
+    sub uni1893.Pg.medi uni1827.W.fina by PgW.fina;
+    lookupflag 0;
+} IIb.hud_hag.ligature.eac;
+
+
 
 # ==================================
 # IIb.1: ligature: Todo+AG
@@ -517,6 +567,33 @@ lookup IIb.tod_tag.ligature {
     sub uni184C.Ph.medi uni1849.O.fina by PhO.fina;
     lookupflag 0;
 } IIb.tod_tag.ligature;
+
+lookup IIb.tod_tag.ligature.eac {
+    lookupflag UseMarkFilteringSet @break_ligature;
+
+    # p-hag
+    sub uni1858.Gp.init [uni1820.Aa.fina uni1821.Aa.fina] by GpAa.isol;
+    sub uni1858.Gp.init [uni1820.A.medi uni1821.A.medi] by GpA.init;
+    sub uni1858.Gp.medi [uni1820.A.medi uni1821.A.medi] by GpA.medi;
+    sub uni1858.Gp.medi [uni1820.Aa.fina uni1821.Aa.fina] by GpAa.fina;
+    sub uni1858.Gp.init uni1822.I.fina by GpI.isol;
+    sub uni1858.Gp.init uni1822.I.medi by GpI.init;
+    sub uni1858.Gp.medi uni1822.I.medi by GpI.medi;
+    sub uni1858.Gp.medi uni1822.I.fina by GpI.fina;
+    sub uni1858.Gp.init [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by GpO.isol;
+    sub uni1858.Gp.init [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by GpO.init;
+    sub uni1858.Gp.medi [uni1823.O.medi uni1824.O.medi uni1825.O.medi uni1826.O.medi] by GpO.medi;
+    sub uni1858.Gp.medi [uni1823.O.fina uni1824.O.fina uni1825.O.fina uni1826.O.fina] by GpO.fina;
+    sub uni1858.Gp.init [uni1825.Ue.fina uni1826.Ue.fina] by GpUe.isol;
+    sub uni1858.Gp.init [uni1825.OI.medi uni1826.OI.medi] by GpOI.init;
+    sub uni1858.Gp.medi [uni1825.OI.medi uni1826.OI.medi] by GpOI.medi;
+    sub uni1858.Gp.medi [uni1825.Ue.fina uni1826.Ue.fina] by GpUe.fina;
+    sub uni1858.Gp.init uni1827.W.fina by GpW.isol;
+    sub uni1858.Gp.init uni1827.W.medi by GpW.init;
+    sub uni1858.Gp.medi uni1827.W.medi by GpW.medi;
+    sub uni1858.Gp.medi uni1827.W.fina by GpW.fina;
+    lookupflag 0;
+} IIb.tod_tag.ligature.eac;
 
 
 # ==================================
@@ -762,7 +839,7 @@ lookup IIb.man_mag.ligature {
     sub uni189D.Zt.init uni1860.Oh.fina by ZtOh.isol;
     sub uni189D.Zt.init uni1860.Oh.medi by ZtOh.init;
     sub uni189D.Zt.medi uni1860.Oh.medi by ZtOh.medi;
-    sub uni189D.Zt.medi uni1860.Oh.fina by ZtOh.fina;
+    sub uni189D.Zt.medi uni1860.Uh.fina by ZtUh.fina;
     sub uni189F.Ih.init uni185D.Ah.fina by IhAh.isol;
     sub uni189F.Ih.init uni185D.Ah.medi by IhAh.init;
     sub uni189F.Jh.medi uni185D.Ah.medi by JhAh.medi;
@@ -770,7 +847,7 @@ lookup IIb.man_mag.ligature {
     sub uni189F.Ih.init uni1860.Oh.fina by IhOh.isol;
     sub uni189F.Ih.init uni1860.Oh.medi by IhOh.init;
     sub uni189F.Jh.medi uni1860.Oh.medi by JhOh.medi;
-    sub uni189F.Jh.medi uni1860.Oh.fina by JhOh.fina;
+    sub uni189F.Jh.medi uni1860.Uh.fina by JhUh.fina;
     sub uni18AA.Lc.init uni185D.Ah.fina by LcAh.isol;
     sub uni18AA.Lc.init uni185D.Ah.medi by LcAh.init;
     sub uni18AA.Lc.medi uni185D.Ah.medi by LcAh.medi;
@@ -778,9 +855,18 @@ lookup IIb.man_mag.ligature {
     sub uni18AA.Lc.init uni1860.Oh.fina by LcOh.isol;
     sub uni18AA.Lc.init uni1860.Oh.medi by LcOh.init;
     sub uni18AA.Lc.medi uni1860.Oh.medi by LcOh.medi;
-    sub uni18AA.Lc.medi uni1860.Oh.fina by LcOh.fina;
-    lookupflag 0;
+    sub uni18AA.Lc.medi uni1860.Uh.fina by LcUh.fina;
 } IIb.man_mag.ligature;
+
+lookup IIb.man_mag.ligature.eac {
+    lookupflag UseMarkFilteringSet @break_ligature;
+
+    sub uni1866.Pb2.init uni1861.Ue.fina by Pb2Ue.isol;
+    sub uni1866.Pb2.init uni1861.OI.medi by Pb2OI.init;
+    sub uni1866.Pb2.medi uni1861.OI.medi by Pb2OI.medi;
+    sub uni1866.Pb2.medi uni1861.Ue.fina by Pb2Ue.fina;
+    lookupflag 0;
+} IIb.man_mag.ligature.eac;
 
 
 # ==================================

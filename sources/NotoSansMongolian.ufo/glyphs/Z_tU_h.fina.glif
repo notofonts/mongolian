@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ZtUh.fina" format="2">
+  <advance width="1216" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
+  <outline>
+    <contour>
+      <point x="800" y="123" type="curve"/>
+      <point x="709" y="123"/>
+      <point x="663" y="203"/>
+      <point x="660" y="364" type="curve"/>
+      <point x="898" y="364" type="line"/>
+      <point x="905" y="343"/>
+      <point x="908" y="313"/>
+      <point x="908" y="275" type="curve"/>
+      <point x="908" y="193"/>
+      <point x="876" y="123"/>
+    </contour>
+    <contour>
+      <point x="685" y="846" type="curve"/>
+      <point x="647" y="846"/>
+      <point x="617" y="878"/>
+      <point x="617" y="915" type="curve"/>
+      <point x="617" y="953"/>
+      <point x="645" y="983"/>
+      <point x="685" y="983" type="curve"/>
+      <point x="727" y="983"/>
+      <point x="754" y="955"/>
+      <point x="754" y="915" type="curve"/>
+      <point x="754" y="874"/>
+      <point x="722" y="846"/>
+    </contour>
+    <contour>
+      <point x="685" y="796" type="curve"/>
+      <point x="744" y="796"/>
+      <point x="804" y="840"/>
+      <point x="804" y="915" type="curve"/>
+      <point x="804" y="990"/>
+      <point x="746" y="1034"/>
+      <point x="685" y="1034" type="curve"/>
+      <point x="627" y="1034"/>
+      <point x="566" y="990"/>
+      <point x="566" y="915" type="curve"/>
+      <point x="566" y="840"/>
+      <point x="626" y="796"/>
+    </contour>
+    <contour>
+      <point x="807" y="40" type="curve"/>
+      <point x="917" y="40"/>
+      <point x="987" y="141"/>
+      <point x="987" y="275" type="curve"/>
+      <point x="987" y="317"/>
+      <point x="978" y="398"/>
+      <point x="964" y="444" type="curve"/>
+      <point x="660" y="444" type="line"/>
+      <point x="664" y="596"/>
+      <point x="736" y="699"/>
+      <point x="871" y="699" type="curve"/>
+      <point x="1010" y="699"/>
+      <point x="1079" y="574"/>
+      <point x="1091" y="409" type="curve"/>
+      <point x="1171" y="419" type="line"/>
+      <point x="1158" y="609"/>
+      <point x="1058" y="782"/>
+      <point x="871" y="782" type="curve"/>
+      <point x="685" y="782"/>
+      <point x="592" y="640"/>
+      <point x="582" y="444" type="curve"/>
+      <point x="290" y="444" type="line"/>
+      <point x="274" y="522"/>
+      <point x="265" y="605"/>
+      <point x="263" y="694" type="curve"/>
+      <point x="423" y="694" type="line"/>
+      <point x="423" y="756" type="line"/>
+      <point x="38" y="756" type="line"/>
+      <point x="38" y="694" type="line"/>
+      <point x="162" y="694" type="line"/>
+      <point x="110" y="612"/>
+      <point x="73" y="529"/>
+      <point x="50" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="289"/>
+      <point x="6" y="185"/>
+      <point x="28" y="73" type="curve"/>
+      <point x="105" y="73" type="line"/>
+      <point x="97" y="106"/>
+      <point x="93" y="148"/>
+      <point x="93" y="199" type="curve"/>
+      <point x="93" y="350"/>
+      <point x="126" y="486"/>
+      <point x="192" y="607" type="curve"/>
+      <point x="196" y="607" type="line"/>
+      <point x="213" y="403"/>
+      <point x="259" y="225"/>
+      <point x="334" y="73" type="curve"/>
+      <point x="419" y="73" type="line"/>
+      <point x="370" y="171"/>
+      <point x="333" y="268"/>
+      <point x="308" y="364" type="curve"/>
+      <point x="582" y="364" type="line"/>
+      <point x="590" y="150"/>
+      <point x="662" y="40"/>
+    </contour>
+    <contour>
+      <point x="451" y="527" type="line"/>
+      <point x="484" y="561"/>
+      <point x="530" y="600"/>
+      <point x="590" y="643" type="curve"/>
+      <point x="529" y="712" type="line"/>
+      <point x="490" y="674"/>
+      <point x="450" y="625"/>
+      <point x="408" y="566" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

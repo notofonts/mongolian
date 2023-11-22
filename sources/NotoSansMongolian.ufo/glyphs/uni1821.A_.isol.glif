@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1821.A.isol" format="2">
   <advance width="824" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="518" y="-264" type="curve"/>
       <point x="600" y="-264" type="line"/>
       <point x="586" y="-240"/>
       <point x="579" y="-214"/>
@@ -55,6 +55,7 @@
       <point x="499" y="-187" type="curve"/>
       <point x="499" y="-217"/>
       <point x="505" y="-243"/>
+      <point x="518" y="-264" type="curve"/>
     </contour>
   </outline>
   <lib>

@@ -3,56 +3,7 @@
   <advance width="518" height="1000"/>
   <unicode hex="185B"/>
   <outline>
-    <contour>
-      <point x="275" y="594" type="curve"/>
-      <point x="275" y="444" type="line"/>
-      <point x="116" y="444" type="line"/>
-      <point x="116" y="612" type="line"/>
-      <point x="167" y="600"/>
-      <point x="220" y="594"/>
-    </contour>
-    <contour>
-      <point x="45" y="710" type="curve"/>
-      <point x="45" y="364" type="line"/>
-      <point x="45" y="308"/>
-      <point x="49" y="253"/>
-      <point x="56" y="198" type="curve"/>
-      <point x="64" y="143"/>
-      <point x="79" y="89"/>
-      <point x="102" y="36" type="curve"/>
-      <point x="125" y="-17"/>
-      <point x="151" y="-56"/>
-      <point x="181" y="-82" type="curve"/>
-      <point x="212" y="-107"/>
-      <point x="249" y="-119"/>
-      <point x="294" y="-119" type="curve"/>
-      <point x="313" y="-119"/>
-      <point x="330" y="-116"/>
-      <point x="344" y="-110" type="curve"/>
-      <point x="359" y="-104"/>
-      <point x="370" y="-96"/>
-      <point x="377" y="-85" type="curve"/>
-      <point x="377" y="6" type="line"/>
-      <point x="358" y="-22"/>
-      <point x="330" y="-36"/>
-      <point x="294" y="-36" type="curve"/>
-      <point x="259" y="-36"/>
-      <point x="229" y="-17"/>
-      <point x="202" y="21" type="curve"/>
-      <point x="176" y="59"/>
-      <point x="155" y="109"/>
-      <point x="140" y="170" type="curve"/>
-      <point x="124" y="231"/>
-      <point x="116" y="296"/>
-      <point x="116" y="364" type="curve"/>
-      <point x="473" y="364" type="line"/>
-      <point x="473" y="444" type="line"/>
-      <point x="346" y="444" type="line"/>
-      <point x="346" y="674" type="line"/>
-      <point x="275" y="674" type="line"/>
-      <point x="197" y="674"/>
-      <point x="120" y="686"/>
-    </contour>
+  <component base="uni185B.Ny.init._isol"/>
   </outline>
   <lib>
     <dict>

@@ -238,6 +238,10 @@
   <string>B_gO_h.isol.glif</string>
   <key>BgOh.medi</key>
   <string>B_gO_h.medi.glif</string>
+  <key>BgUe.fina</key>
+  <string>B_gU_e.fina.glif</string>
+  <key>BgUe.isol</key>
+  <string>B_gU_e.isol.glif</string>
   <key>BgW.fina</key>
   <string>B_gW_.fina.glif</string>
   <key>BgW.init</key>
@@ -482,6 +486,26 @@
   <string>G_pA_a.fina.glif</string>
   <key>GpAa.isol</key>
   <string>G_pA_a.isol.glif</string>
+  <key>GpI.fina</key>
+  <string>G_pI_.fina.glif</string>
+  <key>GpI.init</key>
+  <string>G_pI_.init.glif</string>
+  <key>GpI.isol</key>
+  <string>G_pI_.isol.glif</string>
+  <key>GpI.medi</key>
+  <string>G_pI_.medi.glif</string>
+  <key>GpO.fina</key>
+  <string>G_pO_.fina.glif</string>
+  <key>GpO.init</key>
+  <string>G_pO_.init.glif</string>
+  <key>GpO.isol</key>
+  <string>G_pO_.isol.glif</string>
+  <key>GpO.medi</key>
+  <string>G_pO_.medi.glif</string>
+  <key>GpOI.init</key>
+  <string>G_pO_I_.init.glif</string>
+  <key>GpOI.medi</key>
+  <string>G_pO_I_.medi.glif</string>
   <key>GpOb.fina</key>
   <string>G_pO_b.fina.glif</string>
   <key>GpOb.init</key>
@@ -498,6 +522,18 @@
   <string>G_pO_p.isol.glif</string>
   <key>GpOp.medi</key>
   <string>G_pO_p.medi.glif</string>
+  <key>GpUe.fina</key>
+  <string>G_pU_e.fina.glif</string>
+  <key>GpUe.isol</key>
+  <string>G_pU_e.isol.glif</string>
+  <key>GpW.fina</key>
+  <string>G_pW_.fina.glif</string>
+  <key>GpW.init</key>
+  <string>G_pW_.init.glif</string>
+  <key>GpW.isol</key>
+  <string>G_pW_.isol.glif</string>
+  <key>GpW.medi</key>
+  <string>G_pW_.medi.glif</string>
   <key>GxA.init</key>
   <string>G_xA_.init.glif</string>
   <key>GxA.medi</key>
@@ -574,10 +610,10 @@
   <string>J_hA_h.fina.glif</string>
   <key>JhAh.medi</key>
   <string>J_hA_h.medi.glif</string>
-  <key>JhOh.fina</key>
-  <string>J_hO_h.fina.glif</string>
   <key>JhOh.medi</key>
   <string>J_hO_h.medi.glif</string>
+  <key>JhUh.fina</key>
+  <string>J_hU_h.fina.glif</string>
   <key>K2A.init</key>
   <string>K_2A_.init.glif</string>
   <key>K2A.medi</key>
@@ -780,14 +816,14 @@
   <string>L_cA_h.isol.glif</string>
   <key>LcAh.medi</key>
   <string>L_cA_h.medi.glif</string>
-  <key>LcOh.fina</key>
-  <string>L_cO_h.fina.glif</string>
   <key>LcOh.init</key>
   <string>L_cO_h.init.glif</string>
   <key>LcOh.isol</key>
   <string>L_cO_h.isol.glif</string>
   <key>LcOh.medi</key>
   <string>L_cO_h.medi.glif</string>
+  <key>LcUh.fina</key>
+  <string>L_cU_h.fina.glif</string>
   <key>ML.medi</key>
   <string>M_L_.medi.glif</string>
   <key>MM.medi</key>
@@ -878,6 +914,10 @@
   <string>P_b2O_.isol.glif</string>
   <key>Pb2O.medi</key>
   <string>P_b2O_.medi.glif</string>
+  <key>Pb2OI.init</key>
+  <string>P_b2O_I_.init.glif</string>
+  <key>Pb2OI.medi</key>
+  <string>P_b2O_I_.medi.glif</string>
   <key>Pb2Oh.fina</key>
   <string>P_b2O_h.fina.glif</string>
   <key>Pb2Oh.init</key>
@@ -886,6 +926,10 @@
   <string>P_b2O_h.isol.glif</string>
   <key>Pb2Oh.medi</key>
   <string>P_b2O_h.medi.glif</string>
+  <key>Pb2Ue.fina</key>
+  <string>P_b2U_e.fina.glif</string>
+  <key>Pb2Ue.isol</key>
+  <string>P_b2U_e.isol.glif</string>
   <key>PbA.init</key>
   <string>P_bA_.init.glif</string>
   <key>PbA.medi</key>
@@ -962,6 +1006,10 @@
   <string>P_gO_I_.init.glif</string>
   <key>PgOI.medi</key>
   <string>P_gO_I_.medi.glif</string>
+  <key>PgUe.fina</key>
+  <string>P_gU_e.fina.glif</string>
+  <key>PgUe.isol</key>
+  <string>P_gU_e.isol.glif</string>
   <key>PgW.fina</key>
   <string>P_gW_.fina.glif</string>
   <key>PgW.init</key>
@@ -1088,14 +1136,14 @@
   <string>Z_tA_h.isol.glif</string>
   <key>ZtAh.medi</key>
   <string>Z_tA_h.medi.glif</string>
-  <key>ZtOh.fina</key>
-  <string>Z_tO_h.fina.glif</string>
   <key>ZtOh.init</key>
   <string>Z_tO_h.init.glif</string>
   <key>ZtOh.isol</key>
   <string>Z_tO_h.isol.glif</string>
   <key>ZtOh.medi</key>
   <string>Z_tO_h.medi.glif</string>
+  <key>ZtUh.fina</key>
+  <string>Z_tU_h.fina.glif</string>
   <key>_uni1820.A.fina</key>
   <string>_uni1820.A_.fina.glif</string>
   <key>_uni1822.AI.init</key>
@@ -2732,6 +2780,12 @@
   <string>uni188E_.D_s.init._isol.glif</string>
   <key>uni188E.Ds.medi</key>
   <string>uni188E_.D_s.medi.glif</string>
+  <key>uni188E.Ds2.init</key>
+  <string>uni188E_.D_s2.init.glif</string>
+  <key>uni188E.Ds2.init._isol</key>
+  <string>uni188E_.D_s2.init._isol.glif</string>
+  <key>uni188E.Ds2.medi</key>
+  <string>uni188E_.D_s2.medi.glif</string>
   <key>uni188F</key>
   <string>uni188F_.glif</string>
   <key>uni188F.Wn.fina</key>
@@ -2972,6 +3026,12 @@
   <string>uni18A_4.S_t.init._isol.glif</string>
   <key>uni18A4.St.medi</key>
   <string>uni18A_4.S_t.medi.glif</string>
+  <key>uni18A4.St2.init</key>
+  <string>uni18A_4.S_t2.init.glif</string>
+  <key>uni18A4.St2.init._isol</key>
+  <string>uni18A_4.S_t2.init._isol.glif</string>
+  <key>uni18A4.St2.medi</key>
+  <string>uni18A_4.S_t2.medi.glif</string>
   <key>uni18A5</key>
   <string>uni18A_5.glif</string>
   <key>uni18A5.Sc.fina</key>

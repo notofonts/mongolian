@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AULv.isol" format="2">
   <advance width="1126" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="710" y="123" type="curve"/>
@@ -65,16 +66,17 @@
       <point x="305" y="260"/>
       <point x="311" y="290"/>
       <point x="320" y="309" type="curve"/>
-      <point x="338" y="348"/>
-      <point x="370" y="364"/>
-      <point x="445" y="364" type="curve"/>
-      <point x="491" y="364" type="line"/>
+      <point x="345" y="363"/>
+      <point x="388" y="364"/>
+      <point x="491" y="364" type="curve"/>
       <point x="502" y="136"/>
       <point x="579" y="40"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

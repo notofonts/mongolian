@@ -2,6 +2,8 @@
 <glyph name="nnbsp" format="2">
   <advance width="770" height="1000"/>
   <unicode hex="202F"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="535" y="67" type="line"/>
@@ -137,23 +139,25 @@
       <point x="486" y="189" type="line"/>
       <point x="283" y="515" type="line"/>
       <point x="280" y="515" type="line"/>
-      <point x="281.33333" y="489.66667"/>
-      <point x="284" y="446.33333"/>
-      <point x="284" y="417" type="curve" smooth="yes"/>
+      <point x="281" y="490"/>
+      <point x="284" y="446"/>
+      <point x="284" y="417" type="curve"/>
       <point x="284" y="189" type="line"/>
       <point x="229" y="189" type="line"/>
       <point x="229" y="591" type="line"/>
       <point x="304" y="591" type="line"/>
       <point x="507" y="267" type="line"/>
       <point x="509" y="267" type="line"/>
-      <point x="506.33333" y="285.66667"/>
-      <point x="506" y="327.66667"/>
-      <point x="506" y="361" type="curve" smooth="yes"/>
+      <point x="506" y="286"/>
+      <point x="506" y="328"/>
+      <point x="506" y="361" type="curve"/>
       <point x="506" y="591" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

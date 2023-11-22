@@ -1,79 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1868.Dd.fina" format="2">
   <advance width="1000" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="316" y="251" type="curve"/>
-      <point x="316" y="208"/>
-      <point x="305" y="176"/>
-      <point x="284" y="155" type="curve"/>
-      <point x="263" y="134"/>
-      <point x="234" y="123"/>
-      <point x="197" y="123" type="curve"/>
-      <point x="118" y="124"/>
-      <point x="79" y="166"/>
-      <point x="79" y="251" type="curve"/>
-      <point x="79" y="296"/>
-      <point x="86" y="334"/>
-      <point x="99" y="364" type="curve"/>
-      <point x="296" y="364" type="line"/>
-      <point x="309" y="334"/>
-      <point x="316" y="296"/>
-    </contour>
-    <contour>
-      <point x="801" y="53" type="curve"/>
-      <point x="801" y="156" type="line"/>
-      <point x="801" y="296"/>
-      <point x="817" y="425"/>
-      <point x="850" y="544" type="curve"/>
-      <point x="882" y="663"/>
-      <point x="929" y="760"/>
-      <point x="990" y="836" type="curve"/>
-      <point x="898" y="836" type="line"/>
-      <point x="846" y="768"/>
-      <point x="804" y="674"/>
-      <point x="772" y="554" type="curve"/>
-      <point x="740" y="434"/>
-      <point x="724" y="301"/>
-      <point x="724" y="156" type="curve"/>
-      <point x="685" y="179"/>
-      <point x="656" y="212"/>
-      <point x="639" y="256" type="curve"/>
-      <point x="622" y="299"/>
-      <point x="614" y="362"/>
-      <point x="614" y="444" type="curve"/>
-      <point x="0" y="444" type="line"/>
-      <point x="0" y="364" type="line"/>
-      <point x="20" y="364" type="line"/>
-      <point x="7" y="333"/>
-      <point x="0" y="294"/>
-      <point x="0" y="249" type="curve"/>
-      <point x="0" y="180"/>
-      <point x="18" y="128"/>
-      <point x="53" y="93" type="curve"/>
-      <point x="88" y="58"/>
-      <point x="136" y="40"/>
-      <point x="197" y="40" type="curve"/>
-      <point x="260" y="40"/>
-      <point x="309" y="59"/>
-      <point x="343" y="97" type="curve"/>
-      <point x="378" y="134"/>
-      <point x="395" y="185"/>
-      <point x="395" y="249" type="curve"/>
-      <point x="395" y="293"/>
-      <point x="388" y="331"/>
-      <point x="373" y="364" type="curve"/>
-      <point x="540" y="364" type="line"/>
-      <point x="540" y="310"/>
-      <point x="552" y="259"/>
-      <point x="575" y="211" type="curve"/>
-      <point x="598" y="163"/>
-      <point x="629" y="125"/>
-      <point x="668" y="98" type="curve"/>
-      <point x="707" y="71"/>
-      <point x="752" y="56"/>
-    </contour>
+  <component base="uni1833.Dd.fina"/>
   </outline>
   <lib>
     <dict>

@@ -208,9 +208,9 @@
 @trh-tag.medi = [uni188D.Cr2.medi];
 @trh-tag.fina = [uni188D.Cr2.medi._fina];
 @trh-tag = [@trh-tag.isol @trh-tag.init @trh-tag.medi @trh-tag.fina];
-@dr-tag.isol = [uni188E.Ds.init._isol];
-@dr-tag.init = [uni188E.Ds.init];
-@dr-tag.medi = [uni188E.Ds.medi];
+@dr-tag.isol = [uni188E.Ds.init._isol uni188E.Ds2.init._isol];
+@dr-tag.init = [uni188E.Ds.init uni188E.Ds2.init];
+@dr-tag.medi = [uni188E.Ds.medi uni188E.Ds2.medi];
 @dr-tag.fina = [uni188E.Ds.fina];
 @dr-tag = [@dr-tag.isol @dr-tag.init @dr-tag.medi @dr-tag.fina];
 @nr-tag.isol = [uni188F.Wn.init._isol];

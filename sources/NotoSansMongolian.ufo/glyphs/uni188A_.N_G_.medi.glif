@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni188A.NG.medi" format="2">
   <advance width="574" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="338" y="70" type="curve"/>
@@ -32,6 +33,7 @@
       <point x="280" y="173"/>
     </contour>
     <contour>
+      <point x="11" y="-124" type="curve"/>
       <point x="54" y="-163" type="line"/>
       <point x="87" y="-128"/>
       <point x="133" y="-90"/>
@@ -39,7 +41,6 @@
       <point x="132" y="22" type="line"/>
       <point x="93" y="-17"/>
       <point x="53" y="-65"/>
-      <point x="11" y="-124" type="curve"/>
     </contour>
   </outline>
   <lib>

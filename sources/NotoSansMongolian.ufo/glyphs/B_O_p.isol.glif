@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="BOp.isol" format="2">
   <advance width="797" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="617" y="-121" type="curve"/>
@@ -51,13 +52,13 @@
       <point x="638" y="123"/>
     </contour>
     <contour>
+      <point x="668" y="444" type="curve"/>
       <point x="127" y="444" type="line"/>
       <point x="146" y="605"/>
       <point x="235" y="699"/>
       <point x="405" y="699" type="curve"/>
       <point x="556" y="699"/>
       <point x="647" y="596"/>
-      <point x="668" y="444" type="curve"/>
     </contour>
   </outline>
   <lib>

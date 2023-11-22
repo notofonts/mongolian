@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="BhIp.isol" format="2">
   <advance width="1485" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="1113" y="9" type="curve"/>
@@ -11,11 +12,8 @@
       <point x="979" y="119" type="curve"/>
       <point x="979" y="364" type="line"/>
       <point x="1265" y="364" type="line"/>
-      <point x="1300" y="364"/>
-      <point x="1326" y="357"/>
-      <point x="1341" y="342" type="curve"/>
-      <point x="1356" y="327"/>
-      <point x="1363" y="306"/>
+      <point x="1335" y="364"/>
+      <point x="1363" y="335"/>
       <point x="1363" y="279" type="curve"/>
       <point x="1363" y="236"/>
       <point x="1356" y="197"/>
@@ -24,9 +22,8 @@
       <point x="1432" y="198"/>
       <point x="1440" y="237"/>
       <point x="1440" y="279" type="curve"/>
-      <point x="1440" y="282" type="line"/>
-      <point x="1440" y="390"/>
-      <point x="1381" y="444"/>
+      <point x="1440" y="389"/>
+      <point x="1384" y="444"/>
       <point x="1265" y="444" type="curve"/>
       <point x="900" y="444" type="line"/>
       <point x="900" y="119" type="line"/>
@@ -35,20 +32,11 @@
       <point x="770" y="154"/>
       <point x="770" y="223" type="curve"/>
       <point x="770" y="374" type="line"/>
-      <point x="770" y="486"/>
-      <point x="749" y="573"/>
-      <point x="708" y="635" type="curve"/>
-      <point x="667" y="696"/>
-      <point x="609" y="727"/>
+      <point x="770" y="606"/>
+      <point x="678" y="727"/>
       <point x="536" y="727" type="curve"/>
-      <point x="490" y="727"/>
-      <point x="450" y="714"/>
-      <point x="415" y="689" type="curve"/>
-      <point x="380" y="664"/>
-      <point x="353" y="628"/>
-      <point x="335" y="581" type="curve"/>
-      <point x="319" y="540"/>
-      <point x="310" y="495"/>
+      <point x="399" y="727"/>
+      <point x="315" y="611"/>
       <point x="308" y="444" type="curve"/>
       <point x="63" y="444" type="line"/>
       <point x="45" y="364" type="line"/>
@@ -60,17 +48,11 @@
       <point x="105" y="110" type="line"/>
       <point x="490" y="110" type="line"/>
       <point x="444" y="190" type="line"/>
-      <point x="433" y="212"/>
-      <point x="423" y="233"/>
-      <point x="415" y="254" type="curve"/>
-      <point x="396" y="305"/>
-      <point x="386" y="359"/>
+      <point x="405" y="267"/>
+      <point x="386" y="329"/>
       <point x="386" y="417" type="curve"/>
-      <point x="386" y="494"/>
-      <point x="400" y="551"/>
-      <point x="427" y="588" type="curve"/>
-      <point x="454" y="625"/>
-      <point x="490" y="644"/>
+      <point x="386" y="566"/>
+      <point x="442" y="644"/>
       <point x="536" y="644" type="curve"/>
       <point x="639" y="644"/>
       <point x="691" y="554"/>
@@ -86,6 +68,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

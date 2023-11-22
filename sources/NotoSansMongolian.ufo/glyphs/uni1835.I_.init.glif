@@ -1,20 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1835.I.init" format="2">
   <advance width="421" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="233" y="-67" type="curve"/>
-      <point x="306" y="-31" type="line"/>
-      <point x="233" y="100"/>
-      <point x="177" y="231"/>
-      <point x="139" y="364" type="curve"/>
-      <point x="451" y="364" type="line"/>
-      <point x="451" y="444" type="line"/>
-      <point x="45" y="444" type="line"/>
-      <point x="73" y="275"/>
-      <point x="139" y="110"/>
-    </contour>
+  <component base="uni1822.I.init"/>
   </outline>
   <lib>
     <dict>

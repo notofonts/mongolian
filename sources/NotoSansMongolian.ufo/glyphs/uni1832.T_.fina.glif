@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1832.T.fina" format="2">
   <advance width="874" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="359" y="96" type="line"/>
@@ -36,6 +37,7 @@
       <point x="340" y="364" type="line"/>
     </contour>
     <contour>
+      <point x="334" y="444" type="curve"/>
       <point x="101" y="444" type="line"/>
       <point x="86" y="471"/>
       <point x="78" y="511"/>
@@ -45,7 +47,6 @@
       <point x="197" y="694" type="curve"/>
       <point x="301" y="694"/>
       <point x="329" y="584"/>
-      <point x="334" y="444" type="curve"/>
     </contour>
   </outline>
   <lib>

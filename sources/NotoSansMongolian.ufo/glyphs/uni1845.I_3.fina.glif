@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1845.I3.fina" format="2">
   <advance width="414" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
+      <point x="209" y="133" type="curve"/>
       <point x="278" y="87" type="line"/>
       <point x="341" y="168"/>
       <point x="369" y="257"/>
@@ -19,7 +21,6 @@
       <point x="290" y="373" type="curve"/>
       <point x="290" y="275"/>
       <point x="265" y="203"/>
-      <point x="209" y="133" type="curve"/>
     </contour>
   </outline>
   <lib>

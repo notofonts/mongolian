@@ -3,66 +3,7 @@
   <advance width="723" height="1000"/>
   <unicode hex="1850"/>
   <outline>
-    <contour>
-      <point x="324" y="176" type="curve"/>
-      <point x="297" y="227"/>
-      <point x="266" y="272"/>
-      <point x="230" y="311" type="curve"/>
-      <point x="195" y="350"/>
-      <point x="160" y="382"/>
-      <point x="126" y="405" type="curve"/>
-      <point x="124" y="420" type="line"/>
-      <point x="124" y="463"/>
-      <point x="129" y="501"/>
-      <point x="140" y="533" type="curve"/>
-      <point x="151" y="566"/>
-      <point x="167" y="590"/>
-      <point x="186" y="607" type="curve"/>
-      <point x="206" y="624"/>
-      <point x="228" y="633"/>
-      <point x="253" y="633" type="curve"/>
-      <point x="292" y="633"/>
-      <point x="321" y="617"/>
-      <point x="338" y="584" type="curve"/>
-      <point x="355" y="551"/>
-      <point x="364" y="493"/>
-      <point x="364" y="409" type="curve"/>
-      <point x="364" y="364"/>
-      <point x="361" y="323"/>
-      <point x="356" y="285" type="curve"/>
-      <point x="351" y="248"/>
-      <point x="340" y="212"/>
-    </contour>
-    <contour>
-      <point x="281" y="96" type="curve"/>
-      <point x="370" y="96" type="line"/>
-      <point x="415" y="173"/>
-      <point x="439" y="263"/>
-      <point x="443" y="364" type="curve"/>
-      <point x="678" y="364" type="line"/>
-      <point x="678" y="444" type="line"/>
-      <point x="443" y="444" type="line"/>
-      <point x="441" y="535"/>
-      <point x="425" y="602"/>
-      <point x="394" y="646" type="curve"/>
-      <point x="363" y="689"/>
-      <point x="316" y="711"/>
-      <point x="253" y="711" type="curve"/>
-      <point x="212" y="711"/>
-      <point x="176" y="699"/>
-      <point x="144" y="676" type="curve"/>
-      <point x="113" y="653"/>
-      <point x="88" y="619"/>
-      <point x="71" y="575" type="curve"/>
-      <point x="54" y="532"/>
-      <point x="45" y="480"/>
-      <point x="45" y="420" type="curve"/>
-      <point x="45" y="401"/>
-      <point x="47" y="383"/>
-      <point x="50" y="364" type="curve"/>
-      <point x="145" y="300"/>
-      <point x="222" y="211"/>
-    </contour>
+  <component base="uni1850.Tp.init._isol"/>
   </outline>
   <lib>
     <dict>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni188E.Ds2.medi" format="2">
+  <advance width="613" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
+  <outline>
+    <contour>
+      <point x="319" y="-157" type="curve"/>
+      <point x="417" y="-157"/>
+      <point x="491" y="-86"/>
+      <point x="491" y="27" type="curve"/>
+      <point x="491" y="150"/>
+      <point x="417" y="232"/>
+      <point x="290" y="232" type="curve"/>
+      <point x="228" y="232"/>
+      <point x="179" y="206"/>
+      <point x="142" y="154" type="curve"/>
+      <point x="117" y="225"/>
+      <point x="96" y="295"/>
+      <point x="79" y="364" type="curve"/>
+      <point x="643" y="364" type="line"/>
+      <point x="643" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="26" y="251"/>
+      <point x="65" y="124"/>
+      <point x="109" y="29" type="curve"/>
+      <point x="172" y="76" type="line"/>
+      <point x="200" y="127"/>
+      <point x="239" y="153"/>
+      <point x="290" y="153" type="curve"/>
+      <point x="376" y="153"/>
+      <point x="413" y="100"/>
+      <point x="413" y="27" type="curve"/>
+      <point x="413" y="-41"/>
+      <point x="373" y="-77"/>
+      <point x="319" y="-77" type="curve"/>
+      <point x="285" y="-77"/>
+      <point x="263" y="-63"/>
+      <point x="234" y="-34" type="curve"/>
+      <point x="177" y="-86" type="line"/>
+      <point x="213" y="-130"/>
+      <point x="258" y="-157"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>880</integer>
+    </dict>
+  </lib>
+</glyph>

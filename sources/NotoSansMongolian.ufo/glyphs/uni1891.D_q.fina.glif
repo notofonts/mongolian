@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1891.Dq.fina" format="2">
   <advance width="745" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="136" y="-90" type="line"/>
@@ -12,11 +13,8 @@
       <point x="178" y="28" type="line"/>
       <point x="77" y="364" type="line"/>
       <point x="525" y="364" type="line"/>
-      <point x="560" y="364"/>
-      <point x="586" y="357"/>
-      <point x="601" y="342" type="curve"/>
-      <point x="616" y="327"/>
-      <point x="623" y="306"/>
+      <point x="595" y="364"/>
+      <point x="623" y="335"/>
       <point x="623" y="279" type="curve"/>
       <point x="623" y="235"/>
       <point x="616" y="196"/>
@@ -25,9 +23,8 @@
       <point x="692" y="199"/>
       <point x="700" y="238"/>
       <point x="700" y="279" type="curve"/>
-      <point x="700" y="282" type="line"/>
-      <point x="700" y="390"/>
-      <point x="641" y="444"/>
+      <point x="700" y="389"/>
+      <point x="644" y="444"/>
       <point x="525" y="444" type="curve"/>
       <point x="0" y="444" type="line"/>
       <point x="0" y="364" type="line"/>
@@ -35,6 +32,8 @@
   </outline>
   <lib>
     <dict>
+      <key>public.markColor</key>
+      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

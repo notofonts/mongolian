@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1860.Uh.fina" format="2">
   <advance width="634" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="225" y="40" type="curve"/>
@@ -41,6 +42,7 @@
       <point x="291" y="123"/>
     </contour>
     <contour>
+      <point x="23" y="846" type="curve"/>
       <point x="66" y="807" type="line"/>
       <point x="99" y="842"/>
       <point x="145" y="880"/>
@@ -48,7 +50,6 @@
       <point x="144" y="992" type="line"/>
       <point x="105" y="953"/>
       <point x="65" y="905"/>
-      <point x="23" y="846" type="curve"/>
     </contour>
   </outline>
   <lib>

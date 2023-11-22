@@ -1,33 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni186A.J2.medi._fina" format="2">
-  <advance width="460" height="1000"/>
-  <anchor x="0" y="0" name="mong"/>
+  <advance width="435" height="1000"/>
+  <anchor x="0" y="0" name="baluda"/>
+  <anchor x="0" y="0" name="dagalga"/>
   <outline>
-    <contour>
-      <point x="114" y="-94" type="curve"/>
-      <point x="201" y="-94" type="line"/>
-      <point x="228" y="-75"/>
-      <point x="245" y="-36"/>
-      <point x="245" y="9" type="curve"/>
-      <point x="245" y="62"/>
-      <point x="229" y="111"/>
-      <point x="197" y="170" type="curve"/>
-      <point x="176" y="209"/>
-      <point x="142" y="267"/>
-      <point x="82" y="364" type="curve"/>
-      <point x="390" y="364" type="line"/>
-      <point x="390" y="444" type="line"/>
-      <point x="0" y="444" type="line"/>
-      <point x="0" y="364" type="line"/>
-      <point x="23" y="327"/>
-      <point x="50" y="279"/>
-      <point x="82" y="222" type="curve"/>
-      <point x="128" y="140"/>
-      <point x="166" y="72"/>
-      <point x="166" y="9" type="curve"/>
-      <point x="166" y="-35"/>
-      <point x="148" y="-69"/>
-    </contour>
+  <component base="uni186A.J2.medi"/>
   </outline>
   <lib>
     <dict>

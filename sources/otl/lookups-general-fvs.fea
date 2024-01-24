@@ -746,3 +746,13 @@ lookup III.sib.fvs {
     sub @y-sib.init' lookup _.sib.manual fvs2.ignored' lookup _.effective;
     sub @y-sib.medi' lookup _.sib.manual fvs3.ignored' lookup _.effective;
 } III.sib.fvs;
+
+lookup _.punctuation.manual {
+    sub uni1880' fvs1.ignored by uni1880.fvs1;
+    sub uni1881' fvs1.ignored by uni1881.fvs1;
+} _.punctuation.manual;
+
+lookup III.punctuation.fvs {
+    sub uni1880' lookup _.punctuation.manual fvs1.ignored' lookup _.effective;
+    sub uni1881' lookup _.punctuation.manual fvs1.ignored' lookup _.effective;
+} III.punctuation.fvs;

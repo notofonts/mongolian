@@ -130,6 +130,7 @@ lookup III.tod_tag.fvs;
 lookup III.tod_tag.lvs.postprocessing;
 lookup III.man_mag.fvs;
 lookup III.sib.fvs;
+lookup III.punctuation.fvs;
 
 # ==================================
 # IIb.1: Variation involving bowed written units

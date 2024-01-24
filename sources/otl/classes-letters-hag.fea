@@ -173,10 +173,10 @@
 @cr-hud.medi = [uni1842.Cr.medi];
 @cr-hud.fina = [uni1842.Cr.init._fina];
 @cr-hud = [@cr-hud.isol @cr-hud.init @cr-hud.medi @cr-hud.fina];
-@a-hag.isol = [uni1887.AAl.isol];
+@a-hag.isol = [uni1887.AAw.isol];
 @a-hag.init = [uni1887.AA.init];
 @a-hag.medi = [uni1887.A.medi];
-@a-hag.fina = [uni1887.Al.fina uni1887.A2.fina];
+@a-hag.fina = [uni1887.Aw.fina uni1887.A2.fina];
 @a-hag = [@a-hag.isol @a-hag.init @a-hag.medi @a-hag.fina];
 @i-hag.isol = [uni1888.AI4.isol];
 @i-hag.init = [uni1888.AI.init];

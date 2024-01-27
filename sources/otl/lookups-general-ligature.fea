@@ -265,10 +265,10 @@ lookup IIb.hud_hag.ligature {
     sub uni182A.B.medi uni182F.L.medi by BL.medi;
     sub uni182A.B.init uni182E.M.medi by BM.init;
     sub uni182A.B.medi uni182E.M.medi by BM.medi;
-    sub [uni182C.G.init uni182D.G.init] uni182F.L.medi by GL.init;
-    sub [uni182C.G.medi uni182D.G.medi] uni182F.L.medi by GL.medi;
-    sub [uni182C.G.init uni182D.G.init] uni182E.M.init by GM.init;
-    sub [uni182C.G.medi uni182D.G.medi] uni182E.M.init by GM.medi;
+    sub [uni182C.G.init uni182D.G.init uni1889.G.init] uni182F.L.medi by GL.init;
+    sub [uni182C.G.medi uni182D.G.medi uni1889.G.medi] uni182F.L.medi by GL.medi;
+    sub [uni182C.G.init uni182D.G.init] uni182E.M.medi by GM.init;
+    sub [uni182C.G.medi uni182D.G.medi] uni182E.M.medi by GM.medi;
     sub uni182F.L.medi uni182F.L.medi by LL.medi;
     sub uni182E.M.medi uni182F.L.medi by ML.medi;
     sub uni182E.M.medi uni182E.M.medi by MM.medi;
@@ -565,6 +565,12 @@ lookup IIb.tod_tag.ligature {
     sub uni184C.Ph.init uni1849.O.medi by PhO.init;
     sub uni184C.Ph.medi uni1849.O.medi by PhO.medi;
     sub uni184C.Ph.medi uni1849.O.fina by PhO.fina;
+
+    # optional ligature
+    sub uni184A.AG.medi uni1828.N.medi by AGN.medi;
+    sub uni184A.AG.medi uni184D.Hx.medi by AGHx.medi;
+    sub uni184A.AG.medi uni184E.Hb.medi by AGHb.medi;
+
     lookupflag 0;
 } IIb.tod_tag.ligature;
 
@@ -1009,5 +1015,12 @@ lookup IIb.sib.ligature {
     sub uni186F.Zs.init uni185E.I.medi by ZsI.init;
     sub uni186F.Zs.medi uni185E.I.medi by ZsI.medi;
     sub uni186F.Zs.medi [uni185E.I.fina uni185E.I2.fina] by ZsI.fina;
+
+    # optional ligature
+    sub uni1862.AG.medi uni1863.H.medi by AGH.medi;
+    sub uni1862.AG.medi uni1864.Hh.medi by AGHh.medi;
+    sub uni1862.AG.medi uni1865.Hc.medi by AGHc.medi;
+    sub uni1862.AG.medi uni1828.N.medi by AGN.medi;
+
     lookupflag 0;
 } IIb.sib.ligature;

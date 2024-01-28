@@ -8,10 +8,12 @@ lookup IIb.controls.postprocessing {
     sub mvs' lookup _.nominal;
 } IIb.controls.postprocessing;
 
+@tod_tag.liga.init = [BA.init BE.init BhA.init BhE.init BhIp.init BhO.init BhOb.init BIp.init BO.init BOb.init BOp.init BOt.init GA.init GE.init GIp.init GO.init GOb.init GOt.init GpA.init GpOb.init GpOp.init K2A.init K2E.init K2Ip.init K2O.init K2Ob.init KA.init KE.init KIp.init KO.init KOb.init KOt.init KpA.init KpOb.init KpOp.init PhA.init PhE.init PhIp.init PhO.init PhOb.init PpA.init PpE.init PpIp.init PpO.init PpOb.init PpOp.init PpOt.init];
+@tod_tag.liga.medi = [AGHb.medi AGHx.medi AGN.medi BA.medi BE.medi BhA.medi BhE.medi BhIp.medi BhO.medi BhOb.medi BIp.medi BO.medi BOb.medi BOp.medi BOt.medi GA.medi GE.medi GIp.medi GO.medi GOb.medi GOt.medi GpA.medi GpOb.medi GpOp.medi K2A.medi K2E.medi K2Ip.medi K2O.medi K2Ob.medi KA.medi KE.medi KIp.medi KO.medi KOb.medi KOt.medi KpA.medi KpOb.medi KpOp.medi PhA.medi PhE.medi PhIp.medi PhO.medi PhOb.medi PpA.medi PpE.medi PpIp.medi PpO.medi PpOb.medi PpOp.medi PpOt.medi];
+@tod_tag.liga.fina = [BAa.fina BE.fina BhAa.fina BhE.fina BhIp.fina BhO.fina BhOb.fina BIp.fina BO.fina BOb.fina BOp.fina BOt.fina GAa.fina GE.fina GIp.fina GO.fina GOb.fina GOt.fina GpAa.fina GpOb.fina GpOp.fina K2Aa.fina K2E.fina K2Ip.fina K2O.fina K2Ob.fina KAa.fina KE.fina KIp.fina KO.fina KOb.fina KOt.fina KpAa.fina KpOb.fina KpOp.fina PhAa.fina PhE.fina PhIp.fina PhO.fina PhOb.fina PpAa.fina PpE.fina PpIp.fina PpO.fina PpOb.fina PpOp.fina PpOt.fina];
+
 lookup IIb.lvs.postprocessing {
-    lookupflag IgnoreMarks;
-    sub [@tod.consonant.init @tod.consonant.medi @tag.consonant.init @tag.consonant.medi] lvs.ignored' lookup condition.tod_tag.medi [@tod.consonant @tod.vowel @tag.consonant @tag.vowel];
-    sub lvs.ignored' lookup condition.tod_tag.init [@tod.consonant @tod.vowel @tag.consonant @tag.vowel];
-    sub [@tod.consonant.init @tod.consonant.medi @tag.consonant.init @tag.consonant.medi] lvs.ignored' lookup condition.tod_tag.fina;
-    lookupflag 0;
+    sub [@tod.consonant @tod.vowel @tag.consonant @tag.vowel @tod_tag.liga.init @tod_tag.liga.medi] lvs.ignored' lookup condition.tod_tag.medi [@tod.consonant @tod.vowel @tag.consonant @tag.vowel @tod_tag.liga.medi @tod_tag.liga.fina];
+    sub lvs.ignored' lookup condition.tod_tag.init [@tod.consonant @tod.vowel @tag.consonant @tag.vowel @tod_tag.liga.medi @tod_tag.liga.fina];
+    sub [@tod.consonant @tod.vowel @tag.consonant @tag.vowel @tod_tag.liga.init @tod_tag.liga.medi] lvs.ignored' lookup condition.tod_tag.fina;
 } IIb.lvs.postprocessing;

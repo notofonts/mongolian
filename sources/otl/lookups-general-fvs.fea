@@ -377,35 +377,6 @@ lookup III.tod_tag.fvs {
     sub @y-tag.fina' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
 } III.tod_tag.fvs;
 
-lookup III.tod_tag.lvs.postprocessing {
-    lookupflag UseMarkFilteringSet [lvs.ignored];
-    sub uni1820.AA.isol lvs.ignored by AALv.isol;
-    sub uni1820.AA.init lvs.ignored by AALv.init;
-    sub uni1820.A.medi lvs.ignored by ALv.medi;
-    sub uni1820.A.fina lvs.ignored by ALv.fina;
-    sub uni1844.AE.isol lvs.ignored by AELv.isol;
-    sub uni1844.AE.init lvs.ignored by AELv.init;
-    sub uni1844.E.medi lvs.ignored by ELv.medi;
-    sub uni1844.E.fina lvs.ignored by ELv.fina;
-    sub uni1846.AOb.isol lvs.ignored by AObLv.isol;
-    sub uni1846.AOb.init lvs.ignored by AObLv.init;
-    sub uni1846.Ob.medi lvs.ignored by ObLv.medi;
-    sub uni1846.Ob.fina lvs.ignored by ObLv.fina;
-    sub uni1848.AOt.isol lvs.ignored by AOtLv.isol;
-    sub uni1848.AOt.init lvs.ignored by AOtLv.init;
-    sub uni1848.Ot.medi lvs.ignored by OtLv.medi;
-    sub uni1848.Ot.fina lvs.ignored by OtLv.fina;
-
-    sub uni1845.AI3.isol lvs.ignored by AI3Lv.isol;
-    sub uni1845.I3.fina lvs.ignored by I3Lv.fina;
-    sub uni1849.AU.isol lvs.ignored by AULv.isol;
-    sub uni1849.U.fina lvs.ignored by ULv.fina;
-    sub uni18A7.Ir.fina lvs.ignored by IrLv.fina;
-    sub uni18A6.Wp.fina lvs.ignored by WpLv.fina;
-    lookupflag 0;
-} III.tod_tag.lvs.postprocessing;
-
-
 # ==================================
 # III.6: Uncaptured - FVS: Manchu+AG
 # ==================================

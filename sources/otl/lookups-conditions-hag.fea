@@ -43,12 +43,12 @@ lookup condition.hud.marked {
 # III.5: Post-bowed
 # IIB.1: Variation involving bowed written units
 lookup condition.hud.post_bowed {
-    sub @a-hud.fina by uni1820.Aa.fina;
-    sub @e-hud.fina by uni1821.Aa.fina;
-    sub @o-hud.fina by uni1823.O.fina;
-    sub @u-hud.fina by uni1824.O.fina;
-    sub @oe-hud.fina by uni1825.O.fina;
-    sub @ue-hud.fina by uni1826.O.fina;
+    sub uni1820.A.fina by uni1820.Aa.fina;
+    sub uni1821.A.fina by uni1821.Aa.fina;
+    sub uni1823.U.fina by uni1823.O.fina;
+    sub uni1824.U.fina by uni1824.O.fina;
+    sub uni1825.U.fina by uni1825.O.fina;
+    sub uni1826.U.fina by uni1826.O.fina;
 } condition.hud.post_bowed;
 
 # Syllabic - t - Onset

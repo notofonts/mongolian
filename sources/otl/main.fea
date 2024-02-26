@@ -3,7 +3,7 @@ include(otl/classes-letters.fea);
 include(otl/classes-categories.fea);
 
 table GDEF {
-    GlyphClassDef [nirugu @fvs.nominal @msc zwnj zwj zwj.ignored], , [nirugu.ignored @fvs.ignored @fvs.effective zwnj.ignored baluda tribaluda dagalga masculine feminine], ;
+    GlyphClassDef [nirugu @fvs.nominal @msc zwnj zwj zwj.ignored], , [nirugu.ignored @fvs.ignored @fvs.effective lvs.ignored zwnj.ignored baluda tribaluda dagalga masculine feminine], ;
 } GDEF;
 
 languagesystem DFLT dflt;
@@ -34,6 +34,10 @@ include(otl/lookups-general.fea);
 feature rclt {
     include(otl/lookups-tags.fea);
 } rclt;
+
+feature calt {
+    include(otl/lookups-tags.fea);
+} calt;
 
 # IB.1: Vertical forms of punctuation marks
 include(otl/lookups-punctuation.fea);

@@ -88,7 +88,7 @@ lookup IIa.isol {
     sub uni1875 by uni1875.R.init._isol;
     sub uni1876 by uni1876.V.init._isol;
     sub uni1877 by uni1877.Ic.init._isol;
-    sub uni1887 by uni1887.AAl.isol;
+    sub uni1887 by uni1887.AAw.isol;
     sub uni1888 by uni1888.AI4.isol;
     sub uni1889 by uni1889.G.init._isol;
     sub uni188A by uni188A.NG.init._isol;
@@ -472,7 +472,7 @@ lookup IIa.fina {
     sub uni1875 by uni1875.R2.fina;
     sub uni1876 by uni1876.V.medi._fina;
     sub uni1877 by uni1877.Jc.medi._fina;
-    sub uni1887 by uni1887.Al.fina;
+    sub uni1887 by uni1887.Aw.fina;
     sub uni1888 by uni1888.I4.fina;
     sub uni1889 by uni1889.GVi.fina;
     sub uni188A by uni188A.NG4.fina;

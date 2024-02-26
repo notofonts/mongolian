@@ -38,6 +38,17 @@ lookup IIb.hud_hag.nirugu.extending {
     lookupflag 0;
 } IIb.hud_hag.nirugu.extending;
 
+lookup _.man_mag.extending {
+    sub uni1829.AG.medi by uni1829.AG.medi nirugu;
+} _.man_mag.extending;
+
+lookup IIb.man_mag.nirugu.extending {
+    lookupflag IgnoreMarks;
+    @man_mag.extending = [@sbm-man];
+    sub uni1829.AG.medi' lookup _.man_mag.extending @man_mag.extending;
+    lookupflag 0;
+} IIb.man_mag.nirugu.extending;
+
 lookup IIb.hud.mvs {
     lookupflag IgnoreMarks;
     sub uni1828.N.fina' mvs.narrow [uni1820.Aa.isol uni1821.Aa.isol] by N.fina.mvs;

@@ -22,8 +22,8 @@ lookup III.sib.e_u.feminine {
 
 lookup III.sib.n.onset_and_devsger {
     lookupflag IgnoreMarks;
-    sub [@n-sib]' lookup condition.sib.onset @sib.vowel;
-    sub @sib.vowel [@n-sib]' lookup condition.sib.devsger;
+    sub @n-sib' lookup condition.sib.onset @sib.vowel;
+    sub @n-sib' lookup condition.sib.devsger @sib.consonant;
     lookupflag 0;
 } III.sib.n.onset_and_devsger;
 

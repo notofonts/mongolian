@@ -37,7 +37,7 @@ lookup III.mag.e_u.feminine {
 lookup III.man.n.onset_and_devsger {
     lookupflag IgnoreMarks;
     sub @n-man' lookup condition.man.onset @man.vowel;
-    sub @man.vowel @n-man' lookup condition.man.devsger;
+    sub @n-man' lookup condition.man.devsger @man.consonant;
     lookupflag 0;
 } III.man.n.onset_and_devsger;
 

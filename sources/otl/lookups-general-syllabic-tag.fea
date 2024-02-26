@@ -6,8 +6,8 @@
 
 lookup III.tod.n.onset_and_devsger {
     lookupflag IgnoreMarks;
-    sub [@n-tod]' lookup condition.tod.onset @tod.vowel;
-    sub @tod.vowel [@n-tod]' lookup condition.tod.devsger;
+    sub @n-tod' lookup condition.tod.onset @tod.vowel;
+    sub @n-tod' lookup condition.tod.devsger @tod.consonant;
     lookupflag 0;
 } III.tod.n.onset_and_devsger;
 

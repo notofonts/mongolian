@@ -125,6 +125,7 @@ lookup III.hud.h_g.onset_and_devsger_and_gender.B {
     ignore sub [@h-hud @g-hud]' @hud.vowel;
     ignore sub [@h-hud @g-hud]' masculine @hud.vowel;
     ignore sub [@h-hud @g-hud]' @msc [@a-hud.isol @e-hud.isol];
+    ignore sub [@h-hud @g-hud]' masculine @msc [@a-hud.isol @e-hud.isol];
     sub @i-hud [@g-hud @h-hud]' lookup condition.hud.masculine_devsger masculine;
     sub @i-hud @g-hud' lookup condition.hud.feminine;
     lookupflag 0;

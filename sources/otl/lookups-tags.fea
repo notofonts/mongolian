@@ -127,9 +127,9 @@ lookup III.sib.a_e_o_u.post_bowed;
 
 lookup III.hud_hag.fvs;
 lookup III.tod_tag.fvs;
-lookup III.tod_tag.lvs.postprocessing;
 lookup III.man_mag.fvs;
 lookup III.sib.fvs;
+lookup III.punctuation.fvs;
 
 # ==================================
 # IIb.1: Variation involving bowed written units
@@ -142,6 +142,7 @@ lookup IIb.tod_tag.ligature.eac;
 lookup IIb.man_mag.ligature;
 lookup IIb.man_mag.ligature.eac;
 lookup IIb.sib.ligature;
+lookup IIb.tod_tag.lvs.postprocessing;
 
 # ==================================
 # IIb.2: Cleanup of format controls
@@ -155,4 +156,5 @@ lookup IIb.lvs.postprocessing;
 # ==================================
 
 lookup IIb.hud_hag.nirugu.extending;
+lookup IIb.man_mag.nirugu.extending;
 lookup IIb.hud.mvs;

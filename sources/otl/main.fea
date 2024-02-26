@@ -35,6 +35,10 @@ feature rclt {
     include(otl/lookups-tags.fea);
 } rclt;
 
+feature calt {
+    include(otl/lookups-tags.fea);
+} calt;
+
 # IB.1: Vertical forms of punctuation marks
 include(otl/lookups-punctuation.fea);
 feature vert {

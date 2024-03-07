@@ -833,11 +833,11 @@ lookup IIb.man_mag.ligature {
     sub uni1864.Hh.init uni185D.Aa.fina by HhAa.isol;
     sub uni1864.Hh.init uni185D.A.medi by HhA.init;
     sub uni1864.Hh2.medi uni185D.A.medi by Hh2A.medi;
-    sub uni1864.Hh2.medi uni185D.A.fina by Hh2Aa.fina;
+    sub uni1864.Hh2.medi uni185D.Aa.fina by Hh2Aa.fina;
     sub uni189A.Hy.init uni185D.Aa.fina by HyAa.isol;
     sub uni189A.Hy.init uni185D.A.medi by HyA.init;
     sub uni189A.Hy2.medi uni185D.A.medi by Hy2A.medi;
-    sub uni189A.Hy2.medi uni185D.A.fina by Hy2Aa.fina;
+    sub uni189A.Hy2.medi uni185D.Aa.fina by Hy2Aa.fina;
     sub uni189D.Zt.init uni185D.Ah.fina by ZtAh.isol;
     sub uni189D.Zt.init uni185D.Ah.medi by ZtAh.init;
     sub uni189D.Zt.medi uni185D.Ah.medi by ZtAh.medi;

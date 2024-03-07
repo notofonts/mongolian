@@ -115,7 +115,8 @@ lookup III.man.a_e_o_u.post_bowed {
 @mag.bowed.G = [uni1864.Gh.init uni1864.Gh.medi uni1874.G.init uni1874.G.medi uni1865.Gc.init uni1865.Gc.medi];
 lookup III.mag.a_e_o_u.post_bowed {
     lookupflag IgnoreMarks;
-    sub [@mag.bowed.B @mag.bowed.G @gh-mag @ng-mag] [@e-man @u-man]' lookup condition.man.post_bowed;
+    sub [@mag.bowed.B @mag.bowed.G @gh-mag] [@e-man @u-man]' lookup condition.man.post_bowed;
+    sub [@ng-mag @sbm-man] @e-man' lookup condition.man.post_bowed;
     sub [@mag.bowed.B @mag.bowed.K] [@a-man @o-man]' lookup condition.man.post_bowed;
     lookupflag 0;
 } III.mag.a_e_o_u.post_bowed;

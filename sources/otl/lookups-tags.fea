@@ -157,5 +157,4 @@ lookup IIb.lvs.postprocessing;
 # ==================================
 
 lookup IIb.hud_hag.nirugu.extending;
-lookup IIb.man_mag.nirugu.extending;
 lookup IIb.hud.mvs;

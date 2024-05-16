@@ -25,6 +25,13 @@ lookup III.eac.o_u_oe_ue.marked {
     lookupflag 0;
 } III.eac.o_u_oe_ue.marked;
 
+lookup III.utn.oe_ue.marked {
+    lookupflag IgnoreMarks;
+    sub zwj.ignored [@oe-hud @ue-hud]' lookup condition.hud.marked;
+    sub zwj.ignored @hud.consonant.medi [@oe-hud @ue-hud]' lookup condition.hud.marked;
+    lookupflag 0;
+} III.utn.oe_ue.marked;
+
 # EAC handles marked d
 lookup III.eac.d.marked {
     lookupflag UseMarkFilteringSet @fvs;

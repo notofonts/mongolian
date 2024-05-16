@@ -37,6 +37,7 @@ lookup III.eac.a_e.chachlag;
 lookup III.hud.o_u_oe_ue.marked;
 lookup III.hag.o_u_oe_ue.marked;
 lookup III.eac.o_u_oe_ue.marked;
+lookup III.utn.oe_ue.marked;
 lookup III.eac.d.marked;
 lookup III.eac.oe_ue.marked;
 lookup III.eac.oe_ue.initial_marked.A;
@@ -156,5 +157,4 @@ lookup IIb.lvs.postprocessing;
 # ==================================
 
 lookup IIb.hud_hag.nirugu.extending;
-lookup IIb.man_mag.nirugu.extending;
 lookup IIb.hud.mvs;

@@ -30,6 +30,7 @@ lookup III.man.e_u.feminine {
 lookup III.mag.e_u.feminine {
     lookupflag IgnoreMarks;
     sub [@t-mag @t-man @d-man @dh-mag @g-man @k-man @gh-mag @h-man] [@e-man @u-man]' lookup condition.man.feminine;
+    sub [@ng-mag @sbm-man] @e-man' lookup condition.man.feminine;
 } III.mag.e_u.feminine;
 
 # Syllabic - n - Onset and Devsger

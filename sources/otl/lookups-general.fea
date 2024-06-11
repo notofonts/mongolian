@@ -9,40 +9,29 @@ include(otl/lookups-general-preprocessing.fea);
 include(otl/lookups-general-chachlag.fea);
 
 # III.2: Phonetic - Syllabic
-include(otl/lookups-general-syllabic-hag.fea);
-include(otl/lookups-general-syllabic-tag.fea);
-include(otl/lookups-general-syllabic-mag.fea);
-include(otl/lookups-general-syllabic-sib.fea);
+include(otl/lookups-general-syllabic.fea);
 
 # III.3: Phonetic - Particle
-
 include(otl/lookups-general-particle.fea);
 
 # III.4: Graphemic - Devsger
-
 include(otl/lookups-general-devsger.fea);
 
 # III.5: Graphemic - Postbowed
-
 include(otl/lookups-general-postbowed.fea);
 
 # III.6: Uncaptured - FVS
-
 include(otl/lookups-general-fvs.fea);
-
 
 # ==================================
 # IIb: cursive script
 # ==================================
 
 # IIb.1: ligature
-
 include(otl/lookups-general-ligature.fea);
 
 # IIb.2: cleanup of format controls
-
 include(otl/lookups-general-postprocessing.fea);
 
 # IIb.3: optional treatments
-
 include(otl/lookups-general-optional.fea);

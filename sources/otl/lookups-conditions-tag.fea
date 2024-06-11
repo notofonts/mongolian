@@ -4,7 +4,7 @@
 
 # III.3: Particle
 lookup condition.tod.particle {
-    sub @n-tod.init by uni1828.N2.init;
+    sub @n-tod.init by N.init.mvs;
 } condition.tod.particle;
 
 # III.5: Post-bowed

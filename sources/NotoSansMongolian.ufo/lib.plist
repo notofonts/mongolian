@@ -78,7 +78,6 @@
     <string>uni1828.A.init._isol</string>
     <string>uni1828.N.init</string>
     <string>uni1828.A.init</string>
-    <string>uni1828.N2.init</string>
     <string>uni1828.A.medi</string>
     <string>uni1828.N.medi</string>
     <string>uni1828.A.fina</string>
@@ -1467,6 +1466,7 @@
     <string>_uni1841.Zr.medi</string>
     <string>_uni1842.Cr.init</string>
     <string>_uni1842.Cr.medi</string>
+    <string>N.init.mvs</string>
     <string>N.fina.mvs</string>
     <string>Hx.fina.mvs</string>
     <string>fvs1.effective</string>

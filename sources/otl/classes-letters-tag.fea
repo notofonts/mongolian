@@ -39,7 +39,7 @@
 @lvs-tod.fina = [uni1843.Lv.fina];
 @lvs-tod = [@lvs-tod.isol @lvs-tod.init @lvs-tod.medi @lvs-tod.fina lvs.ignored];
 @n-tod.isol = [uni1828.N.init._isol];
-@n-tod.init = [uni1828.N.init uni1828.N2.init];
+@n-tod.init = [uni1828.N.init];
 @n-tod.medi = [uni1828.A.medi uni1828.N.medi];
 @n-tod.fina = [uni1828.A.fina];
 @n-tod = [@n-tod.isol @n-tod.init @n-tod.medi @n-tod.fina];

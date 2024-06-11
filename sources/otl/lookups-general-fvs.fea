@@ -54,7 +54,6 @@ lookup _.hud_hag.manual {
     sub @ue-hud.fina' fvs1.ignored by uni1826.Ue.fina;
     sub @ue-hud.fina' fvs2.ignored by uni1826.O.fina;
     sub @n-hud.isol' fvs1.ignored by uni1828.A.init._isol;
-    sub @n-hud.init' fvs2.ignored by uni1828.N.init;
     sub @n-hud.init' fvs1.ignored by uni1828.A.init;
     sub @n-hud.medi' fvs2.ignored by uni1828.A.medi;
     sub @n-hud.medi' fvs1.ignored by uni1828.N.medi;
@@ -169,7 +168,6 @@ lookup III.hud_hag.fvs {
     sub @ue-hud.fina' lookup _.hud_hag.manual fvs1.ignored' lookup _.effective;
     sub @ue-hud.fina' lookup _.hud_hag.manual fvs2.ignored' lookup _.effective;
     sub @n-hud.isol' lookup _.hud_hag.manual fvs1.ignored' lookup _.effective;
-    sub @n-hud.init' lookup _.hud_hag.manual fvs2.ignored' lookup _.effective;
     sub @n-hud.init' lookup _.hud_hag.manual fvs1.ignored' lookup _.effective;
     sub @n-hud.medi' lookup _.hud_hag.manual fvs2.ignored' lookup _.effective;
     sub @n-hud.medi' lookup _.hud_hag.manual fvs1.ignored' lookup _.effective;
@@ -266,8 +264,6 @@ lookup _.tod_tag.manual {
     sub @ue-tod.medi' fvs1.ignored by uni1849.AO.medi;
     sub @ue-tod.fina' fvs2.ignored by uni1849.U.fina;
     sub @ue-tod.fina' fvs1.ignored by uni1849.O.fina;
-    sub @n-tod.init' fvs2.ignored by uni1828.N.init;
-    sub @n-tod.init' fvs3.ignored by uni1828.N2.init;
     sub @n-tod.medi' fvs2.ignored by uni1828.A.medi;
     sub @n-tod.medi' fvs1.ignored by uni1828.N.medi;
     sub @n-tod.fina' fvs2.ignored by uni1828.A.fina;
@@ -336,8 +332,6 @@ lookup III.tod_tag.fvs {
     sub @ue-tod.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @ue-tod.fina' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;
     sub @ue-tod.fina' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
-    sub @n-tod.init' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;
-    sub @n-tod.init' lookup _.tod_tag.manual fvs3.ignored' lookup _.effective;
     sub @n-tod.medi' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;
     sub @n-tod.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @n-tod.fina' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;
@@ -408,7 +402,6 @@ lookup _.man_mag.manual {
     sub @u-man.fina' fvs1.ignored by uni1860.U.fina;
     sub @u-man.fina' fvs2.ignored by uni1860.Oh.fina;
     sub @u-man.fina' fvs3.ignored by uni1860.O.fina;
-    sub @n-man.init' fvs2.ignored by uni1828.N.init;
     sub @n-man.medi' fvs2.ignored by uni1828.A.medi;
     sub @n-man.medi' fvs1.ignored by uni1828.N.medi;
     sub @n-man.fina' fvs2.ignored by uni1828.A.fina;
@@ -506,7 +499,6 @@ lookup III.man_mag.fvs {
     sub @u-man.fina' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
     sub @u-man.fina' lookup _.man_mag.manual fvs2.ignored' lookup _.effective;
     sub @u-man.fina' lookup _.man_mag.manual fvs3.ignored' lookup _.effective;
-    sub @n-man.init' lookup _.man_mag.manual fvs2.ignored' lookup _.effective;
     sub @n-man.medi' lookup _.man_mag.manual fvs2.ignored' lookup _.effective;
     sub @n-man.medi' lookup _.man_mag.manual fvs1.ignored' lookup _.effective;
     sub @n-man.fina' lookup _.man_mag.manual fvs2.ignored' lookup _.effective;
@@ -608,7 +600,6 @@ lookup _.sib.manual {
     sub @u-sib.fina' fvs1.ignored by uni1860.U.fina;
     sub @u-sib.fina' fvs2.ignored by uni1860.Oh.fina;
     sub @u-sib.fina' fvs3.ignored by uni1860.O.fina;
-    sub @n-sib.init' fvs2.ignored by uni1828.N.init;
     sub @n-sib.medi' fvs2.ignored by uni1828.A.medi;
     sub @n-sib.medi' fvs1.ignored by uni1828.N.medi;
     sub @n-sib.fina' fvs2.ignored by uni1828.A.fina;
@@ -676,7 +667,6 @@ lookup III.sib.fvs {
     sub @u-sib.fina' lookup _.sib.manual fvs1.ignored' lookup _.effective;
     sub @u-sib.fina' lookup _.sib.manual fvs2.ignored' lookup _.effective;
     sub @u-sib.fina' lookup _.sib.manual fvs3.ignored' lookup _.effective;
-    sub @n-sib.init' lookup _.sib.manual fvs2.ignored' lookup _.effective;
     sub @n-sib.medi' lookup _.sib.manual fvs2.ignored' lookup _.effective;
     sub @n-sib.medi' lookup _.sib.manual fvs1.ignored' lookup _.effective;
     sub @n-sib.fina' lookup _.sib.manual fvs2.ignored' lookup _.effective;

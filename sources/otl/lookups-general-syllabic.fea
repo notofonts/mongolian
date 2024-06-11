@@ -2,18 +2,21 @@
 # III.2: Phonetic - Syllabic: Hudum+AG with EAC request and UTN request
 # ==================================
 
+# ==================================
+# III.2A: o/u/oe/ue - marked
+# ==================================
+
 # Syllabic - o/u/oe/ue - Marked
-lookup III.hud.o_u_oe_ue.marked {
+lookup III.hud_hag_man_mag_sib.o_u_oe_ue.marked {
     lookupflag IgnoreMarks;
     sub @hud.consonant.init [@o-hud @u-hud @oe-hud @ue-hud]' lookup condition.hud.marked;
-    lookupflag 0;
-} III.hud.o_u_oe_ue.marked;
-
-lookup III.hag.o_u_oe_ue.marked {
-    lookupflag IgnoreMarks;
     sub @hag.consonant.init [@o-hud @ue-hud]' lookup condition.hud.marked;
+    sub @hag.consonant.init @h-hag @ue-hud' lookup condition.hud.marked;
+    sub @man.consonant.init [@o-man.fina @u-man.fina]' lookup condition.man.marked;
+    sub @mag.consonant.init [@o-man.fina @u-man.fina]' lookup condition.man.marked;
+    sub @sib.consonant.init [@o-sib.fina @u-sib.fina]' lookup condition.sib.marked;
     lookupflag 0;
-} III.hag.o_u_oe_ue.marked;
+} III.hud_hag_man_mag_sib.o_u_oe_ue.marked;
 
 # EAC makes FVSes break the feature
 lookup III.eac.o_u_oe_ue.marked {
@@ -62,22 +65,33 @@ lookup III.eac.oe_ue.initial_marked.C {
     sub @hud.marked_1' lookup _.hud.unmarked;
 } III.eac.oe_ue.initial_marked.C;
 
-# Hudum AG marked u
-lookup III.hag.u.marked {
+# ==================================
+# III.2B: f/i - marked
+# ==================================
+
+# Syllabic - f/i - Marked
+lookup III.man_mag_sib.f_i.marked {
     lookupflag IgnoreMarks;
-    sub @hag.consonant.init @h-hag @ue-hud' lookup condition.hud.marked;
+    sub @f-man' lookup condition.man.marked [@i-man @o-man @u-man @ue-man];
+    sub [@c-mag @z-man @jh-mag] @i-man' lookup condition.man.marked;
+    sub @z-sib @i-sib' lookup condition.sib.marked;
     lookupflag 0;
-} III.hag.u.marked;
+} III.man_mag_sib.f_i.marked;
+
+# ==================================
+# III.2C: consonant - chachlag onset
+# ==================================
 
 # Syllabic - n/j/y/w - Chachlag_Onset
 # Syllabic - h/g - Chachlag_Onset
 
-lookup III.hud.n_j_w_h_g.chachlag_onset {
+lookup III.hud_hag.n_j_w_h_g.chachlag_onset {
     lookupflag IgnoreMarks;
     sub [@n-hud.fina @j-hud.isol @j-hud.fina @w-hud.fina]' lookup condition.hud.chachlag_onset @msc.effective [uni1820.Aa.isol uni1821.Aa.isol];
     sub [@h-hud.fina @g-hud.fina]' lookup condition.hud.chachlag_onset @msc.effective uni1820.Aa.isol;
+    sub @a-hud.fina' lookup condition.hud.chachlag_onset @msc.effective uni1820.Aa.isol;
     lookupflag 0;
-} III.hud.n_j_w_h_g.chachlag_onset;
+} III.hud_hag.n_j_w_h_g.chachlag_onset;
 
 # EAC support <g, FVS, e>
 lookup III.eac.g.chachlag_onset {
@@ -86,48 +100,109 @@ lookup III.eac.g.chachlag_onset {
     lookupflag 0;
 } III.eac.g.chachlag_onset;
 
-# Hudum AG a <a, FVS, a>
-lookup III.hag.a.chachlag_onset {
-    lookupflag IgnoreMarks;
-    sub @a-hud.fina' lookup condition.hud.chachlag_onset @msc.effective uni1820.Aa.isol;
-    lookupflag 0;
-} III.hag.a.chachlag_onset;
+# ==================================
+# III.2D: e/u - feminine
+# ==================================
 
-# Syllabic - n/t/d - Onset
-# Syllabic - n/t/d - Devsger
-
-lookup III.hud.n_t_d.onset_and_devsger {
+# Syllabic - e/u - Feminine
+lookup III.man_mag_sib.e_u.feminine {
     lookupflag IgnoreMarks;
-    ignore sub [@n-hud.init @t-hud.init @d-hud.init]' @hud.vowel.fina;
+    sub [@t-man @d-man @k-man @g-man @h-man] [@e-man @u-man]' lookup condition.man.feminine;
+    sub [@t-mag @t-man @d-man @dh-mag @g-man @k-man @gh-mag @h-man] [@e-man @u-man]' lookup condition.man.feminine;
+    sub [@ng-mag @sbm-man] @e-man' lookup condition.man.feminine;
+    sub [@t-sib @d-sib @k-sib @g-sib @h-sib] [@e-sib @u-sib]' lookup condition.sib.feminine;
+} III.man_mag_sib.e_u.feminine;
+
+# ==================================
+# III.2E: n/t/d - onset and devsger and gender
+# ==================================
+
+# Syllabic - n - Onset
+# Syllabic - n - Devsger
+lookup III.hud_tod_man_sib.n.onset_and_devsger {
+    lookupflag IgnoreMarks;
+    ignore sub @n-hud.init' @hud.vowel.fina;
     ignore sub @n-hud.fina' @msc.effective;
-    sub [@n-hud @t-hud @d-hud]' lookup condition.hud.onset @hud.vowel;
-    sub @hud.vowel [@n-hud @d-hud]' lookup condition.hud.devsger;
+    sub @n-hud' lookup condition.hud.onset @vowel;
+    sub @n-hud' lookup condition.hud.devsger @consonant;
+    sub @n-tod' lookup condition.tod.onset @vowel;
+    sub @n-tod' lookup condition.tod.devsger @consonant;
+    sub @n-man' lookup condition.man.onset @vowel;
+    sub @n-man' lookup condition.man.devsger @consonant;
+    sub @n-sib' lookup condition.sib.onset @vowel;
+    sub @n-sib' lookup condition.sib.devsger @consonant;
     lookupflag 0;
-} III.hud.n_t_d.onset_and_devsger;
+} III.hud_tod_man_sib.n.onset_and_devsger;
 
-# EAC does not support two-root word
-lookup III.utn.hud_two_root {
+# Syllabic - t/d - Onset
+# Syllabic - t/d - Devsger
+lookup III.hud_man_mag_sib.t_d_dh.onset_and_devsger_and_gender {
+    lookupflag IgnoreMarks;
+    ignore sub [@t-hud.init @d-hud.init]' @hud.vowel.fina;
+    sub [@t-hud @d-hud]' lookup condition.hud.onset @hud.vowel;
+    sub [@t-hud @d-hud]' lookup condition.hud.devsger @consonant;
+    sub [@t-man @d-man]' lookup condition.man.masculine_onset [@a-man @i-man @o-man];
+    sub [@t-man @d-man]' lookup condition.man.feminine [@e-man @u-man @ue-man];
+    sub @t-man' lookup condition.man.devsger @consonant;
+    sub @vowel @t-man.fina' lookup condition.man.devsger;
+    sub [@t-mag @dh-mag]' lookup condition.mag.masculine_onset [@a-man @i-man @o-man];
+    sub [@t-mag @dh-mag]' lookup condition.mag.feminine [@e-man @u-man @ue-man];
+    sub [@t-sib @d-sib]' lookup condition.sib.masculine_onset [@a-sib @i-sib @o-sib];
+    sub [@t-sib @d-sib]' lookup condition.sib.feminine [@e-sib @u-sib @ue-sib];
+    sub @t-sib' lookup condition.sib.devsger @consonant;
+    sub @vowel @t-sib.fina' lookup condition.sib.devsger;
+    lookupflag 0;
+} III.hud_man_mag_sib.t_d_dh.onset_and_devsger_and_gender;
+
+# ==================================
+# III.2F: vowel - two root
+# ==================================
+
+lookup III.utn.two_root {
     lookupflag IgnoreMarks;
     sub zwj.ignored @hud.vowel.medi' lookup condition.hud.toothed;
+    sub zwj.ignored @tod.vowel.medi' lookup condition.tod.toothed;
     lookupflag 0;
-} III.utn.hud_two_root;
+} III.utn.two_root;
+
+# ==================================
+# III.2G: k/g/h - onset and devsger and gender
+# ==================================
 
 # Syllabic - h/g - Masculine_Onset
 # Syllabic - h/g - Feminine
 # Syllabic - g - Masculine_Devsger
 # Syllabic - g - Feminine
 
-lookup III.hud.h_g.onset_and_devsger_and_gender.A {
+lookup III.hud_tod_man_sib.k_g_h.onset_and_devsger_and_gender {
     lookupflag IgnoreMarks;
     ignore sub [@h-hud @g-hud]' @msc [@a-hud.isol @e-hud.isol];
-    sub [@h-hud @g-hud]' lookup condition.hud.masculine_onset @hud.vowel.masculine;
-    sub [@h-hud @g-hud]' lookup condition.hud.feminine [@hud.vowel.feminine @hud.vowel.neuter];
-    sub @hud.vowel.masculine [@h-hud @g-hud]' lookup condition.hud.masculine_devsger;
-    sub @hud.vowel.feminine [@h-hud @g-hud]' lookup condition.hud.feminine;
-    lookupflag 0;
-} III.hud.h_g.onset_and_devsger_and_gender.A;
+    sub [@h-hud @g-hud]' lookup condition.hud.masculine_onset @vowel.masculine;
+    sub [@h-tod @g-tod]' lookup condition.tod.masculine_onset @vowel.masculine;
+    sub [@k-man @g-man @h-man]' lookup condition.man.masculine_onset @vowel.masculine;
+    sub [@k-sib @g-sib @h-sib]' lookup condition.sib.masculine_onset @vowel.masculine;
 
-lookup III.hud.h_g.onset_and_devsger_and_gender.B {
+    sub [@h-hud @g-hud]' lookup condition.hud.feminine [@vowel.feminine @vowel.neuter];
+    sub [@h-tod @g-tod]' lookup condition.tod.feminine [@vowel.feminine @vowel.neuter];
+    sub [@k-man @g-man @h-man]' lookup condition.man.feminine [@vowel.feminine @vowel.neuter];
+    sub [@k-sib @g-sib @h-sib]' lookup condition.sib.feminine [@vowel.feminine @vowel.neuter];
+
+    sub @vowel.masculine [@h-hud @g-hud]' lookup condition.hud.masculine_devsger;
+    sub @vowel.feminine [@h-hud @g-hud]' lookup condition.hud.feminine;
+    sub @vowel @g-tod' lookup condition.tod.masculine_devsger;
+
+    sub @t-man @e-man @k-man' lookup condition.man.masculine_devsger;
+    sub [@k-man @g-man @h-man] @u-man @k-man' lookup condition.man.feminine;
+    sub [@kh-man @gh-man @hh-man] @a-man @k-man' lookup condition.man.feminine;
+    sub [@e-man @ue-man] @k-man' lookup condition.man.feminine;
+    sub [@a-man @i-man @o-man @u-man] @k-man' lookup condition.man.masculine_devsger;
+
+    sub @k-sib' lookup condition.sib.devsger @consonant;
+    sub @vowel @k-sib.fina' lookup condition.sib.devsger;
+    lookupflag 0;
+} III.hud_tod_man_sib.k_g_h.onset_and_devsger_and_gender;
+
+lookup III.hud.g_h.onset_and_devsger_and_gender {
     lookupflag UseMarkFilteringSet @signal.masculine;
     ignore sub [@h-hud @g-hud]' @hud.vowel;
     ignore sub [@h-hud @g-hud]' masculine @hud.vowel;
@@ -136,14 +211,14 @@ lookup III.hud.h_g.onset_and_devsger_and_gender.B {
     sub @i-hud [@g-hud @h-hud]' lookup condition.hud.masculine_devsger masculine;
     sub @i-hud @g-hud' lookup condition.hud.feminine;
     lookupflag 0;
-} III.hud.h_g.onset_and_devsger_and_gender.B;
+} III.hud.g_h.onset_and_devsger_and_gender;
 
 # EAC request for solitary g/h
-lookup III.eac.h_g.onset_and_devsger_and_gender {
+lookup III.eac.g_h.onset_and_devsger_and_gender {
     lookupflag IgnoreMarks;
     sub [@h-hud.init @g-hud.init]' lookup condition.hud.feminine @hud.consonant;
     lookupflag 0;
-} III.eac.h_g.onset_and_devsger_and_gender;
+} III.eac.g_h.onset_and_devsger_and_gender;
 
 lookup III.hud.ig.postprocessing.A {
     lookupflag UseMarkFilteringSet @signal.masculine;
@@ -189,14 +264,19 @@ lookup III.hud.ig.postprocessing.B {
     lookupflag 0;
 } III.hud.ig.postprocessing.B;
 
+# ==================================
+# III.2H: other
+# ==================================
+
 # EAC request for t/sh/g
 lookup III.eac.t_sh_g {
     lookupflag IgnoreMarks;
     # MTZ21: t + ee/consonant
     sub @t-hud' lookup condition.hud.devsger [@ee-hud @hud.consonant];
 
-    # MXS21: sh + i -> s + i
-    sub [@sh-hud.init @sh-hud.medi]' lookup condition.hud.dotless [@i-hud.medi @i-hud.fina];
+    # MXS21: sh + i -> s + i (except twelve syllabaries)
+    sub @sh-hud.init' lookup condition.hud.dotless @i-hud.medi;
+    sub @sh-hud.medi' lookup condition.hud.dotless [@i-hud.medi @i-hud.fina];
 
     # MGZ12, MGZ62: s/d + g -> s/d + h
     sub [@s-hud @d-hud] @g-hud.medi' lookup condition.hud.dotless @hud.vowel.masculine;
@@ -204,9 +284,11 @@ lookup III.eac.t_sh_g {
     lookupflag 0;
 } III.eac.t_sh_g;
 
-# Hudum AG h initial
-lookup III.hag.h.initial {
+# Hudum AG h toothless
+# Todo AG hh toothless
+lookup III.hag_tag.h_hh.toothless {
     lookupflag IgnoreMarks;
     sub [@k2-hud @z-hud @dr-hag @d-hag @b-hud] @h-hag' lookup condition.hag.toothless;
+    sub [@g-tod @zr-tod @dr-tag @d-tod @b-tod] @hh-tod' lookup condition.tag.toothless;
     lookupflag 0;
-} III.hag.h.initial;
+} III.hag_tag.h_hh.toothless;

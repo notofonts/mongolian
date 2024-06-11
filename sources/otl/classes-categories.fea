@@ -2,14 +2,8 @@
 # categories for MCS, FVS
 # ==================================
 
-include(otl/classes-categories-all.fea);
-
-
-# ==================================
-# categories for Hudum+AG, Todo+AG, Manchu+AG, Sibe
-# ==================================
-
 include(otl/classes-categories-hag.fea);
 include(otl/classes-categories-tag.fea);
 include(otl/classes-categories-mag.fea);
 include(otl/classes-categories-sib.fea);
+include(otl/classes-categories-all.fea);

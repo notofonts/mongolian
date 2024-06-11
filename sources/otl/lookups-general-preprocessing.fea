@@ -37,8 +37,6 @@ lookup _.wide {
     sub [mvs mvs.narrow mvs.nominal nnbsp] by mvs.wide;
 } _.wide;
 
-@vowel = [@hud.vowel @hag.vowel @tod.vowel @tag.vowel @man.vowel @mag.vowel @sib.vowel];
-@consonant = [@hud.consonant @hag.consonant @tod.consonant @tag.consonant @man.consonant @mag.consonant @sib.consonant];
 lookup III.controls.preprocessing {
     sub [zwnj nirugu]' lookup _.ignored;
     sub [@vowel @consonant @lvs-tod] zwj' lookup _.ignored [@vowel @consonant @lvs-tod];

@@ -883,10 +883,10 @@ lookup IIb.sib.ligature {
     lookupflag UseMarkFilteringSet @break_ligature;
 
     # b-sib
-    sub uni182A.B.init uni1820.Aa.fina by BAa.isol;
-    sub uni182A.B.init uni1820.A.medi by BA.init;
-    sub uni182A.B.medi uni1820.A.medi by BA.medi;
-    sub uni182A.B.medi uni1820.Aa.fina by BAa.fina;
+    sub uni182A.B.init [uni1820.Aa.fina uni185D.Aa.fina] by BAa.isol;
+    sub uni182A.B.init [uni1820.A.medi uni185D.A.medi] by BA.init;
+    sub uni182A.B.medi [uni1820.A.medi uni185D.A.medi] by BA.medi;
+    sub uni182A.B.medi [uni1820.Aa.fina uni185D.Aa.fina] by BAa.fina;
     sub uni182A.B.init uni185D.At.fina by BAt.isol;
     sub uni182A.B.init uni185D.Ah.medi by BAh.init;
     sub uni182A.B.medi uni185D.Ah.medi by BAh.medi;
@@ -909,10 +909,10 @@ lookup IIb.sib.ligature {
     sub uni182A.B.medi uni1861.Ue.fina by BUe.fina;
 
     # p-sib
-    sub uni1866.Pb.init uni1820.Aa.fina by PbAa.isol;
-    sub uni1866.Pb.init uni1820.A.medi by PbA.init;
-    sub uni1866.Pb.medi uni1820.A.medi by PbA.medi;
-    sub uni1866.Pb.medi uni1820.Aa.fina by PbAa.fina;
+    sub uni1866.Pb.init [uni1820.Aa.fina uni185D.Aa.fina] by PbAa.isol;
+    sub uni1866.Pb.init [uni1820.A.medi uni185D.A.medi] by PbA.init;
+    sub uni1866.Pb.medi [uni1820.A.medi uni185D.A.medi] by PbA.medi;
+    sub uni1866.Pb.medi [uni1820.Aa.fina uni185D.Aa.fina] by PbAa.fina;
     sub uni1866.Pb.init uni185D.At.fina by PbAt.isol;
     sub uni1866.Pb.init uni185D.Ah.medi by PbAh.init;
     sub uni1866.Pb.medi uni185D.Ah.medi by PbAh.medi;

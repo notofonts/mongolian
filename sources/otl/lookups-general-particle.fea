@@ -105,5 +105,5 @@ lookup III.sib.particle {
 # ==================================
 
 lookup III.eac.msc.postprocessing {
-    sub [mvs mvs.nominal nnbsp]' lookup _.wide [@vowel @consonant];
+    sub [mvs mvs.nominal nnbsp]' lookup _.wide [@vowel @consonant nirugu nirugu.ignored];
 } III.eac.msc.postprocessing;

@@ -35,12 +35,13 @@ lookup III.eac.a_e.chachlag;
 # III.2A: o/u/oe/ue - marked
 lookup III.hud_hag_man_mag_sib.o_u_oe_ue.marked;
 lookup III.eac.o_u_oe_ue.marked;
-lookup III.utn.oe_ue.marked;
-lookup III.eac.d.marked;
 lookup III.eac.oe_ue.marked;
 lookup III.eac.oe_ue.initial_marked.A;
 lookup III.eac.oe_ue.initial_marked.B;
 lookup III.eac.oe_ue.initial_marked.C;
+lookup III.utn.two_root.A;
+lookup III.utn.two_root.B;
+lookup III.eac.d.marked;
 
 # III.2B: f/i - marked
 lookup III.man_mag_sib.f_i.marked;
@@ -56,19 +57,15 @@ lookup III.man_mag_sib.e_u.feminine;
 lookup III.hud_tod_man_sib.n.onset_and_devsger;
 lookup III.hud_man_mag_sib.t_d_dh.onset_and_devsger_and_gender;
 
-# III.2F: vowel - two root
-lookup III.utn.two_root;
-
-# III.2G: k/g/h - onset and devsger and gender
+# III.2F: k/g/h - onset and devsger and gender
 lookup III.hud_tod_man_sib.k_g_h.onset_and_devsger_and_gender;
-lookup III.hud.g_h.onset_and_devsger_and_gender;
-lookup III.eac.g_h.onset_and_devsger_and_gender;
+lookup III.hud.g_h.onset_and_devsger_and_gender.A;
+lookup III.hud.g_h.onset_and_devsger_and_gender.B;
 lookup III.hud.ig.postprocessing.A;
 lookup III.hud.ig.postprocessing.B;
 
-# III.2H: other
+# III.2G: other
 lookup III.eac.t_sh_g;
-lookup III.hag_tag.h_hh.toothless;
 
 # ==================================
 # III.3: Particle

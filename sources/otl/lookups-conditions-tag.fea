@@ -4,7 +4,7 @@
 
 # III.3: Particle
 lookup condition.tod.particle {
-    sub @n-tod.init by N.init.mvs;
+    sub @n-tod.init by N2.init.mvs;
 } condition.tod.particle;
 
 # III.5: Post-bowed
@@ -298,11 +298,3 @@ lookup condition.tod_tag.fina {
     sub @z-tag by uni1896.Zz.fina;
     sub @q-tag by uni1897.Q.medi._fina;
 } condition.tod_tag.fina;
-
-# ==================================
-# conditions for Todo AG
-# ==================================
-
-lookup condition.tag.toothless {
-    sub @hh-tod.medi by uni1859.Hr.medi;
-} condition.tag.toothless;

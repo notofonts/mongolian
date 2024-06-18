@@ -283,12 +283,3 @@ lookup III.eac.t_sh_g {
     sub [@s-hud @d-hud] @g-hud.fina' lookup condition.hud.dotless @msc uni1820.Aa.isol;
     lookupflag 0;
 } III.eac.t_sh_g;
-
-# Hudum AG h toothless
-# Todo AG hh toothless
-lookup III.hag_tag.h_hh.toothless {
-    lookupflag IgnoreMarks;
-    sub [@k2-hud @z-hud @dr-hag @d-hag @b-hud] @h-hag' lookup condition.hag.toothless;
-    sub [@g-tod @zr-tod @dr-tag @d-tod @b-tod] @hh-tod' lookup condition.tag.toothless;
-    lookupflag 0;
-} III.hag_tag.h_hh.toothless;

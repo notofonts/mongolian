@@ -131,7 +131,3 @@ lookup condition.hud.masculine_devsger {
 lookup condition.hag.post_wa {
     sub @a-hag.fina by uni1887.A2.fina;
 } condition.hag.post_wa;
-
-lookup condition.hag.toothless {
-    sub @h-hag.medi by uni1859.Hr.medi;
-} condition.hag.toothless;

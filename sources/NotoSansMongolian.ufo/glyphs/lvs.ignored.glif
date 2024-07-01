@@ -5,10 +5,10 @@
   <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
-      <point x="21" y="444" type="line"/>
-      <point x="44" y="632" type="line"/>
-      <point x="-44" y="632" type="line"/>
-      <point x="-22" y="444" type="line"/>
+      <point x="-65" y="444" type="line"/>
+      <point x="-42" y="632" type="line"/>
+      <point x="-130" y="632" type="line"/>
+      <point x="-108" y="444" type="line"/>
     </contour>
   </outline>
   <lib>

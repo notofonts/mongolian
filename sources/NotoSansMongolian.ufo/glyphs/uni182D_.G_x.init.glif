@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni182D.Gx.init" format="2">
-  <advance width="428" height="1000"/>
+  <advance width="377" height="1000"/>
   <anchor x="0" y="0" name="baluda"/>
   <anchor x="0" y="0" name="dagalga"/>
   <outline>
-  <component base="uni182D.Gx.init._isol"/>
+  <component base="uni182C.Gx.init"/>
   </outline>
   <lib>
     <dict>

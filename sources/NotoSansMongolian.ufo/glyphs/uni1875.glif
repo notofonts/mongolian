@@ -7,8 +7,6 @@
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

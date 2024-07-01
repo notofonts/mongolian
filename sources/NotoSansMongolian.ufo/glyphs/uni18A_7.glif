@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni18A7" format="2">
-  <advance width="657" height="1000"/>
+  <advance width="578" height="1000"/>
   <unicode hex="18A7"/>
   <outline>
-  <component base="uni18A7.Yp.medi" xOffset="45"/>
+  <component base="uni18A7.Yp.medi" xOffset="190"/>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>1,0.752941176470588,0.4,1</string>
       <key>public.verticalOrigin</key>
       <integer>880</integer>
     </dict>

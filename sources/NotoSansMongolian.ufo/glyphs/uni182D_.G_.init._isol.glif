@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="baluda"/>
   <anchor x="0" y="0" name="dagalga"/>
   <outline>
-  <component base="uni182C.G.init"/>
+  <component base="uni182C.G.init._isol"/>
   </outline>
   <lib>
     <dict>

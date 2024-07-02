@@ -344,6 +344,7 @@ lookup III.tod_tag.fvs {
     sub @g-tod.isol' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @g-tod.init' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;
     sub @g-tod.init' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
+    sub @g-tod.init' lookup _.tod_tag.manual fvs3.ignored' lookup _.effective;
     sub @g-tod.medi' lookup _.tod_tag.manual fvs3.ignored' lookup _.effective;
     sub @g-tod.medi' lookup _.tod_tag.manual fvs1.ignored' lookup _.effective;
     sub @g-tod.medi' lookup _.tod_tag.manual fvs2.ignored' lookup _.effective;

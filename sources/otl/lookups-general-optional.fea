@@ -3,30 +3,30 @@
 # ==================================
 
 lookup _.hud_hag.extending {
-    sub uni182A.B.init by uni182A.B.init nirugu.ignored;
-    sub uni182A.B.medi by uni182A.B.medi nirugu.ignored;
-    sub uni182B.P.init by uni182B.P.init nirugu.ignored;
-    sub uni182B.P.medi by uni182B.P.medi nirugu.ignored;
-    sub uni182D.G.init by uni182D.G.init nirugu.ignored;
-    sub uni182D.G.medi by uni182D.G.medi nirugu.ignored;
-    sub uni182D.Gx.init by uni182D.Gx.init nirugu.ignored;
-    sub uni182D.Gx.medi by uni182D.Gx.medi nirugu.ignored;
-    sub uni182C.G.init by uni182C.G.init nirugu.ignored;
-    sub uni182C.G.medi by uni182C.G.medi nirugu.ignored;
-    sub uni182C.Gx.init by uni182C.Gx.init nirugu.ignored;
-    sub uni182C.Gx.medi by uni182C.Gx.medi nirugu.ignored;
-    sub uni182E.M.init by uni182E.M.init nirugu.ignored;
-    sub uni182E.M.medi by uni182E.M.medi nirugu.ignored;
-    sub uni182F.L.init by uni182F.L.init nirugu.ignored;
-    sub uni182F.L.medi by uni182F.L.medi nirugu.ignored;
-    sub uni1839.F.init by uni1839.F.init nirugu.ignored;
-    sub uni1839.F.medi by uni1839.F.medi nirugu.ignored;
-    sub uni183B.K.init by uni183B.K.init nirugu.ignored;
-    sub uni183B.K.medi by uni183B.K.medi nirugu.ignored;
-    sub uni183A.K2.init by uni183A.K2.init nirugu.ignored;
-    sub uni183A.K2.medi by uni183A.K2.medi nirugu.ignored;
-    sub uni1897.Q.init by uni1897.Q.init nirugu.ignored;
-    sub uni1897.Q.medi by uni1897.Q.medi nirugu.ignored;
+    sub uni182A.B.init by uni182A.B.init nirugu.extend;
+    sub uni182A.B.medi by uni182A.B.medi nirugu.extend;
+    sub uni182B.P.init by uni182B.P.init nirugu.extend;
+    sub uni182B.P.medi by uni182B.P.medi nirugu.extend;
+    sub uni182D.G.init by uni182D.G.init nirugu.extend;
+    sub uni182D.G.medi by uni182D.G.medi nirugu.extend;
+    sub uni182D.Gx.init by uni182D.Gx.init nirugu.extend;
+    sub uni182D.Gx.medi by uni182D.Gx.medi nirugu.extend;
+    sub uni182C.G.init by uni182C.G.init nirugu.extend;
+    sub uni182C.G.medi by uni182C.G.medi nirugu.extend;
+    sub uni182C.Gx.init by uni182C.Gx.init nirugu.extend;
+    sub uni182C.Gx.medi by uni182C.Gx.medi nirugu.extend;
+    sub uni182E.M.init by uni182E.M.init nirugu.extend;
+    sub uni182E.M.medi by uni182E.M.medi nirugu.extend;
+    sub uni182F.L.init by uni182F.L.init nirugu.extend;
+    sub uni182F.L.medi by uni182F.L.medi nirugu.extend;
+    sub uni1839.F.init by uni1839.F.init nirugu.extend;
+    sub uni1839.F.medi by uni1839.F.medi nirugu.extend;
+    sub uni183B.K.init by uni183B.K.init nirugu.extend;
+    sub uni183B.K.medi by uni183B.K.medi nirugu.extend;
+    sub uni183A.K2.init by uni183A.K2.init nirugu.extend;
+    sub uni183A.K2.medi by uni183A.K2.medi nirugu.extend;
+    sub uni1897.Q.init by uni1897.Q.init nirugu.extend;
+    sub uni1897.Q.medi by uni1897.Q.medi nirugu.extend;
 } _.hud_hag.extending;
 
 lookup IIb.hud_hag.nirugu.extending {
@@ -34,7 +34,7 @@ lookup IIb.hud_hag.nirugu.extending {
     @hud.extending = [uni1820.A.medi uni1820.A.fina uni1821.A.medi uni1821.A.fina uni1823.O.medi uni1823.O.fina uni1823.U.fina uni1824.O.medi uni1824.O.fina uni1824.U.fina uni1825.O.medi uni1825.OI.medi uni1825.O.fina uni1825.U.fina uni1826.O.medi uni1826.OI.medi uni1826.O.fina uni1826.U.fina uni1828.A.fina uni1828.N.fina uni182A.B.medi uni182A.B.fina uni182B.P.medi uni182B.P.fina uni182D.G.fina uni182E.M.fina uni182F.L.fina uni1832.T.medi uni1832.T.fina uni1833.Dd.medi uni1833.Dd.fina uni1835.I.fina uni1836.I.fina uni1839.F.medi uni1839.F.fina uni183B.K.medi uni183B.K.fina uni183A.K2.medi uni183A.K2.fina];
     sub [@hud.bowed.B @hud.bowed.K @hud.bowed.G]' lookup _.hud_hag.extending @hud.extending;
     sub uni1821.A.init' lookup _.hud_hag.extending;
-    sub @q-hag' lookup _.hud_hag.extending @hag.vowel;
+    sub @q-hag' lookup _.hud_hag.extending [@hag.vowel AaLv.fina];
     lookupflag 0;
 } IIb.hud_hag.nirugu.extending;
 

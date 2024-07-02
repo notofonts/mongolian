@@ -1358,6 +1358,8 @@
   <string>mvs.wide.glif</string>
   <key>nirugu</key>
   <string>nirugu.glif</string>
+  <key>nirugu.extend</key>
+  <string>nirugu.extend.glif</string>
   <key>nirugu.ignored</key>
   <string>nirugu.ignored.glif</string>
   <key>nnbsp</key>

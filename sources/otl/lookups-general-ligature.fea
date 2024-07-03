@@ -1034,8 +1034,10 @@ lookup IIb.tod_tag.lvs.postprocessing {
     lookupflag UseMarkFilteringSet [lvs.ignored];
     sub uni1820.AA.isol lvs.ignored by AALv.isol;
     sub uni1820.AA.init lvs.ignored by AALv.init;
+    sub uni1820.A.isol lvs.ignored by ALv.isol;
     sub uni1820.A.medi lvs.ignored by ALv.medi;
     sub uni1820.A.fina lvs.ignored by ALv.fina;
+    sub uni1820.Aa.fina lvs.ignored by AaLv.fina;
     sub uni1844.AE.isol lvs.ignored by AELv.isol;
     sub uni1844.AE.init lvs.ignored by AELv.init;
     sub uni1844.E.medi lvs.ignored by ELv.medi;

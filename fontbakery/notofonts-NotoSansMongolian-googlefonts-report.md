@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.12.7
+fontbakery version: 0.12.9
 
 
 
@@ -687,9 +687,9 @@ Got     : uni1871.Cc.init=0+692|uni185B.Ny.medi=1+398|uni1851.Dp.medi=2+507|uni1
 <li>
 <p>Shaping did not match: ᠨᡈ᠋ᠲᠦ (Added by SIESTA)</p>
 <pre><code>Expected: None
-Got     : uni1828.N.init=0+492|uni1848.AOt.medi=1+844|fvs1.effective=1+0|uni1832.D.medi=3+613|uni1826.U.fina=4+634
+Got     : uni1828.N.init=0+492|uni1848.O.medi=1+573|fvs1.effective=1+0|uni1832.D.medi=3+613|uni1826.U.fina=4+634
 </code></pre>
-<p>Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -782 2582 2239" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g72" d="M200.0,437.0Q196.0,501.0 180.5,538.0Q165.0,575.0 118.0,575.0Q72.0,575.0 10.0,550.0L10.0,623.0Q81.0,653.0 139.0,653.0Q194.0,653.0 223.0,628.0Q252.0,603.0 264.0,556.5Q276.0,510.0 278.0,445.0L281.0,361.0L285.0,361.0Q318.0,444.0 444.0,444.0L522.0,444.0L522.0,364.0L445.0,364.0Q391.0,364.0 361.5,350.5Q332.0,337.0 319.0,305.5Q306.0,274.0 302.0,219.0L292.0,74.0L226.0,74.0L200.0,437.0ZM219.0,-124.0Q281.0,-37.0 340.0,22.0L401.0,-47.0Q356.0,-79.0 321.5,-108.0Q287.0,-137.0 262.0,-163.0L219.0,-124.0Z"/> <path id="g260" d="M460.0,47.0Q371.0,67.0 327.5,124.5Q284.0,182.0 284.0,267.0L284.0,364.0L104.0,364.0L85.0,96.0L19.0,96.0L0.0,364.0L0.0,444.0L337.0,444.0Q313.0,497.0 291.0,541.0Q269.0,585.0 249.0,621.0L320.0,661.0Q349.0,608.0 375.0,554.0Q401.0,500.0 423.0,444.0L874.0,444.0L874.0,364.0L662.0,364.0L662.0,3.0L460.0,47.0ZM584.0,104.0L584.0,364.0L363.0,364.0L363.0,267.0Q363.0,214.0 392.5,177.5Q422.0,141.0 482.0,127.0L584.0,104.0Z"/> <path id="g1465" d=""/> <path id="g145" d="M319.0,-157.0Q260.0,-157.0 218.0,-125.5Q176.0,-94.0 144.5,-38.5Q113.0,17.0 84.0,88.0Q59.0,153.0 38.0,222.0Q17.0,291.0 0.0,364.0L0.0,444.0L643.0,444.0L643.0,364.0L79.0,364.0Q105.0,261.0 142.0,154.0Q166.0,189.0 205.0,210.5Q244.0,232.0 290.0,232.0Q383.0,232.0 437.0,176.5Q491.0,121.0 491.0,27.0Q491.0,-28.0 469.0,-69.5Q447.0,-111.0 408.0,-134.0Q369.0,-157.0 319.0,-157.0ZM319.0,-77.0Q361.0,-77.0 387.0,-49.5Q413.0,-22.0 413.0,27.0Q413.0,84.0 382.5,118.5Q352.0,153.0 290.0,153.0Q252.0,153.0 220.5,132.0Q189.0,111.0 172.0,76.0Q206.0,-6.0 241.5,-41.5Q277.0,-77.0 319.0,-77.0Z"/> <path id="g63" d="M225.0,40.0Q110.0,40.0 54.5,132.5Q-1.0,225.0 -1.0,408.0Q-1.0,516.0 31.0,600.5Q63.0,685.0 127.5,733.5Q192.0,782.0 289.0,782.0Q357.0,782.0 410.0,753.5Q463.0,725.0 501.0,674.5Q539.0,624.0 561.5,558.5Q584.0,493.0 589.0,419.0L509.0,409.0Q503.0,491.0 477.0,556.5Q451.0,622.0 404.5,660.5Q358.0,699.0 289.0,699.0Q220.0,699.0 174.0,666.0Q128.0,633.0 104.0,575.5Q80.0,518.0 78.0,444.0L382.0,444.0Q389.0,424.0 394.0,392.0Q399.0,360.0 402.0,328.0Q405.0,296.0 405.0,275.0Q405.0,206.0 382.0,153.0Q359.0,100.0 318.5,70.0Q278.0,40.0 225.0,40.0ZM218.0,123.0Q273.0,123.0 299.5,167.0Q326.0,211.0 326.0,275.0Q326.0,334.0 316.0,364.0L78.0,364.0Q82.0,123.0 218.0,123.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g72"/> </g> <g transform="translate(492,0)"> <use href="#g260"/> </g> <g transform="translate(1336,0)"> <use href="#g1465"/> </g> <g transform="translate(1336,0)"> <use href="#g145"/> </g> <g transform="translate(1949,0)"> <use href="#g63"/> </g> </svg></p>
+<p>Got: <svg style="height:100px;margin:10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 -782 2311 2239" transform="matrix(1 0 0 -1 0 0)"> <defs> <path id="g72" d="M200.0,437.0Q196.0,501.0 180.5,538.0Q165.0,575.0 118.0,575.0Q72.0,575.0 10.0,550.0L10.0,623.0Q81.0,653.0 139.0,653.0Q194.0,653.0 223.0,628.0Q252.0,603.0 264.0,556.5Q276.0,510.0 278.0,445.0L281.0,361.0L285.0,361.0Q318.0,444.0 444.0,444.0L522.0,444.0L522.0,364.0L445.0,364.0Q391.0,364.0 361.5,350.5Q332.0,337.0 319.0,305.5Q306.0,274.0 302.0,219.0L292.0,74.0L226.0,74.0L200.0,437.0ZM219.0,-124.0Q281.0,-37.0 340.0,22.0L401.0,-47.0Q356.0,-79.0 321.5,-108.0Q287.0,-137.0 262.0,-163.0L219.0,-124.0Z"/> <path id="g259" d="M197.0,40.0Q100.0,40.0 50.0,95.0Q0.0,150.0 0.0,249.0Q0.0,316.0 20.0,364.0L0.0,364.0L0.0,444.0L603.0,444.0L603.0,364.0L373.0,364.0Q395.0,316.0 395.0,249.0Q395.0,155.0 343.5,97.5Q292.0,40.0 197.0,40.0ZM197.0,123.0Q253.0,123.0 284.5,155.0Q316.0,187.0 316.0,251.0Q316.0,316.0 296.0,364.0L99.0,364.0Q79.0,316.0 79.0,251.0Q79.0,123.0 197.0,123.0Z"/> <path id="g1465" d=""/> <path id="g145" d="M319.0,-157.0Q260.0,-157.0 218.0,-125.5Q176.0,-94.0 144.5,-38.5Q113.0,17.0 84.0,88.0Q59.0,153.0 38.0,222.0Q17.0,291.0 0.0,364.0L0.0,444.0L643.0,444.0L643.0,364.0L79.0,364.0Q105.0,261.0 142.0,154.0Q166.0,189.0 205.0,210.5Q244.0,232.0 290.0,232.0Q383.0,232.0 437.0,176.5Q491.0,121.0 491.0,27.0Q491.0,-28.0 469.0,-69.5Q447.0,-111.0 408.0,-134.0Q369.0,-157.0 319.0,-157.0ZM319.0,-77.0Q361.0,-77.0 387.0,-49.5Q413.0,-22.0 413.0,27.0Q413.0,84.0 382.5,118.5Q352.0,153.0 290.0,153.0Q252.0,153.0 220.5,132.0Q189.0,111.0 172.0,76.0Q206.0,-6.0 241.5,-41.5Q277.0,-77.0 319.0,-77.0Z"/> <path id="g63" d="M225.0,40.0Q110.0,40.0 54.5,132.5Q-1.0,225.0 -1.0,408.0Q-1.0,516.0 31.0,600.5Q63.0,685.0 127.5,733.5Q192.0,782.0 289.0,782.0Q357.0,782.0 410.0,753.5Q463.0,725.0 501.0,674.5Q539.0,624.0 561.5,558.5Q584.0,493.0 589.0,419.0L509.0,409.0Q503.0,491.0 477.0,556.5Q451.0,622.0 404.5,660.5Q358.0,699.0 289.0,699.0Q220.0,699.0 174.0,666.0Q128.0,633.0 104.0,575.5Q80.0,518.0 78.0,444.0L382.0,444.0Q389.0,424.0 394.0,392.0Q399.0,360.0 402.0,328.0Q405.0,296.0 405.0,275.0Q405.0,206.0 382.0,153.0Q359.0,100.0 318.5,70.0Q278.0,40.0 225.0,40.0ZM218.0,123.0Q273.0,123.0 299.5,167.0Q326.0,211.0 326.0,275.0Q326.0,334.0 316.0,364.0L78.0,364.0Q82.0,123.0 218.0,123.0Z"/> </defs> <g transform="translate(0,0)"> <use href="#g72"/> </g> <g transform="translate(492,0)"> <use href="#g259"/> </g> <g transform="translate(1065,0)"> <use href="#g1465"/> </g> <g transform="translate(1065,0)"> <use href="#g145"/> </g> <g transform="translate(1678,0)"> <use href="#g63"/> </g> </svg></p>
 </li>
 <li>
 <p>Shaping did not match: ᡟᡭ (Added by SIESTA)</p>
@@ -2456,11 +2456,11 @@ Got     : uni188F.Wn.init=0+520|BI.medi=1+871|uni1874.G4.fina=3+620|fvs1.effecti
 <tbody>
 <tr>
 <td align="left">nl_Latn (Dutch)</td>
-<td align="left">Shaper didn't attach acutecomb to J</td>
+<td align="left">Shaper didn't attach acutecomb to uni0237</td>
 </tr>
 <tr>
 <td align="left">^</td>
-<td align="left">Shaper didn't attach acutecomb to uni0237</td>
+<td align="left">Shaper didn't attach acutecomb to J</td>
 </tr>
 </tbody>
 </table>
@@ -2628,7 +2628,7 @@ minus</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ j̦̀ j̦́ ĵ̦ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Basaa (Latn, 332,940 speakers), Fur (Latn, 1,230,163 speakers), Kom (Latn, 360,685 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Dii (Latn, 71,000 speakers), Bafut (Latn, 158,146 speakers), Vute (Latn, 21,000 speakers), Dutch (Latn, 31,709,104 speakers), Mango (Latn, 77,000 speakers), Ebira (Latn, 2,200,000 speakers), Yala (Latn, 200,000 speakers), Southern Kisi (Latn, 360,000 speakers), Mfumte (Latn, 79,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Navajo (Latn, 166,319 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ejagham (Latn, 120,000 speakers), South Central Banda (Latn, 244,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Cicipu (Latn, 44,000 speakers), Gulay (Latn, 250,478 speakers), Aghem (Latn, 38,843 speakers), Ekpeye (Latn, 226,000 speakers), Sar (Latn, 500,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Makaa (Latn, 221,000 speakers), Zapotec (Latn, 490,000 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Igbo (Latn, 27,823,640 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Vute (Latn, 21,000 speakers), Mfumte (Latn, 79,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Sar (Latn, 500,000 speakers), Dutch (Latn, 31,709,104 speakers), Lugbara (Latn, 2,200,000 speakers), Basaa (Latn, 332,940 speakers), Bafut (Latn, 158,146 speakers), Gulay (Latn, 250,478 speakers), Yala (Latn, 200,000 speakers), Avokaya (Latn, 100,000 speakers), Ma’di (Latn, 584,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Nzakara (Latn, 50,000 speakers), Southern Kisi (Latn, 360,000 speakers), South Central Banda (Latn, 244,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Navajo (Latn, 166,319 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Nateni (Latn, 100,000 speakers), Zapotec (Latn, 490,000 speakers), Fur (Latn, 1,230,163 speakers), Dan (Latn, 1,099,244 speakers), Dii (Latn, 71,000 speakers), Mango (Latn, 77,000 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ekpeye (Latn, 226,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Makaa (Latn, 221,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -2658,26 +2658,26 @@ definitions.</p>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, tifinagh, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, math, old-permic, coptic, malayalam, canadian-aboriginal, tifinagh</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, math, canadian-aboriginal, malayalam, coptic, old-permic, tifinagh, syriac</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
 <li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+3008 LEFT ANGLE BRACKET: try adding one of: tai-le, japanese, chinese-simplified, chinese-hongkong, yi, phags-pa, chinese-traditional</li>
-<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: tai-le, japanese, chinese-simplified, chinese-hongkong, yi, phags-pa, chinese-traditional</li>
-<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF0C FULLWIDTH COMMA: try adding one of: japanese, chinese-simplified, yi</li>
+<li>U+3008 LEFT ANGLE BRACKET: try adding one of: yi, tai-le, chinese-simplified, chinese-hongkong, phags-pa, chinese-traditional, japanese</li>
+<li>U+3009 RIGHT ANGLE BRACKET: try adding one of: yi, tai-le, chinese-simplified, chinese-hongkong, phags-pa, chinese-traditional, japanese</li>
+<li>U+FF01 FULLWIDTH EXCLAMATION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF08 FULLWIDTH LEFT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF09 FULLWIDTH RIGHT PARENTHESIS: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF0C FULLWIDTH COMMA: try adding one of: yi, japanese, chinese-simplified</li>
 <li>U+FF0D FULLWIDTH HYPHEN-MINUS: try adding one of: japanese, chinese-simplified</li>
-<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: japanese, chinese-simplified, yi</li>
-<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: japanese, chinese-simplified, yi</li>
+<li>U+FF1B FULLWIDTH SEMICOLON: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF1F FULLWIDTH QUESTION MARK: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3B FULLWIDTH LEFT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
+<li>U+FF3D FULLWIDTH RIGHT SQUARE BRACKET: try adding one of: yi, japanese, chinese-simplified</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code>, <code>mongolian</code></p>
  [code: unreachable-subsetting]
@@ -2714,7 +2714,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 9 | 114 | 6 | 115 | 0 | 
+| 0 | 0 | 4 | 9 | 117 | 6 | 116 | 0 | 
 | 0% | 0% | 2% | 4% | 46% | 2% | 46% | 0% | 
 
 

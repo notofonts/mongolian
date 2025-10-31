@@ -39,7 +39,7 @@ proof: venv build.stamp
 
 clean:
 	rm -rf venv
-	find . -name "*.pyc" | xargs rm delete
+	find . -name "*.pyc" | xargs rm -f
 
 update-ufr:
 	npx update-template https://github.com/notofonts/noto-project-template/

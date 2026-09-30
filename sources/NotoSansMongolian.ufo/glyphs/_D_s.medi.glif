@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Ds.medi" format="2">
+  <advance width="577"/>
+  <outline>
+    <contour>
+      <point x="301" y="-119" type="curve"/>
+      <point x="365" y="-119"/>
+      <point x="405" y="-79"/>
+      <point x="405" y="-8" type="curve"/>
+      <point x="405" y="42"/>
+      <point x="388" y="73"/>
+      <point x="348" y="121" type="curve"/>
+      <point x="314" y="161"/>
+      <point x="290" y="182"/>
+      <point x="290" y="217" type="curve"/>
+      <point x="290" y="236"/>
+      <point x="303" y="251"/>
+      <point x="324" y="251" type="curve"/>
+      <point x="349" y="251"/>
+      <point x="366" y="234"/>
+      <point x="386" y="202" type="curve"/>
+      <point x="441" y="242" type="line"/>
+      <point x="408" y="293"/>
+      <point x="373" y="317"/>
+      <point x="324" y="317" type="curve"/>
+      <point x="268" y="317"/>
+      <point x="224" y="279"/>
+      <point x="224" y="217" type="curve"/>
+      <point x="224" y="113"/>
+      <point x="337" y="69"/>
+      <point x="337" y="-9" type="curve"/>
+      <point x="337" y="-32"/>
+      <point x="324" y="-45"/>
+      <point x="303" y="-45" type="curve"/>
+      <point x="274" y="-45"/>
+      <point x="251" y="-29"/>
+      <point x="222" y="10" type="curve"/>
+      <point x="170" y="79"/>
+      <point x="88" y="305"/>
+      <point x="73" y="364" type="curve"/>
+      <point x="607" y="364" type="line"/>
+      <point x="607" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="23" y="272"/>
+      <point x="53" y="186"/>
+      <point x="89" y="103" type="curve"/>
+      <point x="164" y="-69"/>
+      <point x="225" y="-119"/>
+    </contour>
+  </outline>
+</glyph>

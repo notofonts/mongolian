@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uFF3B.vert" format="2">
+  <advance height="1000" width="1000"/>
+  <outline>
+    <contour>
+      <point x="966" y="168" type="line"/>
+      <point x="34" y="168" type="line"/>
+      <point x="34" y="-86" type="line"/>
+      <point x="87" y="-86" type="line"/>
+      <point x="87" y="99" type="line"/>
+      <point x="913" y="99" type="line"/>
+      <point x="913" y="-86" type="line"/>
+      <point x="966" y="-86" type="line"/>
+    </contour>
+  </outline>
+</glyph>

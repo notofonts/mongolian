@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Gc.init" format="2">
+  <advance width="428"/>
+  <outline>
+    <contour>
+      <point x="277" y="834" type="curve"/>
+      <point x="237" y="834"/>
+      <point x="209" y="864"/>
+      <point x="209" y="903" type="curve"/>
+      <point x="209" y="945"/>
+      <point x="239" y="971"/>
+      <point x="277" y="971" type="curve"/>
+      <point x="317" y="971"/>
+      <point x="346" y="942"/>
+      <point x="346" y="903" type="curve"/>
+      <point x="346" y="865"/>
+      <point x="316" y="834"/>
+    </contour>
+    <contour>
+      <point x="174" y="42" type="curve"/>
+      <point x="245" y="85" type="line"/>
+      <point x="161" y="202"/>
+      <point x="124" y="297"/>
+      <point x="124" y="407" type="curve"/>
+      <point x="124" y="563"/>
+      <point x="178" y="644"/>
+      <point x="273" y="644" type="curve"/>
+      <point x="378" y="644"/>
+      <point x="414" y="569"/>
+      <point x="428" y="364" type="curve"/>
+      <point x="502" y="364" type="line"/>
+      <point x="492" y="606"/>
+      <point x="425" y="727"/>
+      <point x="273" y="727" type="curve"/>
+      <point x="139" y="727"/>
+      <point x="45" y="612"/>
+      <point x="45" y="407" type="curve"/>
+      <point x="45" y="292"/>
+      <point x="88" y="171"/>
+    </contour>
+    <contour>
+      <point x="277" y="784" type="curve"/>
+      <point x="347" y="784"/>
+      <point x="396" y="841"/>
+      <point x="396" y="903" type="curve"/>
+      <point x="396" y="969"/>
+      <point x="343" y="1022"/>
+      <point x="277" y="1022" type="curve"/>
+      <point x="211" y="1022"/>
+      <point x="158" y="969"/>
+      <point x="158" y="903" type="curve"/>
+      <point x="158" y="841"/>
+      <point x="207" y="784"/>
+    </contour>
+  </outline>
+</glyph>

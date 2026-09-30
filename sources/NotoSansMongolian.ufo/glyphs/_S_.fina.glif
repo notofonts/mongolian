@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_S.fina" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="27" y="73" type="curve"/>
+      <point x="105" y="73" type="line"/>
+      <point x="92" y="124"/>
+      <point x="86" y="191"/>
+      <point x="86" y="276" type="curve"/>
+      <point x="86" y="395"/>
+      <point x="111" y="495"/>
+      <point x="166" y="613" type="curve"/>
+      <point x="170" y="613" type="line"/>
+      <point x="189" y="414"/>
+      <point x="244" y="257"/>
+      <point x="328" y="106" type="curve"/>
+      <point x="408" y="106" type="line"/>
+      <point x="449" y="309"/>
+      <point x="520" y="478"/>
+      <point x="640" y="642" type="curve"/>
+      <point x="543" y="642" type="line"/>
+      <point x="457" y="520"/>
+      <point x="392" y="375"/>
+      <point x="358" y="223" type="curve"/>
+      <point x="354" y="223" type="line"/>
+      <point x="268" y="402"/>
+      <point x="238" y="563"/>
+      <point x="238" y="734" type="curve"/>
+      <point x="157" y="734" type="line"/>
+      <point x="94" y="640"/>
+      <point x="53" y="543"/>
+      <point x="32" y="444" type="curve"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="301"/>
+      <point x="1" y="226"/>
+    </contour>
+  </outline>
+</glyph>

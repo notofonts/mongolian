@@ -1,6 +1,0 @@
-@sib.consonant = [@sbm-sib @n-sib @ng-sib @k-sib @g-sib @h-sib @b-sib @p-sib @s-sib @sh-sib @t-sib @d-sib @l-sib @m-sib @ch-sib @j-sib @y-sib @r-sib @f-sib @w-sib @kh-sib @gh-sib @hh-sib @c-sib @z-sib @rh-sib @cr-sib @zr-sib];
-@sib.consonant.init = [@sbm-sib.init @n-sib.init @ng-sib.init @k-sib.init @g-sib.init @h-sib.init @b-sib.init @p-sib.init @s-sib.init @sh-sib.init @t-sib.init @d-sib.init @l-sib.init @m-sib.init @ch-sib.init @j-sib.init @y-sib.init @r-sib.init @f-sib.init @w-sib.init @kh-sib.init @gh-sib.init @hh-sib.init @c-sib.init @z-sib.init @rh-sib.init @cr-sib.init @zr-sib.init];
-@sib.vowel.masculine = [@a-sib @o-sib @ue-sib];
-@sib.vowel.feminine = [@e-sib @u-sib];
-@sib.vowel.neuter = [@i-sib];
-@sib.vowel = [@sib.vowel.masculine @sib.vowel.feminine @sib.vowel.neuter @ii-sib];

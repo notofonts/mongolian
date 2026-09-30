@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1839_u1827.FW.fina" format="2">
+  <advance width="1210"/>
+  <outline>
+    <component base="_FW.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u184C_u1844_u1843.PpELv.fina" format="2">
+  <advance width="956"/>
+  <outline>
+    <component base="_PpELv.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

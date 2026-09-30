@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1863_u18A6_u1820.GWpA.isol" format="2">
+  <advance width="1217"/>
+  <outline>
+    <component base="_GWpA.isol"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

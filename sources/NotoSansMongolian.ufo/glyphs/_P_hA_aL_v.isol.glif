@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_PhAaLv.isol" format="2">
+  <advance width="1439"/>
+  <outline>
+    <component base="_PhA.init"/>
+    <component base="_AaLv.fina" xOffset="1087"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

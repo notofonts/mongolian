@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_A.medi" format="2">
+  <advance width="284"/>
+  <outline>
+    <contour>
+      <point x="19" y="96" type="curve"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="314" y="364" type="line"/>
+      <point x="314" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="311"/>
+      <point x="0" y="364"/>
+    </contour>
+  </outline>
+</glyph>

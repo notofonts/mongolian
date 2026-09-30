@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_GOLv.fina" format="2">
+  <advance width="994"/>
+  <outline>
+    <component base="_GO.medi"/>
+    <component base="_Lv.fina" xOffset="838"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

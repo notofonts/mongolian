@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Zs2I.isol" format="2">
+  <advance width="983"/>
+  <outline>
+    <contour>
+      <point x="545" y="-67" type="curve"/>
+      <point x="618" y="-31" type="line"/>
+      <point x="545" y="99"/>
+      <point x="489" y="231"/>
+      <point x="451" y="364" type="curve"/>
+      <point x="763" y="364" type="line"/>
+      <point x="830" y="364"/>
+      <point x="861" y="335"/>
+      <point x="861" y="279" type="curve"/>
+      <point x="861" y="235"/>
+      <point x="854" y="196"/>
+      <point x="839" y="162" type="curve"/>
+      <point x="913" y="162" type="line"/>
+      <point x="931" y="199"/>
+      <point x="938" y="237"/>
+      <point x="938" y="282" type="curve"/>
+      <point x="938" y="390"/>
+      <point x="879" y="444"/>
+      <point x="763" y="444" type="curve"/>
+      <point x="428" y="444" type="line"/>
+      <point x="405" y="527"/>
+      <point x="380" y="611"/>
+      <point x="352" y="694" type="curve"/>
+      <point x="499" y="694" type="line"/>
+      <point x="499" y="756" type="line"/>
+      <point x="114" y="756" type="line"/>
+      <point x="114" y="694" type="line"/>
+      <point x="258" y="694" type="line"/>
+      <point x="254" y="672"/>
+      <point x="243" y="625"/>
+      <point x="225" y="552" type="curve"/>
+      <point x="198" y="457"/>
+      <point x="175" y="427"/>
+      <point x="130" y="427" type="curve"/>
+      <point x="104" y="427"/>
+      <point x="76" y="433"/>
+      <point x="45" y="446" type="curve"/>
+      <point x="45" y="371" type="line"/>
+      <point x="74" y="354"/>
+      <point x="104" y="346"/>
+      <point x="135" y="346" type="curve"/>
+      <point x="227" y="346"/>
+      <point x="266" y="394"/>
+      <point x="304" y="590" type="curve"/>
+      <point x="308" y="590" type="line"/>
+      <point x="372" y="372"/>
+      <point x="389" y="224"/>
+    </contour>
+  </outline>
+</glyph>

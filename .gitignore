@@ -6,6 +6,16 @@ fonts
 node_modules
 package-lock.json
 package.json
+__pycache__/
+subset-files/
+out/
+
+# By-products of the gftools-builder (notobuilder) build #
+########################################################
+sources/build.ninja
+sources/.ninja_log
+sources/full-designspace/
+sources/instance_ufos/
 
 # OS generated files #
 ######################

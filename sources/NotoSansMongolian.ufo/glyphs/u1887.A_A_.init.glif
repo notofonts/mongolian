@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1887.AA.init" format="2">
+  <advance width="776"/>
+  <outline>
+    <component base="_A.init"/>
+    <component base="_A.medi" xOffset="492"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

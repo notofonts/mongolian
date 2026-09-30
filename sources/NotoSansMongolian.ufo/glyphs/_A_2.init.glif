@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_A2.init" format="2">
+  <advance width="529"/>
+  <outline>
+    <contour>
+      <point x="81" y="444" type="line"/>
+      <point x="45" y="364" type="line"/>
+      <point x="245" y="364" type="line"/>
+      <point x="264" y="96" type="line"/>
+      <point x="330" y="96" type="line"/>
+      <point x="349" y="364" type="line"/>
+      <point x="559" y="364" type="line"/>
+      <point x="559" y="444" type="line"/>
+    </contour>
+  </outline>
+</glyph>

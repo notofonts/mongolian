@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_BhIpLv.isol" format="2">
+  <advance width="1485"/>
+  <outline>
+    <component base="_BhIp.init"/>
+    <component base="_IyLv.fina" xOffset="1235"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,1688 @@
+{
+ "configuration": {},
+ "tests": [
+  {
+   "input": "ᠠ ᠠᢇ ᡳ ᡳᡳ ᡠ ᡠᡠ",
+   "expectation": "u1820.AA.isol=0+919|space=3+260|u1820.AA.init=4+776|u1887.Aw.fina=7+529|space=10+260|u1873.AI.isol=11+993|space=14+260|u1873.AI.init=15+853|u1873.I.fina=18+501|space=21+260|u1860.AOh.isol=22+932|space=25+260|u1860.AOh.init=26+1065|u1860.U.fina=29+634",
+   "note": "core-mag > pu1-a-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵ᠋ᡳ ᡵ᠋ᡳᡳ ᠯ᠋ᡳ ᠯ᠋ᡳᡳ",
+   "expectation": "u1875.R3.init=0+618|fvs1.valid=0+0|u1873.I.fina=6+501|space=9+260|u1875.R3.init=10+618|fvs1.valid=10+0|u1873.I.medi=16+361|u1873.I.fina=19+501|space=22+260|u182F.L2.init=23+579|fvs1.valid=23+0|u1873.I.fina=29+501|space=32+260|u182F.L2.init=33+579|fvs1.valid=33+0|u1873.I.medi=39+361|u1873.I.fina=42+501",
+   "note": "core-mag > pu1-a-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡝ ᡝᡳ ᠣ ᠣᠣ",
+   "expectation": "u185D.A.isol=0+824|space=3+260|u185D.ANi.init=4+660|u1873.I.fina=7+501|space=10+260|u1823.AO.isol=11+932|space=14+260|u1823.AO.init=15+1065|u1823.U.fina=18+634",
+   "note": "core-mag > pu1-a-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠ ᡬᠠᢇ ᡤᡳ ᡤᡳᡳ ᡤᡠ ᡤᡠᡠ",
+   "expectation": "u186C_u1820.KhAa.isol=0+1021|space=6+260|u186C_u1820.KhA.init=7+714|u1887.Aw.fina=13+529|space=16+260|u1864_u1873.GhI.isol=17+1060|space=23+260|u1864_u1873.GhI.init=24+810|u1873.I.fina=30+501|space=33+260|u1864_u1860.GhO.isol=34+749|space=40+260|u1864_u1860.GhO.init=41+885|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ka-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᡳᡵ᠋ᡳ ᡤᡳᡵ᠋ᡳᡳ ᡤᡳᠯᡳ ᡤᡳᠯᡳᡳ",
+   "expectation": "u1864_u1873.GhI.init=0+810|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1864_u1873.GhI.init=16+810|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1864_u1873.GhI.init=35+810|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1864_u1873.GhI.init=48+810|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ka-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᡝ ᡤᡝᡳ ᡬᠣ ᡬᠣᠣ",
+   "expectation": "u1864_u185D.GhAa.isol=0+1021|space=6+260|u1864_u185D.GhA.init=7+714|u1873.I.fina=13+501|space=16+260|u186C_u1823.KhO.isol=17+749|space=23+260|u186C_u1823.KhO.init=24+885|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ka-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠺᠠ ᠺᠠᢇ ᡴᡳ ᡴᡳᡳ ᡴᡠ ᡴᡠᡠ",
+   "expectation": "u183A_u1820.K2Aa.isol=0+1021|space=6+260|u183A_u1820.K2A.init=7+714|u1887.Aw.fina=13+529|space=16+260|u1874_u1873.GI.isol=17+1060|space=23+260|u1874_u1873.GI.init=24+810|u1873.I.fina=30+501|space=33+260|u1874_u1860.GO.isol=34+749|space=40+260|u1874_u1860.GO.init=41+885|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-kha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡴᡳᡵ᠋ᡳ ᡴᡳᡵ᠋ᡳᡳ ᡴᡳᠯᡳ ᡴᡳᠯᡳᡳ",
+   "expectation": "u1874_u1873.GI.init=0+810|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1874_u1873.GI.init=16+810|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1874_u1873.GI.init=35+810|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1874_u1873.GI.init=48+810|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-kha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡴᡝ ᡴᡝᡳ ᠺᠣ ᠺᠣᠣ",
+   "expectation": "u1874_u185D.GAa.isol=0+1021|space=6+260|u1874_u185D.GA.init=7+714|u1873.I.fina=13+501|space=16+260|u183A_u1823.K2O.isol=17+749|space=23+260|u183A_u1823.K2O.init=24+885|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-kha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᠠ ᡤᠠᢇ ᡤ᠌ᡳ ᡤ᠌ᡳᡳ ᡤᡡ ᡤᡡᡠ",
+   "expectation": "u1864.Hh.init=0+788|u1820.A.fina=3+427|space=6+260|u1864_u1820.HhA.init=7+801|u1887.Aw.fina=13+529|space=16+260|u1864.Hh.init=17+788|fvs2.valid=17+0|u1873.I.fina=23+501|space=26+260|u1864.Hh.init=27+788|fvs2.valid=27+0|u1873.I.medi=33+361|u1873.I.fina=36+501|space=39+260|u1864.Hh.init=40+788|u1861.Ue.fina=43+743|space=46+260|u1864.Hh.init=47+788|u1861.OI.medi=50+934|u1860.U.fina=53+634",
+   "note": "core-mag > pu1-ga-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤ᠌ᡳᡵ᠋ᡳ ᡤ᠌ᡳᡵ᠋ᡳᡳ ᡤ᠌ᡳᠯᡳ ᡤ᠌ᡳᠯᡳᡳ",
+   "expectation": "u1864.Hh.init=0+788|fvs2.valid=0+0|u1873.I.medi=6+361|u1875.R3.medi=9+559|fvs1.valid=9+0|u1873.I.fina=15+501|space=18+260|u1864.Hh.init=19+788|fvs2.valid=19+0|u1873.I.medi=25+361|u1875.R3.medi=28+559|fvs1.valid=28+0|u1873.I.medi=34+361|u1873.I.fina=37+501|space=40+260|u1864.Hh.init=41+788|fvs2.valid=41+0|u1873.I.medi=47+361|u182F.L.medi=50+284|u1873.I.fina=53+501|space=56+260|u1864.Hh.init=57+788|fvs2.valid=57+0|u1873.I.medi=63+361|u182F.L.medi=66+284|u1873.I.medi=69+361|u1873.I.fina=72+501",
+   "note": "core-mag > pu1-ga-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤ᠌ᡝ ᡤ᠌ᡝᡳ ᡤᠣ ᡤᠣᠣ",
+   "expectation": "u1864_u185D.HhAa.isol=0+1109|fvs2.valid=0+0|space=9+260|u1864_u185D.HhA.init=10+801|fvs2.valid=10+0|u1873.I.fina=19+501|space=22+260|u1864.Hh.init=23+788|u1823.O.fina=26+440|space=29+260|u1864.Hh.init=30+788|u1823.O.medi=33+573|u1823.U.fina=36+634",
+   "note": "core-mag > pu1-ga-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢚᠠ ᢚᠠᢇ ᢚᡳ ᢚᡳᡳ ᢚᡡ ᢚᡡᡠ",
+   "expectation": "u189A.Hy.init=0+785|u1820.A.fina=3+427|space=6+260|u189A_u1820.HyA.init=7+801|u1887.Aw.fina=13+529|space=16+260|u189A.Hy.init=17+785|u1873.I.fina=20+501|space=23+260|u189A.Hy.init=24+785|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189A.Hy.init=34+785|u1861.Ue.fina=37+743|space=40+260|u189A.Hy.init=41+785|u1861.OI.medi=44+934|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-gha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢚᡳᡵ᠋ᡳ ᢚᡳᡵ᠋ᡳᡳ ᢚᡳᠯᡳ ᢚᡳᠯᡳᡳ",
+   "expectation": "u189A.Hy.init=0+785|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u189A.Hy.init=16+785|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u189A.Hy.init=35+785|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u189A.Hy.init=48+785|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-gha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢚᡝ ᢚᡝᡳ ᢚᠣ ᢚᠣᠣ",
+   "expectation": "u189A_u185D.HyAa.isol=0+1109|space=6+260|u189A_u185D.HyA.init=7+801|u1873.I.fina=13+501|space=16+260|u189A.Hy.init=17+785|u1823.O.fina=20+440|space=23+260|u189A.Hy.init=24+785|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-gha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢛᠠ ᢛᠠᢇ ᢛᡳ ᢛᡳᡳ ᢛᡠ ᢛᡠᡠ",
+   "expectation": "u189B.Nb.init=0+774|u1820.A.fina=3+427|space=6+260|u189B.Nb.init=7+774|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u189B.Nb.init=17+774|u1873.I.fina=20+501|space=23+260|u189B.Nb.init=24+774|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189B.Nb.init=34+774|u1860.Oh.fina=37+440|space=40+260|u189B.Nb.init=41+774|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ṅa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢛᡳᡵ᠋ᡳ ᢛᡳᡵ᠋ᡳᡳ ᢛᡳᠯᡳ ᢛᡳᠯᡳᡳ",
+   "expectation": "u189B.Nb.init=0+774|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u189B.Nb.init=16+774|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u189B.Nb.init=35+774|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u189B.Nb.init=48+774|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ṅa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢛᡝ ᢛᡳ ᢛᠣ ᢛᠣᠣ",
+   "expectation": "u189B.Nb.init=0+774|u185D.Aa.fina=3+352|space=6+260|u189B.Nb.init=7+774|u1873.I.fina=10+501|space=13+260|u189B.Nb.init=14+774|u1823.O.fina=17+440|space=20+260|u189B.Nb.init=21+774|u1823.O.medi=24+573|u1823.U.fina=27+634",
+   "note": "core-mag > pu1-ṅa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᠠ ᢜᠠᢇ ᢜᡳ ᢜᡳᡳ ᢜᡠ ᢜᡠᡠ",
+   "expectation": "u189C.Ct.init=0+681|u1820.A.fina=3+427|space=6+260|u189C.Ct.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u189C.Ct.init=17+681|u1873.Iy.fina=20+250|space=23+260|u189C.Ct.init=24+681|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189C.Ct.init=34+681|u1860.Oh.fina=37+440|space=40+260|u189C.Ct.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ca-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᡳᡵ᠋ᡳ ᢜᡳᡵ᠋ᡳᡳ ᢜᡳᠯᡳ ᢜᡳᠯᡳᡳ",
+   "expectation": "u189C.Ct.init=0+681|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u189C.Ct.init=16+681|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u189C.Ct.init=35+681|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u189C.Ct.init=48+681|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ca-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᡝ ᢜᡝᡳ ᢜᠣ ᢜᠣᠣ",
+   "expectation": "u189C.Ct.init=0+681|u185D.Ah.fina=3+427|space=6+260|u189C.Ct.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u189C.Ct.init=17+681|u1823.O.fina=20+440|space=23+260|u189C.Ct.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ca-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡮᠠ ᡮᠠᢇ ᡮᡟ ᡮᡟᡳ ᡮᡠ ᡮᡠᡠ",
+   "expectation": "u186E.Cs.init=0+681|u1820.A.fina=3+427|space=6+260|u186E.Cs.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u186E.Cs.init=17+681|u185F.Ai.fina=20+487|space=23+260|u186E.Cs.init=24+681|u185F.Ai.medi=27+284|u1873.I.fina=30+501|space=33+260|u186E.Cs.init=34+681|u1860.Oh.fina=37+440|space=40+260|u186E.Cs.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-cha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡮᡟᡵ᠋ᡳ ᡮᡟᡵ᠋ᡳᡳ ᡮᡟᠯᡳ ᡮᡟᠯᡳᡳ",
+   "expectation": "u186E.Cs.init=0+681|u185F.Ai.medi=3+284|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u186E.Cs.init=16+681|u185F.Ai.medi=19+284|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u186E.Cs.init=35+681|u185F.Ai.medi=38+284|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u186E.Cs.init=48+681|u185F.Ai.medi=51+284|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-cha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡮᡝ ᡮᡝᡳ ᡮᠣ ᡮᠣᠣ",
+   "expectation": "u186E.Cs.init=0+681|u185D.Ah.fina=3+427|space=6+260|u186E.Cs.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u186E.Cs.init=17+681|u1823.O.fina=20+440|space=23+260|u186E.Cs.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-cha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡯᠠ ᡯᠠᢇ ᡯᡳ ᡯᡳᡳ ᡯᡠ ᡯᡠᡠ",
+   "expectation": "u186F.Zs.init=0+681|u1820.A.fina=3+427|space=6+260|u186F.Zs.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u186F.Zs.init=17+681|u1873.Iy.fina=20+250|space=23+260|u186F.Zs.init=24+681|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u186F.Zs.init=34+681|u1860.Oh.fina=37+440|space=40+260|u186F.Zs.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ja-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡯᡳᡵ᠋ᡳ ᡯᡳᡵ᠋ᡳᡳ ᡯᡳᠯᡳ ᡯᡳᠯᡳᡳ",
+   "expectation": "u186F.Zs.init=0+681|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u186F.Zs.init=16+681|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u186F.Zs.init=35+681|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u186F.Zs.init=48+681|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ja-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡯᡝ ᡯᡝᡳ ᡯᠣ ᡯᠣᠣ",
+   "expectation": "u186F.Zs.init=0+681|u185D.Ah.fina=3+427|space=6+260|u186F.Zs.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u186F.Zs.init=17+681|u1823.O.fina=20+440|space=23+260|u186F.Zs.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ja-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢝᠠ ᢝᠠᢇ ᢝᡳ ᢝᡳᡳ ᢝᡠ ᢝᡠᡠ",
+   "expectation": "u189D.Zt.init=0+848|u1820.A.fina=3+427|space=6+260|u189D.Zt.init=7+848|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u189D.Zt.init=17+848|u1873.Iy.fina=20+250|space=23+260|u189D.Zt.init=24+848|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189D_u1860.ZtOh.isol=34+1112|space=40+260|u189D_u1860.ZtOh.init=41+1248|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-jha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢝᡵ᠋ᡳ ᢝᡵ᠋ᡳᡳ ᢝᠯᡳ ᢝᠯᡳᡳ",
+   "expectation": "u189D.Zt.init=0+848|u1875.R3.medi=3+559|fvs1.valid=3+0|u1873.I.fina=9+501|space=12+260|u189D.Zt.init=13+848|u1875.R3.medi=16+559|fvs1.valid=16+0|u1873.I.medi=22+361|u1873.I.fina=25+501|space=28+260|u189D.Zt.init=29+848|u182F.L.medi=32+284|u1873.I.fina=35+501|space=38+260|u189D.Zt.init=39+848|u182F.L.medi=42+284|u1873.I.medi=45+361|u1873.I.fina=48+501",
+   "note": "core-mag > pu1-jha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢝᡝ ᢝᡝᡳ ᢝᠣ ᢝᠣᠣ",
+   "expectation": "u189D_u185D.ZtAh.isol=0+1285|space=6+260|u189D_u185D.ZtAh.init=7+959|u1873.I.fina=13+501|space=16+260|u189D.Zt.init=17+848|u1823.O.fina=20+440|space=23+260|u189D.Zt.init=24+848|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-jha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠠ ᠨᡳᠶᠠᢇ ᠨᡳᠶᡳ ᠨᡳᠶᡳᡳ ᠨᡳᠶᡠ ᠨᡳᠶᡠᡠ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.fina=9+427|space=12+260|u1828.N.init=13+492|u1873.I.medi=16+361|u1836.Y.medi=19+361|u1820.A.medi=22+284|u1887.Aw.fina=25+529|space=28+260|u1828.N.init=29+492|u1873.I.medi=32+361|u1836.Y.medi=35+361|u1873.I.fina=38+501|space=41+260|u1828.N.init=42+492|u1873.I.medi=45+361|u1836.Y.medi=48+361|u1873.I.medi=51+361|u1873.I.fina=54+501|space=57+260|u1828.N.init=58+492|u1873.I.medi=61+361|u1836.Y.medi=64+361|u1860.Uh.fina=67+634|space=70+260|u1828.N.init=71+492|u1873.I.medi=74+361|u1836.Y.medi=77+361|u1860.Oh.medi=80+573|u1860.U.fina=83+634",
+   "note": "core-mag > pu1-ña-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᡳᡵ᠋ᡳ ᠨᡳᠶᡳᡵ᠋ᡳᡳ ᠨᡳᠶᡳᠯᡳ ᠨᡳᠶᡳᠯᡳᡳ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1873.I.medi=9+361|u1875.R3.medi=12+559|fvs1.valid=12+0|u1873.I.fina=18+501|space=21+260|u1828.N.init=22+492|u1873.I.medi=25+361|u1836.Y.medi=28+361|u1873.I.medi=31+361|u1875.R3.medi=34+559|fvs1.valid=34+0|u1873.I.medi=40+361|u1873.I.fina=43+501|space=46+260|u1828.N.init=47+492|u1873.I.medi=50+361|u1836.Y.medi=53+361|u1873.I.medi=56+361|u182F.L.medi=59+284|u1873.I.fina=62+501|space=65+260|u1828.N.init=66+492|u1873.I.medi=69+361|u1836.Y.medi=72+361|u1873.I.medi=75+361|u182F.L.medi=78+284|u1873.I.medi=81+361|u1873.I.fina=84+501",
+   "note": "core-mag > pu1-ña-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᡝ ᠨᡳᠶᡝᡳ ᠨᡳᠶᠣ ᠨᡳᠶᠣᠣ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u185D.Ah.fina=9+427|space=12+260|u1828.N.init=13+492|u1873.I.medi=16+361|u1836.Y.medi=19+361|u185D.Ah.medi=22+284|u1873.I.fina=25+501|space=28+260|u1828.N.init=29+492|u1873.I.medi=32+361|u1836.Y.medi=35+361|u1823.U.fina=38+634|space=41+260|u1828.N.init=42+492|u1873.I.medi=45+361|u1836.Y.medi=48+361|u1823.O.medi=51+573|u1823.U.fina=54+634",
+   "note": "core-mag > pu1-ña-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢞᠠ ᢞᠠᢇ ᢞᡳ ᢞᡳᡳ ᢞᡠ ᢞᡠᡠ",
+   "expectation": "u189E.It.init=0+445|u1820.A.fina=3+427|space=6+260|u189E.It.init=7+445|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u189E.It.init=17+445|u1873.I.fina=20+501|space=23+260|u189E.It.init=24+445|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189E.It.init=34+445|u1860.Oh.fina=37+440|space=40+260|u189E.It.init=41+445|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ṭa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢞᡳᡵ᠋ᡳ ᢞᡳᡵ᠋ᡳᡳ ᢞᡳᠯᡳ ᢞᡳᠯᡳᡳ",
+   "expectation": "u189E.It.init=0+445|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u189E.It.init=16+445|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u189E.It.init=35+445|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u189E.It.init=48+445|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ṭa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢞᡝ ᢞᡝᡳ ᢞᠣ ᢞᠣᠣ",
+   "expectation": "u189E.It.init=0+445|u185D.Ah.fina=3+427|space=6+260|u189E.It.init=7+445|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u189E.It.init=17+445|u1823.O.fina=20+440|space=23+260|u189E.It.init=24+445|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ṭa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡱᠠ ᡱᠠᢇ ᡱᡳ ᡱᡳᡳ ᡱᡠ ᡱᡠᡠ",
+   "expectation": "u1871.Cc.init=0+692|u1820.A.fina=3+427|space=6+260|u1871.Cc.init=7+692|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1871.Cc.init=17+692|u1873.I.fina=20+501|space=23+260|u1871.Cc.init=24+692|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1871.Cc.init=34+692|u1860.Oh.fina=37+440|space=40+260|u1871.Cc.init=41+692|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ṭha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡱᡳᡵ᠋ᡳ ᡱᡳᡵ᠋ᡳᡳ ᡱᡳᠯᡳ ᡱᡳᠯᡳᡳ",
+   "expectation": "u1871.Cc.init=0+692|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1871.Cc.init=16+692|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1871.Cc.init=35+692|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1871.Cc.init=48+692|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ṭha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡱᡝ ᡱᡝᡳ ᡱᠣ ᡱᠣᠣ",
+   "expectation": "u1871.Cc.init=0+692|u185D.Ah.fina=3+427|space=6+260|u1871.Cc.init=7+692|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1871.Cc.init=17+692|u1823.O.fina=20+440|space=23+260|u1871.Cc.init=24+692|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ṭha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡷᠠ ᡷᠠᢇ ᡷᡳ ᡷᡳᡳ ᡷᡠ ᡷᡠᡠ",
+   "expectation": "u1877.Ic.init=0+421|u1820.A.fina=3+427|space=6+260|u1877.Ic.init=7+421|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1877.Ic.init=17+421|u1873.I.fina=20+501|space=23+260|u1877.Ic.init=24+421|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1877.Ic.init=34+421|u1860.Oh.fina=37+440|space=40+260|u1877.Ic.init=41+421|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ḍa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡷᡳᡵ᠋ᡳ ᡷᡳᡵ᠋ᡳᡳ ᡷᡳᠯᡳ ᡷᡳᠯᡳᡳ",
+   "expectation": "u1877.Ic.init=0+421|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1877.Ic.init=16+421|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1877.Ic.init=35+421|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1877.Ic.init=48+421|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ḍa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡷᡝ ᡷᡝᡳ ᡷᠣ ᡷᠣᠣ",
+   "expectation": "u1877.Ic.init=0+421|u185D.Ah.fina=3+427|space=6+260|u1877.Ic.init=7+421|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1877.Ic.init=17+421|u1823.O.fina=20+440|space=23+260|u1877.Ic.init=24+421|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ḍa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢟᠠ ᢟᠠᢇ ᢟᡳ ᢟᡳᡳ ᢟᡠ ᢟᡠᡠ",
+   "expectation": "u189F.Ih.init=0+622|u1820.A.fina=3+427|space=6+260|u189F.Ih.init=7+622|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u189F.Ih.init=17+622|u1873.I.fina=20+501|space=23+260|u189F.Ih.init=24+622|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u189F_u1860.IhOh.isol=34+874|space=40+260|u189F_u1860.IhOh.init=41+1039|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ḍha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢟᡳᡵ᠋ᡳ ᢟᡳᡵ᠋ᡳᡳ ᢟᡳᠯᡳ ᢟᡳᠯᡳᡳ",
+   "expectation": "u189F.Ih.init=0+622|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u189F.Ih.init=16+622|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u189F.Ih.init=35+622|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u189F.Ih.init=48+622|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ḍha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢟᡝ ᢟᡝᡳ ᢟᠣ ᢟᠣᠣ",
+   "expectation": "u189F_u185D.IhAh.isol=0+1088|space=6+260|u189F_u185D.IhAh.init=7+718|u1873.I.fina=13+501|space=16+260|u189F.Ih.init=17+622|u1823.O.fina=20+440|space=23+260|u189F.Ih.init=24+622|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ḍha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢏᠠ ᢏᠠᢇ ᢏᡳ ᢏᡳᡳ ᢏᡠ ᢏᡠᡠ",
+   "expectation": "u188F.Wn.init=0+520|u1820.A.fina=3+427|space=6+260|u188F.Wn.init=7+520|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u188F.Wn.init=17+520|u1873.I.fina=20+501|space=23+260|u188F.Wn.init=24+520|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u188F.Wn.init=34+520|u1860.Oh.fina=37+440|space=40+260|u188F.Wn.init=41+520|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ṇa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢏᡳᡵ᠋ᡳ ᢏᡳᡵ᠋ᡳᡳ ᢏᡳᠯᡳ ᢏᡳᠯᡳᡳ",
+   "expectation": "u188F.Wn.init=0+520|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u188F.Wn.init=16+520|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u188F.Wn.init=35+520|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u188F.Wn.init=48+520|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ṇa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢏᡝ ᢏᡝᡳ ᢏᠣ ᢏᠣᠣ",
+   "expectation": "u188F.Wn.init=0+520|u185D.Ah.fina=3+427|space=6+260|u188F.Wn.init=7+520|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u188F.Wn.init=17+520|u1823.O.fina=20+440|space=23+260|u188F.Wn.init=24+520|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ṇa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢠᠠ ᢠᠠᢇ ᢠᡳ ᢠᡳᡳ ᢠᡠ ᢠᡠᡠ",
+   "expectation": "u18A0.Dr.init=0+576|u1820.A.fina=3+427|space=6+260|u18A0.Dr.init=7+576|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u18A0.Dr.init=17+576|u1873.I.fina=20+501|space=23+260|u18A0.Dr.init=24+576|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u18A0.Dy.init=34+551|u1860.O.fina=37+440|space=40+260|u18A0.Dy.init=41+551|u1860.O.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ta-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢠᡳᡵ᠋ᡳ ᢠᡳᡵ᠋ᡳᡳ ᢠᡳᠯᡳ ᢠᡳᠯᡳᡳ",
+   "expectation": "u18A0.Dr.init=0+576|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u18A0.Dr.init=16+576|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u18A0.Dr.init=35+576|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u18A0.Dr.init=48+576|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ta-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢠᡝ ᢠᡝᡳ ᢠᠣ ᢠᠣᠣ",
+   "expectation": "u18A0.Dy.init=0+551|u185D.A.fina=3+427|space=6+260|u18A0.Dy.init=7+551|u185D.A.medi=10+284|u1873.I.fina=13+501|space=16+260|u18A0.Dr.init=17+576|u1823.O.fina=20+440|space=23+260|u18A0.Dr.init=24+576|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ta-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡨᠠ ᡨᠠᢇ ᡨᡳ ᡨᡳᡳ ᡨᡠ ᡨᡠᡠ",
+   "expectation": "u1868.T.init=0+670|u1820.A.fina=3+427|space=6+260|u1868.T.init=7+670|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1868.T.init=17+670|u1873.I.fina=20+501|space=23+260|u1868.T.init=24+670|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1868.Tb.init=34+757|u1860.O.fina=37+440|space=40+260|u1868.Tb.init=41+757|u1860.O.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-tha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡨᡳᡵ᠋ᡳ ᡨᡳᡵ᠋ᡳᡳ ᡨᡳᠯᡳ ᡨᡳᠯᡳᡳ",
+   "expectation": "u1868.T.init=0+670|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1868.T.init=16+670|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1868.T.init=35+670|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1868.T.init=48+670|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-tha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡨᡝ ᡨᡝᡳ ᡨᠣ ᡨᠣᠣ",
+   "expectation": "u1868.Tb.init=0+757|u185D.A.fina=3+427|space=6+260|u1868.Tb.init=7+757|u185D.A.medi=10+284|u1873.I.fina=13+501|space=16+260|u1868.T.init=17+670|u1823.O.fina=20+440|space=23+260|u1868.T.init=24+670|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-tha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡩᠠ ᡩᠠᢇ ᡩᡳ ᡩᡳᡳ ᡩᡠ ᡩᡠᡠ",
+   "expectation": "u1869.Th.init=0+670|u1820.A.fina=3+427|space=6+260|u1869.Th.init=7+670|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1869.Th.init=17+670|u1873.I.fina=20+501|space=23+260|u1869.Th.init=24+670|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1869.Tt.init=34+757|u1860.O.fina=37+440|space=40+260|u1869.Tt.init=41+757|u1860.O.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-da-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡩᡳᡵ᠋ᡳ ᡩᡳᡵ᠋ᡳᡳ ᡩᡳᠯᡳ ᡩᡳᠯᡳᡳ",
+   "expectation": "u1869.Th.init=0+670|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1869.Th.init=16+670|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1869.Th.init=35+670|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1869.Th.init=48+670|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-da-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡩᡝ ᡩᡝᡳ ᡩᠣ ᡩᠣᠣ",
+   "expectation": "u1869.Tt.init=0+757|u185D.A.fina=3+427|space=6+260|u1869.Tt.init=7+757|u185D.A.medi=10+284|u1873.I.fina=13+501|space=16+260|u1869.Th.init=17+670|u1823.O.fina=20+440|space=23+260|u1869.Th.init=24+670|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-da-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢡᠠ ᢡᠠᢇ ᢡᡳ ᢡᡳᡳ ᢡᡠ ᢡᡠᡠ",
+   "expectation": "u18A1.Tx.init=0+973|u1820.A.fina=3+427|space=6+260|u18A1.Tx.init=7+973|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u18A1.Tx.init=17+973|u1873.I.fina=20+501|space=23+260|u18A1.Tx.init=24+973|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u18A1.Ts.init=34+1060|u1860.O.fina=37+440|space=40+260|u18A1.Ts.init=41+1060|u1860.O.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-dha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢡᡳᡵ᠋ᡳ ᢡᡳᡵ᠋ᡳᡳ ᢡᡳᠯᡳ ᢡᡳᠯᡳᡳ",
+   "expectation": "u18A1.Tx.init=0+973|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u18A1.Tx.init=16+973|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u18A1.Tx.init=35+973|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u18A1.Tx.init=48+973|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-dha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢡᡝ ᢡᡝᡳ ᢡᠣ ᢡᠣᠣ",
+   "expectation": "u18A1.Ts.init=0+1060|u185D.A.fina=3+427|space=6+260|u18A1.Ts.init=7+1060|u185D.A.medi=10+284|u1873.I.fina=13+501|space=16+260|u18A1.Tx.init=17+973|u1823.O.fina=20+440|space=23+260|u18A1.Tx.init=24+973|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-dha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᠠ ᠨᠠᢇ ᠨᡳ ᠨᡳᡳ ᠨᡠ ᠨᡠᡠ",
+   "expectation": "u1828.N.init=0+492|u1820.A.fina=3+427|space=6+260|u1828.N.init=7+492|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1828.N.init=17+492|u1873.I.fina=20+501|space=23+260|u1828.N.init=24+492|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1828.N.init=34+492|u1860.Oh.fina=37+440|space=40+260|u1828.N.init=41+492|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-na-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᡵ᠋ᡳ ᠨᡳᡵ᠋ᡳᡳ ᠨᡳᠯᡳ ᠨᡳᠯᡳᡳ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1828.N.init=16+492|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1828.N.init=35+492|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1828.N.init=48+492|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-na-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡝ ᠨᡝᡳ ᠨᠣ ᠨᠣᠣ",
+   "expectation": "u1828.N.init=0+492|u185D.Ah.fina=3+427|space=6+260|u1828.N.init=7+492|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1828.N.init=17+492|u1823.O.fina=20+440|space=23+260|u1828.N.init=24+492|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-na-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢒᠠ ᢒᠠᢇ ᢒᡳ ᢒᡳᡳ ᢒᡠ ᢒᡠᡠ",
+   "expectation": "u1892_u1820.BgAa.isol=0+1170|space=6+260|u1892_u1820.BgA.init=7+863|u1887.Aw.fina=13+529|space=16+260|u1892_u1873.BgI.isol=17+1167|space=23+260|u1892_u1873.BgI.init=24+917|u1873.I.fina=30+501|space=33+260|u1892_u1860.BgOh.isol=34+797|space=40+260|u1892_u1860.BgOh.init=41+933|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-pa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢒᡳᡵ᠋ᡳ ᢒᡳᡵ᠋ᡳᡳ ᢒᡳᠯᡳ ᢒᡳᠯᡳᡳ",
+   "expectation": "u1892_u1873.BgI.init=0+917|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1892_u1873.BgI.init=16+917|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1892_u1873.BgI.init=35+917|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1892_u1873.BgI.init=48+917|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-pa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢒᡝ ᢒᡝᡳ ᢒᠣ ᢒᠣᠣ",
+   "expectation": "u1892_u185D.BgAt.isol=0+1170|space=6+260|u1892_u185D.BgAh.init=7+863|u1873.I.fina=13+501|space=16+260|u1892_u1823.BgO.isol=17+797|space=23+260|u1892_u1823.BgO.init=24+933|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-pa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡦᠠ ᡦᠠᢇ ᡦᡳ ᡦᡳᡳ ᡦᡠ ᡦᡠᡠ",
+   "expectation": "u1866_u1820.PbAa.isol=0+1200|space=6+260|u1866_u1820.PbA.init=7+893|u1887.Aw.fina=13+529|space=16+260|u1866_u1873.PbI.isol=17+1225|space=23+260|u1866_u1873.PbI.init=24+975|u1873.I.fina=30+501|space=33+260|u1866_u1860.PbOh.isol=34+797|space=40+260|u1866_u1860.PbOh.init=41+933|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-pha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡦᡳᡵ᠋ᡳ ᡦᡳᡵ᠋ᡳᡳ ᡦᡳᠯᡳ ᡦᡳᠯᡳᡳ",
+   "expectation": "u1866_u1873.PbI.init=0+975|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1866_u1873.PbI.init=16+975|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1866_u1873.PbI.init=35+975|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1866_u1873.PbI.init=48+975|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-pha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡦᡝ ᡦᡝᡳ ᡦᠣ ᡦᠣᠣ",
+   "expectation": "u1866_u185D.PbAt.isol=0+1200|space=6+260|u1866_u185D.PbAh.init=7+893|u1873.I.fina=13+501|space=16+260|u1866_u1823.PbO.isol=17+797|space=23+260|u1866_u1823.PbO.init=24+933|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-pha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠪᠠ ᠪᠠᢇ ᠪᡳ ᠪᡳᡳ ᠪᡠ ᠪᡠᡠ",
+   "expectation": "u182A_u1820.BAa.isol=0+1170|space=6+260|u182A_u1820.BA.init=7+863|u1887.Aw.fina=13+529|space=16+260|u182A_u1873.BI.isol=17+1167|space=23+260|u182A_u1873.BI.init=24+917|u1873.I.fina=30+501|space=33+260|u182A_u1860.BOh.isol=34+797|space=40+260|u182A_u1860.BOh.init=41+933|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ba-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠪᡳᡵ᠋ᡳ ᠪᡳᡵ᠋ᡳᡳ ᠪᡳᠯᡳ ᠪᡳᠯᡳᡳ",
+   "expectation": "u182A_u1873.BI.init=0+917|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u182A_u1873.BI.init=16+917|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u182A_u1873.BI.init=35+917|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u182A_u1873.BI.init=48+917|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ba-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠪᡝ ᠪᡝᡳ ᠪᠣ ᠪᠣᠣ",
+   "expectation": "u182A_u185D.BAt.isol=0+1170|space=6+260|u182A_u185D.BAh.init=7+863|u1873.I.fina=13+501|space=16+260|u182A_u1823.BO.isol=17+797|space=23+260|u182A_u1823.BO.init=24+933|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ba-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢨᠠ ᢨᠠᢇ ᢨᡳ ᢨᡳᡳ ᢨᡠ ᢨᡠᡠ",
+   "expectation": "u18A8_u1820.BcAa.isol=0+1170|space=6+260|u18A8_u1820.BcA.init=7+863|u1887.Aw.fina=13+529|space=16+260|u18A8_u1873.BcI.isol=17+1167|space=23+260|u18A8_u1873.BcI.init=24+917|u1873.I.fina=30+501|space=33+260|u18A8_u1860.BcOh.isol=34+797|space=40+260|u18A8_u1860.BcOh.init=41+933|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-bha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢨᡳᡵ᠋ᡳ ᢨᡳᡵ᠋ᡳᡳ ᢨᡳᠯᡳ ᢨᡳᠯᡳᡳ",
+   "expectation": "u18A8_u1873.BcI.init=0+917|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u18A8_u1873.BcI.init=16+917|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u18A8_u1873.BcI.init=35+917|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u18A8_u1873.BcI.init=48+917|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-bha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢨᡝ ᢨᡝᡳ ᢨᠣ ᢨᠣᠣ",
+   "expectation": "u18A8_u185D.BcAt.isol=0+1170|space=6+260|u18A8_u185D.BcAh.init=7+863|u1873.I.fina=13+501|space=16+260|u18A8_u1823.BcO.isol=17+797|space=23+260|u18A8_u1823.BcO.init=24+933|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-bha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠠ ᠮᠠᢇ ᠮᡳ ᠮᡳᡳ ᠮᡠ ᠮᡠᡠ",
+   "expectation": "u182E.M.init=0+492|u1820.A.fina=3+427|space=6+260|u182E.M.init=7+492|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u182E.M.init=17+492|u1873.I.fina=20+501|space=23+260|u182E.M.init=24+492|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u182E.M.init=34+492|u1860.Oh.fina=37+440|space=40+260|u182E.M.init=41+492|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ma-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᡳᡵ᠋ᡳ ᠮᡳᡵ᠋ᡳᡳ ᠮᡳᠯᡳ ᠮᡳᠯᡳᡳ",
+   "expectation": "u182E.M.init=0+492|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u182E.M.init=16+492|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u182E.M.init=35+492|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u182E.M.init=48+492|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ma-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᡝ ᠮᡝᡳ ᠮᠣ ᠮᠣᠣ",
+   "expectation": "u182E.M.init=0+492|u185D.Ah.fina=3+427|space=6+260|u182E.M.init=7+492|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u182E.M.init=17+492|u1823.O.fina=20+440|space=23+260|u182E.M.init=24+492|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ma-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠶᠠ ᠶᠠᢇ ᠶᡳ ᠶᡳᡳ ᠶᡠ ᠶᡠᡠ",
+   "expectation": "u1836.Y.init=0+421|u1820.A.fina=3+427|space=6+260|u1836.Y.init=7+421|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1836.Y.init=17+421|u1873.I.fina=20+501|space=23+260|u1836.Y.init=24+421|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1836.Y.init=34+421|u1860.Oh.fina=37+440|space=40+260|u1836.Y.init=41+421|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ya-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠶᡳᡵ᠋ᡳ ᠶᡳᡵ᠋ᡳᡳ ᠶᡳᠯᡳ ᠶᡳᠯᡳᡳ",
+   "expectation": "u1836.Y.init=0+421|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1836.Y.init=16+421|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1836.Y.init=35+421|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1836.Y.init=48+421|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ya-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠶᡝ ᠶᡝᡳ ᠶᠣ ᠶᠣᠣ",
+   "expectation": "u1836.Y.init=0+421|u185D.Ah.fina=3+427|space=6+260|u1836.Y.init=7+421|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1836.Y.init=17+421|u1823.O.fina=20+440|space=23+260|u1836.Y.init=24+421|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ya-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᠠ ᡵᠠᢇ ᡵᡳ ᡵᡳᡳ ᡵᡠ ᡵᡠᡠ",
+   "expectation": "u1875.R.init=0+421|u1820.A.fina=3+427|space=6+260|u1875.R.init=7+421|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1875.R.init=17+421|u1873.I.fina=20+501|space=23+260|u1875.R.init=24+421|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1875.R.init=34+421|u1860.Oh.fina=37+440|space=40+260|u1875.R.init=41+421|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ra-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᡳᡵ᠋ᡳ ᡵᡳᡵ᠋ᡳᡳ ᡵᡳᠯᡳ ᡵᡳᠯᡳᡳ",
+   "expectation": "u1875.R.init=0+421|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1875.R.init=16+421|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1875.R.init=35+421|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1875.R.init=48+421|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ra-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᡝ ᡵᡝᡳ ᡵᠣ ᡵᠣᠣ",
+   "expectation": "u1875.R.init=0+421|u185D.Ah.fina=3+427|space=6+260|u1875.R.init=7+421|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1875.R.init=17+421|u1823.O.fina=20+440|space=23+260|u1875.R.init=24+421|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ra-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᠠ ᠯᠠᢇ ᠯᡳ ᠯᡳᡳ ᠯᡠ ᠯᡠᡠ",
+   "expectation": "u182F.L.init=0+492|u1820.A.fina=3+427|space=6+260|u182F.L.init=7+492|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u182F.L.init=17+492|u1873.I.fina=20+501|space=23+260|u182F.L.init=24+492|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u182F.L.init=34+492|u1860.Oh.fina=37+440|space=40+260|u182F.L.init=41+492|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-la-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᡳᡵ᠋ᡳ ᠯᡳᡵ᠋ᡳᡳ ᠯᡳᠯᡳ ᠯᡳᠯᡳᡳ",
+   "expectation": "u182F.L.init=0+492|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u182F.L.init=16+492|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u182F.L.init=35+492|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u182F.L.init=48+492|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-la-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᡝ ᠯᡝᡳ ᠯᠣ ᠯᠣᠣ",
+   "expectation": "u182F.L.init=0+492|u185D.Ah.fina=3+427|space=6+260|u182F.L.init=7+492|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u182F.L.init=17+492|u1823.O.fina=20+440|space=23+260|u182F.L.init=24+492|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-la-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠸᠠ ᠸᠠᢇ ᠸᡳ ᠸᡳᡳ ᠸᡠ ᠸᡠᡠ",
+   "expectation": "u1838.W.init=0+520|u1820.A.fina=3+427|space=6+260|u1838.W.init=7+520|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1838.W.init=17+520|u1873.I.fina=20+501|space=23+260|u1838.W.init=24+520|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1838.W.init=34+520|u1860.Oh.fina=37+440|space=40+260|u1838.W.init=41+520|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-va-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠸᡳᡵ᠋ᡳ ᠸᡳᡵ᠋ᡳᡳ ᠸᡳᠯᡳ ᠸᡳᠯᡳᡳ",
+   "expectation": "u1838.W.init=0+520|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1838.W.init=16+520|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1838.W.init=35+520|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1838.W.init=48+520|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-va-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠸᡝ ᠸᡝᡳ ᠸᠣ ᠸᠣᠣ",
+   "expectation": "u1838.W.init=0+520|u185D.Ah.fina=3+427|space=6+260|u1838.W.init=7+520|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1838.W.init=17+520|u1823.O.fina=20+440|space=23+260|u1838.W.init=24+520|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-va-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡧᠠ ᡧᠠᢇ ᡧᡳ ᡧᡳᡳ ᡧᡠ ᡧᡠᡠ",
+   "expectation": "u1867.Sp.init=0+681|u1820.A.fina=3+427|space=6+260|u1867.Sp.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1867.Sp.init=17+681|u1873.I.fina=20+501|space=23+260|u1867.Sp.init=24+681|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1867.Sp.init=34+681|u1860.Oh.fina=37+440|space=40+260|u1867.Sp.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-śa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡧᡳᡵ᠋ᡳ ᡧᡳᡵ᠋ᡳᡳ ᡧᡳᠯᡳ ᡧᡳᠯᡳᡳ",
+   "expectation": "u1867.Sp.init=0+681|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1867.Sp.init=16+681|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1867.Sp.init=35+681|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1867.Sp.init=48+681|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-śa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡧᡝ ᡧᡝᡳ ᡧᠣ ᡧᠣᠣ",
+   "expectation": "u1867.Sp.init=0+681|u185D.Ah.fina=3+427|space=6+260|u1867.Sp.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1867.Sp.init=17+681|u1823.O.fina=20+440|space=23+260|u1867.Sp.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-śa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢢᠠ ᢢᠠᢇ ᢢᡳ ᢢᡳᡳ ᢢᡠ ᢢᡠᡠ",
+   "expectation": "u18A2.Sx2.init=0+681|u1820.A.fina=3+427|space=6+260|u18A2.Sx2.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u18A2.Sx2.init=17+681|u1873.I.fina=20+501|space=23+260|u18A2.Sx2.init=24+681|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u18A2.Sx2.init=34+681|u1860.Oh.fina=37+440|space=40+260|u18A2.Sx2.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ṣa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢢᡳᡵ᠋ᡳ ᢢᡳᡵ᠋ᡳᡳ ᢢᡳᠯᡳ ᢢᡳᠯᡳᡳ",
+   "expectation": "u18A2.Sx2.init=0+681|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u18A2.Sx2.init=16+681|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u18A2.Sx2.init=35+681|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u18A2.Sx2.init=48+681|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ṣa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢢᡝ ᢢᡝᡳ ᢢᠣ ᢢᠣᠣ",
+   "expectation": "u18A2.Sx2.init=0+681|u185D.Ah.fina=3+427|space=6+260|u18A2.Sx2.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u18A2.Sx2.init=17+681|u1823.O.fina=20+440|space=23+260|u18A2.Sx2.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ṣa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠰᠠ ᠰᠠᢇ ᠰᡳ ᠰᡳᡳ ᠰᡠ ᠰᡠᡠ",
+   "expectation": "u1830.S.init=0+681|u1820.A.fina=3+427|space=6+260|u1830.S.init=7+681|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1830.S.init=17+681|u1873.I.fina=20+501|space=23+260|u1830.S.init=24+681|u1873.I.medi=27+361|u1873.I.fina=30+501|space=33+260|u1830.S.init=34+681|u1860.Oh.fina=37+440|space=40+260|u1830.S.init=41+681|u1860.Oh.medi=44+573|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-sa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠰᡳᡵ᠋ᡳ ᠰᡳᡵ᠋ᡳᡳ ᠰᡳᠯᡳ ᠰᡳᠯᡳᡳ",
+   "expectation": "u1830.S.init=0+681|u1873.I.medi=3+361|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1830.S.init=16+681|u1873.I.medi=19+361|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1830.S.init=35+681|u1873.I.medi=38+361|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1830.S.init=48+681|u1873.I.medi=51+361|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-sa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠰᡝ ᠰᡝᡳ ᠰᠣ ᠰᠣᠣ",
+   "expectation": "u1830.S.init=0+681|u185D.Ah.fina=3+427|space=6+260|u1830.S.init=7+681|u185D.Ah.medi=10+284|u1873.I.fina=13+501|space=16+260|u1830.S.init=17+681|u1823.O.fina=20+440|space=23+260|u1830.S.init=24+681|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-sa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡥᠠ ᡥᠠᢇ ᡥᡳ ᡥᡳᡳ ᡥᡡ ᡥᡡᡠ",
+   "expectation": "u1865.Hc.init=0+887|u1820.A.fina=3+427|space=6+260|u1865.Hc.init=7+887|u1820.A.medi=10+284|u1887.Aw.fina=13+529|space=16+260|u1865_u1873.GcI.isol=17+1060|space=23+260|u1865_u1873.GcI.init=24+810|u1873.I.fina=30+501|space=33+260|u1865.Hc.init=34+887|u1861.Ue.fina=37+743|space=40+260|u1865.Hc.init=41+887|u1861.OI.medi=44+934|u1860.U.fina=47+634",
+   "note": "core-mag > pu1-ha-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡥᡳᡵ᠋ᡳ ᡥᡳᡵ᠋ᡳᡳ ᡥᡳᠯᡳ ᡥᡳᠯᡳᡳ",
+   "expectation": "u1865_u1873.GcI.init=0+810|u1875.R3.medi=6+559|fvs1.valid=6+0|u1873.I.fina=12+501|space=15+260|u1865_u1873.GcI.init=16+810|u1875.R3.medi=22+559|fvs1.valid=22+0|u1873.I.medi=28+361|u1873.I.fina=31+501|space=34+260|u1865_u1873.GcI.init=35+810|u182F.L.medi=41+284|u1873.I.fina=44+501|space=47+260|u1865_u1873.GcI.init=48+810|u182F.L.medi=54+284|u1873.I.medi=57+361|u1873.I.fina=60+501",
+   "note": "core-mag > pu1-ha-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡥᡝ ᡥᡝᡳ ᡥᠣ ᡥᠣᠣ",
+   "expectation": "u1865_u185D.GcAa.isol=0+1021|space=6+260|u1865_u185D.GcA.init=7+714|u1873.I.fina=13+501|space=16+260|u1865.Hc.init=17+887|u1823.O.fina=20+440|space=23+260|u1865.Hc.init=24+887|u1823.O.medi=27+573|u1823.U.fina=30+634",
+   "note": "core-mag > pu1-ha-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢢᠠ ᡬᢢᠠᢇ ᡬᢢᡳ ᡬᢢᡳᡳ ᡬᢢᡠ᠌ ᡬᢢᡠᡠ",
+   "expectation": "u186C.Kh.init=0+429|u18A2.Sx2.medi=3+581|u1820.A.fina=6+427|space=9+260|u186C.Kh.init=10+429|u18A2.Sx2.medi=13+581|u1820.A.medi=16+284|u1887.Aw.fina=19+529|space=22+260|u186C.Kh.init=23+429|u18A2.Sx2.medi=26+581|u1873.I.fina=29+501|space=32+260|u186C.Kh.init=33+429|u18A2.Sx2.medi=36+581|u1873.I.medi=39+361|u1873.I.fina=42+501|space=45+260|u186C.Kh.init=46+429|u18A2.Sx2.medi=49+581|u1860.Oh.fina=52+440|fvs2.valid=52+0|space=58+260|u186C.Kh.init=59+429|u18A2.Sx2.medi=62+581|u1860.Oh.medi=65+573|u1860.U.fina=68+634",
+   "note": "core-mag > pu1-kṣa-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢢᡳᡵ᠋ᡳ ᡬᢢᡳᡵ᠋ᡳᡳ ᡬᢢᡳᠯᡳ ᡬᢢᡳᠯᡳᡳ",
+   "expectation": "u186C.Kh.init=0+429|u18A2.Sx2.medi=3+581|u1873.I.medi=6+361|u1875.R3.medi=9+559|fvs1.valid=9+0|u1873.I.fina=15+501|space=18+260|u186C.Kh.init=19+429|u18A2.Sx2.medi=22+581|u1873.I.medi=25+361|u1875.R3.medi=28+559|fvs1.valid=28+0|u1873.I.medi=34+361|u1873.I.fina=37+501|space=40+260|u186C.Kh.init=41+429|u18A2.Sx2.medi=44+581|u1873.I.medi=47+361|u182F.L.medi=50+284|u1873.I.fina=53+501|space=56+260|u186C.Kh.init=57+429|u18A2.Sx2.medi=60+581|u1873.I.medi=63+361|u182F.L.medi=66+284|u1873.I.medi=69+361|u1873.I.fina=72+501",
+   "note": "core-mag > pu1-kṣa-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢢᡝ ᡬᢢᡝᡳ ᡬᢢᠣ᠋ ᡬᢢᠣᠣ",
+   "expectation": "u186C.Kh.init=0+429|u18A2.Sx2.medi=3+581|u185D.Ah.fina=6+427|space=9+260|u186C.Kh.init=10+429|u18A2.Sx2.medi=13+581|u185D.Ah.medi=16+284|u1873.I.fina=19+501|space=22+260|u186C.Kh.init=23+429|u18A2.Sx2.medi=26+581|u1823.O.fina=29+440|fvs1.valid=29+0|space=35+260|u186C.Kh.init=36+429|u18A2.Sx2.medi=39+581|u1823.O.medi=42+573|u1823.U.fina=45+634",
+   "note": "core-mag > pu1-kṣa-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠺᠶᠠ ᠺᡵᠠ ᠺᠯᠠ ᠺᠣᠸᠠ",
+   "expectation": "u183A.K2.init=0+429|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u183A.K2.init=10+429|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u183A.K2.init=20+429|nirugu.extend=20+168|u182F.L.medi=23+284|u1820.A.fina=26+427|space=29+260|u183A_u1823.K2O.init=30+885|u1838.W.medi=36+458|u1820.A.fina=39+427",
+   "note": "core-mag > pu2-bowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢚᠶᠠ ᢚᡵᠠ ᢚᠯᠠ ᢚᠣᠸᠠ",
+   "expectation": "u189A.Hy.init=0+785|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u189A.Hy.init=10+785|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u189A.Hy.init=20+785|u182F.L.medi=23+284|u1820.A.fina=26+427|space=29+260|u189A.Hy.init=30+785|u1823.O.medi=33+573|u1838.W.medi=36+458|u1820.A.fina=39+427",
+   "note": "core-mag > pu2-halfbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᠶᠠ ᢜᡵᠠ ᢜᠯᠠ ᢜᠣᠸᠠ",
+   "expectation": "u189C.Ct.init=0+681|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u189C.Ct.init=10+681|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u189C.Ct.init=20+681|u182F.L.medi=23+284|u1820.A.fina=26+427|space=29+260|u189C.Ct.init=30+681|u1823.O.medi=33+573|u1838.W.medi=36+458|u1820.A.fina=39+427",
+   "note": "core-mag > pu2-nonbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠠ ᠨᡳᠶᡵᠠ ᠨᡳᠶᠯᠠ ᠨᡳᠣᠸᠠ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.fina=9+427|space=12+260|u1828.N.init=13+492|u1873.I.medi=16+361|u1836.Y.medi=19+361|u1875.R.medi=22+361|u1820.A.fina=25+427|space=28+260|u1828.N.init=29+492|u1873.I.medi=32+361|u1836.Y.medi=35+361|u182F.L.medi=38+284|u1820.A.fina=41+427|space=44+260|u1828.N.init=45+492|u1873.I.medi=48+361|u1823.O.medi=51+573|u1838.W.medi=54+458|u1820.A.fina=57+427",
+   "note": "core-mag > pu2-ña",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᡬᠠ ᠺᠺᠠ ᢒᢒᠠ ᡦᡦᠠ",
+   "expectation": "u186C.Kh.init=0+429|u186C_u1820.KhAa.fina=3+976|space=9+260|u183A.K2.init=10+429|u183A_u1820.K2Aa.fina=13+976|space=19+260|u1892.Bg.init=20+557|u1892_u1820.BgAa.fina=23+1125|space=29+260|u1866.Pb.init=30+593|u1866_u1820.PbAa.fina=33+1154",
+   "note": "core-mag > pu3-bowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᡤᠠ ᢚᢚᠠ ᢛᢛᠠ ᡥᡥᠠ",
+   "expectation": "u1864.Hh.init=0+788|u1864.Hh.medi=3+568|u1820.A.fina=6+427|space=9+260|u189A.Hy.init=10+785|u189A.Hy.medi=13+568|u1820.A.fina=16+427|space=19+260|u189B.Nb.init=20+774|u189B.Nb.medi=23+566|u1820.A.fina=26+427|space=29+260|u1865.Hc.init=30+887|u1865.Hc.medi=33+568|u1820.A.fina=36+427",
+   "note": "core-mag > pu3-halfbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᢜᠠ ᡮᡮᠠ ᡯᡯᠠ ᢝᢝᠠ",
+   "expectation": "u189C.Ct.init=0+681|u189C.Ct.medi=3+581|u1820.A.fina=6+427|space=9+260|u186E.Cs.init=10+681|u186E.Cs.medi=13+581|u1820.A.fina=16+427|space=19+260|u186F.Zs.init=20+681|u186F.Zs.medi=23+581|u1820.A.fina=26+427|space=29+260|u189D.Zt.init=30+848|u189D.Zt.medi=33+772|u1820.A.fina=36+427",
+   "note": "core-mag > pu3-nonbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠨᡳᠶᠠ ᡬᢢᡬᢢᠠ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1828.N.medi=9+284|u1873.I.medi=12+361|u1836.Y.medi=15+361|u1820.A.fina=18+427|space=21+260|u186C.Kh.init=22+429|u18A2.Sx2.medi=25+581|u186C.Kh.medi=28+384|u18A2.Sx2.medi=31+581|u1820.A.fina=34+427",
+   "note": "core-mag > pu3-other",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢛᡬᠠ ᢛᠺᠠ ᢛᡤᠠ ᢛᢚᠠ",
+   "expectation": "u189B.Nb.init=0+774|u186C_u1820.KhAa.fina=3+976|space=9+260|u189B.Nb.init=10+774|u183A_u1820.K2Aa.fina=13+976|space=19+260|u189B.Nb.init=20+774|u1864.Hh.medi=23+568|u1820.A.fina=26+427|space=29+260|u189B.Nb.init=30+774|u189A.Hy.medi=33+568|u1820.A.fina=36+427",
+   "note": "core-mag > pu4-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᢜᠠ ᠨᡳᠶᡮᠠ ᠨᡳᠶᡯᠠ ᠨᡳᠶᢝᠠ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u189C.Ct.medi=9+581|u1820.A.fina=12+427|space=15+260|u1828.N.init=16+492|u1873.I.medi=19+361|u1836.Y.medi=22+361|u186E.Cs.medi=25+581|u1820.A.fina=28+427|space=31+260|u1828.N.init=32+492|u1873.I.medi=35+361|u1836.Y.medi=38+361|u186F.Zs.medi=41+581|u1820.A.fina=44+427|space=47+260|u1828.N.init=48+492|u1873.I.medi=51+361|u1836.Y.medi=54+361|u189D.Zt.medi=57+772|u1820.A.fina=60+427",
+   "note": "core-mag > pu4-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢏᢞᠠ ᢏᡱᠠ ᢏᡷᠠ ᢏᢟᠠ",
+   "expectation": "u188F.Wn.init=0+520|u189E.Jt.medi=3+660|u1820.A.fina=6+427|space=9+260|u188F.Wn.init=10+520|u1871.Cc.medi=13+530|u1820.A.fina=16+427|space=19+260|u188F.Wn.init=20+520|u1877.Jc.medi=23+530|u1820.A.fina=26+427|space=29+260|u188F.Wn.init=30+520|u189F.Jh.medi=33+652|u1820.A.fina=36+427",
+   "note": "core-mag > pu4-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᢠᠠ ᠨᡨᠠ ᠨᡩᠠ ᠨᢡᠠ",
+   "expectation": "u1828.N.init=0+492|u18A0.Dr.medi=3+507|u1820.A.fina=6+427|space=9+260|u1828.N.init=10+492|u1868.D.medi=13+613|u1820.A.fina=16+427|space=19+260|u1828.N.init=20+492|u1869.Dh.medi=23+613|u1820.A.fina=26+427|space=29+260|u1828.N.init=30+492|u18A1.Dx.medi=33+613|u1820.A.fina=36+427",
+   "note": "core-mag > pu4-4",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᢒᠠ ᠮᡦᠠ ᠮᠪᠠ ᠮᢨᠠ",
+   "expectation": "u182E.M.init=0+492|u1892_u1820.BgAa.fina=3+1125|space=9+260|u182E.M.init=10+492|u1866_u1820.PbAa.fina=13+1154|space=19+260|u182E.M.init=20+492|u182A_u1820.BAa.fina=23+1124|space=29+260|u182E.M.init=30+492|u18A8_u1820.BcAa.fina=33+1124",
+   "note": "core-mag > pu4-5",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᡬᠠ ᡧᡬᠠ ᢢᡬᠠ ᠰᡬᠠ",
+   "expectation": "u182F.L.init=0+492|u186C_u1820.KhAa.fina=3+976|space=9+260|u1867.Sp.init=10+681|u186C_u1820.KhAa.fina=13+976|space=19+260|u18A2.Sx2.init=20+681|u186C_u1820.KhAa.fina=23+976|space=29+260|u1830.S.init=30+681|u186C_u1820.KhAa.fina=33+976",
+   "note": "core-mag > pu5-bowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᡤᠠ ᡧᡤᠠ ᢢᡤᠠ ᠰᡤᠠ",
+   "expectation": "u182F.L.init=0+492|u1864.Hh.medi=3+568|u1820.A.fina=6+427|space=9+260|u1867.Sp.init=10+681|u1864.Hh.medi=13+568|u1820.A.fina=16+427|space=19+260|u18A2.Sx2.init=20+681|u1864.Hh.medi=23+568|u1820.A.fina=26+427|space=29+260|u1830.S.init=30+681|u1864.Hh.medi=33+568|u1820.A.fina=36+427",
+   "note": "core-mag > pu5-halfbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᢜᠠ ᡧᢜᠠ ᢢᢜᠠ ᠰᢜᠠ",
+   "expectation": "u182F.L.init=0+492|u189C.Ct.medi=3+581|u1820.A.fina=6+427|space=9+260|u1867.Sp.init=10+681|u189C.Ct.medi=13+581|u1820.A.fina=16+427|space=19+260|u18A2.Sx2.init=20+681|u189C.Ct.medi=23+581|u1820.A.fina=26+427|space=29+260|u1830.S.init=30+681|u189C.Ct.medi=33+581|u1820.A.fina=36+427",
+   "note": "core-mag > pu5-nonbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᠨᡳᠶᠠ ᡧᠨᡳᠶᠠ ᢢᠨᡳᠶᠠ ᠰᠨᡳᠶᠠ",
+   "expectation": "u182F.L.init=0+492|u1828.N.medi=3+284|u1873.I.medi=6+361|u1836.Y.medi=9+361|u1820.A.fina=12+427|space=15+260|u1867.Sp.init=16+681|u1828.N.medi=19+284|u1873.I.medi=22+361|u1836.Y.medi=25+361|u1820.A.fina=28+427|space=31+260|u18A2.Sx2.init=32+681|u1828.N.medi=35+284|u1873.I.medi=38+361|u1836.Y.medi=41+361|u1820.A.fina=44+427|space=47+260|u1830.S.init=48+681|u1828.N.medi=51+284|u1873.I.medi=54+361|u1836.Y.medi=57+361|u1820.A.fina=60+427",
+   "note": "core-mag > pu5-other",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᡬᠠ ᡵᠺᠠ ᡵᡤᠠ ᡵᢚᠠ ᡵᢛᠠ",
+   "expectation": "u1875.R.init=0+421|u186C_u1820.KhAa.fina=3+976|space=9+260|u1875.R.init=10+421|u183A_u1820.K2Aa.fina=13+976|space=19+260|u1875.R.init=20+421|u1864.Hh.medi=23+568|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u189A.Hy.medi=33+568|u1820.A.fina=36+427|space=39+260|u1875.R.init=40+421|u189B.Nb.medi=43+566|u1820.A.fina=46+427",
+   "note": "core-mag > pu6-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᢜᠠ ᡵᡮᠠ ᡵᡯᠠ ᡵᢝᠠ ᡵᠨᡳᠶᠠ",
+   "expectation": "u1875.R.init=0+421|u189C.Ct.medi=3+581|u1820.A.fina=6+427|space=9+260|u1875.R.init=10+421|u186E.Cs.medi=13+581|u1820.A.fina=16+427|space=19+260|u1875.R.init=20+421|u186F.Zs.medi=23+581|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u189D.Zt.medi=33+772|u1820.A.fina=36+427|space=39+260|u1875.R.init=40+421|u1828.N.medi=43+284|u1873.I.medi=46+361|u1836.Y.medi=49+361|u1820.A.fina=52+427",
+   "note": "core-mag > pu6-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᢞᠠ ᡵᡱᠠ ᡵᡷᠠ ᡵᢟᠠ ᡵᢏᠠ",
+   "expectation": "u1875.R.init=0+421|u189E.Jt.medi=3+660|u1820.A.fina=6+427|space=9+260|u1875.R.init=10+421|u1871.Cc.medi=13+530|u1820.A.fina=16+427|space=19+260|u1875.R.init=20+421|u1877.Jc.medi=23+530|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u189F.Jh.medi=33+652|u1820.A.fina=36+427|space=39+260|u1875.R.init=40+421|u188F.Wn.medi=43+458|u1820.A.fina=46+427",
+   "note": "core-mag > pu6-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᢠᠠ ᡵᡨᠠ ᡵᡩᠠ ᡵᢡᠠ ᡵᠨᠠ",
+   "expectation": "u1875.R.init=0+421|u18A0.Dr.medi=3+507|u1820.A.fina=6+427|space=9+260|u1875.R.init=10+421|u1868.D.medi=13+613|u1820.A.fina=16+427|space=19+260|u1875.R.init=20+421|u1869.Dh.medi=23+613|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u18A1.Dx.medi=33+613|u1820.A.fina=36+427|space=39+260|u1875.R.init=40+421|u1828.N.medi=43+284|u1820.A.fina=46+427",
+   "note": "core-mag > pu6-4",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᢒᠠ ᡵᡦᠠ ᡵᠪᠠ ᡵᢨᠠ ᡵᠮᠠ",
+   "expectation": "u1875.R.init=0+421|u1892_u1820.BgAa.fina=3+1125|space=9+260|u1875.R.init=10+421|u1866_u1820.PbAa.fina=13+1154|space=19+260|u1875.R.init=20+421|u182A_u1820.BAa.fina=23+1124|space=29+260|u1875.R.init=30+421|u18A8_u1820.BcAa.fina=33+1124|space=39+260|u1875.R.init=40+421|u182E.M.medi=43+284|u1820.A.fina=46+427",
+   "note": "core-mag > pu6-5",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᠶᠠ ᡵᡵᠠ ᡵᠯᠠ ᡵᠸᠠ",
+   "expectation": "u1875.R.init=0+421|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u1875.R.init=10+421|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u1875.R.init=20+421|u182F.L.medi=23+284|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u1838.W.medi=33+458|u1820.A.fina=36+427",
+   "note": "core-mag > pu6-6",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᡧᠠ ᡵᢢᠠ ᡵᠰᠠ ᡵᡥᠠ ᡵᡬᢢᠠ",
+   "expectation": "u1875.R.init=0+421|u1867.Sp.medi=3+581|u1820.A.fina=6+427|space=9+260|u1875.R.init=10+421|u18A2.Sx2.medi=13+581|u1820.A.fina=16+427|space=19+260|u1875.R.init=20+421|u1830.S.medi=23+581|u1820.A.fina=26+427|space=29+260|u1875.R.init=30+421|u1865.Hc.medi=33+568|u1820.A.fina=36+427|space=39+260|u1875.R.init=40+421|u186C.Kh.medi=43+384|u18A2.Sx2.medi=46+581|u1820.A.fina=49+427",
+   "note": "core-mag > pu6-7",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢅᠣ ᡬᢆᠣᠣ",
+   "expectation": "u186C_u1823.KhO.isol=0+749|u1885=0@-749,0+0|space=9+260|u186C_u1823.KhO.init=10+885|u1886=10@-885,0+0|u1823.U.fina=19+634",
+   "note": "core-mag > pu7",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢂᡬᠠ ᢂᠺᠠ",
+   "expectation": "u1882=0+673|u186C_u1820.KhAa.isol=3+1021|space=9+260|u1882=10+673|u183A_u1820.K2Aa.isol=13+1021",
+   "note": "core-mag > pu8",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢄᢒᠠ ᢃᢒᠠ ᢄᡦᠠ ᢃᡦᠠ",
+   "expectation": "u1884=0+483|u1892_u1820.BgAa.isol=3+1170|space=9+260|u1883=10+483|u1892_u1820.BgAa.isol=13+1170|space=19+260|u1884=20+483|u1866_u1820.PbAa.isol=23+1200|space=29+260|u1883=30+483|u1866_u1820.PbAa.isol=33+1200",
+   "note": "core-mag > pu9",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡯᠨᡳᠶᠠ ᡬᠰᠠ ᡬᠠᠣ",
+   "expectation": "u186F.Zs.init=0+681|u1828.N.medi=3+284|u1873.I.medi=6+361|u1836.Y.medi=9+361|u1820.A.fina=12+427|space=15+260|u186C.Kh.init=16+429|u1830.S.medi=19+581|u1820.A.fina=22+427|space=25+260|u186C_u1820.KhA.init=26+714|u1823.U.fina=32+634",
+   "note": "core-mag > pu10-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢀᡯᠯᠣ ᡧᡵ᠋ᡳᡳ ᡥᡵ᠋ᡳᡳ",
+   "expectation": "u1880=0+583|u186F.Zs.init=3+681|u182F.L.medi=6+284|u1823.U.fina=9+634|space=12+260|u1867.Sp.init=13+681|u1875.R3.medi=16+559|fvs1.valid=16+0|u1873.I.medi=22+361|u1873.I.fina=25+501|space=28+260|u1865.Hc.init=29+887|u1875.R3.medi=32+559|fvs1.valid=32+0|u1873.I.medi=38+361|u1873.I.fina=41+501",
+   "note": "core-mag > pu10-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢀᢨᡵᡠᡠ ᢠᠶᡠ ᠪᠶᡠ",
+   "expectation": "u1880=0+583|u18A8.Bc.init=3+557|u1875.R.medi=6+361|u1860.Oh.medi=9+573|u1860.U.fina=12+634|space=15+260|u18A0.Dr.init=16+576|u1836.Y.medi=19+361|u1860.Uh.fina=22+634|space=25+260|u182A.B.init=26+557|u1836.Y.medi=29+361|u1860.Uh.fina=32+634",
+   "note": "core-mag > pu10-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠰᠶᡠ ᡩᠶᡠ ᡯᠶᡠ ᡬᢢᠶᡠ",
+   "expectation": "u1830.S.init=0+681|u1836.Y.medi=3+361|u1860.Uh.fina=6+634|space=9+260|u1869.Th.init=10+670|u1836.Y.medi=13+361|u1860.Uh.fina=16+634|space=19+260|u186F.Zs.init=20+681|u1836.Y.medi=23+361|u1860.Uh.fina=26+634|space=29+260|u186C.Kh.init=30+429|u18A2.Sx2.medi=33+581|u1836.Y.medi=36+361|u1860.Uh.fina=39+634",
+   "note": "core-mag > pu10-4",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢀᠰᠠᠮᠠᡵᠠᠶᡠ ᢀᢠᠰᠠᡵᠠᠶᡠ ᢀᡨᠠᠯᠠᡥᠠᢇ",
+   "expectation": "u1880=0+583|u1830.S.init=3+681|u1820.A.medi=6+284|u182E.M.medi=9+284|u1820.A.medi=12+284|u1875.R.medi=15+361|u1820.A.medi=18+284|u1836.Y.medi=21+361|u1860.Uh.fina=24+634|space=27+260|u1880=28+583|u18A0.Dr.init=31+576|u1830.S.medi=34+581|u1820.A.medi=37+284|u1875.R.medi=40+361|u1820.A.medi=43+284|u1836.Y.medi=46+361|u1860.Uh.fina=49+634|space=52+260|u1880=53+583|u1868.T.init=56+670|u1820.A.medi=59+284|u182F.L.medi=62+284|u1820.A.medi=65+284|u1865.Hc.medi=68+568|u1820.A.medi=71+284|u1887.Aw.fina=74+529",
+   "note": "core-mag > pu10-5",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠᠺᠠᡤᠠᢚᠠᢛᠠ ᢜᠠᡮᠠᡯᠠᢝᠠᠨᡳᠶᠠ",
+   "expectation": "u186C_u1820.KhA.init=0+714|u183A_u1820.K2A.medi=6+669|u1864.Hh.medi=12+568|u1820.A.medi=15+284|u189A.Hy.medi=18+568|u1820.A.medi=21+284|u189B.Nb.medi=24+566|u1820.A.fina=27+427|space=30+260|u189C.Ct.init=31+681|u1820.A.medi=34+284|u186E.Cs.medi=37+581|u1820.A.medi=40+284|u186F.Zs.medi=43+581|u1820.A.medi=46+284|u189D.Zt.medi=49+772|u1820.A.medi=52+284|u1828.N.medi=55+284|u1873.I.medi=58+361|u1836.Y.medi=61+361|u1820.A.fina=64+427",
+   "note": "core-mag > pu10-6",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢞᠠᡱᠠᡷᠠᢟᠠᢏᠠ ᢠᠠᡨᠠᡩᠠᢡᠠᠨᠠ",
+   "expectation": "u189E.It.init=0+445|u1820.A.medi=3+284|u1871.Cc.medi=6+530|u1820.A.medi=9+284|u1877.Jc.medi=12+530|u1820.A.medi=15+284|u189F.Jh.medi=18+652|u1820.A.medi=21+284|u188F.Wn.medi=24+458|u1820.A.fina=27+427|space=30+260|u18A0.Dr.init=31+576|u1820.A.medi=34+284|u1868.D.medi=37+613|u1820.A.medi=40+284|u1869.Dh.medi=43+613|u1820.A.medi=46+284|u18A1.Dx.medi=49+613|u1820.A.medi=52+284|u1828.N.medi=55+284|u1820.A.fina=58+427",
+   "note": "core-mag > pu10-7",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢒᠠᡦᠠᠪᠠᢨᠠᠮᠠ ᠶᠠᡵᠠᠯᠠᠸᠠ ᡧᠠᢢᠠᠰᠠᡥᠠ",
+   "expectation": "u1892_u1820.BgA.init=0+863|u1866_u1820.PbA.medi=6+847|u182A_u1820.BA.medi=12+817|u18A8_u1820.BcA.medi=18+817|u182E.M.medi=24+284|u1820.A.fina=27+427|space=30+260|u1836.Y.init=31+421|u1820.A.medi=34+284|u1875.R.medi=37+361|u1820.A.medi=40+284|u182F.L.medi=43+284|u1820.A.medi=46+284|u1838.W.medi=49+458|u1820.A.fina=52+427|space=55+260|u1867.Sp.init=56+681|u1820.A.medi=59+284|u18A2.Sx2.medi=62+581|u1820.A.medi=65+284|u1830.S.medi=68+581|u1820.A.medi=71+284|u1865.Hc.medi=74+568|u1820.A.fina=77+427",
+   "note": "core-mag > pu10-8",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢀᡬᢢᠠᠮᠠᡵᠠᠶᡠ ᢀᡥᠠᡬᢢᠠᠮᠠᠯᠠᠸᠠᡵᠠᠶᠠ",
+   "expectation": "u1880=0+583|u186C.Kh.init=3+429|u18A2.Sx2.medi=6+581|u1820.A.medi=9+284|u182E.M.medi=12+284|u1820.A.medi=15+284|u1875.R.medi=18+361|u1820.A.medi=21+284|u1836.Y.medi=24+361|u1860.Uh.fina=27+634|space=30+260|u1880=31+583|u1865.Hc.init=34+887|u1820.A.medi=37+284|u186C.Kh.medi=40+384|u18A2.Sx2.medi=43+581|u1820.A.medi=46+284|u182E.M.medi=49+284|u1820.A.medi=52+284|u182F.L.medi=55+284|u1820.A.medi=58+284|u1838.W.medi=61+458|u1820.A.medi=64+284|u1875.R.medi=67+361|u1820.A.medi=70+284|u1836.Y.medi=73+361|u1820.A.fina=76+427",
+   "note": "core-mag > pu10-9",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢀᡥᠠᡬᢢᠠᠮᠠᠯᠠᠸᠠᡵᠠᠶᠠᠩ",
+   "expectation": "u1880=0+583|u1865.Hc.init=3+887|u1820.A.medi=6+284|u186C.Kh.medi=9+384|u18A2.Sx2.medi=12+581|u1820.A.medi=15+284|u182E.M.medi=18+284|u1820.A.medi=21+284|u182F.L.medi=24+284|u1820.A.medi=27+284|u1838.W.medi=30+458|u1820.A.medi=33+284|u1875.R.medi=36+361|u1820.A.medi=39+284|u1836.Y.medi=42+361|u1820.A.medi=45+284|u1829.AG.fina=48+952",
+   "note": "core-mag > pu10-10",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠᠨ ᡬᡳᠨ ᡬᡠᠨ ᡬᡝᠨ ᡬᠣᠨ",
+   "expectation": "u186C_u1820.KhA.init=0+714|u1828.A.fina=6+427|space=9+260|u186C.Kh.init=10+429|u1873.I.medi=13+361|u1828.A.fina=16+427|space=19+260|u186C.Kh.init=20+429|u1860.Oh.medi=23+573|u1828.A.fina=26+427|space=29+260|u186C.Kh.init=30+429|u185D.Ah.medi=33+284|u1828.A.fina=36+427|space=39+260|u186C_u1823.KhO.init=40+885|u1828.A.fina=46+427",
+   "note": "core-mag > pu11-bowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᠠᠨ ᡤ᠌ᡳᠨ ᡤᡡᠨ ᡤ᠌ᡝᠨ ᡤᠣᠨ",
+   "expectation": "u1864_u1820.HhA.init=0+801|u1828.A.fina=6+427|space=9+260|u1864.Hh.init=10+788|fvs2.valid=10+0|u1873.I.medi=16+361|u1828.A.fina=19+427|space=22+260|u1864.Hh.init=23+788|u1861.OI.medi=26+934|u1828.A.fina=29+427|space=32+260|u1864_u185D.HhA.init=33+801|fvs2.valid=33+0|u1828.A.fina=42+427|space=45+260|u1864.Hh.init=46+788|u1823.O.medi=49+573|u1828.A.fina=52+427",
+   "note": "core-mag > pu11-halfbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᠠᠨ ᢜᡳᠨ ᢜᡠᠨ ᢜᡝᠨ ᢜᠣᠨ",
+   "expectation": "u189C.Ct.init=0+681|u1820.A.medi=3+284|u1828.A.fina=6+427|space=9+260|u189C.Ct.init=10+681|u1873.I.medi=13+361|u1828.A.fina=16+427|space=19+260|u189C.Ct.init=20+681|u1860.Oh.medi=23+573|u1828.A.fina=26+427|space=29+260|u189C.Ct.init=30+681|u185D.Ah.medi=33+284|u1828.A.fina=36+427|space=39+260|u189C.Ct.init=40+681|u1823.O.medi=43+573|u1828.A.fina=46+427",
+   "note": "core-mag > pu11-nonbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠠᠨ ᡳᠨ ᡠᠨ ᡝᠨ ᠣᠨ",
+   "expectation": "u1820.AA.init=0+776|u1828.A.fina=3+427|space=6+260|u1873.AI.init=7+853|u1828.A.fina=10+427|space=13+260|u1860.AOh.init=14+1065|u1828.A.fina=17+427|space=20+260|u185D.ANi.init=21+660|u1828.A.fina=24+427|space=27+260|u1823.AO.init=28+1065|u1828.A.fina=31+427",
+   "note": "core-mag > pu11-a",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠠᠨ ᠨᡳᠨ ᠨᡳᠣᠸᡝᠨ ᠨᡳᠶᡝᠨ ᠨᡳᠣᠸᠠᠨ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.medi=9+284|u1828.A.fina=12+427|space=15+260|u1828.N.init=16+492|u1873.I.medi=19+361|u1828.A.fina=22+427|space=25+260|u1828.N.init=26+492|u1873.I.medi=29+361|u1823.O.medi=32+573|u1838.W.medi=35+458|u185D.Ah.medi=38+284|u1828.A.fina=41+427|space=44+260|u1828.N.init=45+492|u1873.I.medi=48+361|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1828.A.fina=57+427|space=60+260|u1828.N.init=61+492|u1873.I.medi=64+361|u1823.O.medi=67+573|u1838.W.medi=70+458|u1820.A.medi=73+284|u1828.A.fina=76+427",
+   "note": "core-mag > pu11-ña",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢢᠠᠨ ᡬᢢᡳᠨ ᡬᢢᡠᠨ ᡬᢢᡝᠨ ᡬᢢᠣᠨ",
+   "expectation": "u186C.Kh.init=0+429|u18A2.Sx2.medi=3+581|u1820.A.medi=6+284|u1828.A.fina=9+427|space=12+260|u186C.Kh.init=13+429|u18A2.Sx2.medi=16+581|u1873.I.medi=19+361|u1828.A.fina=22+427|space=25+260|u186C.Kh.init=26+429|u18A2.Sx2.medi=29+581|u1860.Oh.medi=32+573|u1828.A.fina=35+427|space=38+260|u186C.Kh.init=39+429|u18A2.Sx2.medi=42+581|u185D.Ah.medi=45+284|u1828.A.fina=48+427|space=51+260|u186C.Kh.init=52+429|u18A2.Sx2.medi=55+581|u1823.O.medi=58+573|u1828.A.fina=61+427",
+   "note": "core-mag > pu11-kṣa",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠᠩ ᡬᡳᠩ ᡬᡠᠩ ᡬᡝᠩ ᡬᠣᠩ",
+   "expectation": "u186C_u1820.KhA.init=0+714|u1829.AG.fina=6+952|space=9+260|u186C.Kh.init=10+429|u1873.I.medi=13+361|u1829.AG.fina=16+952|space=19+260|u186C.Kh.init=20+429|u1860.Oh.medi=23+573|u1829.AG.fina=26+952|space=29+260|u186C.Kh.init=30+429|u185D.Ah.medi=33+284|u1829.AG.fina=36+952|space=39+260|u186C_u1823.KhO.init=40+885|u1829.AG.fina=46+952",
+   "note": "core-mag > pu12-bowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᠠᠩ ᡤ᠌ᡳᠩ ᡤᡡᠩ ᡤ᠌ᡝᠩ ᡤᠣᠩ",
+   "expectation": "u1864_u1820.HhA.init=0+801|u1829.AG.fina=6+952|space=9+260|u1864.Hh.init=10+788|fvs2.valid=10+0|u1873.I.medi=16+361|u1829.AG.fina=19+952|space=22+260|u1864.Hh.init=23+788|u1861.OI.medi=26+934|u1829.AG.fina=29+952|space=32+260|u1864_u185D.HhA.init=33+801|fvs2.valid=33+0|u1829.AG.fina=42+952|space=45+260|u1864.Hh.init=46+788|u1823.O.medi=49+573|u1829.AG.fina=52+952",
+   "note": "core-mag > pu12-halfbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᠠᠩ ᢜᡳᠩ ᢜᡠᠩ ᢜᡝᠩ ᢜᠣᠩ",
+   "expectation": "u189C.Ct.init=0+681|u1820.A.medi=3+284|u1829.AG.fina=6+952|space=9+260|u189C.Ct.init=10+681|u1873.I.medi=13+361|u1829.AG.fina=16+952|space=19+260|u189C.Ct.init=20+681|u1860.Oh.medi=23+573|u1829.AG.fina=26+952|space=29+260|u189C.Ct.init=30+681|u185D.Ah.medi=33+284|u1829.AG.fina=36+952|space=39+260|u189C.Ct.init=40+681|u1823.O.medi=43+573|u1829.AG.fina=46+952",
+   "note": "core-mag > pu12-nonbowed",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠠᠩ ᡳᠩ ᡠᠩ ᡝᠩ ᠣᠩ",
+   "expectation": "u1820.AA.init=0+776|u1829.AG.fina=3+952|space=6+260|u1873.AI.init=7+853|u1829.AG.fina=10+952|space=13+260|u1860.AOh.init=14+1065|u1829.AG.fina=17+952|space=20+260|u185D.ANi.init=21+660|u1829.AG.fina=24+952|space=27+260|u1823.AO.init=28+1065|u1829.AG.fina=31+952",
+   "note": "core-mag > pu12-a",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠠᠩ ᠨᡳᠩ ᠨᡳᡠᠩ ᠨᡳᠶᡝᠩ ᠨᡳᠣᠸᠠᠩ",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.medi=9+284|u1829.AG.fina=12+952|space=15+260|u1828.N.init=16+492|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u1828.N.init=26+492|u1873.I.medi=29+361|u1860.O.medi=32+573|u1829.AG.fina=35+952|space=38+260|u1828.N.init=39+492|u1873.I.medi=42+361|u1836.Y.medi=45+361|u185D.Ah.medi=48+284|u1829.AG.fina=51+952|space=54+260|u1828.N.init=55+492|u1873.I.medi=58+361|u1823.O.medi=61+573|u1838.W.medi=64+458|u1820.A.medi=67+284|u1829.AG.fina=70+952",
+   "note": "core-mag > pu12-ña",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᢢᠠᠩ ᡬᢢᡳᠩ ᡬᢢᡠᠩ ᡬᢢᡝᠩ ᡬᢢᠣᠩ",
+   "expectation": "u186C.Kh.init=0+429|u18A2.Sx2.medi=3+581|u1820.A.medi=6+284|u1829.AG.fina=9+952|space=12+260|u186C.Kh.init=13+429|u18A2.Sx2.medi=16+581|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u186C.Kh.init=26+429|u18A2.Sx2.medi=29+581|u1860.Oh.medi=32+573|u1829.AG.fina=35+952|space=38+260|u186C.Kh.init=39+429|u18A2.Sx2.medi=42+581|u185D.Ah.medi=45+284|u1829.AG.fina=48+952|space=51+260|u186C.Kh.init=52+429|u18A2.Sx2.medi=55+581|u1823.O.medi=58+573|u1829.AG.fina=61+952",
+   "note": "core-mag > pu12-kṣa",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠ ᠺᠠ ᡤᠠ ᢛᠠ",
+   "expectation": "u186C_u1820.KhAa.isol=0+1021|space=6+260|u183A_u1820.K2Aa.isol=7+1021|space=13+260|u1864.Hh.init=14+788|u1820.A.fina=17+427|space=20+260|u189B.Nb.init=21+774|u1820.A.fina=24+427",
+   "note": "core-mag > pu1-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢣᡳᠶᠠ ᠴᡳᠶᠠ ᠵᡳᠶᠠ ᠨᡳᠶᠠ",
+   "expectation": "u18A3.Iq.init=0+445|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.fina=9+427|space=12+260|u1834.Ch.init=13+692|u1873.I.medi=16+361|u1836.Y.medi=19+361|u1820.A.fina=22+427|space=25+260|u1835.I.init=26+421|u1873.I.medi=29+361|u1836.Y.medi=32+361|u1820.A.fina=35+427|space=38+260|u1828.N.init=39+492|u1873.I.medi=42+361|u1836.Y.medi=45+361|u1820.A.fina=48+427",
+   "note": "core-mag > pu1-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢠᠠ ᡨᠠ ᡩᠠ ᠨᠠ",
+   "expectation": "u18A0.Dr.init=0+576|u1820.A.fina=3+427|space=6+260|u1868.T.init=7+670|u1820.A.fina=10+427|space=13+260|u1869.Th.init=14+670|u1820.A.fina=17+427|space=20+260|u1828.N.init=21+492|u1820.A.fina=24+427",
+   "note": "core-mag > pu1-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢒᠠ ᡦᠠ ᠪᠠ ᠮᠠ",
+   "expectation": "u1892_u1820.BgAa.isol=0+1170|space=6+260|u1866_u1820.PbAa.isol=7+1200|space=13+260|u182A_u1820.BAa.isol=14+1170|space=20+260|u182E.M.init=21+492|u1820.A.fina=24+427",
+   "note": "core-mag > pu1-4",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢜᠠ ᡮᠠ ᢥᠠ ᠸᠠ",
+   "expectation": "u189C.Ct.init=0+681|u1820.A.fina=3+427|space=6+260|u186E.Cs.init=7+681|u1820.A.fina=10+427|space=13+260|u18A5.Sc.init=14+681|u1820.A.fina=17+427|space=20+260|u1838.W.init=21+520|u1820.A.fina=24+427",
+   "note": "core-mag > pu1-5",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢤᠠ ᢥᠠ ᠇ᢇ ᠶᠠ ᡵᠠ ᠯᠠ",
+   "expectation": "u18A4.St.init=0+681|u1820.A.fina=3+427|space=6+260|u18A5.Sc.init=7+681|u1820.A.fina=10+427|space=13+260|u1807.A2.init=14+529|u1887.Aw.fina=17+529|space=20+260|u1836.Y.init=21+421|u1820.A.fina=24+427|space=27+260|u1875.R.init=28+421|u1820.A.fina=31+427|space=34+260|u182F.L.init=35+492|u1820.A.fina=38+427",
+   "note": "core-mag > pu1-6",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡧᠠ ᠰᠠ ᡥᠠ ᠠ",
+   "expectation": "u1867.Sp.init=0+681|u1820.A.fina=3+427|space=6+260|u1830.S.init=7+681|u1820.A.fina=10+427|space=13+260|u1865.Hc.init=14+887|u1820.A.fina=17+427|space=20+260|u1820.AA.isol=21+919",
+   "note": "core-mag > pu1-7",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢣᡳᠶᠠ ᢣᡳ ᢣᡳᡠᡳ ᢣᡳᠶᡝ ᢣᡳᠶᠣ",
+   "expectation": "u18A3.Iq.init=0+445|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.fina=9+427|space=12+260|u18A3.Iq.init=13+445|u1873.I.fina=16+501|space=19+260|u18A3.Iq.init=20+445|u1873.I.medi=23+361|u1860.O.medi=26+573|u1873.I.fina=29+501|space=32+260|u18A3.Iq.init=33+445|u1873.I.medi=36+361|u1836.Y.medi=39+361|u185D.Ah.fina=42+427|space=45+260|u18A3.Iq.init=46+445|u1873.I.medi=49+361|u1836.Y.medi=52+361|u1823.U.fina=55+634",
+   "note": "core-mag > pu2-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢤᠠ ᢤᡳ ᢤᡠ ᢤᡝ ᢤᠣ",
+   "expectation": "u18A4.St.init=0+681|u1820.A.fina=3+427|space=6+260|u18A4.St.init=7+681|u1873.I.fina=10+501|space=13+260|u18A4.St.init=14+681|u1860.Oh.fina=17+440|space=20+260|u18A4.St.init=21+681|u185D.Ah.fina=24+427|space=27+260|u18A4.St.init=28+681|u1823.O.fina=31+440",
+   "note": "core-mag > pu2-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢣᡳᠶᠠᠨ ᢣᡳᠨ ᢣᡳᠣᠸᡝᠨ ᢣᡳᠶᡝᠨ ᢣᡳᠣᠸᠠᠨ",
+   "expectation": "u18A3.Iq.init=0+445|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.medi=9+284|u1828.A.fina=12+427|space=15+260|u18A3.Iq.init=16+445|u1873.I.medi=19+361|u1828.A.fina=22+427|space=25+260|u18A3.Iq.init=26+445|u1873.I.medi=29+361|u1823.O.medi=32+573|u1838.W.medi=35+458|u185D.Ah.medi=38+284|u1828.A.fina=41+427|space=44+260|u18A3.Iq.init=45+445|u1873.I.medi=48+361|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1828.A.fina=57+427|space=60+260|u18A3.Iq.init=61+445|u1873.I.medi=64+361|u1823.O.medi=67+573|u1838.W.medi=70+458|u1820.A.medi=73+284|u1828.A.fina=76+427",
+   "note": "core-mag > pu3-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢤᠠᠨ ᢤᡳᠨ ᢤᡠᠸᡝᠨ ᢤᡝᠨ ᢤᠣᠸᠠᠨ",
+   "expectation": "u18A4.St.init=0+681|u1820.A.medi=3+284|u1828.A.fina=6+427|space=9+260|u18A4.St.init=10+681|u1873.I.medi=13+361|u1828.A.fina=16+427|space=19+260|u18A4.St.init=20+681|u1860.Oh.medi=23+573|u1838.W.medi=26+458|u185D.Ah.medi=29+284|u1828.A.fina=32+427|space=35+260|u18A4.St.init=36+681|u185D.Ah.medi=39+284|u1828.A.fina=42+427|space=45+260|u18A4.St.init=46+681|u1823.O.medi=49+573|u1838.W.medi=52+458|u1820.A.medi=55+284|u1828.A.fina=58+427",
+   "note": "core-mag > pu3-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢣᡳᠶᠠᠩ ᢣᡳᠩ ᢣᡳᡠᠩ ᢣᡳᠶᡝᠩ ᢣᡳᠣᠸᠠᠩ",
+   "expectation": "u18A3.Iq.init=0+445|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.medi=9+284|u1829.AG.fina=12+952|space=15+260|u18A3.Iq.init=16+445|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u18A3.Iq.init=26+445|u1873.I.medi=29+361|u1860.O.medi=32+573|u1829.AG.fina=35+952|space=38+260|u18A3.Iq.init=39+445|u1873.I.medi=42+361|u1836.Y.medi=45+361|u185D.Ah.medi=48+284|u1829.AG.fina=51+952|space=54+260|u18A3.Iq.init=55+445|u1873.I.medi=58+361|u1823.O.medi=61+573|u1838.W.medi=64+458|u1820.A.medi=67+284|u1829.AG.fina=70+952",
+   "note": "core-mag > pu4-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᢤᠠᠩ ᢤᡳᠩ ᢤᡠᠩ ᢤᡝᠩ ᢤᠣᠩ",
+   "expectation": "u18A4.St.init=0+681|u1820.A.medi=3+284|u1829.AG.fina=6+952|space=9+260|u18A4.St.init=10+681|u1873.I.medi=13+361|u1829.AG.fina=16+952|space=19+260|u18A4.St.init=20+681|u1860.Oh.medi=23+573|u1829.AG.fina=26+952|space=29+260|u18A4.St.init=30+681|u185D.Ah.medi=33+284|u1829.AG.fina=36+952|space=39+260|u18A4.St.init=40+681|u1823.O.medi=43+573|u1829.AG.fina=46+952",
+   "note": "core-mag > pu4-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠠᠰ᠌ ᡬᡳᠰ᠌ ᡬᡠᠰ᠌ ᡬᡝᠰ᠌ ᡬᠣᠰ᠌",
+   "expectation": "u186C_u1820.KhA.init=0+714|u1830.S3.fina=6+831|fvs2.valid=6+0|space=12+260|u186C.Kh.init=13+429|u1873.I.medi=16+361|u1830.S3.fina=19+831|fvs2.valid=19+0|space=25+260|u186C.Kh.init=26+429|u1860.Oh.medi=29+573|u1830.S3.fina=32+831|fvs2.valid=32+0|space=38+260|u186C.Kh.init=39+429|u185D.Ah.medi=42+284|u1830.S3.fina=45+831|fvs2.valid=45+0|space=51+260|u186C_u1823.KhO.init=52+885|u1830.S3.fina=58+831|fvs2.valid=58+0",
+   "note": "core-mag > pu5-ka",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠨᡳᠶᠠᠰ᠌ ᠨᡳᠶᡳᠰ᠌ ᠨᡳᠣᠸᡝᠰ᠌ ᠨᡳᠶᡝᠰ᠌ ᠨᡳᠣᠸᠠᠰ᠌",
+   "expectation": "u1828.N.init=0+492|u1873.I.medi=3+361|u1836.Y.medi=6+361|u1820.A.medi=9+284|u1830.S3.fina=12+831|fvs2.valid=12+0|space=18+260|u1828.N.init=19+492|u1873.I.medi=22+361|u1836.Y.medi=25+361|u1873.I.medi=28+361|u1830.S3.fina=31+831|fvs2.valid=31+0|space=37+260|u1828.N.init=38+492|u1873.I.medi=41+361|u1823.O.medi=44+573|u1838.W.medi=47+458|u185D.Ah.medi=50+284|u1830.S3.fina=53+831|fvs2.valid=53+0|space=59+260|u1828.N.init=60+492|u1873.I.medi=63+361|u1836.Y.medi=66+361|u185D.Ah.medi=69+284|u1830.S3.fina=72+831|fvs2.valid=72+0|space=78+260|u1828.N.init=79+492|u1873.I.medi=82+361|u1823.O.medi=85+573|u1838.W.medi=88+458|u1820.A.medi=91+284|u1830.S3.fina=94+831|fvs2.valid=94+0",
+   "note": "core-mag > pu5-ña",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠠᠰ᠌ ᠮᡳᠰ᠌ ᠮᡠᠰ᠌ ᠮᡝᠰ᠌ ᠮᠣᠰ᠌",
+   "expectation": "u182E.M.init=0+492|u1820.A.medi=3+284|u1830.S3.fina=6+831|fvs2.valid=6+0|space=12+260|u182E.M.init=13+492|u1873.I.medi=16+361|u1830.S3.fina=19+831|fvs2.valid=19+0|space=25+260|u182E.M.init=26+492|u1860.Oh.medi=29+573|u1830.S3.fina=32+831|fvs2.valid=32+0|space=38+260|u182E.M.init=39+492|u185D.Ah.medi=42+284|u1830.S3.fina=45+831|fvs2.valid=45+0|space=51+260|u182E.M.init=52+492|u1823.O.medi=55+573|u1830.S3.fina=58+831|fvs2.valid=58+0",
+   "note": "core-mag > pu5-ma",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠠᠰ᠌ ᡳᠰ᠌ ᡠᠰ᠌ ᡝᠰ᠌ ᠣᠰ᠌",
+   "expectation": "u1820.AA.init=0+776|u1830.S3.fina=3+831|fvs2.valid=3+0|space=9+260|u1873.AI.init=10+853|u1830.S3.fina=13+831|fvs2.valid=13+0|space=19+260|u1860.AOh.init=20+1065|u1830.S3.fina=23+831|fvs2.valid=23+0|space=29+260|u185D.ANi.init=30+660|u1830.S3.fina=33+831|fvs2.valid=33+0|space=39+260|u1823.AO.init=40+1065|u1830.S3.fina=43+831|fvs2.valid=43+0",
+   "note": "core-mag > pu5-a",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠶᠠ ᡬᠶᡳ ᡬᠶᡠ ᡬᠶᡝ ᡬᠶᠣ",
+   "expectation": "u186C.Kh.init=0+429|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u186C.Kh.init=10+429|u1836.Y.medi=13+361|u1873.I.fina=16+501|space=19+260|u186C.Kh.init=20+429|u1836.Y.medi=23+361|u1860.Uh.fina=26+634|space=29+260|u186C.Kh.init=30+429|u1836.Y.medi=33+361|u185D.Ah.fina=36+427|space=39+260|u186C.Kh.init=40+429|u1836.Y.medi=43+361|u1823.U.fina=46+634",
+   "note": "core-mag > pu6-ka",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠶᠠ ᠮᠶᡳ ᠮᠶᡠ ᠮᠶᡝ ᠮᠶᠣ᠌",
+   "expectation": "u182E.M.init=0+492|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u182E.M.init=10+492|u1836.Y.medi=13+361|u1873.I.fina=16+501|space=19+260|u182E.M.init=20+492|u1836.Y.medi=23+361|u1860.Uh.fina=26+634|space=29+260|u182E.M.init=30+492|u1836.Y.medi=33+361|u185D.Ah.fina=36+427|space=39+260|u182E.M.init=40+492|u1836.Y.medi=43+361|u1823.U.fina=46+634|fvs2.valid=46+0",
+   "note": "core-mag > pu6-ma",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠶᠠᠨ᠋ ᡬᠶᡳᠨ᠋ ᡬᠶᡠᠨ᠋ ᡬᠶᡝᠨ᠋ ᡬᠶᠣᠨ᠋",
+   "expectation": "u186C.Kh.init=0+429|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1828.N.fina=9+427|fvs1.valid=9+0|space=15+260|u186C.Kh.init=16+429|u1836.Y.medi=19+361|u1873.I.medi=22+361|u1828.N.fina=25+427|fvs1.valid=25+0|space=31+260|u186C.Kh.init=32+429|u1836.Y.medi=35+361|u1860.Oh.medi=38+573|u1828.N.fina=41+427|fvs1.valid=41+0|space=47+260|u186C.Kh.init=48+429|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1828.N.fina=57+427|fvs1.valid=57+0|space=63+260|u186C.Kh.init=64+429|u1836.Y.medi=67+361|u1823.O.medi=70+573|u1828.N.fina=73+427|fvs1.valid=73+0",
+   "note": "core-mag > pu7-ka",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠶᠠᠨ᠋ ᠮᠶᡳᠨ᠋ ᠮᠶᡠᠨ᠋ ᠮᠶᡝᠨ᠋ ᠮᠶᠣᠨ᠋",
+   "expectation": "u182E.M.init=0+492|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1828.N.fina=9+427|fvs1.valid=9+0|space=15+260|u182E.M.init=16+492|u1836.Y.medi=19+361|u1873.I.medi=22+361|u1828.N.fina=25+427|fvs1.valid=25+0|space=31+260|u182E.M.init=32+492|u1836.Y.medi=35+361|u1860.Oh.medi=38+573|u1828.N.fina=41+427|fvs1.valid=41+0|space=47+260|u182E.M.init=48+492|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1828.N.fina=57+427|fvs1.valid=57+0|space=63+260|u182E.M.init=64+492|u1836.Y.medi=67+361|u1823.O.medi=70+573|u1828.N.fina=73+427|fvs1.valid=73+0",
+   "note": "core-mag > pu7-ma",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠶᠠᠩ ᡬᠶᡳᠩ ᡬᠶᡠᠩ ᡬᠶᡝᠩ ᡬᠶᠣᠩ",
+   "expectation": "u186C.Kh.init=0+429|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1829.AG.fina=9+952|space=12+260|u186C.Kh.init=13+429|u1836.Y.medi=16+361|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u186C.Kh.init=26+429|u1836.Y.medi=29+361|u1860.Oh.medi=32+573|u1829.AG.fina=35+952|space=38+260|u186C.Kh.init=39+429|u1836.Y.medi=42+361|u185D.Ah.medi=45+284|u1829.AG.fina=48+952|space=51+260|u186C.Kh.init=52+429|u1836.Y.medi=55+361|u1823.O.medi=58+573|u1829.AG.fina=61+952",
+   "note": "core-mag > pu8-ka",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠶᠠᠩ ᠮᠶᡳᠩ ᠮᠶᡠᠩ ᠮᠶᡝᠩ ᠮᠶᠣᠩ",
+   "expectation": "u182E.M.init=0+492|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1829.AG.fina=9+952|space=12+260|u182E.M.init=13+492|u1836.Y.medi=16+361|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u182E.M.init=26+492|u1836.Y.medi=29+361|u1860.Oh.medi=32+573|u1829.AG.fina=35+952|space=38+260|u182E.M.init=39+492|u1836.Y.medi=42+361|u185D.Ah.medi=45+284|u1829.AG.fina=48+952|space=51+260|u182E.M.init=52+492|u1836.Y.medi=55+361|u1823.O.medi=58+573|u1829.AG.fina=61+952",
+   "note": "core-mag > pu8-ma",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᠶᠠᠰ᠌ ᡬᠶᡳᠰ᠌ ᡬᠶᡠᠰ᠌ ᡬᠶᡝᠰ᠌ ᡬᠶᠣᠰ᠌",
+   "expectation": "u186C.Kh.init=0+429|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1830.S3.fina=9+831|fvs2.valid=9+0|space=15+260|u186C.Kh.init=16+429|u1836.Y.medi=19+361|u1873.I.medi=22+361|u1830.S3.fina=25+831|fvs2.valid=25+0|space=31+260|u186C.Kh.init=32+429|u1836.Y.medi=35+361|u1860.Oh.medi=38+573|u1830.S3.fina=41+831|fvs2.valid=41+0|space=47+260|u186C.Kh.init=48+429|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1830.S3.fina=57+831|fvs2.valid=57+0|space=63+260|u186C.Kh.init=64+429|u1836.Y.medi=67+361|u1823.O.medi=70+573|u1830.S3.fina=73+831|fvs2.valid=73+0",
+   "note": "core-mag > pu9-ka",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠮᠶᠠᠰ᠌ ᠮᠶᡳᠰ᠌ ᠮᠶᡠᠰ᠌ ᠮᠶᡝᠰ᠌ ᠮᠶᠣᠰ᠌",
+   "expectation": "u182E.M.init=0+492|u1836.Y.medi=3+361|u1820.A.medi=6+284|u1830.S3.fina=9+831|fvs2.valid=9+0|space=15+260|u182E.M.init=16+492|u1836.Y.medi=19+361|u1873.I.medi=22+361|u1830.S3.fina=25+831|fvs2.valid=25+0|space=31+260|u182E.M.init=32+492|u1836.Y.medi=35+361|u1860.Oh.medi=38+573|u1830.S3.fina=41+831|fvs2.valid=41+0|space=47+260|u182E.M.init=48+492|u1836.Y.medi=51+361|u185D.Ah.medi=54+284|u1830.S3.fina=57+831|fvs2.valid=57+0|space=63+260|u182E.M.init=64+492|u1836.Y.medi=67+361|u1823.O.medi=70+573|u1830.S3.fina=73+831|fvs2.valid=73+0",
+   "note": "core-mag > pu9-ma",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᢤᠠ ᡤᢤᡳ ᡤᢤᡠ ᡤᢤᡝ ᡤᢤᠣ",
+   "expectation": "u1864.Hh.init=0+788|u18A4.St.medi=3+581|u1820.A.fina=6+427|space=9+260|u1864.Hh.init=10+788|u18A4.St.medi=13+581|u1873.I.fina=16+501|space=19+260|u1864.Hh.init=20+788|u18A4.St.medi=23+581|u1860.Uh.fina=26+634|space=29+260|u1864.Hh.init=30+788|u18A4.St.medi=33+581|u185D.Ah.fina=36+427|space=39+260|u1864.Hh.init=40+788|u18A4.St.medi=43+581|u1823.U.fina=46+634",
+   "note": "core-mag > pu10-1",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᢤᠠᠨ᠋ ᡤᢤᡳᠨ᠋ ᡤᢤᡠᠨ᠋ ᡤᢤᡝᠨ᠋ ᡤᢤᠣᠨ᠋",
+   "expectation": "u1864.Hh.init=0+788|u18A4.St.medi=3+581|u1820.A.medi=6+284|u1828.N.fina=9+427|fvs1.valid=9+0|space=15+260|u1864.Hh.init=16+788|u18A4.St.medi=19+581|u1873.I.medi=22+361|u1828.N.fina=25+427|fvs1.valid=25+0|space=31+260|u1864.Hh.init=32+788|u18A4.St.medi=35+581|u1860.Oh.medi=38+573|u1828.N.fina=41+427|fvs1.valid=41+0|space=47+260|u1864.Hh.init=48+788|u18A4.St.medi=51+581|u185D.Ah.medi=54+284|u1828.N.fina=57+427|fvs1.valid=57+0|space=63+260|u1864.Hh.init=64+788|u18A4.St.medi=67+581|u1823.O.medi=70+573|u1828.N.fina=73+427|fvs1.valid=73+0",
+   "note": "core-mag > pu10-2",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᢤᠠᠩ ᡤᢤᡳᠩ ᡤᢤᡠᠩ ᡤᢤᡝᠩ ᡤᢤᠣᠩ",
+   "expectation": "u1864.Hh.init=0+788|u18A4.St.medi=3+581|u1820.A.medi=6+284|u1829.AG.fina=9+952|space=12+260|u1864.Hh.init=13+788|u18A4.St.medi=16+581|u1873.I.medi=19+361|u1829.AG.fina=22+952|space=25+260|u1864.Hh.init=26+788|u18A4.St.medi=29+581|u1860.Oh.medi=32+573|u1829.AG.fina=35+952|space=38+260|u1864.Hh.init=39+788|u18A4.St.medi=42+581|u185D.Ah.medi=45+284|u1829.AG.fina=48+952|space=51+260|u1864.Hh.init=52+788|u18A4.St.medi=55+581|u1823.O.medi=58+573|u1829.AG.fina=61+952",
+   "note": "core-mag > pu10-3",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡤᢤᠠᠰ᠌ ᡤᢤᡳᠰ᠌ ᡤᢤᡠᠰ᠌ ᡤᢤᡝᠰ᠌ ᡤᢤᠣᠰ᠌",
+   "expectation": "u1864.Hh.init=0+788|u18A4.St.medi=3+581|u1820.A.medi=6+284|u1830.S3.fina=9+831|fvs2.valid=9+0|space=15+260|u1864.Hh.init=16+788|u18A4.St.medi=19+581|u1873.I.medi=22+361|u1830.S3.fina=25+831|fvs2.valid=25+0|space=31+260|u1864.Hh.init=32+788|u18A4.St.medi=35+581|u1860.Oh.medi=38+573|u1830.S3.fina=41+831|fvs2.valid=41+0|space=47+260|u1864.Hh.init=48+788|u18A4.St.medi=51+581|u185D.Ah.medi=54+284|u1830.S3.fina=57+831|fvs2.valid=57+0|space=63+260|u1864.Hh.init=64+788|u18A4.St.medi=67+581|u1823.O.medi=70+573|u1830.S3.fina=73+831|fvs2.valid=73+0",
+   "note": "core-mag > pu10-4",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡩᠸᠠ ᡩᠪᠶᠠ ᢥᠯᠠ",
+   "expectation": "u1869.Th.init=0+670|u1838.W.medi=3+458|u1820.A.fina=6+427|space=9+260|u1869.Th.init=10+670|u182A.B.medi=13+511|u1836.Y.medi=16+361|u1820.A.fina=19+427|space=22+260|u18A5.Sc.init=23+681|u182F.L.medi=26+284|u1820.A.fina=29+427",
+   "note": "core-mag > pu11",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡬᡵᠠ ᠺᡵᠠ ᡤᡵᠠ ᡩᡵᠠ",
+   "expectation": "u186C.Kh.init=0+429|u1875.R.medi=3+361|u1820.A.fina=6+427|space=9+260|u183A.K2.init=10+429|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u1864.Hh.init=20+788|u1875.R.medi=23+361|u1820.A.fina=26+427|space=29+260|u1869.Th.init=30+670|u1875.R.medi=33+361|u1820.A.fina=36+427",
+   "note": "core-mag > pu12",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᡵᡬᠠ ᡵᠸᠠ",
+   "expectation": "u1875.R.init=0+421|u186C_u1820.KhAa.fina=3+976|space=9+260|u1875.R.init=10+421|u1838.W.medi=13+458|u1820.A.fina=16+427",
+   "note": "core-mag > pu13",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  },
+  {
+   "input": "ᠯᡥᠠ",
+   "expectation": "u182F.L.init=0+492|u1865.Hc.medi=3+568|u1820.A.fina=6+427",
+   "note": "core-mag > pu14",
+   "language": "mnc",
+   "only": [
+    "NotoSansMongolian-Regular.ttf"
+   ]
+  }
+ ]
+}

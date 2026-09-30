@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u300C.vert" format="2">
+  <advance height="1000" width="1000"/>
+  <outline>
+    <contour>
+      <point x="975" y="238" type="line"/>
+      <point x="269" y="238" type="line"/>
+      <point x="269" y="166" type="line"/>
+      <point x="901" y="166" type="line"/>
+      <point x="901" y="-78" type="line"/>
+      <point x="975" y="-78" type="line"/>
+    </contour>
+  </outline>
+</glyph>

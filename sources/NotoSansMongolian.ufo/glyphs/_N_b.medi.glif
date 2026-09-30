@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Nb.medi" format="2">
+  <advance width="566"/>
+  <outline>
+    <contour>
+      <point x="19" y="96" type="curve"/>
+      <point x="85" y="96" type="line"/>
+      <point x="104" y="364" type="line"/>
+      <point x="596" y="364" type="line"/>
+      <point x="596" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="311"/>
+      <point x="0" y="364"/>
+    </contour>
+    <contour>
+      <point x="296" y="49" type="curve"/>
+      <point x="358" y="49"/>
+      <point x="415" y="99"/>
+      <point x="415" y="168" type="curve"/>
+      <point x="415" y="234"/>
+      <point x="361" y="287"/>
+      <point x="296" y="287" type="curve"/>
+      <point x="234" y="287"/>
+      <point x="177" y="238"/>
+      <point x="177" y="168" type="curve"/>
+      <point x="177" y="100"/>
+      <point x="232" y="49"/>
+    </contour>
+    <contour>
+      <point x="296" y="99" type="curve"/>
+      <point x="261" y="99"/>
+      <point x="228" y="126"/>
+      <point x="228" y="168" type="curve"/>
+      <point x="228" y="207"/>
+      <point x="259" y="236"/>
+      <point x="296" y="236" type="curve"/>
+      <point x="334" y="236"/>
+      <point x="365" y="206"/>
+      <point x="365" y="168" type="curve"/>
+      <point x="365" y="129"/>
+      <point x="335" y="99"/>
+    </contour>
+  </outline>
+</glyph>

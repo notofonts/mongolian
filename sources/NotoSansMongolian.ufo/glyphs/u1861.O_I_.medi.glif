@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1861.OI.medi" format="2">
+  <advance width="934"/>
+  <outline>
+    <component base="_O.medi"/>
+    <component base="_I.medi" xOffset="573"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

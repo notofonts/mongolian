@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Gc.medi" format="2">
+  <advance width="381"/>
+  <outline>
+    <contour>
+      <point x="230" y="834" type="curve"/>
+      <point x="190" y="834"/>
+      <point x="162" y="864"/>
+      <point x="162" y="903" type="curve"/>
+      <point x="162" y="945"/>
+      <point x="192" y="971"/>
+      <point x="230" y="971" type="curve"/>
+      <point x="270" y="971"/>
+      <point x="299" y="942"/>
+      <point x="299" y="903" type="curve"/>
+      <point x="299" y="865"/>
+      <point x="269" y="834"/>
+    </contour>
+    <contour>
+      <point x="127" y="42" type="curve"/>
+      <point x="198" y="85" type="line"/>
+      <point x="114" y="202"/>
+      <point x="77" y="297"/>
+      <point x="77" y="407" type="curve"/>
+      <point x="77" y="563"/>
+      <point x="131" y="644"/>
+      <point x="226" y="644" type="curve"/>
+      <point x="331" y="644"/>
+      <point x="367" y="569"/>
+      <point x="381" y="364" type="curve"/>
+      <point x="455" y="364" type="line"/>
+      <point x="445" y="606"/>
+      <point x="378" y="727"/>
+      <point x="226" y="727" type="curve"/>
+      <point x="92" y="727"/>
+      <point x="-2" y="612"/>
+      <point x="-2" y="407" type="curve"/>
+      <point x="-2" y="292"/>
+      <point x="41" y="171"/>
+    </contour>
+    <contour>
+      <point x="230" y="784" type="curve"/>
+      <point x="300" y="784"/>
+      <point x="349" y="841"/>
+      <point x="349" y="903" type="curve"/>
+      <point x="349" y="969"/>
+      <point x="296" y="1022"/>
+      <point x="230" y="1022" type="curve"/>
+      <point x="164" y="1022"/>
+      <point x="111" y="969"/>
+      <point x="111" y="903" type="curve"/>
+      <point x="111" y="841"/>
+      <point x="160" y="784"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_PpOt.isol" format="2">
+  <advance width="914"/>
+  <outline>
+    <contour>
+      <point x="273" y="146" type="curve"/>
+      <point x="116" y="146" type="line"/>
+      <point x="116" y="364" type="line"/>
+      <point x="211" y="364" type="line"/>
+      <point x="217" y="292"/>
+      <point x="238" y="219"/>
+    </contour>
+    <contour>
+      <point x="786" y="104" type="line"/>
+      <point x="568" y="155"/>
+      <point x="568" y="149"/>
+      <point x="568" y="364" type="curve"/>
+      <point x="787" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="867" y="3" type="line"/>
+      <point x="867" y="364" type="line"/>
+      <point x="853" y="595"/>
+      <point x="754" y="729"/>
+      <point x="596" y="755" type="curve"/>
+      <point x="570" y="819"/>
+      <point x="538" y="885"/>
+      <point x="501" y="953" type="curve"/>
+      <point x="430" y="913" type="line"/>
+      <point x="463" y="851"/>
+      <point x="489" y="800"/>
+      <point x="507" y="759" type="curve"/>
+      <point x="348" y="749"/>
+      <point x="227" y="640"/>
+      <point x="211" y="444" type="curve"/>
+      <point x="116" y="444" type="line"/>
+      <point x="116" y="711" type="line"/>
+      <point x="45" y="711" type="line"/>
+      <point x="45" y="63" type="line"/>
+      <point x="405" y="63" type="line"/>
+      <point x="328" y="188"/>
+      <point x="289" y="302"/>
+      <point x="289" y="405" type="curve"/>
+      <point x="289" y="587"/>
+      <point x="394" y="677"/>
+      <point x="530" y="677" type="curve"/>
+      <point x="668" y="677"/>
+      <point x="751" y="599"/>
+      <point x="779" y="444" type="curve"/>
+      <point x="779" y="443" type="line"/>
+      <point x="489" y="444" type="line"/>
+      <point x="489" y="267" type="line"/>
+      <point x="489" y="157"/>
+      <point x="543" y="74"/>
+      <point x="665" y="47" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

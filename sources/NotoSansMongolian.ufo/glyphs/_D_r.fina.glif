@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Dr.fina" format="2">
+  <advance width="745"/>
+  <outline>
+    <contour>
+      <point x="178" y="28" type="line"/>
+      <point x="77" y="364" type="line"/>
+      <point x="156" y="364" type="line"/>
+      <point x="291" y="96" type="line"/>
+    </contour>
+    <contour>
+      <point x="70" y="566" type="curve"/>
+      <point x="113" y="527" type="line"/>
+      <point x="147" y="563"/>
+      <point x="194" y="603"/>
+      <point x="252" y="643" type="curve"/>
+      <point x="191" y="712" type="line"/>
+      <point x="152" y="673"/>
+      <point x="112" y="625"/>
+    </contour>
+    <contour>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="136" y="-90" type="line"/>
+      <point x="390" y="62" type="line"/>
+      <point x="238" y="364" type="line"/>
+      <point x="525" y="364" type="line"/>
+      <point x="595" y="364"/>
+      <point x="623" y="335"/>
+      <point x="623" y="279" type="curve"/>
+      <point x="623" y="235"/>
+      <point x="616" y="196"/>
+      <point x="601" y="162" type="curve"/>
+      <point x="675" y="162" type="line"/>
+      <point x="692" y="199"/>
+      <point x="700" y="238"/>
+      <point x="700" y="279" type="curve"/>
+      <point x="700" y="389"/>
+      <point x="644" y="444"/>
+      <point x="525" y="444" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,20 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nirugu.extend" format="2">
-  <advance width="168" height="1000"/>
-  <anchor x="0" y="0" name="baluda"/>
-  <anchor x="0" y="0" name="dagalga"/>
+  <advance width="168"/>
   <outline>
-    <contour>
-      <point x="0" y="364" type="line"/>
-      <point x="188" y="364" type="line"/>
-      <point x="188" y="444" type="line"/>
-      <point x="0" y="444" type="line"/>
-    </contour>
+    <component base="nirugu"/>
   </outline>
   <lib>
     <dict>
-      <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u300A" format="2">
+  <advance width="634"/>
+  <unicode hex="300A"/>
+  <outline>
+    <contour>
+      <point x="377" y="-68" type="line"/>
+      <point x="161" y="380" type="line"/>
+      <point x="377" y="828" type="line"/>
+      <point x="322" y="846" type="line"/>
+      <point x="100" y="380" type="line"/>
+      <point x="322" y="-86" type="line"/>
+    </contour>
+    <contour>
+      <point x="534" y="-68" type="line"/>
+      <point x="319" y="380" type="line"/>
+      <point x="534" y="828" type="line"/>
+      <point x="480" y="846" type="line"/>
+      <point x="258" y="380" type="line"/>
+      <point x="480" y="-86" type="line"/>
+    </contour>
+  </outline>
+</glyph>

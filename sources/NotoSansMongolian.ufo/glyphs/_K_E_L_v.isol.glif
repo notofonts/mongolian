@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_KELv.isol" format="2">
+  <advance width="836"/>
+  <outline>
+    <component base="_KE.isol"/>
+    <component base="_Lv.mark" xOffset="836"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Iq.init" format="2">
+  <advance width="445"/>
+  <outline>
+    <contour>
+      <point x="210" y="66" type="line"/>
+      <point x="300" y="66" type="line"/>
+      <point x="187" y="364" type="line"/>
+      <point x="475" y="364" type="line"/>
+      <point x="475" y="444" type="line"/>
+      <point x="156" y="444" type="line"/>
+      <point x="80" y="646" type="line"/>
+      <point x="10" y="646" type="line"/>
+    </contour>
+  </outline>
+</glyph>

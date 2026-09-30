@@ -1,9 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mvs" format="2">
-  <advance width="770" height="1000"/>
+  <advance width="770"/>
   <unicode hex="180E"/>
-  <anchor x="0" y="0" name="baluda"/>
-  <anchor x="0" y="0" name="dagalga"/>
   <outline>
     <contour>
       <point x="535" y="67" type="line"/>
@@ -142,11 +140,8 @@
       <point x="358" y="234"/>
       <point x="372" y="259"/>
       <point x="406" y="302" type="curve"/>
-      <point x="441" y="346"/>
-      <point x="466" y="384"/>
-      <point x="480" y="414" type="curve"/>
-      <point x="496" y="444"/>
-      <point x="503" y="474"/>
+      <point x="478" y="393"/>
+      <point x="503" y="451"/>
       <point x="503" y="502" type="curve"/>
       <point x="503" y="595"/>
       <point x="447" y="647"/>
@@ -157,25 +152,11 @@
       <point x="412" y="589"/>
       <point x="446" y="561"/>
       <point x="446" y="502" type="curve"/>
-      <point x="446" y="480"/>
-      <point x="441" y="457"/>
-      <point x="429" y="435" type="curve"/>
-      <point x="417" y="412"/>
-      <point x="398" y="383"/>
-      <point x="369" y="345" type="curve"/>
-      <point x="327" y="291"/>
-      <point x="300" y="243"/>
+      <point x="446" y="392"/>
+      <point x="300" y="314"/>
       <point x="300" y="189" type="curve"/>
       <point x="300" y="167"/>
       <point x="304" y="148"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.752941176470588,0.4,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>880</integer>
-    </dict>
-  </lib>
 </glyph>

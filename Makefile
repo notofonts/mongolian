@@ -6,6 +6,7 @@ help:
 	@echo
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
 	@echo "  make test:   Tests the fonts with fontbakery"
+	@echo "  make shaping: Checks the source against the Mongolian test suites"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
@@ -26,8 +27,19 @@ venv/touchfile: requirements.txt
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
-test: venv build.stamp
+test: venv build.stamp shaping
 	. venv/bin/activate; python3 -m notoqa
+
+# The Mongolian test suites: the EAC suite of Hudum and the suites of the Chinese national
+# standard, shaped against the build this project ships
+# (fonts/NotoSansMongolian/googlefonts, the one that merges the Latin core of includeSubsets).
+# The first run checks the font against what the standard settles; the second checks the
+# expectations stored in qa/shaping_tests/ with fontspector. Regenerate the expectations with
+# `python scripts/gen_shaping_tests.py --write --conformant-only` after a change to shaping,
+# and refresh a hand-written file with `python scripts/gen_shaping_tests.py --refresh FILE`.
+shaping: venv build.stamp
+	. venv/bin/activate; python3 scripts/gen_shaping_tests.py
+	. venv/bin/activate; fontspector --configuration fontspector.json --profile googlefonts -c shaping fonts/NotoSansMongolian/googlefonts/ttf/*.ttf
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; gftools gen-html proof $(shell find fonts/*/unhinted/ttf -type f) -o out/proof

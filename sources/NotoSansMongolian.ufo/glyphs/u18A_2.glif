@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u18A2" format="2">
+  <advance width="681"/>
+  <unicode hex="18A2"/>
+  <outline>
+    <component base="u18A2.Sx2.init"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.45,0.45,0.45,1</string>
+    </dict>
+  </lib>
+</glyph>

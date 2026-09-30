@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Vi.fina" format="2">
+  <advance width="461"/>
+  <outline>
+    <contour>
+      <point x="74" y="364" type="line"/>
+      <point x="81" y="307"/>
+      <point x="98" y="262"/>
+      <point x="130" y="223" type="curve"/>
+      <point x="134" y="223" type="line"/>
+      <point x="168" y="366"/>
+      <point x="234" y="522"/>
+      <point x="319" y="642" type="curve"/>
+      <point x="416" y="642" type="line"/>
+      <point x="287" y="463"/>
+      <point x="221" y="287"/>
+      <point x="184" y="106" type="curve"/>
+      <point x="113" y="106" type="line"/>
+      <point x="49" y="179"/>
+      <point x="0" y="280"/>
+      <point x="0" y="364" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

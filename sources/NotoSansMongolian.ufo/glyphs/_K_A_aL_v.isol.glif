@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_KAaLv.isol" format="2">
+  <advance width="1066"/>
+  <outline>
+    <component base="_KA.init"/>
+    <component base="_AaLv.fina" xOffset="714"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Ob.medi" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="267" type="line"/>
+      <point x="0" y="154"/>
+      <point x="57" y="73"/>
+      <point x="176" y="47" type="curve"/>
+      <point x="378" y="3" type="line"/>
+      <point x="378" y="364" type="line"/>
+      <point x="590" y="364" type="line"/>
+      <point x="590" y="444" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="104" type="line"/>
+      <point x="79" y="154"/>
+      <point x="79" y="146"/>
+      <point x="79" y="364" type="curve"/>
+      <point x="300" y="364" type="line"/>
+    </contour>
+  </outline>
+</glyph>

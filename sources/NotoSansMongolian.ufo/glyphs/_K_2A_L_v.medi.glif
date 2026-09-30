@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_K2ALv.medi" format="2">
+  <advance width="669"/>
+  <outline>
+    <component base="_K2A.medi"/>
+    <component base="_Lv.mark" xOffset="669"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

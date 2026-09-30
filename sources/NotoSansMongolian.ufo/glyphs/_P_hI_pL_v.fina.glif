@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_PhIpLv.fina" format="2">
+  <advance width="1441"/>
+  <outline>
+    <component base="_PhIp.medi"/>
+    <component base="_Lv.fina" xOffset="1285"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

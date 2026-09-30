@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Yp.fina" format="2">
+  <advance width="399"/>
+  <outline>
+    <contour>
+      <point x="-41" y="-16" type="line"/>
+      <point x="26" y="91"/>
+      <point x="72" y="211"/>
+      <point x="74" y="364" type="curve"/>
+      <point x="74" y="388"/>
+      <point x="70" y="417"/>
+      <point x="63" y="442" type="curve"/>
+      <point x="-4" y="444" type="line"/>
+      <point x="-2" y="429"/>
+      <point x="1" y="369"/>
+      <point x="1" y="341" type="curve"/>
+      <point x="1" y="221"/>
+      <point x="-43" y="102"/>
+      <point x="-123" y="-11" type="curve"/>
+      <point x="-108" y="-84" type="line"/>
+      <point x="-83" y="-87"/>
+      <point x="-58" y="-89"/>
+      <point x="-33" y="-89" type="curve"/>
+      <point x="8" y="-89"/>
+      <point x="68" y="-84"/>
+      <point x="136" y="-50" type="curve"/>
+      <point x="285" y="25"/>
+      <point x="354" y="165"/>
+      <point x="354" y="327" type="curve"/>
+      <point x="354" y="458"/>
+      <point x="315" y="590"/>
+      <point x="245" y="696" type="curve"/>
+      <point x="160" y="696" type="line"/>
+      <point x="224" y="585"/>
+      <point x="277" y="444"/>
+      <point x="277" y="327" type="curve"/>
+      <point x="277" y="117"/>
+      <point x="130" y="-17"/>
+      <point x="-23" y="-17" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

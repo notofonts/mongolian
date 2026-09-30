@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Q.init" format="2">
+  <advance width="428"/>
+  <outline>
+    <contour>
+      <point x="287" y="30" type="curve"/>
+      <point x="324" y="30"/>
+      <point x="355" y="42"/>
+      <point x="370" y="64" type="curve"/>
+      <point x="370" y="155" type="line"/>
+      <point x="351" y="127"/>
+      <point x="323" y="113"/>
+      <point x="287" y="113" type="curve"/>
+      <point x="184" y="113"/>
+      <point x="124" y="290"/>
+      <point x="124" y="407" type="curve"/>
+      <point x="124" y="567"/>
+      <point x="181" y="644"/>
+      <point x="273" y="644" type="curve"/>
+      <point x="393" y="644"/>
+      <point x="417" y="530"/>
+      <point x="428" y="364" type="curve"/>
+      <point x="502" y="364" type="line"/>
+      <point x="492" y="610"/>
+      <point x="421" y="727"/>
+      <point x="273" y="727" type="curve"/>
+      <point x="135" y="727"/>
+      <point x="45" y="601"/>
+      <point x="45" y="407" type="curve"/>
+      <point x="45" y="260"/>
+      <point x="125" y="30"/>
+    </contour>
+  </outline>
+</glyph>

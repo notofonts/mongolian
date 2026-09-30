@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_PpOb.init" format="2">
+  <advance width="1049"/>
+  <outline>
+    <contour>
+      <point x="789" y="104" type="line"/>
+      <point x="647" y="136"/>
+      <point x="568" y="151"/>
+      <point x="568" y="267" type="curve"/>
+      <point x="568" y="364" type="line"/>
+      <point x="789" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="146" type="curve"/>
+      <point x="116" y="146" type="line"/>
+      <point x="116" y="364" type="line"/>
+      <point x="211" y="364" type="line"/>
+      <point x="217" y="292"/>
+      <point x="238" y="219"/>
+    </contour>
+    <contour>
+      <point x="867" y="3" type="line"/>
+      <point x="867" y="364" type="line"/>
+      <point x="1079" y="364" type="line"/>
+      <point x="1079" y="444" type="line"/>
+      <point x="858" y="444" type="line"/>
+      <point x="826" y="639"/>
+      <point x="721" y="760"/>
+      <point x="530" y="760" type="curve"/>
+      <point x="361" y="760"/>
+      <point x="227" y="650"/>
+      <point x="211" y="444" type="curve"/>
+      <point x="116" y="444" type="line"/>
+      <point x="116" y="711" type="line"/>
+      <point x="45" y="711" type="line"/>
+      <point x="45" y="63" type="line"/>
+      <point x="405" y="63" type="line"/>
+      <point x="328" y="188"/>
+      <point x="289" y="302"/>
+      <point x="289" y="405" type="curve"/>
+      <point x="289" y="587"/>
+      <point x="394" y="677"/>
+      <point x="530" y="677" type="curve"/>
+      <point x="668" y="677"/>
+      <point x="751" y="599"/>
+      <point x="779" y="444" type="curve"/>
+      <point x="489" y="444" type="line"/>
+      <point x="489" y="267" type="line"/>
+      <point x="489" y="157"/>
+      <point x="543" y="74"/>
+      <point x="665" y="47" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

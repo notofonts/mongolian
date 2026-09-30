@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_GpAaLv.fina" format="2">
+  <advance width="1018"/>
+  <outline>
+    <component base="_GpA.medi"/>
+    <component base="_AaLv.fina" xOffset="666"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

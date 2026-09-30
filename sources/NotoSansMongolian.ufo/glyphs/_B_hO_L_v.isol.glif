@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_BhOLv.isol" format="2">
+  <advance width="1303"/>
+  <outline>
+    <component base="_BhO.init"/>
+    <component base="_Lv.fina" xOffset="1147"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

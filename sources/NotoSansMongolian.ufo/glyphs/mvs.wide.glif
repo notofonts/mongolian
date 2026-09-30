@@ -1,10 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mvs.wide" format="2">
-  <advance width="260" height="1000"/>
+  <advance width="260"/>
+  <outline>
+    <component base="space"/>
+  </outline>
   <lib>
     <dict>
-      <key>public.verticalOrigin</key>
-      <integer>880</integer>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

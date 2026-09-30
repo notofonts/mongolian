@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Lv.medi" format="2">
+  <advance width="267"/>
+  <outline>
+    <contour>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="297" y="364" type="line"/>
+      <point x="297" y="444" type="line"/>
+      <point x="65" y="444" type="line"/>
+      <point x="88" y="632" type="line"/>
+      <point x="0" y="632" type="line"/>
+      <point x="22" y="444" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_GELv.fina" format="2">
+  <advance width="788"/>
+  <outline>
+    <component base="_GE.fina"/>
+    <component base="_Lv.mark" xOffset="788"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

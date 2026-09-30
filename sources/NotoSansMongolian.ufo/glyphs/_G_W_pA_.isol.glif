@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_GWpA.isol" format="2">
+  <advance width="1217"/>
+  <outline>
+    <component base="_GO.init"/>
+    <component base="_A.fina.Wp_" xOffset="885"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

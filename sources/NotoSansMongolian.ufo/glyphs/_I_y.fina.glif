@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Iy.fina" format="2">
+  <advance width="250"/>
+  <outline>
+    <contour>
+      <point x="106" y="162" type="curve"/>
+      <point x="180" y="162" type="line"/>
+      <point x="197" y="199"/>
+      <point x="205" y="238"/>
+      <point x="205" y="279" type="curve"/>
+      <point x="205" y="408"/>
+      <point x="139" y="444"/>
+      <point x="0" y="444" type="curve"/>
+      <point x="0" y="364" type="line"/>
+      <point x="87" y="364"/>
+      <point x="128" y="354"/>
+      <point x="128" y="279" type="curve"/>
+      <point x="128" y="235"/>
+      <point x="121" y="196"/>
+    </contour>
+  </outline>
+</glyph>

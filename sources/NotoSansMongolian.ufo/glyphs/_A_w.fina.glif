@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_Aw.fina" format="2">
+  <advance width="529"/>
+  <outline>
+    <contour>
+      <point x="328" y="206" type="line"/>
+      <point x="412" y="206" type="line"/>
+      <point x="484" y="444" type="line"/>
+      <point x="0" y="444" type="line"/>
+      <point x="0" y="364" type="line"/>
+      <point x="376" y="364" type="line"/>
+    </contour>
+  </outline>
+</glyph>

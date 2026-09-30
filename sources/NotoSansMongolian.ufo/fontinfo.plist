@@ -47,10 +47,6 @@
   <string>Monotype Imaging Inc.</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.google.com/get/noto/</string>
-  <key>openTypeNamePreferredFamilyName</key>
-  <string>Noto Sans Mongolian</string>
-  <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Regular</string>
   <key>openTypeNameVersion</key>
   <string>Version 3.100</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -148,12 +144,6 @@
   <integer>-125</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
-  <key>styleMapFamilyName</key>
-  <string>Noto Sans Mongolian Regular</string>
-  <key>styleMapStyleName</key>
-  <string>regular</string>
-  <key>styleName</key>
-  <string>Regular</string>
   <key>trademark</key>
   <string>Noto is a trademark of Google Inc.</string>
   <key>unitsPerEm</key>

@@ -6,7 +6,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSansMongolian.ufo" name="Noto Sans Mongolian Regular" familyname="Noto Sans Mongolian" stylename="Regular">
+    <source filename="NotoSansMongolian.ufo" name="Regular" familyname="Noto Sans Mongolian" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -17,7 +17,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Mongolian Regular" familyname="Noto Sans Mongolian" stylename="Regular" filename="instance_ufo/NotoSansMongolian-Regular.ufo" stylemapfamilyname="Noto Sans Mongolian" stylemapstylename="regular">
+    <instance name="Regular" familyname="Noto Sans Mongolian" stylename="Regular" filename="instance_ufo/NotoSansMongolian-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>

@@ -2332,6 +2332,8 @@
     <string>u1828.A_.medi.glif</string>
     <key>u1828.N.fina</key>
     <string>u1828.N_.fina.glif</string>
+    <key>u1828.N.fina.mvs</key>
+    <string>u1828.N_.fina.mvs.glif</string>
     <key>u1828.N.init</key>
     <string>u1828.N_.init.glif</string>
     <key>u1828.N.init._isol</key>
@@ -2932,6 +2934,8 @@
     <string>u182D_.H_.medi.glif</string>
     <key>u182D.Hx.fina</key>
     <string>u182D_.H_x.fina.glif</string>
+    <key>u182D.Hx.fina.mvs</key>
+    <string>u182D_.H_x.fina.mvs.glif</string>
     <key>u182D.Hx.init</key>
     <string>u182D_.H_x.init.glif</string>
     <key>u182D.Hx.init._isol</key>

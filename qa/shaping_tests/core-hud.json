@@ -21,7 +21,7 @@
   },
   {
    "input": "ᠠᠨᠠᠭ᠎ᠠ",
-   "expectation": "u1820.AA.init=0+776|u1828.N.medi=3+284|u1820.A.medi=6+284|u182D.Hx.fina=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u1820.AA.init=0+776|u1828.N.medi=3+284|u1820.A.medi=6+284|u182D.Hx.fina.mvs=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "core-hud > a-3",
    "language": "mn",
    "only": [
@@ -66,7 +66,7 @@
   },
   {
    "input": "ᠦᠨ᠎ᠡ",
-   "expectation": "u1826.AOI.init=0+1426|u1828.N.fina=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
+   "expectation": "u1826.AOI.init=0+1426|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
    "note": "core-hud > e-3",
    "language": "mn",
    "only": [
@@ -363,7 +363,7 @@
   },
   {
    "input": "ᠴᠠᠨ᠎ᠠ ᠤᠨᠤᠬᠤ",
-   "expectation": "u1834.Ch.init=0+692|u1820.A.medi=3+284|u1828.N.fina=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415|space=15+260|u1824.AO.init=16+1065|u1828.N.medi=19+284|u1824.O.medi=22+573|u182C.H.medi=25+568|u1824.U.fina=28+634",
+   "expectation": "u1834.Ch.init=0+692|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415|space=15+260|u1824.AO.init=16+1065|u1828.N.medi=19+284|u1824.O.medi=22+573|u182C.H.medi=25+568|u1824.U.fina=28+634",
    "note": "core-hud > n-2",
    "language": "mn",
    "only": [
@@ -480,7 +480,7 @@
   },
   {
    "input": "ᠤᠭ ᠰᠠᠨᠠᠭ᠎ᠠ",
-   "expectation": "u1824.AO.init=0+1065|u182D.H.fina=3+663|space=6+260|u1830.S.init=7+681|u1820.A.medi=10+284|u1828.N.medi=13+284|u1820.A.medi=16+284|u182D.Hx.fina=19+663|mvs.narrow=22+55|u1820.Aa.isol=25+415",
+   "expectation": "u1824.AO.init=0+1065|u182D.H.fina=3+663|space=6+260|u1830.S.init=7+681|u1820.A.medi=10+284|u1828.N.medi=13+284|u1820.A.medi=16+284|u182D.Hx.fina.mvs=19+663|mvs.narrow=22+55|u1820.Aa.isol=25+415",
    "note": "core-hud > g-4",
    "language": "mn",
    "only": [
@@ -552,7 +552,7 @@
   },
   {
    "input": "ᠱᠣᠱ᠌ᠢᠭ᠎ᠠ",
-   "expectation": "u1831.Sh.init=0+681|u1823.O.medi=3+573|u1831.Sh.medi=6+581|fvs2.valid=6+0|u1822.I.medi=12+361|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u1831.Sh.init=0+681|u1823.O.medi=3+573|u1831.Sh.medi=6+581|fvs2.valid=6+0|u1822.I.medi=12+361|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "core-hud > sh-1",
    "language": "mn",
    "only": [
@@ -651,7 +651,7 @@
   },
   {
    "input": "ᠴᠠᠴᠤᠯᠭ᠎ᠠ",
-   "expectation": "u1834.Ch.init=0+692|u1820.A.medi=3+284|u1834.Ch.medi=6+530|u1824.O.medi=9+573|u182F.L.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u1834.Ch.init=0+692|u1820.A.medi=3+284|u1834.Ch.medi=6+530|u1824.O.medi=9+573|u182F.L.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "core-hud > ch-1",
    "language": "mn",
    "only": [
@@ -1002,7 +1002,7 @@
   },
   {
    "input": "ᠠᠨ᠎ᠠ",
-   "expectation": "u1820.AA.init=0+776|u1828.N.fina=3+427|mvs.narrow=6+55|u1820.Aa.isol=9+415",
+   "expectation": "u1820.AA.init=0+776|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1820.Aa.isol=9+415",
    "note": "core-hud > chachlag-1",
    "language": "mn",
    "only": [
@@ -1011,7 +1011,7 @@
   },
   {
    "input": "ᠦᠨ᠎ᠡ",
-   "expectation": "u1826.AOI.init=0+1426|u1828.N.fina=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
+   "expectation": "u1826.AOI.init=0+1426|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
    "note": "core-hud > chachlag-2",
    "language": "mn",
    "only": [
@@ -1092,7 +1092,7 @@
   },
   {
    "input": "ᠬᠠᠨ᠎ᠠ",
-   "expectation": "u182C.H.init=0+788|u1820.A.medi=3+284|u1828.N.fina=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u182C.H.init=0+788|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "core-hud > syllabic-mvs-1",
    "language": "mn",
    "only": [
@@ -1128,7 +1128,7 @@
   },
   {
    "input": "ᠠᠶᠠᠭ᠎ᠠ",
-   "expectation": "u1820.AA.init=0+776|u1836.Y.medi=3+361|u1820.A.medi=6+284|u182D.Hx.fina=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u1820.AA.init=0+776|u1836.Y.medi=3+361|u1820.A.medi=6+284|u182D.Hx.fina.mvs=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "core-hud > syllabic-mvs-5",
    "language": "mn",
    "only": [

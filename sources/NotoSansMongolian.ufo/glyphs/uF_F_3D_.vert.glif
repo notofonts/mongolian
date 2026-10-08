@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uFF3D.vert" format="2">
-  <advance height="1000" width="1000"/>
+  <advance height="454" width="1000"/>
   <outline>
     <contour>
-      <point x="966" y="592" type="line"/>
-      <point x="966" y="846" type="line"/>
-      <point x="913" y="846" type="line"/>
-      <point x="913" y="661" type="line"/>
-      <point x="87" y="661" type="line"/>
-      <point x="87" y="846" type="line"/>
-      <point x="34" y="846" type="line"/>
-      <point x="34" y="592" type="line"/>
+      <point x="788" y="592" type="line"/>
+      <point x="788" y="846" type="line"/>
+      <point x="735" y="846" type="line"/>
+      <point x="735" y="661" type="line"/>
+      <point x="-91" y="661" type="line"/>
+      <point x="-91" y="846" type="line"/>
+      <point x="-144" y="846" type="line"/>
+      <point x="-144" y="592" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>946</integer>
+    </dict>
+  </lib>
 </glyph>

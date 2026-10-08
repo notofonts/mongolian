@@ -84,7 +84,7 @@
   },
   {
    "input": "ᠲᠠᠨ᠎ᠠ",
-   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > MAD31-1",
    "language": "mn",
    "only": [
@@ -435,7 +435,7 @@
   },
   {
    "input": "ᠪᠠᠢᠨ᠎ᠠ",
-   "expectation": "u182A_u1820.BA.init=0+863|u1822.II.medi=6+722|u1828.N.fina=9+427|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u182A_u1820.BA.init=0+863|u1822.II.medi=6+722|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > MAM31-1",
    "language": "mn",
    "only": [
@@ -444,7 +444,7 @@
   },
   {
    "input": "ᠲᠤᠭ᠎ᠠ",
-   "expectation": "u1832.T.init=0+670|u1824.O.medi=3+573|u182D.Hx.fina=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1832.T.init=0+670|u1824.O.medi=3+573|u182D.Hx.fina.mvs=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > MAM31-2",
    "language": "mn",
    "only": [
@@ -525,7 +525,7 @@
   },
   {
    "input": "ᠡᠭᠦᠨ᠎ᠡ",
-   "expectation": "u1821.A.init=0+492|u182D_u1826.GO.medi=3+838|u1828.N.fina=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
+   "expectation": "u1821.A.init=0+492|u182D_u1826.GO.medi=3+838|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
    "note": "eac-hud > MED21-1",
    "language": "mn",
    "only": [
@@ -534,7 +534,7 @@
   },
   {
    "input": "ᠲᠡᠭᠦᠨ᠎ᠡ",
-   "expectation": "u1832.T.init=0+670|u1821.A.medi=3+284|u182D_u1826.GO.medi=6+838|u1828.N.fina=12+427|mvs.narrow=15+55|u1821.Aa.isol=18+415",
+   "expectation": "u1832.T.init=0+670|u1821.A.medi=3+284|u182D_u1826.GO.medi=6+838|u1828.N.fina.mvs=12+427|mvs.narrow=15+55|u1821.Aa.isol=18+415",
    "note": "eac-hud > MED21-2",
    "language": "mn",
    "only": [
@@ -786,7 +786,7 @@
   },
   {
    "input": "ᠢᠷᠡᠨ᠎ᠡ",
-   "expectation": "u1822.AI.init=0+853|u1837.R.medi=3+361|u1821.A.medi=6+284|u1828.N.fina=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
+   "expectation": "u1822.AI.init=0+853|u1837.R.medi=3+361|u1821.A.medi=6+284|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
    "note": "eac-hud > MEM31-1",
    "language": "mn",
    "only": [
@@ -2316,7 +2316,7 @@
   },
   {
    "input": "ᠪᠤᠳᠠᠭ᠎ᠠ",
-   "expectation": "u182A_u1824.BO.init=0+933|u1833.D.medi=6+613|u1820.A.medi=9+284|u182D.Hx.fina=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
+   "expectation": "u182A_u1824.BO.init=0+933|u1833.D.medi=6+613|u1820.A.medi=9+284|u182D.Hx.fina.mvs=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
    "note": "eac-hud > MVZ11-5",
    "language": "mn",
    "only": [
@@ -2325,7 +2325,7 @@
   },
   {
    "input": "ᠠᠤᠭ᠎ᠠ",
-   "expectation": "u1820.AA.init=0+776|u1824.O.medi=3+573|u182D.Hx.fina=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1820.AA.init=0+776|u1824.O.medi=3+573|u182D.Hx.fina.mvs=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > MVZ11-6",
    "language": "mn",
    "only": [
@@ -2334,7 +2334,7 @@
   },
   {
    "input": "ᠣᠪᠤᠭ᠎ᠠ",
-   "expectation": "u1823.AO.init=0+1065|u182A_u1824.BO.medi=3+887|u182D.Hx.fina=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u1823.AO.init=0+1065|u182A_u1824.BO.medi=3+887|u182D.Hx.fina.mvs=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > MVZ11-7",
    "language": "mn",
    "only": [
@@ -2370,7 +2370,7 @@
   },
   {
    "input": "ᠯᠤ᠋ᠭ᠎ᠠ",
-   "expectation": "u182F.L.init=0+492|u1824.AO.medi=3+857|fvs1.valid=3+0|u182D.Hx.fina=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u182F.L.init=0+492|u1824.AO.medi=3+857|fvs1.valid=3+0|u182D.Hx.fina.mvs=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > MVZ21-3",
    "language": "mn",
    "only": [
@@ -2379,7 +2379,7 @@
   },
   {
    "input": "ᠪᠤ᠋ᠳᠠᠭ᠎ᠠ",
-   "expectation": "u182A.B.init=0+557|u1824.AO.medi=3+857|fvs1.valid=3+0|u1833.D.medi=9+613|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182A.B.init=0+557|u1824.AO.medi=3+857|fvs1.valid=3+0|u1833.D.medi=9+613|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MVZ21-4",
    "language": "mn",
    "only": [
@@ -4863,7 +4863,7 @@
   },
   {
    "input": "ᠢᠷᠡᠨ᠎ᠡ",
-   "expectation": "u1822.AI.init=0+853|u1837.R.medi=3+361|u1821.A.medi=6+284|u1828.N.fina=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
+   "expectation": "u1822.AI.init=0+853|u1837.R.medi=3+361|u1821.A.medi=6+284|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
    "note": "eac-hud > MNZ31-1",
    "language": "mn",
    "only": [
@@ -4872,7 +4872,7 @@
   },
   {
    "input": "᠊ᠨ᠎ᠡ",
-   "expectation": "nirugu=0+168|u1828.N.fina=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
+   "expectation": "nirugu=0+168|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
    "note": "eac-hud > MNZ31-2",
    "language": "mn",
    "only": [
@@ -4881,7 +4881,7 @@
   },
   {
    "input": "᠊ᠨ᠎ᠡ",
-   "expectation": "nirugu=0+168|u1828.N.fina=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
+   "expectation": "nirugu=0+168|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1821.Aa.isol=9+415",
    "note": "eac-hud > MNZ31-3",
    "language": "mn",
    "only": [
@@ -4890,7 +4890,7 @@
   },
   {
    "input": "ᠡᠭᠦᠨ᠋᠎ᠡ",
-   "expectation": "u1821.A.init=0+492|u182D_u1826.GO.medi=3+838|u1828.N.fina=9+427|fvs1.valid=9+0|mvs.narrow=15+55|u1821.Aa.isol=18+415",
+   "expectation": "u1821.A.init=0+492|u182D_u1826.GO.medi=3+838|u1828.N.fina.mvs=9+427|fvs1.valid=9+0|mvs.narrow=15+55|u1821.Aa.isol=18+415",
    "note": "eac-hud > MNZ32-1",
    "language": "mn",
    "only": [
@@ -5835,7 +5835,7 @@
   },
   {
    "input": "ᠪᠤᠳᠠᠭ᠎ᠠ",
-   "expectation": "u182A_u1824.BO.init=0+933|u1833.D.medi=6+613|u1820.A.medi=9+284|u182D.Hx.fina=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
+   "expectation": "u182A_u1824.BO.init=0+933|u1833.D.medi=6+613|u1820.A.medi=9+284|u182D.Hx.fina.mvs=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
    "note": "eac-hud > MBS11-72",
    "language": "mn",
    "only": [
@@ -7878,7 +7878,7 @@
   },
   {
    "input": "ᠬ᠍ᠢᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.I.medi=6+361|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.I.medi=6+361|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS12-26",
    "language": "mn",
    "only": [
@@ -7887,7 +7887,7 @@
   },
   {
    "input": "ᠬ᠍ᠢ᠋ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.AI.medi=6+645|fvs1.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.AI.medi=6+645|fvs1.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS12-27",
    "language": "mn",
    "only": [
@@ -7896,7 +7896,7 @@
   },
   {
    "input": "ᠬ᠍ᠢ᠌ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.II.medi=6+722|fvs2.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.II.medi=6+722|fvs2.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS12-28",
    "language": "mn",
    "only": [
@@ -7905,7 +7905,7 @@
   },
   {
    "input": "ᠬ᠍ᠢ᠍ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.I.medi=6+361|fvs3.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.H.init=0+788|fvs3.valid=0+0|u1822.I.medi=6+361|fvs3.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS12-29",
    "language": "mn",
    "only": [
@@ -8256,7 +8256,7 @@
   },
   {
    "input": "ᠬ᠋ᠢᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.I.medi=6+361|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.I.medi=6+361|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS21-25",
    "language": "mn",
    "only": [
@@ -8265,7 +8265,7 @@
   },
   {
    "input": "ᠬ᠋ᠢ᠋ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.AI.medi=6+645|fvs1.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.AI.medi=6+645|fvs1.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS21-26",
    "language": "mn",
    "only": [
@@ -8274,7 +8274,7 @@
   },
   {
    "input": "ᠬ᠋ᠢ᠌ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.II.medi=6+722|fvs2.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.II.medi=6+722|fvs2.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS21-27",
    "language": "mn",
    "only": [
@@ -8283,7 +8283,7 @@
   },
   {
    "input": "ᠬ᠋ᠢ᠍ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.I.medi=6+361|fvs3.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u182C.Hx.init=0+788|fvs1.valid=0+0|u1822.I.medi=6+361|fvs3.valid=6+0|u1837.R.medi=12+361|u1820.A.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MHS21-28",
    "language": "mn",
    "only": [
@@ -8553,7 +8553,7 @@
   },
   {
    "input": "ᠬᠢᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C_u1822.GI.init=0+810|u1837.R.medi=6+361|u1820.A.medi=9+284|u182D.Hx.fina=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
+   "expectation": "u182C_u1822.GI.init=0+810|u1837.R.medi=6+361|u1820.A.medi=9+284|u182D.Hx.fina.mvs=12+663|mvs.narrow=15+55|u1820.Aa.isol=18+415",
    "note": "eac-hud > MHS31-17",
    "language": "mn",
    "only": [
@@ -8562,7 +8562,7 @@
   },
   {
    "input": "ᠬᠢ᠋ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.G.init=0+377|u1822.AI.medi=3+645|fvs1.valid=3+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C.G.init=0+377|u1822.AI.medi=3+645|fvs1.valid=3+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS31-18",
    "language": "mn",
    "only": [
@@ -8571,7 +8571,7 @@
   },
   {
    "input": "ᠬᠢ᠌ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C.G.init=0+377|u1822.II.medi=3+722|fvs2.valid=3+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C.G.init=0+377|u1822.II.medi=3+722|fvs2.valid=3+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS31-19",
    "language": "mn",
    "only": [
@@ -8580,7 +8580,7 @@
   },
   {
    "input": "ᠬᠢ᠍ᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C_u1822.GI.init=0+810|fvs3.valid=0+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C_u1822.GI.init=0+810|fvs3.valid=0+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS31-20",
    "language": "mn",
    "only": [
@@ -9084,7 +9084,7 @@
   },
   {
    "input": "ᠬ᠏ᠢᠷᠠᠭ᠎ᠠ",
-   "expectation": "u182C_u1822.GxI.init=0+810|fvs4.valid=0+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u182C_u1822.GxI.init=0+810|fvs4.valid=0+0|u1837.R.medi=9+361|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MHS41-19",
    "language": "mn",
    "only": [
@@ -10506,7 +10506,7 @@
   },
   {
    "input": "ᠭ᠊ᠢᠢ᠊ᠨ᠎ᠡ",
-   "expectation": "u182D.G.init=0+377|nirugu=3+168|u1822.I.medi=6+361|u1822.I.medi=9+361|nirugu=12+168|u1828.N.fina=15+427|mvs.narrow=18+55|u1821.Aa.isol=21+415",
+   "expectation": "u182D.G.init=0+377|nirugu=3+168|u1822.I.medi=6+361|u1822.I.medi=9+361|nirugu=12+168|u1828.N.fina.mvs=15+427|mvs.narrow=18+55|u1821.Aa.isol=21+415",
    "note": "eac-hud > MGS31-10",
    "language": "mn",
    "only": [
@@ -11127,7 +11127,7 @@
   },
   {
    "input": "ᠴᠤᠭᠯᠠᠭ᠎ᠠ",
-   "expectation": "u1834.Ch.init=0+692|u1824.O.medi=3+573|u182D.H.medi=6+568|u182F.L.medi=9+284|u1820.A.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u1834.Ch.init=0+692|u1824.O.medi=3+573|u182D.H.medi=6+568|u182F.L.medi=9+284|u1820.A.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MGZ11-2",
    "language": "mn",
    "only": [
@@ -11451,7 +11451,7 @@
   },
   {
    "input": "ᠱᠢᠭᠱᠢᠯᠭ᠎ᠠ",
-   "expectation": "u1831.S.init=0+681|u1822.I.medi=3+361|u182D.H.medi=6+568|u1831.S.medi=9+581|u1822.I.medi=12+361|u182F.L.medi=15+284|u182D.Hx.fina=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u1831.S.init=0+681|u1822.I.medi=3+361|u182D.H.medi=6+568|u1831.S.medi=9+581|u1822.I.medi=12+361|u182F.L.medi=15+284|u182D.Hx.fina.mvs=18+663|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MGZ11-38",
    "language": "mn",
    "only": [
@@ -13683,7 +13683,7 @@
   },
   {
    "input": "ᠭᠭᠭ᠎ᠠ",
-   "expectation": "u182D.G.init=0+377|u182D.G.medi=3+330|u182D.Hx.fina=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u182D.G.init=0+377|u182D.G.medi=3+330|u182D.Hx.fina.mvs=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > MGZ51-1",
    "language": "mn",
    "only": [
@@ -13692,7 +13692,7 @@
   },
   {
    "input": "ᠲᠤᠭ᠎ᠠ",
-   "expectation": "u1832.T.init=0+670|u1824.O.medi=3+573|u182D.Hx.fina=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1832.T.init=0+670|u1824.O.medi=3+573|u182D.Hx.fina.mvs=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > MGZ51-2",
    "language": "mn",
    "only": [
@@ -13701,7 +13701,7 @@
   },
   {
    "input": "ᠴᠣᠬᠢᠯᠭ᠎ᠠ",
-   "expectation": "u1834.Ch.init=0+692|u1823.O.medi=3+573|u182C_u1822.GI.medi=6+762|u182F.L.medi=12+284|u182D.Hx.fina=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
+   "expectation": "u1834.Ch.init=0+692|u1823.O.medi=3+573|u182C_u1822.GI.medi=6+762|u182F.L.medi=12+284|u182D.Hx.fina.mvs=15+663|mvs.narrow=18+55|u1820.Aa.isol=21+415",
    "note": "eac-hud > MGZ51-3",
    "language": "mn",
    "only": [
@@ -13710,7 +13710,7 @@
   },
   {
    "input": "ᠴᠣᠬᠢᠯᠭ᠍᠎ᠠ",
-   "expectation": "u1834.Ch.init=0+692|u1823.O.medi=3+573|u182C_u1822.GI.medi=6+762|u182F.L.medi=12+284|u182D.Hx.fina=15+663|fvs3.valid=15+0|mvs.narrow=21+55|u1820.Aa.isol=24+415",
+   "expectation": "u1834.Ch.init=0+692|u1823.O.medi=3+573|u182C_u1822.GI.medi=6+762|u182F.L.medi=12+284|u182D.Hx.fina.mvs=15+663|fvs3.valid=15+0|mvs.narrow=21+55|u1820.Aa.isol=24+415",
    "note": "eac-hud > MGZ52-1",
    "language": "mn",
    "only": [
@@ -13719,7 +13719,7 @@
   },
   {
    "input": "ᠳᠠᠰᠭ᠍᠎ᠠ",
-   "expectation": "u1833.T.init=0+670|u1820.A.medi=3+284|u1830.S.medi=6+581|u182D.Hx.fina=9+663|fvs3.valid=9+0|mvs.narrow=15+55|u1820.Aa.isol=18+415",
+   "expectation": "u1833.T.init=0+670|u1820.A.medi=3+284|u1830.S.medi=6+581|u182D.Hx.fina.mvs=9+663|fvs3.valid=9+0|mvs.narrow=15+55|u1820.Aa.isol=18+415",
    "note": "eac-hud > MGZ52-2",
    "language": "mn",
    "only": [
@@ -13728,7 +13728,7 @@
   },
   {
    "input": "ᠳᠠᠳᠭ᠍᠎ᠠ",
-   "expectation": "u1833.T.init=0+670|u1820.A.medi=3+284|u1833.Dd.medi=6+857|u182D.Hx.fina=9+663|fvs3.valid=9+0|mvs.narrow=15+55|u1820.Aa.isol=18+415",
+   "expectation": "u1833.T.init=0+670|u1820.A.medi=3+284|u1833.Dd.medi=6+857|u182D.Hx.fina.mvs=9+663|fvs3.valid=9+0|mvs.narrow=15+55|u1820.Aa.isol=18+415",
    "note": "eac-hud > MGZ52-3",
    "language": "mn",
    "only": [
@@ -16086,7 +16086,7 @@
   },
   {
    "input": "ᠱ᠌ᠢᠨ᠎ᠡ",
-   "expectation": "u1831.Sh.init=0+681|fvs2.valid=0+0|u1822.I.medi=6+361|u1828.N.fina=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
+   "expectation": "u1831.Sh.init=0+681|fvs2.valid=0+0|u1822.I.medi=6+361|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
    "note": "eac-hud > MXS13-5",
    "language": "mn",
    "only": [
@@ -16104,7 +16104,7 @@
   },
   {
    "input": "ᠱᠢᠨ᠎ᠡ",
-   "expectation": "u1831.S.init=0+681|u1822.I.medi=3+361|u1828.N.fina=6+427|mvs.narrow=9+55|u1821.Aa.isol=12+415",
+   "expectation": "u1831.S.init=0+681|u1822.I.medi=3+361|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1821.Aa.isol=12+415",
    "note": "eac-hud > MXS21-1",
    "language": "mn",
    "only": [
@@ -16113,7 +16113,7 @@
   },
   {
    "input": "ᠱ᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊ᠢᠨ᠎ᠡ",
-   "expectation": "u1831.S.init=0+681|nirugu=3+168|nirugu=6+168|nirugu=9+168|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|nirugu=24+168|nirugu=27+168|nirugu=30+168|nirugu=33+168|nirugu=36+168|nirugu=39+168|nirugu=42+168|nirugu=45+168|u1822.I.medi=48+361|u1828.N.fina=51+427|mvs.narrow=54+55|u1821.Aa.isol=57+415",
+   "expectation": "u1831.S.init=0+681|nirugu=3+168|nirugu=6+168|nirugu=9+168|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|nirugu=24+168|nirugu=27+168|nirugu=30+168|nirugu=33+168|nirugu=36+168|nirugu=39+168|nirugu=42+168|nirugu=45+168|u1822.I.medi=48+361|u1828.N.fina.mvs=51+427|mvs.narrow=54+55|u1821.Aa.isol=57+415",
    "note": "eac-hud > MXS21-2",
    "language": "mn",
    "only": [
@@ -16194,7 +16194,7 @@
   },
   {
    "input": "ᠱ᠋ᠢᠨ᠎ᠡ",
-   "expectation": "u1831.S.init=0+681|fvs1.valid=0+0|u1822.I.medi=6+361|u1828.N.fina=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
+   "expectation": "u1831.S.init=0+681|fvs1.valid=0+0|u1822.I.medi=6+361|u1828.N.fina.mvs=9+427|mvs.narrow=12+55|u1821.Aa.isol=15+415",
    "note": "eac-hud > MXS22-9",
    "language": "mn",
    "only": [
@@ -16203,7 +16203,7 @@
   },
   {
    "input": "ᠱ᠋᠊᠊᠊᠊᠊᠊ᠢᠨ᠎ᠡ",
-   "expectation": "u1831.S.init=0+681|fvs1.valid=0+0|nirugu=6+168|nirugu=9+168|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|u1822.I.medi=24+361|u1828.N.fina=27+427|mvs.narrow=30+55|u1821.Aa.isol=33+415",
+   "expectation": "u1831.S.init=0+681|fvs1.valid=0+0|nirugu=6+168|nirugu=9+168|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|u1822.I.medi=24+361|u1828.N.fina.mvs=27+427|mvs.narrow=30+55|u1821.Aa.isol=33+415",
    "note": "eac-hud > MXS22-10",
    "language": "mn",
    "only": [
@@ -19479,7 +19479,7 @@
   },
   {
    "input": "ᠠᠸ᠋ᠭ᠎ᠠ",
-   "expectation": "u1820.AA.init=0+776|u1838.O.medi=3+573|fvs1.valid=3+0|u182D.Hx.fina=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u1820.AA.init=0+776|u1838.O.medi=3+573|fvs1.valid=3+0|u182D.Hx.fina.mvs=9+663|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > XWZ21-1",
    "language": "mn",
    "only": [
@@ -22755,7 +22755,7 @@
   },
   {
    "input": "ᠡᠨ᠎ᠠ",
-   "expectation": "u1821.A.init=0+492|u1828.N.fina=3+427|mvs.narrow=6+55|u1820.Aa.isol=9+415",
+   "expectation": "u1821.A.init=0+492|u1828.N.fina.mvs=3+427|mvs.narrow=6+55|u1820.Aa.isol=9+415",
    "note": "eac-hud > XIM11-27",
    "language": "mn",
    "only": [
@@ -22764,7 +22764,7 @@
   },
   {
    "input": "ᠡᠨ᠋᠎ᠠ",
-   "expectation": "u1821.A.init=0+492|u1828.N.fina=3+427|fvs1.valid=3+0|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1821.A.init=0+492|u1828.N.fina.mvs=3+427|fvs1.valid=3+0|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > XIM11-28",
    "language": "mn",
    "only": [
@@ -23133,7 +23133,7 @@
   },
   {
    "input": "ᠭᠠᠯ᠎᠊᠊᠊᠊᠊᠊᠊ᠯᠤᠭ᠎ᠠ",
-   "expectation": "u182D.Hx.init=0+788|u1820.A.medi=3+284|u182F.L.fina=6+383|nbspace=9+260|mvs.ignored=9+0|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|nirugu=24+168|nirugu=27+168|nirugu=30+168|u182F.L.medi=33+284|u1824.O.medi=36+573|u182D.Hx.fina=39+663|mvs.narrow=42+55|u1820.Aa.isol=45+415",
+   "expectation": "u182D.Hx.init=0+788|u1820.A.medi=3+284|u182F.L.fina=6+383|nbspace=9+260|mvs.ignored=9+0|nirugu=12+168|nirugu=15+168|nirugu=18+168|nirugu=21+168|nirugu=24+168|nirugu=27+168|nirugu=30+168|u182F.L.medi=33+284|u1824.O.medi=36+573|u182D.Hx.fina.mvs=39+663|mvs.narrow=42+55|u1820.Aa.isol=45+415",
    "note": "eac-hud > XIM11-78",
    "language": "mn",
    "only": [
@@ -30576,7 +30576,7 @@
   },
   {
    "input": "ᠲᠠᠨ ᠠ",
-   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > XIM11-921",
    "language": "mn",
    "only": [
@@ -30585,7 +30585,7 @@
   },
   {
    "input": "ᠲᠠᠨ᠎ᠠ",
-   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > XIM11-922",
    "language": "mn",
    "only": [
@@ -30612,7 +30612,7 @@
   },
   {
    "input": "ᠲᠠᠨ᠋ ᠠ",
-   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina=6+427|fvs1.valid=6+0|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u1832.T.init=0+670|u1820.A.medi=3+284|u1828.N.fina.mvs=6+427|fvs1.valid=6+0|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > XIM11-925",
    "language": "mn",
    "only": [
@@ -31377,7 +31377,7 @@
   },
   {
    "input": "ᠪᠠᠭ᠎ᠠ",
-   "expectation": "u182A_u1820.BA.init=0+863|u182D.Hx.fina=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
+   "expectation": "u182A_u1820.BA.init=0+863|u182D.Hx.fina.mvs=6+663|mvs.narrow=9+55|u1820.Aa.isol=12+415",
    "note": "eac-hud > XIM11-1010",
    "language": "mn",
    "only": [
@@ -31395,7 +31395,7 @@
   },
   {
    "input": "ᠪᠠᠭ᠍᠎ᠠ",
-   "expectation": "u182A_u1820.BA.init=0+863|u182D.Hx.fina=6+663|fvs3.valid=6+0|mvs.narrow=12+55|u1820.Aa.isol=15+415",
+   "expectation": "u182A_u1820.BA.init=0+863|u182D.Hx.fina.mvs=6+663|fvs3.valid=6+0|mvs.narrow=12+55|u1820.Aa.isol=15+415",
    "note": "eac-hud > XIM11-1013",
    "language": "mn",
    "only": [

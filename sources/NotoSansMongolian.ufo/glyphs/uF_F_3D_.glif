@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uFF3D" format="2">
-  <advance width="454"/>
+  <advance height="1132" width="454"/>
   <unicode hex="FF3D"/>
   <outline>
     <contour>
@@ -14,4 +14,10 @@
       <point x="354" y="-86" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>946</integer>
+    </dict>
+  </lib>
 </glyph>

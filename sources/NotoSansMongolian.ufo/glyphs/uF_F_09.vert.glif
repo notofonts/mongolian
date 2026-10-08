@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uFF09.vert" format="2">
-  <advance height="1000" width="1000"/>
+  <advance height="459" width="1000"/>
   <outline>
     <contour>
-      <point x="500" y="575" type="curve"/>
-      <point x="695" y="575"/>
-      <point x="854" y="654"/>
-      <point x="976" y="774" type="curve"/>
-      <point x="945" y="834" type="line"/>
-      <point x="826" y="719"/>
-      <point x="678" y="648"/>
-      <point x="500" y="648" type="curve"/>
-      <point x="322" y="648"/>
-      <point x="174" y="719"/>
-      <point x="55" y="834" type="curve"/>
-      <point x="24" y="774" type="line"/>
-      <point x="146" y="654"/>
-      <point x="305" y="575"/>
+      <point x="322" y="575" type="curve"/>
+      <point x="517" y="575"/>
+      <point x="676" y="654"/>
+      <point x="798" y="774" type="curve"/>
+      <point x="767" y="834" type="line"/>
+      <point x="648" y="719"/>
+      <point x="500" y="648"/>
+      <point x="322" y="648" type="curve"/>
+      <point x="144" y="648"/>
+      <point x="-4" y="719"/>
+      <point x="-123" y="834" type="curve"/>
+      <point x="-154" y="774" type="line"/>
+      <point x="-32" y="654"/>
+      <point x="127" y="575"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>934</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u3001" format="2">
-  <advance width="489"/>
+  <advance height="480" width="489"/>
   <unicode hex="3001"/>
   <outline>
     <contour>
@@ -14,4 +14,10 @@
       <point x="257" y="23"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>324</integer>
+    </dict>
+  </lib>
 </glyph>

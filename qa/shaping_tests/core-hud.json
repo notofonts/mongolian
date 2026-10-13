@@ -1056,7 +1056,7 @@
   },
   {
    "input": "ᠺᠯᠦ᠋ᠪ",
-   "expectation": "u183A.K2.init=0+429|nirugu.extend=0+168|u182F.L.medi=3+284|u1826.OI.medi=6+934|fvs1.valid=6+0|u182A.B.fina=12+747",
+   "expectation": "u183A_u182F.K2L.init=0+713|u1826.OI.medi=6+934|fvs1.valid=6+0|u182A.B.fina=12+747",
    "note": "core-hud > syllabic-o/u-5",
    "language": "mn",
    "only": [

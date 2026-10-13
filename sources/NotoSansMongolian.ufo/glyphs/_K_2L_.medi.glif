@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_K2L.medi" format="2">
+  <advance width="666"/>
+  <outline>
+    <contour>
+      <point x="0" y="96" type="line"/>
+      <point x="66" y="96" type="line"/>
+      <point x="74" y="215" type="line"/>
+      <point x="101" y="157"/>
+      <point x="143" y="97"/>
+      <point x="199" y="35" type="curve"/>
+      <point x="261" y="90" type="line"/>
+      <point x="136" y="225"/>
+      <point x="79" y="329"/>
+      <point x="79" y="419" type="curve"/>
+      <point x="79" y="559"/>
+      <point x="135" y="644"/>
+      <point x="226" y="644" type="curve"/>
+      <point x="344" y="644"/>
+      <point x="370" y="534"/>
+      <point x="382" y="364" type="curve"/>
+      <point x="401" y="96" type="line"/>
+      <point x="467" y="96" type="line"/>
+      <point x="486" y="364" type="line"/>
+      <point x="696" y="364" type="line"/>
+      <point x="696" y="444" type="line"/>
+      <point x="455" y="444" type="line"/>
+      <point x="447" y="507"/>
+      <point x="433" y="561"/>
+      <point x="414" y="605" type="curve"/>
+      <point x="414" y="691"/>
+      <point x="441" y="766"/>
+      <point x="496" y="848" type="curve"/>
+      <point x="496" y="914" type="line"/>
+      <point x="376" y="914" type="line"/>
+      <point x="300" y="914"/>
+      <point x="244" y="917"/>
+      <point x="196" y="950" type="curve"/>
+      <point x="196" y="872" type="line"/>
+      <point x="237" y="836"/>
+      <point x="299" y="834"/>
+      <point x="376" y="834" type="curve"/>
+      <point x="404" y="834" type="line"/>
+      <point x="378" y="791"/>
+      <point x="361" y="742"/>
+      <point x="351" y="688" type="curve"/>
+      <point x="317" y="714"/>
+      <point x="276" y="727"/>
+      <point x="226" y="727" type="curve"/>
+      <point x="89" y="727"/>
+      <point x="0" y="601"/>
+      <point x="0" y="419" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

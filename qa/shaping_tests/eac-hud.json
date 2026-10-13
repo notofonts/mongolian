@@ -7050,7 +7050,7 @@
   },
   {
    "input": "ᠫᠯᠠᠨ",
-   "expectation": "u182B.P.init=0+552|nirugu.extend=0+168|u182F.L.medi=3+284|u1820.A.medi=6+284|u1828.A.fina=9+427",
+   "expectation": "u182B_u182F.PL.init=0+863|u1820.A.medi=6+284|u1828.A.fina=9+427",
    "note": "eac-hud > MPS11-51",
    "language": "mn",
    "only": [
@@ -21612,7 +21612,7 @@
   },
   {
    "input": "ᠻᠯᠦᠪ",
-   "expectation": "u183B.K.init=0+428|nirugu.extend=0+168|u182F.L.medi=3+284|u1826.OI.medi=6+934|u182A.B.fina=9+747",
+   "expectation": "u183B_u182F.KL.init=0+713|u1826.OI.medi=6+934|u182A.B.fina=9+747",
    "note": "eac-hud > XKS11-52",
    "language": "mn",
    "only": [

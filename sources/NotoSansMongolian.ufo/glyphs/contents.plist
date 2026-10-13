@@ -546,6 +546,14 @@
     <string>_F_I_.isol.glif</string>
     <key>_FI.medi</key>
     <string>_F_I_.medi.glif</string>
+    <key>_FL.init</key>
+    <string>_F_L_.init.glif</string>
+    <key>_FL.medi</key>
+    <string>_F_L_.medi.glif</string>
+    <key>_FM.init</key>
+    <string>_F_M_.init.glif</string>
+    <key>_FM.medi</key>
+    <string>_F_M_.medi.glif</string>
     <key>_FO.fina</key>
     <string>_F_O_.fina.glif</string>
     <key>_FO.init</key>
@@ -1078,6 +1086,14 @@
     <string>_K_2I_pL_v.isol.glif</string>
     <key>_K2IpLv.medi</key>
     <string>_K_2I_pL_v.medi.glif</string>
+    <key>_K2L.init</key>
+    <string>_K_2L_.init.glif</string>
+    <key>_K2L.medi</key>
+    <string>_K_2L_.medi.glif</string>
+    <key>_K2M.init</key>
+    <string>_K_2M_.init.glif</string>
+    <key>_K2M.medi</key>
+    <string>_K_2M_.medi.glif</string>
     <key>_K2O.fina</key>
     <string>_K_2O_.fina.glif</string>
     <key>_K2O.init</key>
@@ -1182,6 +1198,14 @@
     <string>_K_I_pL_v.isol.glif</string>
     <key>_KIpLv.medi</key>
     <string>_K_I_pL_v.medi.glif</string>
+    <key>_KL.init</key>
+    <string>_K_L_.init.glif</string>
+    <key>_KL.medi</key>
+    <string>_K_L_.medi.glif</string>
+    <key>_KM.init</key>
+    <string>_K_M_.init.glif</string>
+    <key>_KM.medi</key>
+    <string>_K_M_.medi.glif</string>
     <key>_KO.fina</key>
     <string>_K_O_.fina.glif</string>
     <key>_KO.init</key>
@@ -1466,6 +1490,14 @@
     <string>_P_I_.isol.glif</string>
     <key>_PI.medi</key>
     <string>_P_I_.medi.glif</string>
+    <key>_PL.init</key>
+    <string>_P_L_.init.glif</string>
+    <key>_PL.medi</key>
+    <string>_P_L_.medi.glif</string>
+    <key>_PM.init</key>
+    <string>_P_M_.init.glif</string>
+    <key>_PM.medi</key>
+    <string>_P_M_.medi.glif</string>
     <key>_PO.fina</key>
     <string>_P_O_.fina.glif</string>
     <key>_PO.init</key>
@@ -2710,6 +2742,14 @@
     <string>u182B__u1827.P_W_.isol.glif</string>
     <key>u182B_u1827.PW.medi</key>
     <string>u182B__u1827.P_W_.medi.glif</string>
+    <key>u182B_u182E.PM.init</key>
+    <string>u182B__u182E_.P_M_.init.glif</string>
+    <key>u182B_u182E.PM.medi</key>
+    <string>u182B__u182E_.P_M_.medi.glif</string>
+    <key>u182B_u182F.PL.init</key>
+    <string>u182B__u182F_.P_L_.init.glif</string>
+    <key>u182B_u182F.PL.medi</key>
+    <string>u182B__u182F_.P_L_.medi.glif</string>
     <key>u182C</key>
     <string>u182C_.glif</string>
     <key>u182C.G.init</key>
@@ -3406,6 +3446,14 @@
     <string>u1839_u1827.F_W_.isol.glif</string>
     <key>u1839_u1827.FW.medi</key>
     <string>u1839_u1827.F_W_.medi.glif</string>
+    <key>u1839_u182E.FM.init</key>
+    <string>u1839_u182E_.F_M_.init.glif</string>
+    <key>u1839_u182E.FM.medi</key>
+    <string>u1839_u182E_.F_M_.medi.glif</string>
+    <key>u1839_u182F.FL.init</key>
+    <string>u1839_u182F_.F_L_.init.glif</string>
+    <key>u1839_u182F.FL.medi</key>
+    <string>u1839_u182F_.F_L_.medi.glif</string>
     <key>u183A</key>
     <string>u183A_.glif</string>
     <key>u183A.K2.fina</key>
@@ -3516,6 +3564,14 @@
     <string>u183A__u1827.K_2W_.isol.glif</string>
     <key>u183A_u1827.K2W.medi</key>
     <string>u183A__u1827.K_2W_.medi.glif</string>
+    <key>u183A_u182E.K2M.init</key>
+    <string>u183A__u182E_.K_2M_.init.glif</string>
+    <key>u183A_u182E.K2M.medi</key>
+    <string>u183A__u182E_.K_2M_.medi.glif</string>
+    <key>u183A_u182F.K2L.init</key>
+    <string>u183A__u182F_.K_2L_.init.glif</string>
+    <key>u183A_u182F.K2L.medi</key>
+    <string>u183A__u182F_.K_2L_.medi.glif</string>
     <key>u183A_u1844.K2E.fina</key>
     <string>u183A__u1844.K_2E_.fina.glif</string>
     <key>u183A_u1844.K2E.init</key>
@@ -3564,6 +3620,10 @@
     <string>u183A__u1849_u1843.K_2O_L_v.isol.glif</string>
     <key>u183A_u1849_u1843.K2OLv.medi</key>
     <string>u183A__u1849_u1843.K_2O_L_v.medi.glif</string>
+    <key>u183A_u184F.K2M.init</key>
+    <string>u183A__u184F_.K_2M_.init.glif</string>
+    <key>u183A_u184F.K2M.medi</key>
+    <string>u183A__u184F_.K_2M_.medi.glif</string>
     <key>u183A_u185D.K2A.init</key>
     <string>u183A__u185D_.K_2A_.init.glif</string>
     <key>u183A_u185D.K2A.medi</key>
@@ -3732,6 +3792,14 @@
     <string>u183B__u1827.K_W_.isol.glif</string>
     <key>u183B_u1827.KW.medi</key>
     <string>u183B__u1827.K_W_.medi.glif</string>
+    <key>u183B_u182E.KM.init</key>
+    <string>u183B__u182E_.K_M_.init.glif</string>
+    <key>u183B_u182E.KM.medi</key>
+    <string>u183B__u182E_.K_M_.medi.glif</string>
+    <key>u183B_u182F.KL.init</key>
+    <string>u183B__u182F_.K_L_.init.glif</string>
+    <key>u183B_u182F.KL.medi</key>
+    <string>u183B__u182F_.K_L_.medi.glif</string>
     <key>u183B_u1844.KE.fina</key>
     <string>u183B__u1844.K_E_.fina.glif</string>
     <key>u183B_u1844.KE.init</key>
@@ -3788,6 +3856,10 @@
     <string>u183B__u1849_u1873.K_O_I_.init.glif</string>
     <key>u183B_u1849_u1873.KOI.medi</key>
     <string>u183B__u1849_u1873.K_O_I_.medi.glif</string>
+    <key>u183B_u184F.KM.init</key>
+    <string>u183B__u184F_.K_M_.init.glif</string>
+    <key>u183B_u184F.KM.medi</key>
+    <string>u183B__u184F_.K_M_.medi.glif</string>
     <key>u183B_u1888.KI.init</key>
     <string>u183B__u1888.K_I_.init.glif</string>
     <key>u183B_u1888.KI.medi</key>
@@ -4352,6 +4424,10 @@
     <string>u184D__u1820_u1843.K_A_aL_v.fina.glif</string>
     <key>u184D_u1820_u1843.KAaLv.isol</key>
     <string>u184D__u1820_u1843.K_A_aL_v.isol.glif</string>
+    <key>u184D_u182F.KL.init</key>
+    <string>u184D__u182F_.K_L_.init.glif</string>
+    <key>u184D_u182F.KL.medi</key>
+    <string>u184D__u182F_.K_L_.medi.glif</string>
     <key>u184D_u1844.KE.fina</key>
     <string>u184D__u1844.K_E_.fina.glif</string>
     <key>u184D_u1844.KE.init</key>
@@ -4420,6 +4496,10 @@
     <string>u184D__u1849_u1845.K_O_I_.init.glif</string>
     <key>u184D_u1849_u1845.KOI.medi</key>
     <string>u184D__u1849_u1845.K_O_I_.medi.glif</string>
+    <key>u184D_u184F.KM.init</key>
+    <string>u184D__u184F_.K_M_.init.glif</string>
+    <key>u184D_u184F.KM.medi</key>
+    <string>u184D__u184F_.K_M_.medi.glif</string>
     <key>u184E</key>
     <string>u184E_.glif</string>
     <key>u184E.G.init</key>

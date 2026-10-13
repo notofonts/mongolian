@@ -948,7 +948,7 @@
   },
   {
    "input": "ᠺᠶᠠ ᠺᡵᠠ ᠺᠯᠠ ᠺᠣᠸᠠ",
-   "expectation": "u183A.K2.init=0+429|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u183A.K2.init=10+429|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u183A.K2.init=20+429|nirugu.extend=20+168|u182F.L.medi=23+284|u1820.A.fina=26+427|space=29+260|u183A_u1823.K2O.init=30+885|u1838.W.medi=36+458|u1820.A.fina=39+427",
+   "expectation": "u183A.K2.init=0+429|u1836.Y.medi=3+361|u1820.A.fina=6+427|space=9+260|u183A.K2.init=10+429|u1875.R.medi=13+361|u1820.A.fina=16+427|space=19+260|u183A_u182F.K2L.init=20+713|u1820.A.fina=26+427|space=29+260|u183A_u1823.K2O.init=30+885|u1838.W.medi=36+458|u1820.A.fina=39+427",
    "note": "core-mag > pu2-bowed",
    "language": "mnc",
    "only": [

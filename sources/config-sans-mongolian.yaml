@@ -1,9 +1,0 @@
-buildVariable: false
-familyName: Noto Sans Mongolian
-googleFonts: true
-includeSubsets:
-- from: Noto Sans
-  name: GF_Latin_Core
-recipeProvider: noto
-sources:
-- NotoSansMongolian.designspace
